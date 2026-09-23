@@ -5,8 +5,8 @@
 
 window.CONTENT = {
   site: {
-    companyName: "[COMPANY]",
-    ticker: "[TICKER]",
+    companyName: "The Hershey Company",
+    ticker: "HSY",
     exchange: "[EXCHANGE]",
     price: null,            // number, from the workbook FrontPage; leave null until Module 2 if unsure
     priceDate: null,        // "YYYY-MM-DD"

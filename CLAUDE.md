@@ -1,6 +1,6 @@
 # Rules for this project
 
-This is a two-person FIN 5370 team project: an interactive equity valuation site for [COMPANY] ([TICKER]), built one section per module.
+This is a two-person FIN 5370 team project: an interactive equity valuation site for The Hershey Company (HSY), built one section per module.
 
 ## Layout
 - `research/` is the team's Obsidian vault (the team opens that folder, not the repo root, in Obsidian). Layout: `00 Project Home.md` (the map; keep its lists current), `01 Sources/` (one note per primary document, files in `_files/`), `02 Atomic Notes/` (one fact per note), `03 Drafts/` (milestone memos in progress), `04 Final Deliverables/` (submitted versions), `05 Questions/`, `06 Templates/` (copy these for every new note; fill the date yourself), `07 Daily/` (optional session notes).
