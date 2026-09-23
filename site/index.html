@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Valuation site</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" data-bind="ticker">TICKER</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#thesis">Thesis</a>
+      <a href="#financials">Financials</a>
+      <a href="vault.html">Knowledge Bank</a>
+      <a href="#valuation">Valuation</a>
+      <a href="#the-call">The Call</a>
+      <a href="#risks">Risks</a>
+      <a href="#catalysts">Catalysts</a>
+      <a href="#process">Process</a>
+      <a href="tearsheet.html">Tearsheet</a>
+      <a href="glossary.html">Glossary</a>
+      <a href="sources.html">Sources</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="hero">
+      <p class="eyebrow">FIN 5370 · Equity valuation</p>
+      <h1 data-bind="companyName">Company name</h1>
+      <p class="hero-meta">
+        <span data-bind="exchangeTicker">EXCHANGE: TICKER</span>
+        <span class="dot"></span>
+        <span data-bind="priceLine">Price and date</span>
+      </p>
+      <p class="hero-thesis" data-bind="oneLineThesis">One-line thesis appears here after Module 1.</p>
+      <p class="hero-team">By <span data-bind="team">Teammate one and Teammate two</span></p>
+      <p class="hero-call" data-bind="callBadge" hidden></p>
+    </section>
+
+    <section class="section" id="thesis" data-module="1"><div class="section-inner"></div></section>
+    <section class="section" id="financials" data-module="2"><div class="section-inner"></div></section>
+    <section class="section" id="valuation" data-module="4"><div class="section-inner"></div></section>
+    <section class="section" id="the-call" data-module="5"><div class="section-inner"></div></section>
+    <section class="section" id="risks" data-module="6"><div class="section-inner"></div></section>
+    <section class="section" id="catalysts" data-module="6"><div class="section-inner"></div></section>
+    <section class="section" id="process" data-module="7"><div class="section-inner"></div></section>
+  </main>
+
+  <footer class="footer">
+    <span data-bind="footerLeft">Company · FIN 5370 · Texas State University · educational use only, not investment advice</span>
+    <span data-bind="footerRight">Updated: date</span>
+  </footer>
+
+  <script src="data/financials.js"></script>
+  <script src="content.js"></script>
+  <!-- section scripts go here, one per module, before app.js -->
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Milestone memos go here while you write them, saved as .md so Claude can read them. Name them `Milestone 1 - Selection Memo.md`, `Milestone 2 - Driver Justifications.md`, and so on. When a memo is submitted, copy it to 04 Final Deliverables.
