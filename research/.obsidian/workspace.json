@@ -11,10 +11,14 @@
             "id": "10743a1d9b7b831a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "02 Atomic Notes/FY2025 capex 3.9 percent of net sales.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "FY2025 capex 3.9 percent of net sales"
             }
           }
         ]
@@ -183,12 +187,31 @@
   },
   "active": "10743a1d9b7b831a",
   "lastOpenFiles": [
-    "03 Drafts/Milestone 1 - Selection Memo.md",
-    "00 Project Home.md",
+    "02 Atomic Notes/FY2024 net sales growth 0.3 percent.md",
+    "02 Atomic Notes/FY2024 gross margin 47.3 percent.md",
+    "02 Atomic Notes/FY2023 operating margin 22.9 percent.md",
+    "02 Atomic Notes/FY2023 net sales growth 7.2 percent.md",
+    "02 Atomic Notes/Cocoa up about 365 percent from January 2023 to December 2024 peak.md",
+    "02 Atomic Notes/Cocoa down more than 70 percent from late-2024 highs.md",
+    "02 Atomic Notes/Cocoa below 3,000 dollars per ton in February 2026.md",
+    "02 Atomic Notes/Chocolate industry revenue growth about 2.5 percent a year.md",
+    "01 Sources/S7 Madison and Wall chocolate industry 2026 update.md",
+    "01 Sources/S4 TIKR Hershey Q2 2026 margin article.md",
+    "01 Sources/S3 Hershey Q2 2026 earnings call transcript.md",
+    "01 Sources/S2 Hershey Q2 2026 results press release.md",
+    "01 Sources/S1 Hershey Form 10-K FY2025.md",
+    "02 Atomic Notes/US chocolate spending up 39 percent since 2020.md",
     "06 Templates/source note template.md",
-    "06 Templates/session note template.md",
-    "06 Templates/question note template.md",
-    "06 Templates/atomic note template.md",
-    "01 Sources/_files/README.md"
+    "02 Atomic Notes/US chocolate spending about 23.5 billion dollars in 2025.md",
+    "02 Atomic Notes/FY2026 margin improvement guided about 400 basis points.md",
+    "02 Atomic Notes/Q1 2026 adjusted gross margin 40.4 percent.md",
+    "02 Atomic Notes/Q2 2026 price increase about 14 percent.md",
+    "02 Atomic Notes/Q2 2026 confectionery volume down about 10 percent.md",
+    "02 Atomic Notes/FY2026 guidance adjusted EPS 8.36 to 8.52 dollars.md",
+    "02 Atomic Notes/FY2026 guidance net sales growth 4.5 to 5.0 percent.md",
+    "02 Atomic Notes/Q2 2026 adjusted EPS 1.90 dollars.md",
+    "02 Atomic Notes/Q2 2026 net sales growth 6.6 percent.md",
+    "02 Atomic Notes/Q2 2026 net sales 2.79 billion dollars.md",
+    "02 Atomic Notes/FY2024 net income 2.22 billion dollars.md"
   ]
 }
