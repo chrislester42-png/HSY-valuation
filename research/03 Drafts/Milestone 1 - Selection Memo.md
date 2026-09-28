@@ -1,7 +1,7 @@
 # Project Milestone 1: Company and Industry Selection Memo
 
 **Company:** The Hershey Company (NYSE: HSY)
-**Team:** Chris Lester and [TEAMMATE]
+**Team:** Chris Lester
 **Date:** 2026-09-23
 **Recommendation:** Hershey is a mature-stage company. We select it because its cash flows are stable enough to anchor a discounted cash flow valuation, its data is complete and current, and its 2025 cocoa shock gives the forecast one real question to answer: how far and how fast margins recover.
 
