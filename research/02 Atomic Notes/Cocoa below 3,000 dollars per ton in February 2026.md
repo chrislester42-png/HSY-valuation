@@ -1,8 +1,12 @@
 ---
 type: atomic
-project: "The Hershey Company (HSY)"
-tags: [hershey, cocoa, commodity, 2026]
-status: needs-verification
+project: The Hershey Company (HSY)
+tags:
+  - hershey
+  - cocoa
+  - commodity
+  - 2026
+status: confirmed
 tier: R
 date-created: 2026-09-28
 sources:
