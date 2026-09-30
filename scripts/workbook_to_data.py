@@ -270,11 +270,11 @@ def main() -> None:
     print(f"  periods: {[p['label'] for p in periods_out]}  (scale applied: /{int(scale)})")
     print(f"  actual years: {len(actuals)}, forecast years: {len(forecasts)}")
     if missing:
-        print(f"  rows not found on Detail Data (fine if the sheet does not have them): {', '.join(missing)}")
+        print(f"  rows not on this Detail Data tab (fine; the two Q&D layouts name a few rows differently): {', '.join(missing)}")
     if wacc:
-        print(f"  WACC tab: {wacc}")
+        print(f"  WACC tab (used from Module 3): {wacc}")
     if dcf:
-        print(f"  DCF tab: wacc={dcf['wacc']} g={dcf['longTermGrowth']} multiple={dcf['exitMultiple']} per share={dcf['workbookResult']}")
+        print(f"  DCF tab (used from Module 4): wacc={dcf['wacc']} g={dcf['longTermGrowth']} multiple={dcf['exitMultiple']} per share={dcf['workbookResult']}")
 
 
 if __name__ == "__main__":
