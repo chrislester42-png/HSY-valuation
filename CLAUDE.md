@@ -23,11 +23,11 @@ Sections not yet built show "Coming in Module N." Touch only the section the cur
 
 ## Workbook
 - Detail Data is the only tab Module 2 fills. The WACC and DCF tabs belong to Modules 3 and 4; leave them alone until then.
-- Write into the workbook only through Excel itself: on a Mac with AppleScript (osascript), on Windows with the Excel COM interface. Never rewrite the file with openpyxl or any script that saves the file; that drops its charts and images and leaves every formula uncalculated. If you cannot drive Excel on this computer, give the user the table to type instead.
+- Write into the workbook only with `python3 scripts/fill_workbook.py` (values in a temporary `fill.json`; the script's header shows the format). It rewrites only the cells you name and copies the charts, images, formulas, and other sheets through unchanged. Never use openpyxl or any library that re-saves the whole file (that drops the charts and images), never hand-edit the file's XML, and never use screen control to type into Excel. The workbook must be closed in Excel when the script runs.
 - Write only into input cells, the ones that hold typed numbers. Never write into a cell that holds a formula and never change a formula.
 - Dollars in millions to one decimal, shares in millions, as the row labels say.
 - Actual columns come from the company's filings (the SEC's XBRL company facts, 10-K values), one row per cell in `research/03 Drafts/Module 2 - Data pull.md` with tag, form, filing date, and accession number. Forecast columns come from the FactSet consensus export the team saved in `research/01 Sources/_files` (one row per cell in the Data pull note, with the export's source note id), fiscal-year columns only, never from your own guess; a row the export lacks stays blank. A figure the filings do not have stays blank until a person types it.
-- After any change the user saves from Excel, so the converter can read calculated values.
+- After every fill the user opens the workbook in Excel and saves it; that is when the formulas recalculate. The converter refuses to run until they have, so never work around its refusal.
 
 ## Numbers
 - Every number on the site traces to an atomic note in `research/02 Atomic Notes`, and through it to a source note. If a number has no note, do not write it; list it under "Numbers we still need" and tell the user.

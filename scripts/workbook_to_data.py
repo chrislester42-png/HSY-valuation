@@ -127,6 +127,11 @@ def num(v):
 
 def main() -> None:
     path = find_workbook(sys.argv[1] if len(sys.argv) > 1 else None)
+    import zipfile
+    with zipfile.ZipFile(path) as _z:
+        if 'fullCalcOnLoad="1"' in _z.read("xl/workbook.xml").decode("utf-8"):
+            sys.exit(f"{path.name} was filled by scripts/fill_workbook.py and has not been opened and saved in Excel since. "
+                     "Open it in Excel, save it, and run this again; until then its formula cells hold old results.")
     wb = openpyxl.load_workbook(path, data_only=True)
     if "Detail Data" not in wb.sheetnames:
         sys.exit("No 'Detail Data' tab in this workbook.")

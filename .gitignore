@@ -4,3 +4,5 @@ Thumbs.db
 *.tmp
 __pycache__/
 .obsidian/workspace*.json
+fill.json
+~$*
