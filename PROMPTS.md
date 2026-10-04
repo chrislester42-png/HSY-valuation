@@ -25,8 +25,14 @@ You wrote [NUMBER] for [FACT]. Show me exactly where it comes from: the atomic n
 ## Teach me what you did
 In plain English, explain what you just built, what each file does, and how I would change [ONE THING] myself.
 
-## Make it ours
-Read site/styles.css. Propose three looks for our site, each in three lines: palette (background, ink, accent), a Google Fonts pairing, and one signature detail. No purple gradients, no glow, no emojis. Apply the first to the site so I can react. I will pick one.
+## Make it ours (Module 3, once three sections are live; the design pass)
+Make the site ours. Read skills/design-taste/SKILL.md in this folder and apply it as a "Redesign - Preserve": audit first (its Section 11.B), then its modernisation levers 1 to 3 only (typography, spacing and rhythm, color), its forbidden AI tells (Section 9), and the pre-flight items in Section 14 that apply to a plain page. Our rules override the skill wherever they conflict: this site is plain HTML, CSS, and JavaScript with no build step, so no frameworks, no Tailwind, no npm packages, no motion libraries; fonts only from Google Fonts; CSS transitions only, nothing that moves content on scroll. This is a research report, not a landing page: its data tables and calculators stay as they are, and the skill's landing-page rules do not apply to them. Change only site/styles.css and the shared header, nav, and footer markup in site/index.html, vault.html, tearsheet.html, glossary.html, and sources.html. Do not change any number, section id, nav label, Fact chip, slider, or table. Before touching files, propose two directions in three lines each: palette (background, ink, one accent), a Google Fonts pairing, and one signature detail. I will pick one. Then apply it, open site/index.html and site/vault.html in my browser, and list every file you changed.
+
+## Check the design pass (after Make it ours, and again in Module 8)
+Run the skill's pre-flight (skills/design-taste/SKILL.md, Section 14) on what you changed, listing each item that applies and its result. Then: 1) run git diff and confirm no number, section id, nav label, Fact chip, or slider changed; 2) check every page in site/ at 390 and 1280 pixels wide for overflow and for text smaller than 14 pixels; 3) confirm every text color has at least 4.5 to 1 contrast against its background; 4) confirm there is no em-dash anywhere in site/. Fix what fails, styling only, and tell me what you fixed.
+
+## Final polish (Module 8)
+Final polish. Read skills/design-taste/SKILL.md, Sections 9 and 14, and audit every page in site/ against them under our rules (plain CSS, no packages, no motion libraries, tables stay tables). List what fails. Fix styling and spacing only; change no number, no structure, no words. Then run the check-the-design-pass prompt.
 
 ## Module 1: kickoff, then build the Thesis section
 

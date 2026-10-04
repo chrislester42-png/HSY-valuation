@@ -40,6 +40,7 @@ Sections not yet built show "Coming in Module N." Touch only the section the cur
 - Explain what you did in plain English after each task. The user is new to this tool.
 - Keep site copy short: forty words or fewer per block, headlines of eight words or fewer.
 - No em-dashes in anything you write.
+- On a design request ("make it ours", "polish", "make it look better"): read `skills/design-taste/SKILL.md` and apply it within this site's rules: plain HTML, CSS, and JavaScript, no packages, no frameworks, no motion libraries, Google Fonts only. Styling changes touch `site/styles.css` and the shared header, nav, and footer only; never a number, a section id, a nav label, a Fact chip, a slider, or a table. Propose directions and wait for a pick before changing files.
 
 ## Git
 - On "sync" or "sync the project": run `git pull` in this folder, then summarize what changed in plain English. Stop on any conflict and explain it.
