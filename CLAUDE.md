@@ -28,6 +28,7 @@ Sections not yet built show "Coming in Module N." Touch only the section the cur
 - Dollars in millions to one decimal, shares in millions, as the row labels say.
 - Actual columns come from the company's filings (the SEC's XBRL company facts, 10-K values), one row per cell in `research/03 Drafts/Module 2 - Data pull.md` with tag, form, filing date, and accession number. Forecast columns come from the FactSet consensus export the team saved in `research/01 Sources/_files` (one row per cell in the Data pull note, with the export's source note id), fiscal-year columns only, never from your own guess; a row the export lacks stays blank. A figure the filings do not have stays blank until a person types it.
 - After every fill the user opens the workbook in Excel and saves it; that is when the formulas recalculate. The converter refuses to run until they have, so never work around its refusal.
+- The person verifies the actual-year figures on a Word form made by `python3 scripts/verification_form.py` (every row prefilled from the workbook; they type the page and Y or N). Never fill that form in for them, and never mark a figure checked.
 
 ## Numbers
 - Every number on the site traces to an atomic note in `research/02 Atomic Notes`, and through it to a source note. If a number has no note, do not write it; list it under "Numbers we still need" and tell the user.
