@@ -1,4 +1,4 @@
-Put Dr. Payne's Q&D workbook here: one file, named like `QD [TICKER].xlsx`.
+Put Dr. Payne's Q&D workbook here: one file, named like `QD [TICKER].xlsx`. The blank workbook is not in this repo; Dr. Payne provides it in the course's Module 2 materials.
 
 - Set the date on FrontPage first. It drives the year headers on Detail Data.
 - Dollars in millions to one decimal, shares in millions, as the row labels say.
