@@ -172,7 +172,8 @@ def main() -> None:
             "revenueGrowth": pct(last["revenue"] - prev["revenue"], prev["revenue"]) if prev and last.get("revenue") and prev.get("revenue") else None,
             "ebitMargin": pct(last.get("ebit"), last.get("revenue")),
             "ebitdaMargin": pct(last.get("ebitda"), last.get("revenue")),
-            "taxRate": pct(last.get("incomeTaxes"), last.get("netIncome")) if last.get("incomeTaxes") is not None and last.get("netIncome") else None,
+            # effective tax rate: taxes over pre-tax income (net income plus taxes), not over net income
+            "taxRate": pct(last.get("incomeTaxes"), last.get("netIncome") + last.get("incomeTaxes")) if last.get("incomeTaxes") is not None and last.get("netIncome") is not None else None,
             "daPctRevenue": pct(last.get("da"), last.get("revenue")),
             "capexPctRevenue": pct(last.get("capex"), last.get("revenue")),
             "nwcPctRevenue": pct((last.get("currentAssets") or 0) - (last.get("currentLiabilities") or 0), last.get("revenue")) if last.get("currentAssets") is not None else None,

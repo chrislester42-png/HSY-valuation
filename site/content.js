@@ -43,9 +43,41 @@ window.CONTENT = {
   },
 
   financials: {
-    status: "coming", module: 2, title: "Financials",
-    headline: "", lede: "", facts: [], blocks: [], soWhat: "",
-    driverJustifications: [] // { driver: "Revenue growth", assumption: "3.0%", because: "", source: "" }
+    status: "live", module: 2, title: "Financials",
+    headline: "Margins rebuild as cocoa costs fall",
+    lede: "History comes from Hershey's 10-K filings; the forecast is FactSet consensus run through our workbook. Move the six drivers to see free cash flow respond. At the workbook's settings, year-one FCFF matches the sheet.",
+    facts: [
+      { value: "$11.69B", label: "Net sales, FY2025", source: "S1", tier: "R", note: "02 Atomic Notes/FY2025 net sales 11.69 billion dollars" },
+      { value: "33.5%", label: "Gross margin, FY2025", source: "S1", tier: "R", note: "02 Atomic Notes/FY2025 gross margin 33.5 percent" },
+      { value: "3.9%", label: "Capex as share of net sales, FY2025", source: "S1", tier: "D", note: "02 Atomic Notes/FY2025 capex 3.9 percent of net sales" }
+    ],
+    blocks: [],
+    soWhat: "Free cash flow rests on how far the EBIT margin recovers, so that is the slider to test first. Working capital is the second lever, because consensus builds cash into it.",
+    // Forecast figures for each driver are computed from data/financials.js by financials.js, never typed here.
+    // { driver, key (slider key), assumption, because, source, note (atomic note, optional) }
+    driverJustifications: [
+      { driver: "Revenue growth", key: "revenueGrowth", assumption: "FactSet consensus, accepted.",
+        because: "Net sales grew 4.4% in FY2025 and management guides 4.5% to 5.0% for 2026. Q2 volume fell about 10%, so growth is price-led and should fade toward the category's 2.5% a year.",
+        source: "S2", note: "02 Atomic Notes/FY2026 guidance net sales growth 4.5 to 5.0 percent" },
+      { driver: "EBIT margin", key: "ebitMargin", assumption: "Consensus EBITDA less the sheet's D&A, accepted.",
+        because: "Operating margin fell to 12.3% in FY2025 from 25.9% as cocoa peaked. Cocoa is down more than 70% since, and management guides about 400 basis points of recovery in 2026.",
+        source: "S3", note: "02 Atomic Notes/FY2026 margin improvement guided about 400 basis points" },
+      { driver: "Tax rate", key: "taxRate", assumption: "Taxes over EBIT, as the workbook's NOPAT row defines it.",
+        because: "Consensus taxes over consensus EBIT sit close to FY2025's rate on the same basis, so we accept them. FY2024's rate was lowered by a one-time item and is not a guide.",
+        source: "S9" },
+      { driver: "D&A", key: "daPct", assumption: "The sheet's formula: FY2025's D&A to capex ratio applied to each year's capex.",
+        because: "FY2025 D&A was $504M against capex of $455M. Tying D&A to capex keeps the two moving together as reinvestment changes.",
+        source: "S1", note: "02 Atomic Notes/FY2025 depreciation and amortization 504 million dollars" },
+      { driver: "Capex", key: "capexPct", assumption: "FactSet consensus, accepted.",
+        because: "Capex was 3.9% of net sales in FY2025, down from FY2024 as the ERP and capacity program wound down. Consensus near 4% of revenue fits that run rate.",
+        source: "S1", note: "02 Atomic Notes/FY2025 capex 3.9 percent of net sales" },
+      { driver: "Net working capital", key: "nwcPct", assumption: "Consensus current assets less current liabilities, accepted.",
+        because: "Consensus builds cash inside current assets, so working capital grows faster than revenue and the change in NWC drags on FCFF. We accept it and flag it.",
+        source: "S8" }
+    ],
+    numbersWeStillNeed: [
+      "Forecast interest expense: the workbook computes it from the cost of debt on the WACC tab in Module 3. Until then FCFE leaves out the after-tax interest term."
+    ]
   },
 
   vault: {                  // rendered on vault.html, its own page, like the Bloom site's Knowledge Bank

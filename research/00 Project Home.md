@@ -1,7 +1,7 @@
 ---
 type: moc
 project: "The Hershey Company (HSY)"
-date-updated: 2026-09-28
+date-updated: 2026-10-04
 ---
 
 # The Hershey Company (HSY) valuation project
@@ -99,3 +99,4 @@ Every number on the site points at an atomic note here. Every atomic note points
 - [[01 Sources/S6 JP Morgan cocoa prices research]]
 - [[01 Sources/S7 Madison and Wall chocolate industry 2026 update]]
 - [[01 Sources/S8 FactSet consensus estimates for Hershey]]
+- [[01 Sources/S9 Team Q&D workbook for Hershey]]
