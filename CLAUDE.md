@@ -34,6 +34,7 @@ Sections not yet built show "Coming in Module N." Touch only the section the cur
 ## Numbers
 - Every number on the site traces to an atomic note in `research/02 Atomic Notes`, and through it to a source note. If a number has no note, do not write it; list it under "Numbers we still need" and tell the user.
 - The exception is the numbers the Financials, Valuation, and The Call sections read from `site/data/financials.js`: those trace to the workbook. The workbook has its own source note in `research/01 Sources` (type source, publisher the team), and the Data pull note names the filing behind every actual cell.
+- Each module's memo is filed into the vault before its section is built: a source note for every source it cites and an atomic note for every number or dated fact it uses that is not a workbook number, each `needs-verification` until a person checks it (the "File the memo into the vault" prompt in `PROMPTS.md`). If asked to build a section from a memo that has not been filed, say so and file it first.
 - Never invent a figure, a date, a URL, or a quote. Say "I could not find this" instead.
 - Each number in the Knowledge Bank carries a tier: Reported (from a filing or dataset as published), Derived (calculated from reported numbers, show the formula), or Estimate (a judgment call, name who made it and why).
 

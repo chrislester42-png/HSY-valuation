@@ -10,6 +10,9 @@ This folder is our project. Read CLAUDE.md and README.md, then explain this proj
 ## Module kickoff (first prompt of each module)
 We are in Module [N] of FIN 5370. This module's milestone is [MILESTONE NAME]. Our deliverable is done and saved at [FILE]. Read it, read CLAUDE.md, and tell me what you will build for the [SECTION] section and what you need from me. Do not build anything yet.
 
+## File the memo into the vault (every module, after the module kickoff and before any build prompt)
+File this module's memo into the vault before we build anything. The memo is research/03 Drafts/[FILE] (.docx or .md). If it is a .docx, first save a markdown copy beside it with the same name so it opens in Obsidian. For every source the memo cites that has no source note yet, create one in research/01 Sources from the source note template, with the next unused id, publisher, date, and url. For every number or dated fact the memo uses that has no atomic note yet, create one in research/02 Atomic Notes from the atomic note template: the fact with the exact figure, why it matters, status needs-verification, a tier (R for a figure reported in a filing or dataset, D for one we calculated, with the formula, E for a judgment call, naming who made it), and a wiki-link to its source note. If a fact already has a note, link to that note instead of making a second one. Numbers that come straight from the workbook need no note; they trace to the workbook. In the markdown copy of the memo, link each number to its note. Add the new notes to the lists in research/00 Project Home.md. If a claim has no source, do not make a note; list it under "Numbers we still need" and tell me. Change nothing on the site. Then list the notes you created and the ones you reused, and remind me to open each new note in Obsidian, check the figure against its source, and set its status to confirmed.
+
 ## Sync (start of every session)
 Sync the project: run git pull in this project folder, then tell me in plain English what my teammate changed since my last session. If there is a merge conflict, stop and explain it.
 
@@ -63,6 +66,8 @@ I typed the forecast columns of Detail Data (E to G) by hand from FactSet's cons
 You wrote [NUMBER] in cell [CELL] of Detail Data. Show me the row in research/03 Drafts/Module 2 - Data pull.md it came from, with the filing and the accession number. If it is not there, say so and blank the cell.
 
 ## Module 2b: from the workbook to the Financials section
+
+Before the converter kickoff, run **File the memo into the vault** on research/03 Drafts/Milestone 2 - Driver Justifications, so every figure in the justifications that is not a workbook number has a note behind it.
 
 ### Converter kickoff
 We are in Module 2 of FIN 5370, building the Financials section. Our workbook is filled, and has been opened and saved in Excel since the last fill, at workbook/[FILE].xlsx, and our driver justifications are in research/03 Drafts/Milestone 2 - Driver Justifications.md. Run python3 scripts/workbook_to_data.py and tell me what it found: the periods, the scale it applied, and any rows it could not find. Ignore what it prints about the WACC and DCF tabs; those come in later modules. Then tell me what you will build for the Financials section and what you need from me. Do not build anything yet.
