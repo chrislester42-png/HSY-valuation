@@ -108,3 +108,24 @@ Every mapped row had a figure for all three years, so no forecast input cell is 
 The EBITDA row used is FactSet's headline "EBITDA". The export also carries EBITDA GAAP (3,076.7, 3,429.1, 3,525.5) and EBITDA Non-GAAP (3,057.2, 3,404.7, 3,553.4).
 
 Formula rows left to the sheet: Revenue (t-1), FD EPS, FD Shares (held at the FY2025 count), EBIT (EBITDA less D&A), Net Income (t-1), Interest Expense (WACC tab, Module 3), D&A, NOPAT, change in NWC, FCFF, FCFE.
+
+## Added 2026-10-04: the remaining Detail Data inputs and the FrontPage
+
+Typed with `scripts/fill_workbook.py` after video 2a. Each figure names where it came from; the person still checks them on the verification form.
+
+| Cell | Row | Year | Value | Source |
+|---|---|---|---|---|
+| C9 | FD Shares outstanding (M) | FY2024 | 203.5 | FY2025 Form 10-K, Note 16 Earnings Per Share, page 97: total weighted-average shares, diluted, Common Stock, 203,487 thousand (S1) |
+| D9 | FD Shares outstanding (M) | FY2025 | 203.4 | same note: 203,379 thousand (S1) |
+| C7 | FD EPS (t) | FY2024 | 10.92 | same note: Earnings Per Share, diluted, Common Stock (S1) |
+| D7 | FD EPS (t) | FY2025 | 4.34 | same note (S1) |
+| C8 | FD EPS (t-1) | FY2023 | 9.06 | same note (S1) |
+| D8 | FD EPS (t-1) | FY2024 | 10.92 | same note (S1) |
+| C21 | EBITDA | FY2024 | 3,353.5 | Derived: EBIT 2,898.2 plus D&A 455.3. The filing does not report EBITDA |
+| D21 | EBITDA | FY2025 | 1,945.2 | Derived: EBIT 1,441.5 plus D&A 503.7 |
+
+FrontPage: price 159.46 is the close on 2026-10-02 as shown on the FactSet company screen; S&P 500 a year earlier 6,715.35 (close 2025-10-02) and current 7,722.72 (close 2026-10-02) are FRED series SP500; most recent quarter reported is 2QFY26 (the third quarter is expected 2026-10-22). The S&P 500 targets and index earnings in C8, C9 and F7 to F9 are Dr. Payne's template values, unchanged. The text boxes (description, segments, unit economics, catalysts, moat, strengths, risks) are drawn from the Milestone 1 memo and the FY2025 Form 10-K and carry their source ids. The four peers (Mondelez, Nestle, Lindt and Spruengli, General Mills) are provisional until the Module 5 peer screen.
+
+Still empty by design: C37, D37, C39, D39, C41, D41, C42, D42. Dr. Payne's template computes NOPAT, change in NWC, FCFF, and FCFE for the forecast years only.
+
+Two template formulas to raise with Dr. Payne, not changed here: the forecast FD EPS row divides revenue by shares (E7:G7), so the FrontPage P/E on forward years reads 2.6x; the FCFE row adds after-tax interest (E42:G42), which will show once Module 3 fills the cost of debt.
