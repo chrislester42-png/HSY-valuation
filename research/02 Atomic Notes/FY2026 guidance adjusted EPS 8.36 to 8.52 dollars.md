@@ -2,7 +2,7 @@
 type: atomic
 project: "The Hershey Company (HSY)"
 tags: [hershey, guidance, eps, 2026]
-status: needs-verification
+status: confirmed
 tier: R
 date-created: 2026-09-28
 sources:

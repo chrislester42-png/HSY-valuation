@@ -2,7 +2,7 @@
 type: atomic
 project: "The Hershey Company (HSY)"
 tags: [hershey, income-statement, revenue, growth, fy2023]
-status: needs-verification
+status: confirmed
 tier: R
 date-created: 2026-09-28
 sources:

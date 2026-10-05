@@ -2,7 +2,7 @@
 type: atomic
 project: "The Hershey Company (HSY)"
 tags: [hershey, cash-flow, dividends, fy2025]
-status: needs-verification
+status: confirmed
 tier: R
 date-created: 2026-09-28
 sources:

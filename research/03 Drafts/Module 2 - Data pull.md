@@ -129,3 +129,20 @@ FrontPage: price 159.46 is the close on 2026-10-02 as shown on the FactSet compa
 Still empty by design: C37, D37, C39, D39, C41, D41, C42, D42. Dr. Payne's template computes NOPAT, change in NWC, FCFF, and FCFE for the forecast years only.
 
 Two template formulas to raise with Dr. Payne, not changed here: the forecast FD EPS row divides revenue by shares (E7:G7), so the FrontPage P/E on forward years reads 2.6x; the FCFE row adds after-tax interest (E42:G42), which will show once Module 3 fills the cost of debt.
+
+## Formula corrections in the workbook, 2026-10-04
+
+Made in Excel in the team's copy. Dr. Payne's blank is unchanged; she has been asked about each.
+
+| Cells | Was | Now | Why |
+|---|---|---|---|
+| Detail Data E42:G42 (FCFE) | FCFF + interest x (1 - t) + change in debt | FCFF - interest x (1 - t) + change in debt | The row's own label and the lecture formula subtract after-tax interest |
+| Detail Data E7:G7 (forecast FD EPS) | revenue / shares | net income / shares | The old formula gave 60.45 for 2026; the correct figure is 8.41 |
+| Detail Data D13:G13 (EV/EBITDA) | 2024 enterprise value / each year's EBITDA | each year's enterprise value / that year's EBITDA | The reference was anchored to column C |
+| Detail Data D37, D39, D41, D42 (2025A NOPAT, change in NWC, FCFF, FCFE) | empty | the forecast columns' formulas | The FrontPage reads the 2025A FCFF cell; empty, it gave a divide-by-zero |
+| Detail Data C21, D21 (actual EBITDA) | typed 3,353.5 and 1,945.2 | = EBIT + D&A | Same values, now computed |
+| FrontPage I20, I22, I23 (ROE, asset turnover, three-year asset turnover) | equity / assets; capex / assets; net income / equity | net income / average equity; revenue / average assets; average revenue / average assets | The old formulas did not compute what their labels say |
+
+Left as the template has them: NOPAT is EBIT less the income tax line (a tax rate of taxes over EBIT), which matches the DCF tab; forecast interest and interest coverage read the cost of debt on the WACC tab, empty until Module 3.
+
+After the corrections: 2025A FCFF 412.7 and FCFE 1,784.8; 2026F FCFF 1,712.1 and FCFE 1,724.6; forward P/E 19.0x; EV/EBITDA 11.8x.

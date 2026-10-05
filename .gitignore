@@ -6,3 +6,8 @@ __pycache__/
 .obsidian/workspace*.json
 fill.json
 ~$*
+
+# Vendor data exports (FactSet, Bloomberg, Capital IQ) stay on your computer. Their licenses do not allow publishing raw exports.
+research/01 Sources/_files/*.xlsx
+research/01 Sources/_files/*.xls
+research/01 Sources/_files/*.csv

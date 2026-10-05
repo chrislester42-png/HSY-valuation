@@ -8,7 +8,7 @@ author:
 publication-date: "2026-10-02"
 date-accessed: 2026-10-04
 url:
-file: "_files/download (3).xlsx"
+file: "download (3).xlsx, kept on the team's computer and not committed (FactSet license)"
 ---
 
 # FactSet consensus estimates for Hershey (HSY-US)
@@ -26,3 +26,6 @@ A FactSet export of analyst consensus estimates and reported figures for Hershey
 
 ## Atomic notes derived from this source
 - [[02 Atomic Notes/]]
+
+## Where the file is
+The raw export is not in this repository. FactSet's terms do not allow publishing bulk data, and this repository is public. It is kept on the team's computer in `01 Sources/_files`, which git ignores for spreadsheets. The figures typed from it are listed cell by cell in `03 Drafts/Module 2 - Data pull.md`.

@@ -52,3 +52,4 @@ Sections not yet built show "Coming in Module N." Touch only the section the cur
 ## Safety
 - Never ask for or store passwords, tokens, or API keys. Nothing in this repo is secret.
 - Only public filings and public data.
+- Never commit a vendor's raw data export (FactSet, Bloomberg, Capital IQ) or paste its table into a note. The repo and the site are public and those licenses forbid republishing bulk data. The export stays in `research/01 Sources/_files`, which git ignores for spreadsheets; commit the source note, the cells typed into the workbook, and their rows in the Data pull note, nothing more.
