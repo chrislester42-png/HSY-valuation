@@ -23,6 +23,8 @@ Every number on the site points at an atomic note here. Every atomic note points
 ## Deliverables
 
 - [[03 Drafts/Milestone 1 - Selection Memo]]
+- [[03 Drafts/Milestone 2 - Driver Justifications]]
+- [[03 Drafts/Module 2 - Data pull]]
 
 ## The thesis (current view)
 
@@ -96,3 +98,4 @@ Every number on the site points at an atomic note here. Every atomic note points
 - [[01 Sources/S5 FoodNavigator Hershey profit surge article]]
 - [[01 Sources/S6 JP Morgan cocoa prices research]]
 - [[01 Sources/S7 Madison and Wall chocolate industry 2026 update]]
+- [[01 Sources/S8 FactSet consensus estimates for Hershey]]
