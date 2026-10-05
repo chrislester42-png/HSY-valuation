@@ -9,13 +9,17 @@ and the value. The person types only the page where they found it and Y or N.
     python3 scripts/verification_form.py
     python3 scripts/verification_form.py --filing "Form 10-K for fiscal 2025, accession 0001628280-26-008586"
     python3 scripts/verification_form.py --out "research/03 Drafts/Module 2 - Data verification.docx"
+    python3 scripts/verification_form.py --workbook "workbook/QD [TICKER].xlsx"
 
 It reads the one .xlsx in workbook/ (it never writes to it), lists every typed input in
 the actual-year columns of the Detail Data tab, grouped by the sheet's own sections so
 each statement in the filing is opened once, and writes a .docx using only the Python
 standard library plus openpyxl (which the converter already needs).
 
-Run it after a fill, once the workbook has been opened and saved in Excel.
+Run it straight after scripts/fill_detail_data_from_edgar.py has written the actual columns.
+It reads only typed cells, so it does not need the workbook saved in Excel first, as long as
+the year headers Excel last saved agree with the date on FrontPage. Input rows the SEC data
+could not fill are listed as blank, for the person to type from the filing.
 """
 from __future__ import annotations
 
@@ -41,6 +45,12 @@ SECTIONS = [  # (pattern on the sheet's section header, heading on the form, whe
     (r"CASH FLOW", "Cash flow statement", "Consolidated statements of cash flows"),
 ]
 SKIP = r"VALUATION MULTIPLES|MARGINS"
+
+try:  # the input rows of the annual layout, so a row the SEC data left blank still gets a line
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from fill_detail_data_from_edgar import ROWS as INPUT_ROWS
+except Exception:  # pragma: no cover
+    INPUT_ROWS = {}
 
 
 def find_workbook() -> Path:
@@ -107,10 +117,11 @@ def main() -> None:
     out = Path(opt("--out", str(DEFAULT_OUT)))
     if out.exists() and "--overwrite" not in argv:
         sys.exit(f"{out.name} already exists. It may hold checks someone typed. Rename it, or pass --overwrite to replace it.")
-    path = find_workbook()
+    path = Path(opt("--workbook")) if opt("--workbook") else find_workbook()
+    if not path.exists():
+        sys.exit(f"No such workbook: {path}")
     with zipfile.ZipFile(path) as z:
-        if 'fullCalcOnLoad="1"' in z.read("xl/workbook.xml").decode("utf-8"):
-            sys.exit(f"{path.name} has not been opened and saved in Excel since the last fill. Open it in Excel, save, and run this again.")
+        unsaved = 'fullCalcOnLoad="1"' in z.read("xl/workbook.xml").decode("utf-8")
     vals = openpyxl.load_workbook(path, data_only=True)
     forms = openpyxl.load_workbook(path)
     if "Detail Data" not in vals.sheetnames:
@@ -124,6 +135,15 @@ def main() -> None:
             actual_cols = found; break
     if not actual_cols:
         sys.exit("Could not find actual-year headers (like 2025A) on Detail Data. Set the date on FrontPage, save in Excel, and run again.")
+    if unsaved:
+        # Typed cells are readable before Excel recalculates; the year headers are formula results
+        # Excel saved earlier. Trust them only if they agree with the date now on FrontPage.
+        d = forms["FrontPage"]["C4"].value if "FrontPage" in forms.sheetnames else None
+        if isinstance(d, (int, float)):
+            d = dt.datetime(1899, 12, 30) + dt.timedelta(days=d)
+        want = [f"{d.year - 2}A", f"{d.year - 1}A"] if isinstance(d, (dt.date, dt.datetime)) else None
+        if [lab for _, lab in actual_cols] != want:
+            sys.exit(f"{path.name} has not been opened and saved in Excel since the last fill, and its year headers do not match the date on FrontPage. Open it in Excel, save, and run this again.")
 
     groups, current = [], None
     for r in range(1, wv.max_row + 1):
@@ -139,11 +159,17 @@ def main() -> None:
         if current is None:
             continue
         typed = [(c, lab) for c, lab in actual_cols if not (isinstance(wf.cell(r, c).value, str) and str(wf.cell(r, c).value).startswith("="))]
-        if not any(isinstance(wv.cell(r, c).value, (int, float)) for c, _ in typed):
-            continue  # a formula row, or a row nobody has typed into
+        known = INPUT_ROWS.get(r)
+        is_input = bool(known) and known[0] != "ebitda" and known[2] in text.lower()
+        if not typed or not (is_input or any(isinstance(wv.cell(r, c).value, (int, float)) for c, _ in typed)):
+            continue  # a formula row, or a row nobody types into
+        derived = bool(known) and known[0] == "ebitda"
         for c, lab in typed:
             v = wv.cell(r, c).value
-            current["rows"].append([text, wf.cell(r, c).coordinate, lab, fmt(v if isinstance(v, (int, float)) else None), "", "", ""])
+            if derived and not isinstance(v, (int, float)):
+                continue
+            name = text + (" (EBIT + D&A; not a line in the filing)" if derived else "")
+            current["rows"].append([name, wf.cell(r, c).coordinate, lab, fmt(v if isinstance(v, (int, float)) else None), "", "", ""])
     groups = [g for g in groups if g["rows"]]
     total = sum(len(g["rows"]) for g in groups)
     if not total:

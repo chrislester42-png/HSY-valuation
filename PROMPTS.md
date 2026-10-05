@@ -50,11 +50,8 @@ We are in Module 2 of FIN 5370. This module's milestone is Project Milestone 2: 
 ### Pull the actuals from the SEC (dry run first)
 Run python3 scripts/fill_detail_data_from_edgar.py workbook/[FILE].xlsx --ticker [TICKER] --contact "[NAME EMAIL]" --dry-run and show me its table: the fiscal years it found for columns C and D, every cell with its tag and filing, and the cells it leaves for me to type. Write nothing yet.
 
-### Write the actuals into the workbook
-The workbook is closed in Excel. Run the same command again without --dry-run and with --report "research/03 Drafts/Module 2 - Data pull.md". Tell me how many cells it typed and which cells it left for me, with where in the 10-K to look for each. Do not fill those cells yourself, do not touch columns E to G, and remind me to open the workbook in Excel and save it so the formulas recalculate.
-
-### Make the verification form (after the fill, once the workbook is saved in Excel)
-Run python3 scripts/verification_form.py --filing "[FORM, FISCAL YEAR, ACCESSION NUMBER]" and tell me where it saved the form and how many figures are on it. Do not fill it in; I check the filing and fill it in Word myself.
+### Write the actuals into the workbook and make my verification form
+The workbook is closed in Excel. Run the same command again without --dry-run and with --report "research/03 Drafts/Module 2 - Data pull.md". Then make my verification form: run python3 scripts/verification_form.py with --filing naming the form, fiscal year, and accession number of the 10-K the script's table shows for column D. Tell me how many cells the script typed, which cells it left for me with where in the 10-K to look for each, and where the form is saved. Do not fill those cells or the form yourself; I check the filing and fill the form in Word. Do not touch columns E to G, and remind me to open the workbook in Excel and save it so the formulas recalculate.
 
 ### Read my verification form (after you filled it in Word and saved)
 I filled in research/03 Drafts/Module 2 - Data verification.docx. Read it and save a markdown copy beside it with the same name. For every row I marked N, or where I typed a figure for a blank cell, show me the workbook value beside the figure I typed, then put my figure in the workbook with scripts/fill_workbook.py and note the correction in research/03 Drafts/Module 2 - Data pull.md with "corrected by hand from the filing" and the page. List any rows I left unchecked. Then tell me how many figures are checked, how many were corrected, and whether I need to open the workbook in Excel and save it.
