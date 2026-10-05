@@ -6,19 +6,21 @@ Run from the project folder:
     python3 scripts/build_vault.py
 
 It reads every note in research/ (Project Home, Sources, Atomic Notes, Drafts,
-Final Deliverables, Questions), parses each note's frontmatter and its
+Final Deliverables, Questions, Templates, Daily), parses each note's frontmatter and its
 [[wiki-links]], turns the body into simple HTML, and writes one file:
 
     site/data/notes.js   window.NOTES = { generatedOn, counts, notes: { id: {...} }, links: [...] }
 
-Each note carries: title, type (source, atomic, draft, final, question, home),
+Each note carries: title, type (source, atomic, draft, final, question, map,
+template, daily),
 path, html, and from its frontmatter: id (S1, S2, ...), tier (R, D, E), status,
 tags, publisher, publication date, url, file; plus the notes it links to and
-the notes that link to it. site/vault.js reads it; nothing reads the vault live.
+the notes that link to it. site/vault.js draws it as a graph, the way Obsidian's
+graph view does; nothing reads the vault live.
 
 Generated file: never edit site/data/notes.js by hand. Rerun this script after
 any note changes (wrap-up does it for you). Standard library only.
-Templates, daily notes, README files, and anything under _files are skipped.
+README files and anything under _files are skipped.
 """
 import datetime as dt
 import html
@@ -37,8 +39,10 @@ TYPE_BY_FOLDER = {
     "03 Drafts": "draft",
     "04 Final Deliverables": "final",
     "05 Questions": "question",
+    "06 Templates": "template",
+    "07 Daily": "daily",
 }
-SKIP_DIRS = {"06 Templates", "07 Daily", "_files", ".obsidian", ".git", ".trash"}
+SKIP_DIRS = {"_files", ".obsidian", ".git", ".trash"}
 FIELDS = ["id", "tier", "status", "publisher", "author", "publication-date",
           "date-accessed", "date-created", "url", "file"]
 WIKILINK = re.compile(r"\[\[([^\]\|#]+)(?:#[^\]\|]*)?(?:\|([^\]]+))?\]\]")
@@ -46,7 +50,7 @@ WIKILINK = re.compile(r"\[\[([^\]\|#]+)(?:#[^\]\|]*)?(?:\|([^\]]+))?\]\]")
 
 def note_type(rel):
     if rel == "00 Project Home.md":
-        return "home"
+        return "map"
     return TYPE_BY_FOLDER.get(rel.split("/")[0], "other")
 
 

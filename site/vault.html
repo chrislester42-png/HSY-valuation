@@ -4,36 +4,60 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Knowledge Bank</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="vault.css">
 </head>
-<body>
-  <header class="topbar">
-    <a class="brand" href="index.html" data-bind="ticker">TICKER</a>
-    <nav class="nav" aria-label="Sections">
-      <a href="index.html#thesis">Thesis</a>
-      <a href="index.html#financials">Financials</a>
-      <a href="vault.html">Knowledge Bank</a>
-      <a href="index.html#valuation">Valuation</a>
-      <a href="index.html#the-call">The Call</a>
-      <a href="index.html#risks">Risks</a>
-      <a href="index.html#catalysts">Catalysts</a>
-      <a href="index.html#process">Process</a>
-      <a href="tearsheet.html">Tearsheet</a>
-      <a href="glossary.html">Glossary</a>
-      <a href="sources.html">Sources</a>
-    </nav>
+<body class="kb">
+  <!-- The Knowledge Bank: an Obsidian-style graph of the research/ vault, baked by scripts/build_vault.py into data/notes.js.
+       Topic chips come from the vault object in content.js. This page is complete; teams change content.js, not this file. -->
+  <header class="kb-top">
+    <div class="kb-left">
+      <a class="kb-brand" href="index.html"><span data-bind="companyName">Company</span><span class="kb-tick" data-bind="tickerDot"></span></a>
+      <span class="kb-rule"></span>
+      <div class="kb-title">
+        <div class="kb-name">Knowledge Bank</div>
+        <div class="kb-sub" id="kb-sub">the research vault</div>
+      </div>
+    </div>
+    <div class="kb-right">
+      <input id="kb-search" class="kb-search" type="search" placeholder="Search notes…" aria-label="Search notes">
+      <a class="kb-back" href="index.html">← Back to the site</a>
+    </div>
   </header>
-  <main class="page">
-    <section class="section" id="vault" data-module="3" style="border-top:0"><div class="section-inner" style="padding-top:0"></div></section>
-    <div id="explorer"></div>
-  </main>
-  <footer class="footer">
-    <span data-bind="footerLeft"></span>
-    <span data-bind="footerRight"></span>
-  </footer>
-  <script src="data/financials.js"></script>
+
+  <div class="kb-body">
+    <div class="kb-stage" id="kb-stage">
+      <canvas id="kb-canvas" class="kb-canvas" aria-label="Graph of the research vault: each dot is a note, each line a link"></canvas>
+      <div class="kb-themes" id="kb-themes"></div>
+      <div class="kb-msg" id="kb-msg">Loading the vault…</div>
+      <div class="kb-legend" id="kb-legend" hidden>
+        <div class="kb-legend-h">Node type · click to filter</div>
+        <div id="kb-legend-items"></div>
+      </div>
+      <div class="kb-hint" id="kb-hint" hidden>Scroll to zoom · drag to pan · drag a node to move it · <b>click a node</b> to read it.</div>
+    </div>
+    <aside class="kb-pane" id="kb-pane" hidden>
+      <div class="kb-pane-head">
+        <div class="kb-pane-meta">
+          <span class="kb-type" id="kb-type"></span>
+          <span class="kb-tier" id="kb-tier" hidden></span>
+          <span class="kb-status" id="kb-status" hidden></span>
+          <div class="kb-path" id="kb-path"></div>
+        </div>
+        <button class="kb-x" id="kb-close" aria-label="Close the note">✕</button>
+      </div>
+      <div class="kb-pane-body">
+        <h1 class="kb-note-title" id="kb-note-title"></h1>
+        <div class="vault-note" id="kb-note"></div>
+        <div id="kb-lists"></div>
+      </div>
+    </aside>
+  </div>
+
   <script src="content.js"></script>
-  <!-- Module 3 adds: <script src="data/notes.js"></script> and <script src="vault.js"></script> here, before app.js -->
-  <script src="app.js"></script>
+  <script src="data/notes.js"></script>
+  <script src="vault.js"></script>
 </body>
 </html>

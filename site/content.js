@@ -80,12 +80,11 @@ window.CONTENT = {
     ]
   },
 
-  vault: {                  // rendered on vault.html, its own page, like the Bloom site's Knowledge Bank
+  vault: {                  // the Knowledge Bank page, site/vault.html: a graph of research/, like the Bloom site's
     status: "coming", module: 3, title: "Knowledge Bank",
-    headline: "", lede: "",
-    inputs: [],             // cost of capital inputs: { input: "Beta", value: "0.41", tier: "E", how: "who decided, or the formula for D", source: "S4", note: "02 Atomic Notes/..." }
-    soWhat: ""
-    // Module 3 also bakes research/ into data/notes.js and adds the note explorer below the inputs table
+    // Topic chips across the top of the graph. Each lights up the notes whose tags include one of
+    // its tags or whose title contains one of its keywords. Six to eight chips, written in Module 3.
+    themes: []              // { label: "Cost of capital", tags: ["wacc", "beta"], kw: ["wacc", "beta", "cost of"] }
   },
 
   valuation: {
