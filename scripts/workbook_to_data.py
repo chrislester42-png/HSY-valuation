@@ -64,7 +64,7 @@ ROWS = {
     "dilutedShares": r"^FD Shares",
 }
 
-WACC_CELLS = {  # label in column B -> key
+WACC_CELLS = {  # label in column B or C -> key
     "marketRiskPremium": r"Market Risk Premium",
     "riskFree": r"^Rf$",
     "beta": r"^Beta$",
@@ -194,9 +194,10 @@ def main() -> None:
     wacc = {}
     if "WACC calculation" in wb.sheetnames:
         w = wb["WACC calculation"]
-        wr = label_rows(w, WACC_CELLS, col=2)
-        for key, r in wr.items():
-            wacc[key] = num(w.cell(r, 3).value)
+        # labels sit in column B or C depending on the copy; the value is in the next column
+        for col in (2, 3):
+            for key, r in label_rows(w, WACC_CELLS, col=col, value_col=col + 1).items():
+                wacc.setdefault(key, num(w.cell(r, col + 1).value))
 
     dcf = {}
     if "DCF 1-Pager" in wb.sheetnames:

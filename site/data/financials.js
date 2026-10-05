@@ -69,7 +69,7 @@ window.FINANCIALS = {
       "costOfSales": 7240.4,
       "ebit": 2546.690497,
       "netIncome": 1710.5,
-      "interestExpense": 0.0,
+      "interestExpense": 253.8382,
       "incomeTaxes": 597.7,
       "ebitda": 3035.1,
       "cash": 1451.5,
@@ -82,7 +82,7 @@ window.FINANCIALS = {
       "changeInNwc": 284.5,
       "capex": 440.8,
       "fcff": 1712.1,
-      "fcfe": 1385.1
+      "fcfe": 1566.594313
     },
     {
       "label": "2027F",
@@ -93,7 +93,7 @@ window.FINANCIALS = {
       "costOfSales": 7074.5,
       "ebit": 2835.475253,
       "netIncome": 1988.8,
-      "interestExpense": 0.0,
+      "interestExpense": 231.3344,
       "incomeTaxes": 689.8,
       "ebitda": 3393.8,
       "cash": 1635.5,
@@ -106,7 +106,7 @@ window.FINANCIALS = {
       "changeInNwc": 188.0,
       "capex": 503.9,
       "fcff": 2012.1,
-      "fcfe": 1626.1
+      "fcfe": 1792.660768
     },
     {
       "label": "2028F",
@@ -117,7 +117,7 @@ window.FINANCIALS = {
       "costOfSales": 7220.6,
       "ebit": 2985.238385,
       "netIncome": 2108.4,
-      "interestExpense": 0.0,
+      "interestExpense": 202.4176,
       "incomeTaxes": 707.8,
       "ebitda": 3554.2,
       "cash": 1909.5,
@@ -130,7 +130,7 @@ window.FINANCIALS = {
       "changeInNwc": 296.0,
       "capex": 513.5,
       "fcff": 2036.9,
-      "fcfe": 1540.9
+      "fcfe": 1687.65276
     }
   ],
   "drivers": {
@@ -143,9 +143,17 @@ window.FINANCIALS = {
     "nwcPctRevenue": 0.049347,
     "baseYear": 2025
   },
-  "wacc": {},
+  "wacc": {
+    "marketRiskPremium": 0.0446,
+    "riskFree": 0.0528,
+    "beta": 0.4102,
+    "costOfEquity": 0.071095,
+    "costOfDebt": 0.0583,
+    "taxRate": 0.229553,
+    "wacc": 0.067807
+  },
   "dcf": {
-    "wacc": 0.0,
+    "wacc": 0.067807,
     "longTermGrowth": null,
     "exitMultiple": null,
     "midyear": null,
