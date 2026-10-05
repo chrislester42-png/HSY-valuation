@@ -81,10 +81,18 @@ window.CONTENT = {
   },
 
   vault: {                  // the Knowledge Bank page, site/vault.html: a graph of research/, like the Bloom site's
-    status: "coming", module: 3, title: "Knowledge Bank",
+    status: "live", module: 3, title: "Knowledge Bank",
     // Topic chips across the top of the graph. Each lights up the notes whose tags include one of
     // its tags or whose title contains one of its keywords. Six to eight chips, written in Module 3.
-    themes: []              // { label: "Cost of capital", tags: ["wacc", "beta"], kw: ["wacc", "beta", "cost of"] }
+    themes: [
+      { label: "Cost of capital", tags: ["cost-of-capital", "wacc", "beta"], kw: ["wacc", "beta", "cost of", "risk premium", "default spread", "treasury yield"] },
+      { label: "The bull case", tags: ["guidance"], kw: ["cocoa down", "cocoa below", "margin improvement", "adjusted gross margin", "operating cash flow", "q2 2026 net sales"] },
+      { label: "The bear case", tags: ["volume"], kw: ["volume down", "fy2025 net income", "fy2025 operating margin", "fy2025 gross margin", "price increase", "net sales growth 0.3"] },
+      { label: "Cocoa cycle", tags: ["cocoa", "commodity"], kw: ["cocoa"] },
+      { label: "Margin recovery", tags: ["margin"], kw: ["margin"] },
+      { label: "Sales and pricing", tags: ["revenue", "pricing", "volume"], kw: ["price increase", "volume", "chocolate"] },
+      { label: "Cash and reinvestment", tags: ["cash-flow", "capex"], kw: ["capex", "capital expenditures", "cash flow", "dividends", "depreciation"] }
+    ]
   },
 
   valuation: {

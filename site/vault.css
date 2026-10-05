@@ -1,13 +1,8 @@
 /* Knowledge Bank page (vault.html). Ported from the Bloom Energy site's /vault page:
-   warm-gray stage, ink type, one green accent, Geist and Geist Mono from Google Fonts. */
+   warm-gray stage, ink type, one green accent, Geist and Geist Mono from Google Fonts.
+   Colours and fonts are the site tokens in styles.css. */
 .kb {
-  --bg-deep: #ededed; --bg: #f4f4f4; --surface: #ffffff;
-  --ink: #0a0a0a; --ink-2: #404040; --fg-dim: #525252; --fg-mute: #5f5f5f;
-  --line: rgba(10, 10, 10, 0.08); --line-strong: rgba(10, 10, 10, 0.16);
-  --accent: #0b7340; --accent-soft: rgba(11, 115, 64, 0.12);
-  --reported: #2b7a4b; --derived: #93600f; --estimate: #9b3d3d;
-  --sans: "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --mono: "Geist Mono", ui-monospace, Menlo, monospace;
+  /* colours and fonts come from the shared tokens in styles.css, loaded before this file */
   margin: 0; height: 100vh; overflow: hidden; display: flex; flex-direction: column;
   background: var(--bg); color: var(--ink); font-family: var(--sans);
   -webkit-font-smoothing: antialiased;

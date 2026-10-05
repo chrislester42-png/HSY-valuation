@@ -27,4 +27,12 @@ Dr. Payne's filled Q&D workbook for Hershey, used as she sent it: FY2024 and FY2
 > None. The file is a spreadsheet.
 
 ## Atomic notes derived from this source
-- None yet. Site numbers from this workbook trace through `site/data/financials.js` and the Data pull note.
+- Site numbers from this workbook trace through `site/data/financials.js` and the Data pull note.
+- [[02 Atomic Notes/Hershey debt to equity 14.37 percent]]
+- [[02 Atomic Notes/Hamada beta 0.35 cross-check]]
+- [[02 Atomic Notes/Cost of equity 7.11 percent]]
+- [[02 Atomic Notes/Pre-tax cost of debt 5.83 percent]]
+- [[02 Atomic Notes/After-tax cost of debt 4.49 percent]]
+- [[02 Atomic Notes/Equity weight 87.4 percent]]
+- [[02 Atomic Notes/Debt weight 12.6 percent]]
+- [[02 Atomic Notes/WACC 6.78 percent]]

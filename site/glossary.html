@@ -4,11 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Glossary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="index.html" data-bind="ticker">TICKER</a>
+    <a class="brand" href="index.html"><span class="name" data-bind="companyName">Company</span><span class="tick" data-bind="ticker">TICKER</span></a>
     <nav class="nav" aria-label="Sections">
       <a href="index.html#thesis">Thesis</a>
       <a href="index.html#financials">Financials</a>
@@ -22,6 +25,7 @@
       <a href="glossary.html">Glossary</a>
       <a href="sources.html">Sources</a>
     </nav>
+    <span class="bar-price" data-bind="barPrice"></span>
   </header>
   <main class="page">
     <p class="section-label">Glossary · Module 8</p>

@@ -3,18 +3,19 @@ window.NOTES = {
  "generatedOn": "2026-10-05",
  "counts": {
   "map": 1,
-  "source": 9,
-  "atomic": 31,
-  "draft": 4,
+  "source": 14,
+  "atomic": 60,
+  "draft": 5,
   "template": 4
  },
  "tiers": {
-  "R": 30,
-  "D": 1
+  "R": 41,
+  "E": 3,
+  "D": 16
  },
  "statuses": {
-  "confirmed": 24,
-  "needs-verification": 7
+  "needs-verification": 36,
+  "confirmed": 24
  },
  "notes": {
   "00 Project Home": {
@@ -25,6 +26,11 @@ window.NOTES = {
    "sources": [],
    "linksTo": [
     "01 Sources/S1 Hershey Form 10-K FY2025",
+    "01 Sources/S10 Damodaran betas by sector January 2026",
+    "01 Sources/S11 Damodaran ratings coverage and default spreads January 2026",
+    "01 Sources/S12 Damodaran country risk premiums January 2026",
+    "01 Sources/S13 US Treasury daily par yield curve 2026",
+    "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL",
     "01 Sources/S2 Hershey Q2 2026 results press release",
     "01 Sources/S3 Hershey Q2 2026 earnings call transcript",
     "01 Sources/S4 TIKR Hershey Q2 2026 margin article",
@@ -33,21 +39,34 @@ window.NOTES = {
     "01 Sources/S7 Madison and Wall chocolate industry 2026 update",
     "01 Sources/S8 FactSet consensus estimates for Hershey",
     "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026",
+    "02 Atomic Notes/Adjusted beta 0.4102",
+    "02 Atomic Notes/After-tax cost of debt 4.49 percent",
     "02 Atomic Notes/Chocolate industry revenue growth about 2.5 percent a year",
     "02 Atomic Notes/Cocoa below 3,000 dollars per ton in February 2026",
     "02 Atomic Notes/Cocoa down more than 70 percent from late-2024 highs",
     "02 Atomic Notes/Cocoa up about 365 percent from January 2023 to December 2024 peak",
+    "02 Atomic Notes/Cost of equity 7.11 percent",
+    "02 Atomic Notes/Debt valued at book value 4,681 million dollars",
+    "02 Atomic Notes/Debt weight 12.6 percent",
+    "02 Atomic Notes/Equity weight 87.4 percent",
     "02 Atomic Notes/FY2023 net sales growth 7.2 percent",
     "02 Atomic Notes/FY2023 operating margin 22.9 percent",
+    "02 Atomic Notes/FY2024 effective tax rate 10.2 percent",
     "02 Atomic Notes/FY2024 gross margin 47.3 percent",
     "02 Atomic Notes/FY2024 net income 2.22 billion dollars",
     "02 Atomic Notes/FY2024 net sales growth 0.3 percent",
     "02 Atomic Notes/FY2024 operating margin 25.9 percent",
+    "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars",
+    "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars",
+    "02 Atomic Notes/FY2025 US share of net sales 87.7 percent",
     "02 Atomic Notes/FY2025 capex 3.9 percent of net sales",
     "02 Atomic Notes/FY2025 capital expenditures 455 million dollars",
     "02 Atomic Notes/FY2025 depreciation and amortization 504 million dollars",
     "02 Atomic Notes/FY2025 dividends paid 1.09 billion dollars",
+    "02 Atomic Notes/FY2025 effective tax rate 27.3 percent",
     "02 Atomic Notes/FY2025 gross margin 33.5 percent",
+    "02 Atomic Notes/FY2025 interest coverage 7.58",
     "02 Atomic Notes/FY2025 net income 883 million dollars",
     "02 Atomic Notes/FY2025 net sales 11.69 billion dollars",
     "02 Atomic Notes/FY2025 net sales growth 4.4 percent",
@@ -56,19 +75,36 @@ window.NOTES = {
     "02 Atomic Notes/FY2026 guidance adjusted EPS 8.36 to 8.52 dollars",
     "02 Atomic Notes/FY2026 guidance net sales growth 4.5 to 5.0 percent",
     "02 Atomic Notes/FY2026 margin improvement guided about 400 basis points",
+    "02 Atomic Notes/FactSet beta 0.34",
+    "02 Atomic Notes/Food processing industry beta 0.61",
+    "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+    "02 Atomic Notes/Food processing industry tax rate 10.37 percent",
+    "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check",
+    "02 Atomic Notes/Hershey debt to equity 14.37 percent",
+    "02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons",
+    "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+    "02 Atomic Notes/Pre-tax cost of debt 5.83 percent",
     "02 Atomic Notes/Q1 2026 adjusted gross margin 40.4 percent",
     "02 Atomic Notes/Q2 2026 adjusted EPS 1.90 dollars",
     "02 Atomic Notes/Q2 2026 confectionery volume down about 10 percent",
     "02 Atomic Notes/Q2 2026 net sales 2.79 billion dollars",
     "02 Atomic Notes/Q2 2026 net sales growth 6.6 percent",
     "02 Atomic Notes/Q2 2026 price increase about 14 percent",
+    "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006",
+    "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread",
     "02 Atomic Notes/US chocolate spending about 23.5 billion dollars in 2025",
     "02 Atomic Notes/US chocolate spending up 39 percent since 2020",
+    "02 Atomic Notes/US country default spread 0.23 percent January 2026",
+    "02 Atomic Notes/US equity risk premium 4.46 percent January 2026",
+    "02 Atomic Notes/WACC 6.78 percent",
+    "02 Atomic Notes/WACC tax rate 22.96 percent",
     "03 Drafts/Milestone 1 - Selection Memo",
     "03 Drafts/Milestone 2 - Driver Justifications",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo",
     "03 Drafts/Module 2 - Data pull"
    ],
-   "html": "<blockquote>Open this note every time you sit down to work. It is the map of everything the team knows.</blockquote>\n<h3>How this vault works</h3>\n<ul>\n<li><strong>01 Sources</strong>: one note per primary document (a 10-K, a press release, a dataset, an article). Each has a URL or a file in <code>_files/</code>.</li>\n<li><strong>02 Atomic Notes</strong>: one fact per note, with the exact figure, why it matters, a status, a tier, and a link to the source note it came from.</li>\n<li><strong>03 Drafts</strong>: the milestone memos while they are being written, and any working sections.</li>\n<li><strong>04 Final Deliverables</strong>: the versions that were submitted to Canvas.</li>\n<li><strong>05 Questions</strong>: what we still need to find out, and what we found.</li>\n<li><strong>06 Templates</strong>: the shape every note follows. Claude fills them in.</li>\n<li><strong>07 Daily</strong>: optional session notes.</li>\n</ul>\n<p>Every number on the site points at an atomic note here. Every atomic note points at a source note. That chain is the Knowledge Bank (Module 3).</p>\n<h3>Deliverables</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=03%20Drafts/Milestone%201%20-%20Selection%20Memo\" data-note=\"03 Drafts/Milestone 1 - Selection Memo\">Milestone 1 - Selection Memo</a></li>\n<li><a class=\"wl\" href=\"#note=03%20Drafts/Milestone%202%20-%20Driver%20Justifications\" data-note=\"03 Drafts/Milestone 2 - Driver Justifications\">Milestone 2 - Driver Justifications</a></li>\n<li><a class=\"wl\" href=\"#note=03%20Drafts/Module%202%20-%20Data%20pull\" data-note=\"03 Drafts/Module 2 - Data pull\">Module 2 - Data pull</a></li>\n</ul>\n<h3>The thesis (current view)</h3>\n<h4>Bull</h4>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cocoa%20down%20more%20than%2070%20percent%20from%20late-2024%20highs\" data-note=\"02 Atomic Notes/Cocoa down more than 70 percent from late-2024 highs\">Cocoa down more than 70 percent from late-2024 highs</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q1%202026%20adjusted%20gross%20margin%2040.4%20percent\" data-note=\"02 Atomic Notes/Q1 2026 adjusted gross margin 40.4 percent\">Q1 2026 adjusted gross margin 40.4 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2026%20margin%20improvement%20guided%20about%20400%20basis%20points\" data-note=\"02 Atomic Notes/FY2026 margin improvement guided about 400 basis points\">FY2026 margin improvement guided about 400 basis points</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2026%20guidance%20adjusted%20EPS%208.36%20to%208.52%20dollars\" data-note=\"02 Atomic Notes/FY2026 guidance adjusted EPS 8.36 to 8.52 dollars\">FY2026 guidance adjusted EPS 8.36 to 8.52 dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20operating%20cash%20flow%202.28%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 operating cash flow 2.28 billion dollars\">FY2025 operating cash flow 2.28 billion dollars</a></li>\n</ul>\n<h4>Bear</h4>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q2%202026%20confectionery%20volume%20down%20about%2010%20percent\" data-note=\"02 Atomic Notes/Q2 2026 confectionery volume down about 10 percent\">Q2 2026 confectionery volume down about 10 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20income%20883%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 net income 883 million dollars\">FY2025 net income 883 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20operating%20margin%2012.3%20percent\" data-note=\"02 Atomic Notes/FY2025 operating margin 12.3 percent\">FY2025 operating margin 12.3 percent</a></li>\n</ul>\n<h3>Latest financial picture</h3>\n<h4>FY2023 to FY2025 (10-K)</h4>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20sales%2011.69%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 net sales 11.69 billion dollars\">FY2025 net sales 11.69 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2023%20net%20sales%20growth%207.2%20percent\" data-note=\"02 Atomic Notes/FY2023 net sales growth 7.2 percent\">FY2023 net sales growth 7.2 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20net%20sales%20growth%200.3%20percent\" data-note=\"02 Atomic Notes/FY2024 net sales growth 0.3 percent\">FY2024 net sales growth 0.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20sales%20growth%204.4%20percent\" data-note=\"02 Atomic Notes/FY2025 net sales growth 4.4 percent\">FY2025 net sales growth 4.4 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2023%20operating%20margin%2022.9%20percent\" data-note=\"02 Atomic Notes/FY2023 operating margin 22.9 percent\">FY2023 operating margin 22.9 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20operating%20margin%2025.9%20percent\" data-note=\"02 Atomic Notes/FY2024 operating margin 25.9 percent\">FY2024 operating margin 25.9 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20operating%20margin%2012.3%20percent\" data-note=\"02 Atomic Notes/FY2025 operating margin 12.3 percent\">FY2025 operating margin 12.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20gross%20margin%2047.3%20percent\" data-note=\"02 Atomic Notes/FY2024 gross margin 47.3 percent\">FY2024 gross margin 47.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20gross%20margin%2033.5%20percent\" data-note=\"02 Atomic Notes/FY2025 gross margin 33.5 percent\">FY2025 gross margin 33.5 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20net%20income%202.22%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2024 net income 2.22 billion dollars\">FY2024 net income 2.22 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20income%20883%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 net income 883 million dollars\">FY2025 net income 883 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20operating%20cash%20flow%202.28%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 operating cash flow 2.28 billion dollars\">FY2025 operating cash flow 2.28 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20capital%20expenditures%20455%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 capital expenditures 455 million dollars\">FY2025 capital expenditures 455 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20capex%203.9%20percent%20of%20net%20sales\" data-note=\"02 Atomic Notes/FY2025 capex 3.9 percent of net sales\">FY2025 capex 3.9 percent of net sales</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20depreciation%20and%20amortization%20504%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 depreciation and amortization 504 million dollars\">FY2025 depreciation and amortization 504 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20dividends%20paid%201.09%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 dividends paid 1.09 billion dollars\">FY2025 dividends paid 1.09 billion dollars</a></li>\n</ul>\n<h4>2026 so far and guidance</h4>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q1%202026%20adjusted%20gross%20margin%2040.4%20percent\" data-note=\"02 Atomic Notes/Q1 2026 adjusted gross margin 40.4 percent\">Q1 2026 adjusted gross margin 40.4 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q2%202026%20net%20sales%202.79%20billion%20dollars\" data-note=\"02 Atomic Notes/Q2 2026 net sales 2.79 billion dollars\">Q2 2026 net sales 2.79 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q2%202026%20net%20sales%20growth%206.6%20percent\" data-note=\"02 Atomic Notes/Q2 2026 net sales growth 6.6 percent\">Q2 2026 net sales growth 6.6 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q2%202026%20adjusted%20EPS%201.90%20dollars\" data-note=\"02 Atomic Notes/Q2 2026 adjusted EPS 1.90 dollars\">Q2 2026 adjusted EPS 1.90 dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q2%202026%20confectionery%20volume%20down%20about%2010%20percent\" data-note=\"02 Atomic Notes/Q2 2026 confectionery volume down about 10 percent\">Q2 2026 confectionery volume down about 10 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q2%202026%20price%20increase%20about%2014%20percent\" data-note=\"02 Atomic Notes/Q2 2026 price increase about 14 percent\">Q2 2026 price increase about 14 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2026%20guidance%20net%20sales%20growth%204.5%20to%205.0%20percent\" data-note=\"02 Atomic Notes/FY2026 guidance net sales growth 4.5 to 5.0 percent\">FY2026 guidance net sales growth 4.5 to 5.0 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2026%20guidance%20adjusted%20EPS%208.36%20to%208.52%20dollars\" data-note=\"02 Atomic Notes/FY2026 guidance adjusted EPS 8.36 to 8.52 dollars\">FY2026 guidance adjusted EPS 8.36 to 8.52 dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2026%20margin%20improvement%20guided%20about%20400%20basis%20points\" data-note=\"02 Atomic Notes/FY2026 margin improvement guided about 400 basis points\">FY2026 margin improvement guided about 400 basis points</a></li>\n</ul>\n<h4>Cocoa and industry</h4>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cocoa%20up%20about%20365%20percent%20from%20January%202023%20to%20December%202024%20peak\" data-note=\"02 Atomic Notes/Cocoa up about 365 percent from January 2023 to December 2024 peak\">Cocoa up about 365 percent from January 2023 to December 2024 peak</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cocoa%20below%203,000%20dollars%20per%20ton%20in%20February%202026\" data-note=\"02 Atomic Notes/Cocoa below 3,000 dollars per ton in February 2026\">Cocoa below 3,000 dollars per ton in February 2026</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cocoa%20down%20more%20than%2070%20percent%20from%20late-2024%20highs\" data-note=\"02 Atomic Notes/Cocoa down more than 70 percent from late-2024 highs\">Cocoa down more than 70 percent from late-2024 highs</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20chocolate%20spending%20about%2023.5%20billion%20dollars%20in%202025\" data-note=\"02 Atomic Notes/US chocolate spending about 23.5 billion dollars in 2025\">US chocolate spending about 23.5 billion dollars in 2025</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20chocolate%20spending%20up%2039%20percent%20since%202020\" data-note=\"02 Atomic Notes/US chocolate spending up 39 percent since 2020\">US chocolate spending up 39 percent since 2020</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Chocolate%20industry%20revenue%20growth%20about%202.5%20percent%20a%20year\" data-note=\"02 Atomic Notes/Chocolate industry revenue growth about 2.5 percent a year\">Chocolate industry revenue growth about 2.5 percent a year</a></li>\n</ul>\n<h3>Cost of capital inputs</h3>\n<p>-</p>\n<h3>Open questions</h3>\n<ul>\n<li>Management's stated FY2027 operating margin target, with the exact quote and date from the Q2 call.</li>\n<li>Diluted share count at the latest quarter end, from the Q2 2026 Form 10-Q.</li>\n<li>Net debt at June 30, 2026, from the Q2 2026 Form 10-Q, for the valuation bridge in Module 4.</li>\n<li>A source showing Damodaran's industry datasets include a food-processing group.</li>\n<li>A source showing North America Confectionery is Hershey's single dominant segment.</li>\n<li>Exact publication dates for S4 (month only), S6 and S7 (year only).</li>\n</ul>\n<h3>Sources</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S2%20Hershey%20Q2%202026%20results%20press%20release\" data-note=\"01 Sources/S2 Hershey Q2 2026 results press release\">S2 Hershey Q2 2026 results press release</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S3%20Hershey%20Q2%202026%20earnings%20call%20transcript\" data-note=\"01 Sources/S3 Hershey Q2 2026 earnings call transcript\">S3 Hershey Q2 2026 earnings call transcript</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S4%20TIKR%20Hershey%20Q2%202026%20margin%20article\" data-note=\"01 Sources/S4 TIKR Hershey Q2 2026 margin article\">S4 TIKR Hershey Q2 2026 margin article</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S5%20FoodNavigator%20Hershey%20profit%20surge%20article\" data-note=\"01 Sources/S5 FoodNavigator Hershey profit surge article\">S5 FoodNavigator Hershey profit surge article</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S6%20JP%20Morgan%20cocoa%20prices%20research\" data-note=\"01 Sources/S6 JP Morgan cocoa prices research\">S6 JP Morgan cocoa prices research</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S7%20Madison%20and%20Wall%20chocolate%20industry%202026%20update\" data-note=\"01 Sources/S7 Madison and Wall chocolate industry 2026 update\">S7 Madison and Wall chocolate industry 2026 update</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S8%20FactSet%20consensus%20estimates%20for%20Hershey\" data-note=\"01 Sources/S8 FactSet consensus estimates for Hershey\">S8 FactSet consensus estimates for Hershey</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S9%20Team%20Q&amp;amp;D%20workbook%20for%20Hershey\" data-note=\"01 Sources/S9 Team Q&amp;amp;D workbook for Hershey\">S9 Team Q&amp;D workbook for Hershey</a></li>\n</ul>",
+   "html": "<blockquote>Open this note every time you sit down to work. It is the map of everything the team knows.</blockquote>\n<h3>How this vault works</h3>\n<ul>\n<li><strong>01 Sources</strong>: one note per primary document (a 10-K, a press release, a dataset, an article). Each has a URL or a file in <code>_files/</code>.</li>\n<li><strong>02 Atomic Notes</strong>: one fact per note, with the exact figure, why it matters, a status, a tier, and a link to the source note it came from.</li>\n<li><strong>03 Drafts</strong>: the milestone memos while they are being written, and any working sections.</li>\n<li><strong>04 Final Deliverables</strong>: the versions that were submitted to Canvas.</li>\n<li><strong>05 Questions</strong>: what we still need to find out, and what we found.</li>\n<li><strong>06 Templates</strong>: the shape every note follows. Claude fills them in.</li>\n<li><strong>07 Daily</strong>: optional session notes.</li>\n</ul>\n<p>Every number on the site points at an atomic note here. Every atomic note points at a source note. That chain is the Knowledge Bank (Module 3).</p>\n<h3>Deliverables</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=03%20Drafts/Milestone%201%20-%20Selection%20Memo\" data-note=\"03 Drafts/Milestone 1 - Selection Memo\">Milestone 1 - Selection Memo</a></li>\n<li><a class=\"wl\" href=\"#note=03%20Drafts/Milestone%202%20-%20Driver%20Justifications\" data-note=\"03 Drafts/Milestone 2 - Driver Justifications\">Milestone 2 - Driver Justifications</a></li>\n<li><a class=\"wl\" href=\"#note=03%20Drafts/Milestone%203%20-%20Cost%20of%20Capital%20Memo\" data-note=\"03 Drafts/Milestone 3 - Cost of Capital Memo\">Milestone 3 - Cost of Capital Memo</a></li>\n<li><a class=\"wl\" href=\"#note=03%20Drafts/Module%202%20-%20Data%20pull\" data-note=\"03 Drafts/Module 2 - Data pull\">Module 2 - Data pull</a></li>\n</ul>\n<h3>The thesis (current view)</h3>\n<h4>Bull</h4>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cocoa%20down%20more%20than%2070%20percent%20from%20late-2024%20highs\" data-note=\"02 Atomic Notes/Cocoa down more than 70 percent from late-2024 highs\">Cocoa down more than 70 percent from late-2024 highs</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q1%202026%20adjusted%20gross%20margin%2040.4%20percent\" data-note=\"02 Atomic Notes/Q1 2026 adjusted gross margin 40.4 percent\">Q1 2026 adjusted gross margin 40.4 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2026%20margin%20improvement%20guided%20about%20400%20basis%20points\" data-note=\"02 Atomic Notes/FY2026 margin improvement guided about 400 basis points\">FY2026 margin improvement guided about 400 basis points</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2026%20guidance%20adjusted%20EPS%208.36%20to%208.52%20dollars\" data-note=\"02 Atomic Notes/FY2026 guidance adjusted EPS 8.36 to 8.52 dollars\">FY2026 guidance adjusted EPS 8.36 to 8.52 dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20operating%20cash%20flow%202.28%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 operating cash flow 2.28 billion dollars\">FY2025 operating cash flow 2.28 billion dollars</a></li>\n</ul>\n<h4>Bear</h4>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q2%202026%20confectionery%20volume%20down%20about%2010%20percent\" data-note=\"02 Atomic Notes/Q2 2026 confectionery volume down about 10 percent\">Q2 2026 confectionery volume down about 10 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20income%20883%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 net income 883 million dollars\">FY2025 net income 883 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20operating%20margin%2012.3%20percent\" data-note=\"02 Atomic Notes/FY2025 operating margin 12.3 percent\">FY2025 operating margin 12.3 percent</a></li>\n</ul>\n<h3>Latest financial picture</h3>\n<h4>FY2023 to FY2025 (10-K)</h4>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20sales%2011.69%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 net sales 11.69 billion dollars\">FY2025 net sales 11.69 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2023%20net%20sales%20growth%207.2%20percent\" data-note=\"02 Atomic Notes/FY2023 net sales growth 7.2 percent\">FY2023 net sales growth 7.2 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20net%20sales%20growth%200.3%20percent\" data-note=\"02 Atomic Notes/FY2024 net sales growth 0.3 percent\">FY2024 net sales growth 0.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20sales%20growth%204.4%20percent\" data-note=\"02 Atomic Notes/FY2025 net sales growth 4.4 percent\">FY2025 net sales growth 4.4 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2023%20operating%20margin%2022.9%20percent\" data-note=\"02 Atomic Notes/FY2023 operating margin 22.9 percent\">FY2023 operating margin 22.9 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20operating%20margin%2025.9%20percent\" data-note=\"02 Atomic Notes/FY2024 operating margin 25.9 percent\">FY2024 operating margin 25.9 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20operating%20margin%2012.3%20percent\" data-note=\"02 Atomic Notes/FY2025 operating margin 12.3 percent\">FY2025 operating margin 12.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20gross%20margin%2047.3%20percent\" data-note=\"02 Atomic Notes/FY2024 gross margin 47.3 percent\">FY2024 gross margin 47.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20gross%20margin%2033.5%20percent\" data-note=\"02 Atomic Notes/FY2025 gross margin 33.5 percent\">FY2025 gross margin 33.5 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20net%20income%202.22%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2024 net income 2.22 billion dollars\">FY2024 net income 2.22 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20income%20883%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 net income 883 million dollars\">FY2025 net income 883 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20operating%20cash%20flow%202.28%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 operating cash flow 2.28 billion dollars\">FY2025 operating cash flow 2.28 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20capital%20expenditures%20455%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 capital expenditures 455 million dollars\">FY2025 capital expenditures 455 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20capex%203.9%20percent%20of%20net%20sales\" data-note=\"02 Atomic Notes/FY2025 capex 3.9 percent of net sales\">FY2025 capex 3.9 percent of net sales</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20depreciation%20and%20amortization%20504%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 depreciation and amortization 504 million dollars\">FY2025 depreciation and amortization 504 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20dividends%20paid%201.09%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 dividends paid 1.09 billion dollars\">FY2025 dividends paid 1.09 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20effective%20tax%20rate%2027.3%20percent\" data-note=\"02 Atomic Notes/FY2025 effective tax rate 27.3 percent\">FY2025 effective tax rate 27.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20effective%20tax%20rate%2010.2%20percent\" data-note=\"02 Atomic Notes/FY2024 effective tax rate 10.2 percent\">FY2024 effective tax rate 10.2 percent</a></li>\n</ul>\n<h4>2026 so far and guidance</h4>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q1%202026%20adjusted%20gross%20margin%2040.4%20percent\" data-note=\"02 Atomic Notes/Q1 2026 adjusted gross margin 40.4 percent\">Q1 2026 adjusted gross margin 40.4 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q2%202026%20net%20sales%202.79%20billion%20dollars\" data-note=\"02 Atomic Notes/Q2 2026 net sales 2.79 billion dollars\">Q2 2026 net sales 2.79 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q2%202026%20net%20sales%20growth%206.6%20percent\" data-note=\"02 Atomic Notes/Q2 2026 net sales growth 6.6 percent\">Q2 2026 net sales growth 6.6 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q2%202026%20adjusted%20EPS%201.90%20dollars\" data-note=\"02 Atomic Notes/Q2 2026 adjusted EPS 1.90 dollars\">Q2 2026 adjusted EPS 1.90 dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q2%202026%20confectionery%20volume%20down%20about%2010%20percent\" data-note=\"02 Atomic Notes/Q2 2026 confectionery volume down about 10 percent\">Q2 2026 confectionery volume down about 10 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q2%202026%20price%20increase%20about%2014%20percent\" data-note=\"02 Atomic Notes/Q2 2026 price increase about 14 percent\">Q2 2026 price increase about 14 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2026%20guidance%20net%20sales%20growth%204.5%20to%205.0%20percent\" data-note=\"02 Atomic Notes/FY2026 guidance net sales growth 4.5 to 5.0 percent\">FY2026 guidance net sales growth 4.5 to 5.0 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2026%20guidance%20adjusted%20EPS%208.36%20to%208.52%20dollars\" data-note=\"02 Atomic Notes/FY2026 guidance adjusted EPS 8.36 to 8.52 dollars\">FY2026 guidance adjusted EPS 8.36 to 8.52 dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2026%20margin%20improvement%20guided%20about%20400%20basis%20points\" data-note=\"02 Atomic Notes/FY2026 margin improvement guided about 400 basis points\">FY2026 margin improvement guided about 400 basis points</a></li>\n</ul>\n<h4>Cocoa and industry</h4>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cocoa%20up%20about%20365%20percent%20from%20January%202023%20to%20December%202024%20peak\" data-note=\"02 Atomic Notes/Cocoa up about 365 percent from January 2023 to December 2024 peak\">Cocoa up about 365 percent from January 2023 to December 2024 peak</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cocoa%20below%203,000%20dollars%20per%20ton%20in%20February%202026\" data-note=\"02 Atomic Notes/Cocoa below 3,000 dollars per ton in February 2026\">Cocoa below 3,000 dollars per ton in February 2026</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cocoa%20down%20more%20than%2070%20percent%20from%20late-2024%20highs\" data-note=\"02 Atomic Notes/Cocoa down more than 70 percent from late-2024 highs\">Cocoa down more than 70 percent from late-2024 highs</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20chocolate%20spending%20about%2023.5%20billion%20dollars%20in%202025\" data-note=\"02 Atomic Notes/US chocolate spending about 23.5 billion dollars in 2025\">US chocolate spending about 23.5 billion dollars in 2025</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20chocolate%20spending%20up%2039%20percent%20since%202020\" data-note=\"02 Atomic Notes/US chocolate spending up 39 percent since 2020\">US chocolate spending up 39 percent since 2020</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Chocolate%20industry%20revenue%20growth%20about%202.5%20percent%20a%20year\" data-note=\"02 Atomic Notes/Chocolate industry revenue growth about 2.5 percent a year\">Chocolate industry revenue growth about 2.5 percent a year</a></li>\n</ul>\n<h3>Cost of capital inputs</h3>\n<h4>WACC</h4>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%206.78%20percent\" data-note=\"02 Atomic Notes/WACC 6.78 percent\">WACC 6.78 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Equity%20weight%2087.4%20percent\" data-note=\"02 Atomic Notes/Equity weight 87.4 percent\">Equity weight 87.4 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Debt%20weight%2012.6%20percent\" data-note=\"02 Atomic Notes/Debt weight 12.6 percent\">Debt weight 12.6 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Debt%20valued%20at%20book%20value%204,681%20million%20dollars\" data-note=\"02 Atomic Notes/Debt valued at book value 4,681 million dollars\">Debt valued at book value 4,681 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hershey%20debt%20to%20equity%2014.37%20percent\" data-note=\"02 Atomic Notes/Hershey debt to equity 14.37 percent\">Hershey debt to equity 14.37 percent</a></li>\n</ul>\n<h4>Cost of equity</h4>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cost%20of%20equity%207.11%20percent\" data-note=\"02 Atomic Notes/Cost of equity 7.11 percent\">Cost of equity 7.11 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/10-year%20Treasury%20yield%205.28%20percent%20on%202%20October%202026\" data-note=\"02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026\">10-year Treasury yield 5.28 percent on 2 October 2026</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20equity%20risk%20premium%204.46%20percent%20January%202026\" data-note=\"02 Atomic Notes/US equity risk premium 4.46 percent January 2026\">US equity risk premium 4.46 percent January 2026</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Adjusted%20beta%200.4102\" data-note=\"02 Atomic Notes/Adjusted beta 0.4102\">Adjusted beta 0.4102</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/HSY%20raw%20regression%20beta%200.1153%20over%2060%20months\" data-note=\"02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months\">HSY raw regression beta 0.1153 over 60 months</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Regression%20beta%20standard%20error%200.195%20and%20R-squared%200.006\" data-note=\"02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006\">Regression beta standard error 0.195 and R-squared 0.006</a></li>\n</ul>\n<h4>Beta cross-checks</h4>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hamada%20beta%200.35%20cross-check\" data-note=\"02 Atomic Notes/Hamada beta 0.35 cross-check\">Hamada beta 0.35 cross-check</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FactSet%20beta%200.34\" data-note=\"02 Atomic Notes/FactSet beta 0.34\">FactSet beta 0.34</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20beta%200.61\" data-note=\"02 Atomic Notes/Food processing industry beta 0.61\">Food processing industry beta 0.61</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20debt%20to%20equity%2043.73%20percent\" data-note=\"02 Atomic Notes/Food processing industry debt to equity 43.73 percent\">Food processing industry debt to equity 43.73 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20tax%20rate%2010.37%20percent\" data-note=\"02 Atomic Notes/Food processing industry tax rate 10.37 percent\">Food processing industry tax rate 10.37 percent</a></li>\n</ul>\n<h4>Cost of debt</h4>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Pre-tax%20cost%20of%20debt%205.83%20percent\" data-note=\"02 Atomic Notes/Pre-tax cost of debt 5.83 percent\">Pre-tax cost of debt 5.83 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/After-tax%20cost%20of%20debt%204.49%20percent\" data-note=\"02 Atomic Notes/After-tax cost of debt 4.49 percent\">After-tax cost of debt 4.49 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%20tax%20rate%2022.96%20percent\" data-note=\"02 Atomic Notes/WACC tax rate 22.96 percent\">WACC tax rate 22.96 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20interest%20coverage%207.58\" data-note=\"02 Atomic Notes/FY2025 interest coverage 7.58\">FY2025 interest coverage 7.58</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Synthetic%20rating%20Aa2%20AA%20with%200.55%20percent%20default%20spread\" data-note=\"02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread\">Synthetic rating Aa2 AA with 0.55 percent default spread</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hershey%20notes%20due%202028%20to%202035%20carry%204.55%20to%205.10%20percent%20coupons\" data-note=\"02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons\">Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons</a></li>\n</ul>\n<h4>Country risk</h4>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20country%20default%20spread%200.23%20percent%20January%202026\" data-note=\"02 Atomic Notes/US country default spread 0.23 percent January 2026\">US country default spread 0.23 percent January 2026</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20US%20net%20sales%2010.25%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 US net sales 10.25 billion dollars\">FY2025 US net sales 10.25 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20US%20share%20of%20net%20sales%2087.7%20percent\" data-note=\"02 Atomic Notes/FY2025 US share of net sales 87.7 percent\">FY2025 US share of net sales 87.7 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20International%20segment%20net%20sales%20941.6%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars\">FY2025 International segment net sales 941.6 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/No%20country%20risk%20adjustment%20for%2012.3%20percent%20non-US%20sales\" data-note=\"02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales\">No country risk adjustment for 12.3 percent non-US sales</a></li>\n</ul>\n<h3>Open questions</h3>\n<ul>\n<li>Management's stated FY2027 operating margin target, with the exact quote and date from the Q2 call.</li>\n<li>Diluted share count at the latest quarter end, from the Q2 2026 Form 10-Q.</li>\n<li>Net debt at June 30, 2026, from the Q2 2026 Form 10-Q, for the valuation bridge in Module 4.</li>\n<li>A source showing Damodaran's industry datasets include a food-processing group. (S10 now lists a Food Processing row; confirm it, then remove this line.)</li>\n<li>A source showing North America Confectionery is Hershey's single dominant segment.</li>\n<li>Exact publication dates for S4 (month only), S6 and S7 (year only), S10 and S11 (month only).</li>\n<li>A source for FY2026 capex guidance of 425 to 475 (Milestone 2 memo, section 3).</li>\n<li>A source for the 160.19 dollar HSY close on October 2, 2026, behind the market value of equity (Milestone 3 memo).</li>\n<li>Fix the Hamada formula in WACC tab cell C24 (misplaced bracket), then update the Hamada note and the memo.</li>\n</ul>\n<h3>Sources</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S2%20Hershey%20Q2%202026%20results%20press%20release\" data-note=\"01 Sources/S2 Hershey Q2 2026 results press release\">S2 Hershey Q2 2026 results press release</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S3%20Hershey%20Q2%202026%20earnings%20call%20transcript\" data-note=\"01 Sources/S3 Hershey Q2 2026 earnings call transcript\">S3 Hershey Q2 2026 earnings call transcript</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S4%20TIKR%20Hershey%20Q2%202026%20margin%20article\" data-note=\"01 Sources/S4 TIKR Hershey Q2 2026 margin article\">S4 TIKR Hershey Q2 2026 margin article</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S5%20FoodNavigator%20Hershey%20profit%20surge%20article\" data-note=\"01 Sources/S5 FoodNavigator Hershey profit surge article\">S5 FoodNavigator Hershey profit surge article</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S6%20JP%20Morgan%20cocoa%20prices%20research\" data-note=\"01 Sources/S6 JP Morgan cocoa prices research\">S6 JP Morgan cocoa prices research</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S7%20Madison%20and%20Wall%20chocolate%20industry%202026%20update\" data-note=\"01 Sources/S7 Madison and Wall chocolate industry 2026 update\">S7 Madison and Wall chocolate industry 2026 update</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S8%20FactSet%20consensus%20estimates%20for%20Hershey\" data-note=\"01 Sources/S8 FactSet consensus estimates for Hershey\">S8 FactSet consensus estimates for Hershey</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S9%20Team%20Q&amp;amp;D%20workbook%20for%20Hershey\" data-note=\"01 Sources/S9 Team Q&amp;amp;D workbook for Hershey\">S9 Team Q&amp;D workbook for Hershey</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S10%20Damodaran%20betas%20by%20sector%20January%202026\" data-note=\"01 Sources/S10 Damodaran betas by sector January 2026\">S10 Damodaran betas by sector January 2026</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S11%20Damodaran%20ratings%20coverage%20and%20default%20spreads%20January%202026\" data-note=\"01 Sources/S11 Damodaran ratings coverage and default spreads January 2026\">S11 Damodaran ratings coverage and default spreads January 2026</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S12%20Damodaran%20country%20risk%20premiums%20January%202026\" data-note=\"01 Sources/S12 Damodaran country risk premiums January 2026\">S12 Damodaran country risk premiums January 2026</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S13%20US%20Treasury%20daily%20par%20yield%20curve%202026\" data-note=\"01 Sources/S13 US Treasury daily par yield curve 2026\">S13 US Treasury daily par yield curve 2026</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S14%20Yahoo%20Finance%20monthly%20prices%20for%20HSY%20SPY%20and%20BIL\" data-note=\"01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL\">S14 Yahoo Finance monthly prices for HSY SPY and BIL</a></li>\n</ul>",
    "linkedFrom": []
   },
   "01 Sources/S1 Hershey Form 10-K FY2025": {
@@ -80,49 +116,210 @@ window.NOTES = {
    ],
    "sources": [],
    "linksTo": [
+    "02 Atomic Notes/Debt valued at book value 4,681 million dollars",
+    "02 Atomic Notes/Debt weight 12.6 percent",
     "02 Atomic Notes/FY2023 net sales growth 7.2 percent",
     "02 Atomic Notes/FY2023 operating margin 22.9 percent",
+    "02 Atomic Notes/FY2024 effective tax rate 10.2 percent",
     "02 Atomic Notes/FY2024 gross margin 47.3 percent",
     "02 Atomic Notes/FY2024 net income 2.22 billion dollars",
     "02 Atomic Notes/FY2024 net sales growth 0.3 percent",
     "02 Atomic Notes/FY2024 operating margin 25.9 percent",
+    "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars",
+    "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars",
+    "02 Atomic Notes/FY2025 US share of net sales 87.7 percent",
     "02 Atomic Notes/FY2025 capex 3.9 percent of net sales",
     "02 Atomic Notes/FY2025 capital expenditures 455 million dollars",
     "02 Atomic Notes/FY2025 depreciation and amortization 504 million dollars",
     "02 Atomic Notes/FY2025 dividends paid 1.09 billion dollars",
+    "02 Atomic Notes/FY2025 effective tax rate 27.3 percent",
     "02 Atomic Notes/FY2025 gross margin 33.5 percent",
-    "02 Atomic Notes/FY2025 net income 883 million dollars",
-    "02 Atomic Notes/FY2025 net sales 11.69 billion dollars",
-    "02 Atomic Notes/FY2025 net sales growth 4.4 percent",
-    "02 Atomic Notes/FY2025 operating cash flow 2.28 billion dollars",
-    "02 Atomic Notes/FY2025 operating margin 12.3 percent"
-   ],
-   "html": "<h3>What it is</h3>\n<p>Hershey's annual report for fiscal 2025 filed with the SEC (accession 0001628280-26-008586), plus the SEC's XBRL company facts data for Hershey (CIK 0000047111).</p>\n<h3>Key takeaways</h3>\n<ul>\n<li>Source of every FY2023 to FY2025 historical figure in the Milestone 1 memo: net sales, growth, margins, capex, D&amp;A, dividends, operating cash flow, net income.</li>\n<li>The url is the EDGAR filing index for Hershey 10-Ks, not the document itself. Save the 10-K into _files/ for Module 2.</li>\n</ul>\n<h3>Direct quotes</h3>\n<blockquote>None recorded yet. Add exact quotes when checking this source.</blockquote>\n<h3>Atomic notes derived from this source</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20sales%2011.69%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 net sales 11.69 billion dollars\">FY2025 net sales 11.69 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2023%20net%20sales%20growth%207.2%20percent\" data-note=\"02 Atomic Notes/FY2023 net sales growth 7.2 percent\">FY2023 net sales growth 7.2 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20net%20sales%20growth%200.3%20percent\" data-note=\"02 Atomic Notes/FY2024 net sales growth 0.3 percent\">FY2024 net sales growth 0.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20sales%20growth%204.4%20percent\" data-note=\"02 Atomic Notes/FY2025 net sales growth 4.4 percent\">FY2025 net sales growth 4.4 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2023%20operating%20margin%2022.9%20percent\" data-note=\"02 Atomic Notes/FY2023 operating margin 22.9 percent\">FY2023 operating margin 22.9 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20operating%20margin%2025.9%20percent\" data-note=\"02 Atomic Notes/FY2024 operating margin 25.9 percent\">FY2024 operating margin 25.9 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20operating%20margin%2012.3%20percent\" data-note=\"02 Atomic Notes/FY2025 operating margin 12.3 percent\">FY2025 operating margin 12.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20gross%20margin%2047.3%20percent\" data-note=\"02 Atomic Notes/FY2024 gross margin 47.3 percent\">FY2024 gross margin 47.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20gross%20margin%2033.5%20percent\" data-note=\"02 Atomic Notes/FY2025 gross margin 33.5 percent\">FY2025 gross margin 33.5 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20capital%20expenditures%20455%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 capital expenditures 455 million dollars\">FY2025 capital expenditures 455 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20capex%203.9%20percent%20of%20net%20sales\" data-note=\"02 Atomic Notes/FY2025 capex 3.9 percent of net sales\">FY2025 capex 3.9 percent of net sales</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20depreciation%20and%20amortization%20504%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 depreciation and amortization 504 million dollars\">FY2025 depreciation and amortization 504 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20dividends%20paid%201.09%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 dividends paid 1.09 billion dollars\">FY2025 dividends paid 1.09 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20operating%20cash%20flow%202.28%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 operating cash flow 2.28 billion dollars\">FY2025 operating cash flow 2.28 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20income%20883%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 net income 883 million dollars\">FY2025 net income 883 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20net%20income%202.22%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2024 net income 2.22 billion dollars\">FY2024 net income 2.22 billion dollars</a></li>\n</ul>",
-   "id": "S1",
-   "publisher": "SEC EDGAR",
-   "publication_date": "2026-02-17",
-   "date_accessed": "2026-09-28",
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000047111&type=10-K",
-   "linkedFrom": [
-    "00 Project Home",
-    "01 Sources/S9 Team Q&D workbook for Hershey",
-    "02 Atomic Notes/FY2023 net sales growth 7.2 percent",
-    "02 Atomic Notes/FY2023 operating margin 22.9 percent",
-    "02 Atomic Notes/FY2024 gross margin 47.3 percent",
-    "02 Atomic Notes/FY2024 net income 2.22 billion dollars",
-    "02 Atomic Notes/FY2024 net sales growth 0.3 percent",
-    "02 Atomic Notes/FY2024 operating margin 25.9 percent",
-    "02 Atomic Notes/FY2025 capex 3.9 percent of net sales",
-    "02 Atomic Notes/FY2025 capital expenditures 455 million dollars",
-    "02 Atomic Notes/FY2025 depreciation and amortization 504 million dollars",
-    "02 Atomic Notes/FY2025 dividends paid 1.09 billion dollars",
-    "02 Atomic Notes/FY2025 gross margin 33.5 percent",
+    "02 Atomic Notes/FY2025 interest coverage 7.58",
     "02 Atomic Notes/FY2025 net income 883 million dollars",
     "02 Atomic Notes/FY2025 net sales 11.69 billion dollars",
     "02 Atomic Notes/FY2025 net sales growth 4.4 percent",
     "02 Atomic Notes/FY2025 operating cash flow 2.28 billion dollars",
     "02 Atomic Notes/FY2025 operating margin 12.3 percent",
-    "03 Drafts/Milestone 2 - Driver Justifications"
+    "02 Atomic Notes/Hershey debt to equity 14.37 percent",
+    "02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons",
+    "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+    "02 Atomic Notes/WACC tax rate 22.96 percent"
+   ],
+   "html": "<h3>What it is</h3>\n<p>Hershey's annual report for fiscal 2025 filed with the SEC (accession 0001628280-26-008586), plus the SEC's XBRL company facts data for Hershey (CIK 0000047111).</p>\n<h3>Key takeaways</h3>\n<ul>\n<li>Source of every FY2023 to FY2025 historical figure in the Milestone 1 memo: net sales, growth, margins, capex, D&amp;A, dividends, operating cash flow, net income.</li>\n<li>The url is the 10-K document itself (updated 2026-10-05 from the EDGAR filing index, as the Milestone 3 memo cites it).</li>\n<li>Also the source of the cost of debt and country risk inputs in the Milestone 3 memo: interest coverage, the 2025 notes, the tax rate, and net sales by geography and segment.</li>\n</ul>\n<h3>Direct quotes</h3>\n<blockquote>None recorded yet. Add exact quotes when checking this source.</blockquote>\n<h3>Atomic notes derived from this source</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20sales%2011.69%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 net sales 11.69 billion dollars\">FY2025 net sales 11.69 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2023%20net%20sales%20growth%207.2%20percent\" data-note=\"02 Atomic Notes/FY2023 net sales growth 7.2 percent\">FY2023 net sales growth 7.2 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20net%20sales%20growth%200.3%20percent\" data-note=\"02 Atomic Notes/FY2024 net sales growth 0.3 percent\">FY2024 net sales growth 0.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20sales%20growth%204.4%20percent\" data-note=\"02 Atomic Notes/FY2025 net sales growth 4.4 percent\">FY2025 net sales growth 4.4 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2023%20operating%20margin%2022.9%20percent\" data-note=\"02 Atomic Notes/FY2023 operating margin 22.9 percent\">FY2023 operating margin 22.9 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20operating%20margin%2025.9%20percent\" data-note=\"02 Atomic Notes/FY2024 operating margin 25.9 percent\">FY2024 operating margin 25.9 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20operating%20margin%2012.3%20percent\" data-note=\"02 Atomic Notes/FY2025 operating margin 12.3 percent\">FY2025 operating margin 12.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20gross%20margin%2047.3%20percent\" data-note=\"02 Atomic Notes/FY2024 gross margin 47.3 percent\">FY2024 gross margin 47.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20gross%20margin%2033.5%20percent\" data-note=\"02 Atomic Notes/FY2025 gross margin 33.5 percent\">FY2025 gross margin 33.5 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20capital%20expenditures%20455%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 capital expenditures 455 million dollars\">FY2025 capital expenditures 455 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20capex%203.9%20percent%20of%20net%20sales\" data-note=\"02 Atomic Notes/FY2025 capex 3.9 percent of net sales\">FY2025 capex 3.9 percent of net sales</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20depreciation%20and%20amortization%20504%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 depreciation and amortization 504 million dollars\">FY2025 depreciation and amortization 504 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20dividends%20paid%201.09%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 dividends paid 1.09 billion dollars\">FY2025 dividends paid 1.09 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20operating%20cash%20flow%202.28%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 operating cash flow 2.28 billion dollars\">FY2025 operating cash flow 2.28 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20income%20883%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 net income 883 million dollars\">FY2025 net income 883 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20net%20income%202.22%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2024 net income 2.22 billion dollars\">FY2024 net income 2.22 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20effective%20tax%20rate%2027.3%20percent\" data-note=\"02 Atomic Notes/FY2025 effective tax rate 27.3 percent\">FY2025 effective tax rate 27.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20effective%20tax%20rate%2010.2%20percent\" data-note=\"02 Atomic Notes/FY2024 effective tax rate 10.2 percent\">FY2024 effective tax rate 10.2 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hershey%20debt%20to%20equity%2014.37%20percent\" data-note=\"02 Atomic Notes/Hershey debt to equity 14.37 percent\">Hershey debt to equity 14.37 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20interest%20coverage%207.58\" data-note=\"02 Atomic Notes/FY2025 interest coverage 7.58\">FY2025 interest coverage 7.58</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hershey%20notes%20due%202028%20to%202035%20carry%204.55%20to%205.10%20percent%20coupons\" data-note=\"02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons\">Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%20tax%20rate%2022.96%20percent\" data-note=\"02 Atomic Notes/WACC tax rate 22.96 percent\">WACC tax rate 22.96 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Debt%20valued%20at%20book%20value%204,681%20million%20dollars\" data-note=\"02 Atomic Notes/Debt valued at book value 4,681 million dollars\">Debt valued at book value 4,681 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Debt%20weight%2012.6%20percent\" data-note=\"02 Atomic Notes/Debt weight 12.6 percent\">Debt weight 12.6 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20US%20net%20sales%2010.25%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 US net sales 10.25 billion dollars\">FY2025 US net sales 10.25 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20US%20share%20of%20net%20sales%2087.7%20percent\" data-note=\"02 Atomic Notes/FY2025 US share of net sales 87.7 percent\">FY2025 US share of net sales 87.7 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20International%20segment%20net%20sales%20941.6%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars\">FY2025 International segment net sales 941.6 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/No%20country%20risk%20adjustment%20for%2012.3%20percent%20non-US%20sales\" data-note=\"02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales\">No country risk adjustment for 12.3 percent non-US sales</a></li>\n</ul>",
+   "id": "S1",
+   "publisher": "SEC EDGAR",
+   "publication_date": "2026-02-17",
+   "date_accessed": "2026-09-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/hsy-20251231.htm",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/Debt valued at book value 4,681 million dollars",
+    "02 Atomic Notes/Debt weight 12.6 percent",
+    "02 Atomic Notes/FY2023 net sales growth 7.2 percent",
+    "02 Atomic Notes/FY2023 operating margin 22.9 percent",
+    "02 Atomic Notes/FY2024 effective tax rate 10.2 percent",
+    "02 Atomic Notes/FY2024 gross margin 47.3 percent",
+    "02 Atomic Notes/FY2024 net income 2.22 billion dollars",
+    "02 Atomic Notes/FY2024 net sales growth 0.3 percent",
+    "02 Atomic Notes/FY2024 operating margin 25.9 percent",
+    "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars",
+    "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars",
+    "02 Atomic Notes/FY2025 US share of net sales 87.7 percent",
+    "02 Atomic Notes/FY2025 capex 3.9 percent of net sales",
+    "02 Atomic Notes/FY2025 capital expenditures 455 million dollars",
+    "02 Atomic Notes/FY2025 depreciation and amortization 504 million dollars",
+    "02 Atomic Notes/FY2025 dividends paid 1.09 billion dollars",
+    "02 Atomic Notes/FY2025 effective tax rate 27.3 percent",
+    "02 Atomic Notes/FY2025 gross margin 33.5 percent",
+    "02 Atomic Notes/FY2025 interest coverage 7.58",
+    "02 Atomic Notes/FY2025 net income 883 million dollars",
+    "02 Atomic Notes/FY2025 net sales 11.69 billion dollars",
+    "02 Atomic Notes/FY2025 net sales growth 4.4 percent",
+    "02 Atomic Notes/FY2025 operating cash flow 2.28 billion dollars",
+    "02 Atomic Notes/FY2025 operating margin 12.3 percent",
+    "02 Atomic Notes/Hershey debt to equity 14.37 percent",
+    "02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons",
+    "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+    "02 Atomic Notes/WACC tax rate 22.96 percent",
+    "03 Drafts/Milestone 2 - Driver Justifications",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "01 Sources/S10 Damodaran betas by sector January 2026": {
+   "title": "Betas by Sector (US)",
+   "type": "source",
+   "path": "research/01 Sources/S10 Damodaran betas by sector January 2026.md",
+   "tags": [
+    "source",
+    "cost-of-capital"
+   ],
+   "sources": [],
+   "linksTo": [
+    "02 Atomic Notes/Food processing industry beta 0.61",
+    "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+    "02 Atomic Notes/Food processing industry tax rate 10.37 percent",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check"
+   ],
+   "html": "<h3>What it is</h3>\n<p>Damodaran's January 2026 dataset of average betas, debt-to-equity ratios, and effective tax rates for US industry groups.</p>\n<h3>Key takeaways</h3>\n<ul>\n<li>Food Processing row: average beta 0.61, debt-to-equity 43.73 percent, tax rate 10.37 percent, the inputs to the Hamada cross-check on the WACC tab.</li>\n<li>Publication date is month only (January 2026) in the memo; find the exact date.</li>\n</ul>\n<h3>Direct quotes</h3>\n<blockquote>None recorded yet. Add exact quotes when checking this source.</blockquote>\n<h3>Atomic notes derived from this source</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20beta%200.61\" data-note=\"02 Atomic Notes/Food processing industry beta 0.61\">Food processing industry beta 0.61</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20debt%20to%20equity%2043.73%20percent\" data-note=\"02 Atomic Notes/Food processing industry debt to equity 43.73 percent\">Food processing industry debt to equity 43.73 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20tax%20rate%2010.37%20percent\" data-note=\"02 Atomic Notes/Food processing industry tax rate 10.37 percent\">Food processing industry tax rate 10.37 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hamada%20beta%200.35%20cross-check\" data-note=\"02 Atomic Notes/Hamada beta 0.35 cross-check\">Hamada beta 0.35 cross-check</a></li>\n</ul>",
+   "id": "S10",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "author": "Aswath Damodaran",
+   "publication_date": "2026-01",
+   "date_accessed": "2026-10-05",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/Betas.html",
+   "linkedFrom": [
+    "00 Project Home",
+    "02 Atomic Notes/Food processing industry beta 0.61",
+    "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+    "02 Atomic Notes/Food processing industry tax rate 10.37 percent",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "01 Sources/S11 Damodaran ratings coverage and default spreads January 2026": {
+   "title": "Ratings, Interest Coverage Ratios and Default Spread",
+   "type": "source",
+   "path": "research/01 Sources/S11 Damodaran ratings coverage and default spreads January 2026.md",
+   "tags": [
+    "source",
+    "cost-of-capital"
+   ],
+   "sources": [],
+   "linksTo": [
+    "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread"
+   ],
+   "html": "<h3>What it is</h3>\n<p>Damodaran's January 2026 table mapping interest coverage to a synthetic bond rating and default spread.</p>\n<h3>Key takeaways</h3>\n<ul>\n<li>Large non-financial firms: coverage 6.5 to 8.5 maps to Aa2/AA with a 0.55 percent default spread, used for Hershey's pre-tax cost of debt.</li>\n<li>Publication date is month only (January 2026) in the memo; find the exact date.</li>\n</ul>\n<h3>Direct quotes</h3>\n<blockquote>None recorded yet. Add exact quotes when checking this source.</blockquote>\n<h3>Atomic notes derived from this source</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Synthetic%20rating%20Aa2%20AA%20with%200.55%20percent%20default%20spread\" data-note=\"02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread\">Synthetic rating Aa2 AA with 0.55 percent default spread</a></li>\n</ul>",
+   "id": "S11",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "author": "Aswath Damodaran",
+   "publication_date": "2026-01",
+   "date_accessed": "2026-10-05",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ratings.html",
+   "linkedFrom": [
+    "00 Project Home",
+    "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "01 Sources/S12 Damodaran country risk premiums January 2026": {
+   "title": "Country Default Spreads and Risk Premiums",
+   "type": "source",
+   "path": "research/01 Sources/S12 Damodaran country risk premiums January 2026.md",
+   "tags": [
+    "source",
+    "cost-of-capital"
+   ],
+   "sources": [],
+   "linksTo": [
+    "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+    "02 Atomic Notes/US country default spread 0.23 percent January 2026",
+    "02 Atomic Notes/US equity risk premium 4.46 percent January 2026"
+   ],
+   "html": "<h3>What it is</h3>\n<p>Damodaran's January 2026 table of country default spreads and equity risk premiums.</p>\n<h3>Key takeaways</h3>\n<ul>\n<li>United States: total equity risk premium 4.46 percent, which includes a country default spread of 0.23 percent.</li>\n</ul>\n<h3>Direct quotes</h3>\n<blockquote>None recorded yet. Add exact quotes when checking this source.</blockquote>\n<h3>Atomic notes derived from this source</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20equity%20risk%20premium%204.46%20percent%20January%202026\" data-note=\"02 Atomic Notes/US equity risk premium 4.46 percent January 2026\">US equity risk premium 4.46 percent January 2026</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20country%20default%20spread%200.23%20percent%20January%202026\" data-note=\"02 Atomic Notes/US country default spread 0.23 percent January 2026\">US country default spread 0.23 percent January 2026</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/No%20country%20risk%20adjustment%20for%2012.3%20percent%20non-US%20sales\" data-note=\"02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales\">No country risk adjustment for 12.3 percent non-US sales</a></li>\n</ul>",
+   "id": "S12",
+   "publisher": "Aswath Damodaran, NYU Stern",
+   "author": "Aswath Damodaran",
+   "publication_date": "2026-01-05",
+   "date_accessed": "2026-10-05",
+   "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ctryprem.html",
+   "linkedFrom": [
+    "00 Project Home",
+    "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+    "02 Atomic Notes/US country default spread 0.23 percent January 2026",
+    "02 Atomic Notes/US equity risk premium 4.46 percent January 2026",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "01 Sources/S13 US Treasury daily par yield curve 2026": {
+   "title": "Daily Treasury Par Yield Curve Rates, 2026",
+   "type": "source",
+   "path": "research/01 Sources/S13 US Treasury daily par yield curve 2026.md",
+   "tags": [
+    "source",
+    "cost-of-capital"
+   ],
+   "sources": [],
+   "linksTo": [
+    "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026"
+   ],
+   "html": "<h3>What it is</h3>\n<p>The US Treasury's daily par yield curve rates for 2026.</p>\n<h3>Key takeaways</h3>\n<ul>\n<li>10-year par yield of 5.28 percent on October 2, 2026, the risk-free rate on the WACC tab.</li>\n<li>The WACC tab's link for this input (cell H9) points to the daily long-term rate page instead; the memo cites this par yield curve page.</li>\n</ul>\n<h3>Direct quotes</h3>\n<blockquote>None recorded yet. Add exact quotes when checking this source.</blockquote>\n<h3>Atomic notes derived from this source</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/10-year%20Treasury%20yield%205.28%20percent%20on%202%20October%202026\" data-note=\"02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026\">10-year Treasury yield 5.28 percent on 2 October 2026</a></li>\n</ul>",
+   "id": "S13",
+   "publisher": "US Department of the Treasury",
+   "publication_date": "2026-10-02",
+   "date_accessed": "2026-10-05",
+   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+   "linkedFrom": [
+    "00 Project Home",
+    "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL": {
+   "title": "Monthly adjusted prices for HSY, SPY, and BIL",
+   "type": "source",
+   "path": "research/01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL.md",
+   "tags": [
+    "source",
+    "cost-of-capital"
+   ],
+   "sources": [],
+   "linksTo": [
+    "02 Atomic Notes/Adjusted beta 0.4102",
+    "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months",
+    "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006"
+   ],
+   "html": "<h3>What it is</h3>\n<p>Monthly adjusted closing prices for Hershey (HSY), the SPDR S&amp;P 500 ETF (SPY), and the SPDR Bloomberg 1-3 Month T-Bill ETF (BIL), September 2021 to August 2026, pulled with the yfinance Python package.</p>\n<h3>Key takeaways</h3>\n<ul>\n<li>Input to the 60-month regression that gives Hershey's raw beta of 0.1153 (standard error 0.195, R-squared 0.006).</li>\n<li>No single publication date: the data were pulled on 2026-10-05. The url is the HSY history page; SPY and BIL have matching pages.</li>\n</ul>\n<h3>Direct quotes</h3>\n<blockquote>None recorded yet. Add exact quotes when checking this source.</blockquote>\n<h3>Atomic notes derived from this source</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/HSY%20raw%20regression%20beta%200.1153%20over%2060%20months\" data-note=\"02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months\">HSY raw regression beta 0.1153 over 60 months</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Regression%20beta%20standard%20error%200.195%20and%20R-squared%200.006\" data-note=\"02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006\">Regression beta standard error 0.195 and R-squared 0.006</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Adjusted%20beta%200.4102\" data-note=\"02 Atomic Notes/Adjusted beta 0.4102\">Adjusted beta 0.4102</a></li>\n</ul>",
+   "id": "S14",
+   "publisher": "Yahoo Finance",
+   "date_accessed": "2026-10-05",
+   "url": "https://finance.yahoo.com/quote/HSY/history",
+   "linkedFrom": [
+    "00 Project Home",
+    "02 Atomic Notes/Adjusted beta 0.4102",
+    "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months",
+    "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
    ]
   },
   "01 Sources/S2 Hershey Q2 2026 results press release": {
@@ -304,9 +501,10 @@ window.NOTES = {
    ],
    "sources": [],
    "linksTo": [
+    "02 Atomic Notes/FactSet beta 0.34",
     "03 Drafts/Module 2 - Data pull"
    ],
-   "html": "<h3>What it is</h3>\n<p>A FactSet export of analyst consensus estimates and reported figures for Hershey (HSY-US), fiscal years Dec '23 to Dec '30E, saved by the team on 2026-10-04; the sheet states its valuation data are as of 02 Oct '26.</p>\n<h3>Key takeaways</h3>\n<ul>\n<li>Source of every forecast cell (FY2026 to FY2028) on the Detail Data tab of the Q&amp;D workbook; each cell is listed in <a class=\"wl\" href=\"#note=03%20Drafts/Module%202%20-%20Data%20pull\" data-note=\"03 Drafts/Module 2 - Data pull\">Module 2 - Data pull</a>.</li>\n<li>Fiscal-year columns only; the export has no quarter columns. Figures are in millions of dollars.</li>\n<li>Some rows are non-GAAP. The team uses Net Income - GAAP for net income; the EBITDA row used is the headline \"EBITDA\" row (FactSet also gives EBITDA GAAP and EBITDA Non-GAAP).</li>\n</ul>\n<h3>Direct quotes</h3>\n<blockquote>None recorded. The file is a data export.</blockquote>\n<h3>Atomic notes derived from this source</h3>\n<ul>\n<li></li>\n</ul>\n<h3>Where the file is</h3>\n<p>The raw export is not in this repository. FactSet's terms do not allow publishing bulk data, and this repository is public. It is kept on the team's computer in <code>01 Sources/_files</code>, which git ignores for spreadsheets. The figures typed from it are listed cell by cell in <code>03 Drafts/Module 2 - Data pull.md</code>.</p>",
+   "html": "<h3>What it is</h3>\n<p>A FactSet export of analyst consensus estimates and reported figures for Hershey (HSY-US), fiscal years Dec '23 to Dec '30E, saved by the team on 2026-10-04; the sheet states its valuation data are as of 02 Oct '26.</p>\n<h3>Key takeaways</h3>\n<ul>\n<li>Source of every forecast cell (FY2026 to FY2028) on the Detail Data tab of the Q&amp;D workbook; each cell is listed in <a class=\"wl\" href=\"#note=03%20Drafts/Module%202%20-%20Data%20pull\" data-note=\"03 Drafts/Module 2 - Data pull\">Module 2 - Data pull</a>.</li>\n<li>Fiscal-year columns only; the export has no quarter columns. Figures are in millions of dollars.</li>\n<li>Also the source of FactSet's beta for Hershey (0.34), a cross-check on the WACC tab; the Milestone 3 memo cites the FactSet terminal for it.</li>\n<li>Some rows are non-GAAP. The team uses Net Income - GAAP for net income; the EBITDA row used is the headline \"EBITDA\" row (FactSet also gives EBITDA GAAP and EBITDA Non-GAAP).</li>\n</ul>\n<h3>Direct quotes</h3>\n<blockquote>None recorded. The file is a data export.</blockquote>\n<h3>Atomic notes derived from this source</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FactSet%20beta%200.34\" data-note=\"02 Atomic Notes/FactSet beta 0.34\">FactSet beta 0.34</a></li>\n</ul>\n<h3>Where the file is</h3>\n<p>The raw export is not in this repository. FactSet's terms do not allow publishing bulk data, and this repository is public. It is kept on the team's computer in <code>01 Sources/_files</code>, which git ignores for spreadsheets. The figures typed from it are listed cell by cell in <code>03 Drafts/Module 2 - Data pull.md</code>.</p>",
    "id": "S8",
    "publisher": "FactSet",
    "publication_date": "2026-10-02",
@@ -315,7 +513,9 @@ window.NOTES = {
    "linkedFrom": [
     "00 Project Home",
     "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/FactSet beta 0.34",
     "03 Drafts/Milestone 2 - Driver Justifications",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo",
     "03 Drafts/Module 2 - Data pull"
    ]
   },
@@ -330,11 +530,20 @@ window.NOTES = {
    "linksTo": [
     "01 Sources/S1 Hershey Form 10-K FY2025",
     "01 Sources/S8 FactSet consensus estimates for Hershey",
+    "02 Atomic Notes/After-tax cost of debt 4.49 percent",
+    "02 Atomic Notes/Cost of equity 7.11 percent",
+    "02 Atomic Notes/Debt weight 12.6 percent",
+    "02 Atomic Notes/Equity weight 87.4 percent",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check",
+    "02 Atomic Notes/Hershey debt to equity 14.37 percent",
+    "02 Atomic Notes/Pre-tax cost of debt 5.83 percent",
+    "02 Atomic Notes/WACC 6.78 percent",
     "03 Drafts/Milestone 2 - Driver Justifications",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo",
     "03 Drafts/Module 2 - Data pull",
     "03 Drafts/Module 2 - Data verification"
    ],
-   "html": "<h3>What it is</h3>\n<p>Dr. Payne's filled Q&amp;D workbook for Hershey, used as she sent it: FY2024 and FY2025 actuals and FY2026 to FY2028 forecasts on the Detail Data tab, dollars in millions, and the WACC calculation tab. The Module 2 copy (received 2026-10-05) replaced the team's own filled copy, kept in the repo history at tag <code>m2-done</code>; on 2026-10-05 it was replaced again by her Module 3 copy (\"Q&amp;D worksheet HSY video 3\"), which is the same file with the WACC calculation tab filled.</p>\n<h3>Key takeaways</h3>\n<ul>\n<li>The only source of the financial numbers on the site. <code>scripts/workbook_to_data.py</code> reads it and writes <code>site/data/financials.js</code>, which the Financials, Valuation, and The Call sections read.</li>\n<li>Actual columns come from the FY2025 and FY2024 Forms 10-K through the SEC's XBRL company facts (<a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a>); every cell is listed with tag, form, filing date, and accession number in <a class=\"wl\" href=\"#note=03%20Drafts/Module%202%20-%20Data%20pull\" data-note=\"03 Drafts/Module 2 - Data pull\">Module 2 - Data pull</a>, and a person checked each one on <a class=\"wl\" href=\"#note=03%20Drafts/Module%202%20-%20Data%20verification\" data-note=\"03 Drafts/Module 2 - Data verification\">Module 2 - Data verification</a>.</li>\n<li>Forecast columns come from the FactSet consensus export (<a class=\"wl\" href=\"#note=01%20Sources/S8%20FactSet%20consensus%20estimates%20for%20Hershey\" data-note=\"01 Sources/S8 FactSet consensus estimates for Hershey\">S8 FactSet consensus estimates for Hershey</a>); formula rows (EBIT, D&amp;A, NOPAT, change in NWC, FCFF, FCFE, interest) are the sheet's own, as Dr. Payne's copy has them; the Data pull note lists what differs from the team's earlier copy.</li>\n<li>Driver choices behind the forecast are argued in <a class=\"wl\" href=\"#note=03%20Drafts/Milestone%202%20-%20Driver%20Justifications\" data-note=\"03 Drafts/Milestone 2 - Driver Justifications\">Milestone 2 - Driver Justifications</a>.</li>\n<li>The WACC calculation tab (Module 3) gives a WACC of 6.78 percent; its inputs are argued and tagged in Milestone 3 - Cost of Capital Memo. Forecast interest expense now reads the cost of debt from it (253.8 in FY2026), so the sheet's FCFE changed. The DCF 1-Pager is Module 4.</li>\n</ul>\n<h3>Direct quotes</h3>\n<blockquote>None. The file is a spreadsheet.</blockquote>\n<h3>Atomic notes derived from this source</h3>\n<ul>\n<li>None yet. Site numbers from this workbook trace through <code>site/data/financials.js</code> and the Data pull note.</li>\n</ul>",
+   "html": "<h3>What it is</h3>\n<p>Dr. Payne's filled Q&amp;D workbook for Hershey, used as she sent it: FY2024 and FY2025 actuals and FY2026 to FY2028 forecasts on the Detail Data tab, dollars in millions, and the WACC calculation tab. The Module 2 copy (received 2026-10-05) replaced the team's own filled copy, kept in the repo history at tag <code>m2-done</code>; on 2026-10-05 it was replaced again by her Module 3 copy (\"Q&amp;D worksheet HSY video 3\"), which is the same file with the WACC calculation tab filled.</p>\n<h3>Key takeaways</h3>\n<ul>\n<li>The only source of the financial numbers on the site. <code>scripts/workbook_to_data.py</code> reads it and writes <code>site/data/financials.js</code>, which the Financials, Valuation, and The Call sections read.</li>\n<li>Actual columns come from the FY2025 and FY2024 Forms 10-K through the SEC's XBRL company facts (<a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a>); every cell is listed with tag, form, filing date, and accession number in <a class=\"wl\" href=\"#note=03%20Drafts/Module%202%20-%20Data%20pull\" data-note=\"03 Drafts/Module 2 - Data pull\">Module 2 - Data pull</a>, and a person checked each one on <a class=\"wl\" href=\"#note=03%20Drafts/Module%202%20-%20Data%20verification\" data-note=\"03 Drafts/Module 2 - Data verification\">Module 2 - Data verification</a>.</li>\n<li>Forecast columns come from the FactSet consensus export (<a class=\"wl\" href=\"#note=01%20Sources/S8%20FactSet%20consensus%20estimates%20for%20Hershey\" data-note=\"01 Sources/S8 FactSet consensus estimates for Hershey\">S8 FactSet consensus estimates for Hershey</a>); formula rows (EBIT, D&amp;A, NOPAT, change in NWC, FCFF, FCFE, interest) are the sheet's own, as Dr. Payne's copy has them; the Data pull note lists what differs from the team's earlier copy.</li>\n<li>Driver choices behind the forecast are argued in <a class=\"wl\" href=\"#note=03%20Drafts/Milestone%202%20-%20Driver%20Justifications\" data-note=\"03 Drafts/Milestone 2 - Driver Justifications\">Milestone 2 - Driver Justifications</a>.</li>\n<li>The WACC calculation tab (Module 3) gives a WACC of 6.78 percent; its inputs are argued and tagged in <a class=\"wl\" href=\"#note=03%20Drafts/Milestone%203%20-%20Cost%20of%20Capital%20Memo\" data-note=\"03 Drafts/Milestone 3 - Cost of Capital Memo\">Milestone 3 - Cost of Capital Memo</a>. Forecast interest expense now reads the cost of debt from it (253.8 in FY2026), so the sheet's FCFE changed. The DCF 1-Pager is Module 4.</li>\n</ul>\n<h3>Direct quotes</h3>\n<blockquote>None. The file is a spreadsheet.</blockquote>\n<h3>Atomic notes derived from this source</h3>\n<ul>\n<li>Site numbers from this workbook trace through <code>site/data/financials.js</code> and the Data pull note.</li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hershey%20debt%20to%20equity%2014.37%20percent\" data-note=\"02 Atomic Notes/Hershey debt to equity 14.37 percent\">Hershey debt to equity 14.37 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hamada%20beta%200.35%20cross-check\" data-note=\"02 Atomic Notes/Hamada beta 0.35 cross-check\">Hamada beta 0.35 cross-check</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cost%20of%20equity%207.11%20percent\" data-note=\"02 Atomic Notes/Cost of equity 7.11 percent\">Cost of equity 7.11 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Pre-tax%20cost%20of%20debt%205.83%20percent\" data-note=\"02 Atomic Notes/Pre-tax cost of debt 5.83 percent\">Pre-tax cost of debt 5.83 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/After-tax%20cost%20of%20debt%204.49%20percent\" data-note=\"02 Atomic Notes/After-tax cost of debt 4.49 percent\">After-tax cost of debt 4.49 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Equity%20weight%2087.4%20percent\" data-note=\"02 Atomic Notes/Equity weight 87.4 percent\">Equity weight 87.4 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Debt%20weight%2012.6%20percent\" data-note=\"02 Atomic Notes/Debt weight 12.6 percent\">Debt weight 12.6 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%206.78%20percent\" data-note=\"02 Atomic Notes/WACC 6.78 percent\">WACC 6.78 percent</a></li>\n</ul>",
    "id": "S9",
    "publisher": "FIN 5370 HSY team (Chris Lester)",
    "author": "Chris Lester",
@@ -342,7 +551,116 @@ window.NOTES = {
    "date_accessed": "2026-10-04",
    "file": "workbook/QD-HSY.xlsx",
    "linkedFrom": [
-    "00 Project Home"
+    "00 Project Home",
+    "02 Atomic Notes/After-tax cost of debt 4.49 percent",
+    "02 Atomic Notes/Cost of equity 7.11 percent",
+    "02 Atomic Notes/Debt weight 12.6 percent",
+    "02 Atomic Notes/Equity weight 87.4 percent",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check",
+    "02 Atomic Notes/Hershey debt to equity 14.37 percent",
+    "02 Atomic Notes/Pre-tax cost of debt 5.83 percent",
+    "02 Atomic Notes/WACC 6.78 percent",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026": {
+   "title": "10-year Treasury yield 5.28 percent on 2 October 2026",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "risk-free-rate",
+    "wacc"
+   ],
+   "sources": [
+    "01 Sources/S13 US Treasury daily par yield curve 2026"
+   ],
+   "linksTo": [
+    "01 Sources/S13 US Treasury daily par yield curve 2026",
+    "02 Atomic Notes/Cost of equity 7.11 percent",
+    "02 Atomic Notes/Pre-tax cost of debt 5.83 percent"
+   ],
+   "html": "<p>The 10-year US Treasury par yield was 5.28 percent on October 2, 2026.</p>\n<p>This is the risk-free rate in the cost of equity and the base of the pre-tax cost of debt. Each 0.10 point change moves the cost of equity and the pre-tax cost of debt by 0.10 point, and the WACC by about the same.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Look up the 10 Yr column for 10/02/2026 in S13. The WACC tab's link for this input (cell H9) points to Treasury's long-term rate page rather than the par yield curve; confirm which page the 5.28 percent came from.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cost%20of%20equity%207.11%20percent\" data-note=\"02 Atomic Notes/Cost of equity 7.11 percent\">Cost of equity 7.11 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Pre-tax%20cost%20of%20debt%205.83%20percent\" data-note=\"02 Atomic Notes/Pre-tax cost of debt 5.83 percent\">Pre-tax cost of debt 5.83 percent</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S13%20US%20Treasury%20daily%20par%20yield%20curve%202026\" data-note=\"01 Sources/S13 US Treasury daily par yield curve 2026\">S13 US Treasury daily par yield curve 2026</a></li>\n</ul>",
+   "tier": "R",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S13 US Treasury daily par yield curve 2026",
+    "02 Atomic Notes/Cost of equity 7.11 percent",
+    "02 Atomic Notes/Pre-tax cost of debt 5.83 percent",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/Adjusted beta 0.4102": {
+   "title": "Adjusted beta 0.4102",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/Adjusted beta 0.4102.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "beta",
+    "wacc"
+   ],
+   "sources": [
+    "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL"
+   ],
+   "linksTo": [
+    "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL",
+    "02 Atomic Notes/Cost of equity 7.11 percent",
+    "02 Atomic Notes/FactSet beta 0.34",
+    "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check",
+    "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006"
+   ],
+   "html": "<p>The beta used in Hershey's cost of equity is 0.4102, the raw regression beta of 0.1153 adjusted toward the market average of 1.</p>\n<p>It sets the cost of equity at 7.11 percent. It is the highest of the three beta estimates as the WACC tab shows them (0.35 Hamada, 0.34 FactSet), so the memo calls it conservative; see the Hamada note for a formula issue that may change that comparison.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Estimate: Chris Lester chose the adjusted beta because the raw beta is not distinguishable from zero and a defensive consumer staple should have a low beta, but not one near zero. Formula: (2/3) x 0.1153 + (1/3) x 1 = 0.4102. It is cell D10 on the WACC tab.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/HSY%20raw%20regression%20beta%200.1153%20over%2060%20months\" data-note=\"02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months\">HSY raw regression beta 0.1153 over 60 months</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Regression%20beta%20standard%20error%200.195%20and%20R-squared%200.006\" data-note=\"02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006\">Regression beta standard error 0.195 and R-squared 0.006</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hamada%20beta%200.35%20cross-check\" data-note=\"02 Atomic Notes/Hamada beta 0.35 cross-check\">Hamada beta 0.35 cross-check</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FactSet%20beta%200.34\" data-note=\"02 Atomic Notes/FactSet beta 0.34\">FactSet beta 0.34</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cost%20of%20equity%207.11%20percent\" data-note=\"02 Atomic Notes/Cost of equity 7.11 percent\">Cost of equity 7.11 percent</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S14%20Yahoo%20Finance%20monthly%20prices%20for%20HSY%20SPY%20and%20BIL\" data-note=\"01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL\">S14 Yahoo Finance monthly prices for HSY SPY and BIL</a></li>\n</ul>",
+   "tier": "E",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL",
+    "02 Atomic Notes/Cost of equity 7.11 percent",
+    "02 Atomic Notes/FactSet beta 0.34",
+    "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check",
+    "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/After-tax cost of debt 4.49 percent": {
+   "title": "After-tax cost of debt 4.49 percent",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/After-tax cost of debt 4.49 percent.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "cost-of-debt",
+    "wacc"
+   ],
+   "sources": [
+    "01 Sources/S9 Team Q&D workbook for Hershey"
+   ],
+   "linksTo": [
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/Debt weight 12.6 percent",
+    "02 Atomic Notes/Pre-tax cost of debt 5.83 percent",
+    "02 Atomic Notes/WACC 6.78 percent",
+    "02 Atomic Notes/WACC tax rate 22.96 percent"
+   ],
+   "html": "<p>Hershey's after-tax cost of debt is 4.49 percent.</p>\n<p>The cost of the 12.6 percent of capital that is debt in the WACC.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Formula: pre-tax cost of debt x (1 - tax rate) = 5.83% x (1 - 0.2296) = 4.49 percent (Derived).</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Pre-tax%20cost%20of%20debt%205.83%20percent\" data-note=\"02 Atomic Notes/Pre-tax cost of debt 5.83 percent\">Pre-tax cost of debt 5.83 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%20tax%20rate%2022.96%20percent\" data-note=\"02 Atomic Notes/WACC tax rate 22.96 percent\">WACC tax rate 22.96 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Debt%20weight%2012.6%20percent\" data-note=\"02 Atomic Notes/Debt weight 12.6 percent\">Debt weight 12.6 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%206.78%20percent\" data-note=\"02 Atomic Notes/WACC 6.78 percent\">WACC 6.78 percent</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S9%20Team%20Q&amp;amp;D%20workbook%20for%20Hershey\" data-note=\"01 Sources/S9 Team Q&amp;amp;D workbook for Hershey\">S9 Team Q&amp;D workbook for Hershey</a></li>\n</ul>",
+   "tier": "D",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/Debt weight 12.6 percent",
+    "02 Atomic Notes/Pre-tax cost of debt 5.83 percent",
+    "02 Atomic Notes/WACC 6.78 percent",
+    "02 Atomic Notes/WACC tax rate 22.96 percent",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
    ]
   },
   "02 Atomic Notes/Chocolate industry revenue growth about 2.5 percent a year": {
@@ -458,6 +776,140 @@ window.NOTES = {
     "02 Atomic Notes/Cocoa down more than 70 percent from late-2024 highs"
    ]
   },
+  "02 Atomic Notes/Cost of equity 7.11 percent": {
+   "title": "Cost of equity 7.11 percent",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/Cost of equity 7.11 percent.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "wacc"
+   ],
+   "sources": [
+    "01 Sources/S9 Team Q&D workbook for Hershey"
+   ],
+   "linksTo": [
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026",
+    "02 Atomic Notes/Adjusted beta 0.4102",
+    "02 Atomic Notes/Equity weight 87.4 percent",
+    "02 Atomic Notes/US equity risk premium 4.46 percent January 2026",
+    "02 Atomic Notes/WACC 6.78 percent"
+   ],
+   "html": "<p>Hershey's cost of equity is 7.11 percent.</p>\n<p>It carries 87.4 percent of the weight in the WACC, so it drives most of the discount rate used in the Module 4 valuation.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Formula: risk-free rate + beta x equity risk premium = 5.28% + 0.4102 x 4.46% = 7.11 percent (Derived). It is cell D11 on the WACC tab.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/10-year%20Treasury%20yield%205.28%20percent%20on%202%20October%202026\" data-note=\"02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026\">10-year Treasury yield 5.28 percent on 2 October 2026</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Adjusted%20beta%200.4102\" data-note=\"02 Atomic Notes/Adjusted beta 0.4102\">Adjusted beta 0.4102</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20equity%20risk%20premium%204.46%20percent%20January%202026\" data-note=\"02 Atomic Notes/US equity risk premium 4.46 percent January 2026\">US equity risk premium 4.46 percent January 2026</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Equity%20weight%2087.4%20percent\" data-note=\"02 Atomic Notes/Equity weight 87.4 percent\">Equity weight 87.4 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%206.78%20percent\" data-note=\"02 Atomic Notes/WACC 6.78 percent\">WACC 6.78 percent</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S9%20Team%20Q&amp;amp;D%20workbook%20for%20Hershey\" data-note=\"01 Sources/S9 Team Q&amp;amp;D workbook for Hershey\">S9 Team Q&amp;D workbook for Hershey</a></li>\n</ul>",
+   "tier": "D",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026",
+    "02 Atomic Notes/Adjusted beta 0.4102",
+    "02 Atomic Notes/Equity weight 87.4 percent",
+    "02 Atomic Notes/US equity risk premium 4.46 percent January 2026",
+    "02 Atomic Notes/WACC 6.78 percent",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/Debt valued at book value 4,681 million dollars": {
+   "title": "Debt valued at book value 4,681 million dollars",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/Debt valued at book value 4,681 million dollars.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "capital-structure",
+    "debt"
+   ],
+   "sources": [
+    "01 Sources/S1 Hershey Form 10-K FY2025"
+   ],
+   "linksTo": [
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/Debt weight 12.6 percent",
+    "02 Atomic Notes/Hershey debt to equity 14.37 percent"
+   ],
+   "html": "<p>The WACC uses Hershey's book value of long-term debt at December 31, 2025, 4,681 million dollars, as the market value of its debt.</p>\n<p>It sets the debt weight of 12.6 percent. If the notes trade well below par, market value would be lower and the debt weight slightly smaller.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Estimate: Chris Lester judged book value a reasonable stand-in for market value because Hershey's long-term debt is fixed-rate notes. The 4,681 figure itself is a workbook number (Detail Data, long-term debt, 2025A).</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Debt%20weight%2012.6%20percent\" data-note=\"02 Atomic Notes/Debt weight 12.6 percent\">Debt weight 12.6 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hershey%20debt%20to%20equity%2014.37%20percent\" data-note=\"02 Atomic Notes/Hershey debt to equity 14.37 percent\">Hershey debt to equity 14.37 percent</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a></li>\n</ul>",
+   "tier": "E",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/Debt weight 12.6 percent",
+    "02 Atomic Notes/Hershey debt to equity 14.37 percent",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/Debt weight 12.6 percent": {
+   "title": "Debt weight 12.6 percent",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/Debt weight 12.6 percent.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "capital-structure",
+    "wacc"
+   ],
+   "sources": [
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "01 Sources/S9 Team Q&D workbook for Hershey"
+   ],
+   "linksTo": [
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/After-tax cost of debt 4.49 percent",
+    "02 Atomic Notes/Debt valued at book value 4,681 million dollars",
+    "02 Atomic Notes/Equity weight 87.4 percent",
+    "02 Atomic Notes/WACC 6.78 percent"
+   ],
+   "html": "<p>Debt is 12.6 percent of Hershey's capital: 4,681 million dollars of 37,263.6 million dollars.</p>\n<p>The weight on the 4.49 percent after-tax cost of debt in the WACC.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Formula: book value of debt / (market value of equity + book value of debt) = 4,681 / 37,263.6 = 12.6 percent (Derived). It is cell D4 on the WACC tab.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Equity%20weight%2087.4%20percent\" data-note=\"02 Atomic Notes/Equity weight 87.4 percent\">Equity weight 87.4 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Debt%20valued%20at%20book%20value%204,681%20million%20dollars\" data-note=\"02 Atomic Notes/Debt valued at book value 4,681 million dollars\">Debt valued at book value 4,681 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/After-tax%20cost%20of%20debt%204.49%20percent\" data-note=\"02 Atomic Notes/After-tax cost of debt 4.49 percent\">After-tax cost of debt 4.49 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%206.78%20percent\" data-note=\"02 Atomic Notes/WACC 6.78 percent\">WACC 6.78 percent</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S9%20Team%20Q&amp;amp;D%20workbook%20for%20Hershey\" data-note=\"01 Sources/S9 Team Q&amp;amp;D workbook for Hershey\">S9 Team Q&amp;D workbook for Hershey</a></li>\n</ul>",
+   "tier": "D",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/After-tax cost of debt 4.49 percent",
+    "02 Atomic Notes/Debt valued at book value 4,681 million dollars",
+    "02 Atomic Notes/Equity weight 87.4 percent",
+    "02 Atomic Notes/WACC 6.78 percent",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/Equity weight 87.4 percent": {
+   "title": "Equity weight 87.4 percent",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/Equity weight 87.4 percent.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "capital-structure",
+    "wacc"
+   ],
+   "sources": [
+    "01 Sources/S9 Team Q&D workbook for Hershey"
+   ],
+   "linksTo": [
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/Cost of equity 7.11 percent",
+    "02 Atomic Notes/Debt weight 12.6 percent",
+    "02 Atomic Notes/WACC 6.78 percent"
+   ],
+   "html": "<p>Equity is 87.4 percent of Hershey's capital at market value: 32,582.6 million dollars of 37,263.6 million dollars.</p>\n<p>The weight on the 7.11 percent cost of equity in the WACC.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Formula: market value of equity / (market value of equity + book value of debt) = 32,582.6 / (32,582.6 + 4,681) = 87.4 percent (Derived). Market value of equity = 203.4 million diluted shares x 160.19 dollars, the close on October 2, 2026; that share price has no source note yet (see Numbers we still need). It is cell D3 on the WACC tab.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Debt%20weight%2012.6%20percent\" data-note=\"02 Atomic Notes/Debt weight 12.6 percent\">Debt weight 12.6 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cost%20of%20equity%207.11%20percent\" data-note=\"02 Atomic Notes/Cost of equity 7.11 percent\">Cost of equity 7.11 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%206.78%20percent\" data-note=\"02 Atomic Notes/WACC 6.78 percent\">WACC 6.78 percent</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S9%20Team%20Q&amp;amp;D%20workbook%20for%20Hershey\" data-note=\"01 Sources/S9 Team Q&amp;amp;D workbook for Hershey\">S9 Team Q&amp;D workbook for Hershey</a></li>\n</ul>",
+   "tier": "D",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/Cost of equity 7.11 percent",
+    "02 Atomic Notes/Debt weight 12.6 percent",
+    "02 Atomic Notes/WACC 6.78 percent",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
   "02 Atomic Notes/FY2023 net sales growth 7.2 percent": {
    "title": "FY2023 net sales growth 7.2 percent",
    "type": "atomic",
@@ -513,6 +965,34 @@ window.NOTES = {
     "00 Project Home",
     "01 Sources/S1 Hershey Form 10-K FY2025",
     "02 Atomic Notes/FY2024 operating margin 25.9 percent",
+    "03 Drafts/Milestone 2 - Driver Justifications"
+   ]
+  },
+  "02 Atomic Notes/FY2024 effective tax rate 10.2 percent": {
+   "title": "FY2024 effective tax rate 10.2 percent",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/FY2024 effective tax rate 10.2 percent.md",
+   "tags": [
+    "hershey",
+    "income-statement",
+    "tax",
+    "fy2024"
+   ],
+   "sources": [
+    "01 Sources/S1 Hershey Form 10-K FY2025"
+   ],
+   "linksTo": [
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/FY2025 effective tax rate 27.3 percent"
+   ],
+   "html": "<p>Hershey's effective tax rate in fiscal 2024 was 10.2 percent: 252.7 million dollars of income taxes on 2,473.9 million dollars of pre-tax income.</p>\n<p>The Milestone 2 memo sets this year aside as depressed by a one-time item, so it is not used as a benchmark for the forecast tax rate. If the item recurs, the forecast tax rate would be too high.</p>\n<p>Check: Filed from the Milestone 2 Driver Justifications. Not yet checked against the source; check it there, then set status to confirmed. Formula: income taxes / (net income + income taxes) = 252.7 / (2,221.2 + 252.7) = 10.2 percent (Derived). Also confirm in the 10-K's income tax note what the one-time item was.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20effective%20tax%20rate%2027.3%20percent\" data-note=\"02 Atomic Notes/FY2025 effective tax rate 27.3 percent\">FY2025 effective tax rate 27.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a></li>\n</ul>",
+   "tier": "D",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/FY2025 effective tax rate 27.3 percent",
     "03 Drafts/Milestone 2 - Driver Justifications"
    ]
   },
@@ -631,6 +1111,101 @@ window.NOTES = {
     "03 Drafts/Milestone 2 - Driver Justifications"
    ]
   },
+  "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars": {
+   "title": "FY2025 International segment net sales 941.6 million dollars",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "country-risk",
+    "segment",
+    "fy2025"
+   ],
+   "sources": [
+    "01 Sources/S1 Hershey Form 10-K FY2025"
+   ],
+   "linksTo": [
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/FY2025 US share of net sales 87.7 percent",
+    "02 Atomic Notes/FY2025 net sales 11.69 billion dollars",
+    "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales"
+   ],
+   "html": "<p>Hershey's International segment had net sales of 941.6 million dollars in fiscal 2025, 8.1 percent of total net sales.</p>\n<p>The segment most exposed to non-US country risk. Its small share supports the memo's choice not to add a country premium.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Find the segment results table in S1 (the memo cites page 29). The 8.1 percent is 941.6 / 11,692.6 (Derived).</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20US%20share%20of%20net%20sales%2087.7%20percent\" data-note=\"02 Atomic Notes/FY2025 US share of net sales 87.7 percent\">FY2025 US share of net sales 87.7 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/No%20country%20risk%20adjustment%20for%2012.3%20percent%20non-US%20sales\" data-note=\"02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales\">No country risk adjustment for 12.3 percent non-US sales</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20sales%2011.69%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 net sales 11.69 billion dollars\">FY2025 net sales 11.69 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a></li>\n</ul>",
+   "tier": "R",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars": {
+   "title": "FY2025 US net sales 10.25 billion dollars",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/FY2025 US net sales 10.25 billion dollars.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "country-risk",
+    "revenue",
+    "fy2025"
+   ],
+   "sources": [
+    "01 Sources/S1 Hershey Form 10-K FY2025"
+   ],
+   "linksTo": [
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/FY2025 US share of net sales 87.7 percent",
+    "02 Atomic Notes/FY2025 net sales 11.69 billion dollars",
+    "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales"
+   ],
+   "html": "<p>Hershey's United States net sales were 10,251.6 million dollars in fiscal 2025.</p>\n<p>Shows that most of Hershey's sales carry only US country risk, which the US equity risk premium already covers.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Find the net sales by geography table in S1 (the memo cites page 93).</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20US%20share%20of%20net%20sales%2087.7%20percent\" data-note=\"02 Atomic Notes/FY2025 US share of net sales 87.7 percent\">FY2025 US share of net sales 87.7 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20sales%2011.69%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 net sales 11.69 billion dollars\">FY2025 net sales 11.69 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/No%20country%20risk%20adjustment%20for%2012.3%20percent%20non-US%20sales\" data-note=\"02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales\">No country risk adjustment for 12.3 percent non-US sales</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a></li>\n</ul>",
+   "tier": "R",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/FY2025 US share of net sales 87.7 percent",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/FY2025 US share of net sales 87.7 percent": {
+   "title": "FY2025 US share of net sales 87.7 percent",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/FY2025 US share of net sales 87.7 percent.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "country-risk",
+    "revenue",
+    "fy2025"
+   ],
+   "sources": [
+    "01 Sources/S1 Hershey Form 10-K FY2025"
+   ],
+   "linksTo": [
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars",
+    "02 Atomic Notes/FY2025 net sales 11.69 billion dollars",
+    "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales"
+   ],
+   "html": "<p>The United States was 87.7 percent of Hershey's net sales in fiscal 2025.</p>\n<p>The memo's main reason for using a single US equity risk premium with no country adjustment.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Formula: US net sales / total net sales = 10,251.6 / 11,692.6 = 87.7 percent (Derived).</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20US%20net%20sales%2010.25%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 US net sales 10.25 billion dollars\">FY2025 US net sales 10.25 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20sales%2011.69%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 net sales 11.69 billion dollars\">FY2025 net sales 11.69 billion dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/No%20country%20risk%20adjustment%20for%2012.3%20percent%20non-US%20sales\" data-note=\"02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales\">No country risk adjustment for 12.3 percent non-US sales</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a></li>\n</ul>",
+   "tier": "D",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars",
+    "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars",
+    "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
   "02 Atomic Notes/FY2025 capex 3.9 percent of net sales": {
    "title": "FY2025 capex 3.9 percent of net sales",
    "type": "atomic",
@@ -746,6 +1321,36 @@ window.NOTES = {
     "02 Atomic Notes/FY2025 operating cash flow 2.28 billion dollars"
    ]
   },
+  "02 Atomic Notes/FY2025 effective tax rate 27.3 percent": {
+   "title": "FY2025 effective tax rate 27.3 percent",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/FY2025 effective tax rate 27.3 percent.md",
+   "tags": [
+    "hershey",
+    "income-statement",
+    "tax",
+    "fy2025"
+   ],
+   "sources": [
+    "01 Sources/S1 Hershey Form 10-K FY2025"
+   ],
+   "linksTo": [
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/FY2024 effective tax rate 10.2 percent",
+    "02 Atomic Notes/WACC tax rate 22.96 percent"
+   ],
+   "html": "<p>Hershey's effective tax rate in fiscal 2025 was 27.3 percent: 330.9 million dollars of income taxes on 1,214.2 million dollars of pre-tax income.</p>\n<p>The Milestone 2 benchmark for the consensus tax rate (25.9 to 25.1 percent in FY2026 to FY2028), which sets NOPAT and so FCFF. It differs from the 22.96 percent on the WACC tab because the tab divides taxes by operating income, not pre-tax income.</p>\n<p>Check: Filed from the Milestone 2 Driver Justifications. Not yet checked against the source; check it there, then set status to confirmed. Formula: income taxes / pre-tax income = 330.9 / (883.3 + 330.9) = 330.9 / 1,214.2 = 27.3 percent (Derived).</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20effective%20tax%20rate%2010.2%20percent\" data-note=\"02 Atomic Notes/FY2024 effective tax rate 10.2 percent\">FY2024 effective tax rate 10.2 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%20tax%20rate%2022.96%20percent\" data-note=\"02 Atomic Notes/WACC tax rate 22.96 percent\">WACC tax rate 22.96 percent</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a></li>\n</ul>",
+   "tier": "D",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/FY2024 effective tax rate 10.2 percent",
+    "02 Atomic Notes/WACC tax rate 22.96 percent",
+    "03 Drafts/Milestone 2 - Driver Justifications"
+   ]
+  },
   "02 Atomic Notes/FY2025 gross margin 33.5 percent": {
    "title": "FY2025 gross margin 33.5 percent",
    "type": "atomic",
@@ -776,6 +1381,36 @@ window.NOTES = {
     "02 Atomic Notes/FY2025 operating margin 12.3 percent",
     "02 Atomic Notes/Q1 2026 adjusted gross margin 40.4 percent",
     "03 Drafts/Milestone 2 - Driver Justifications"
+   ]
+  },
+  "02 Atomic Notes/FY2025 interest coverage 7.58": {
+   "title": "FY2025 interest coverage 7.58",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/FY2025 interest coverage 7.58.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "cost-of-debt",
+    "fy2025"
+   ],
+   "sources": [
+    "01 Sources/S1 Hershey Form 10-K FY2025"
+   ],
+   "linksTo": [
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/FY2025 operating margin 12.3 percent",
+    "02 Atomic Notes/Pre-tax cost of debt 5.83 percent",
+    "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread"
+   ],
+   "html": "<p>Hershey's interest coverage in fiscal 2025 was 7.58: operating income of 1,441.5 million dollars over net interest expense of 190.2 million dollars.</p>\n<p>Coverage sets the synthetic rating and default spread, and so the pre-tax cost of debt. FY2025 operating income was depressed by peak cocoa costs, so coverage is likely to rise as margins recover.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Formula: operating income / net interest expense = 1,441.5 / 190.2 = 7.58 (Derived). The memo cites S1 pages 27 and 53. It is cell C31 on the WACC tab.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Synthetic%20rating%20Aa2%20AA%20with%200.55%20percent%20default%20spread\" data-note=\"02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread\">Synthetic rating Aa2 AA with 0.55 percent default spread</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Pre-tax%20cost%20of%20debt%205.83%20percent\" data-note=\"02 Atomic Notes/Pre-tax cost of debt 5.83 percent\">Pre-tax cost of debt 5.83 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20operating%20margin%2012.3%20percent\" data-note=\"02 Atomic Notes/FY2025 operating margin 12.3 percent\">FY2025 operating margin 12.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a></li>\n</ul>",
+   "tier": "D",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
    ]
   },
   "02 Atomic Notes/FY2025 net income 883 million dollars": {
@@ -831,8 +1466,12 @@ window.NOTES = {
    "linkedFrom": [
     "00 Project Home",
     "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars",
+    "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars",
+    "02 Atomic Notes/FY2025 US share of net sales 87.7 percent",
     "02 Atomic Notes/FY2025 capex 3.9 percent of net sales",
-    "02 Atomic Notes/FY2025 net sales growth 4.4 percent"
+    "02 Atomic Notes/FY2025 net sales growth 4.4 percent",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
    ]
   },
   "02 Atomic Notes/FY2025 net sales growth 4.4 percent": {
@@ -921,6 +1560,7 @@ window.NOTES = {
     "01 Sources/S1 Hershey Form 10-K FY2025",
     "02 Atomic Notes/FY2023 operating margin 22.9 percent",
     "02 Atomic Notes/FY2024 operating margin 25.9 percent",
+    "02 Atomic Notes/FY2025 interest coverage 7.58",
     "03 Drafts/Milestone 2 - Driver Justifications"
    ]
   },
@@ -1014,6 +1654,338 @@ window.NOTES = {
     "01 Sources/S5 FoodNavigator Hershey profit surge article",
     "02 Atomic Notes/Q1 2026 adjusted gross margin 40.4 percent",
     "03 Drafts/Milestone 2 - Driver Justifications"
+   ]
+  },
+  "02 Atomic Notes/FactSet beta 0.34": {
+   "title": "FactSet beta 0.34",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/FactSet beta 0.34.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "beta"
+   ],
+   "sources": [
+    "01 Sources/S8 FactSet consensus estimates for Hershey"
+   ],
+   "linksTo": [
+    "01 Sources/S8 FactSet consensus estimates for Hershey",
+    "02 Atomic Notes/Adjusted beta 0.4102",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check"
+   ],
+   "html": "<p>FactSet's beta for Hershey is 0.34.</p>\n<p>The second cross-check on the adjusted beta of 0.4102. All three estimates sit far below the market beta of 1, as a defensive consumer staple should.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Confirm the figure in FactSet and record its basis (period, frequency, and index). The memo cites the FactSet terminal for it; the S8 export was saved on 2026-10-04. It is cell F10 on the WACC tab.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Adjusted%20beta%200.4102\" data-note=\"02 Atomic Notes/Adjusted beta 0.4102\">Adjusted beta 0.4102</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hamada%20beta%200.35%20cross-check\" data-note=\"02 Atomic Notes/Hamada beta 0.35 cross-check\">Hamada beta 0.35 cross-check</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S8%20FactSet%20consensus%20estimates%20for%20Hershey\" data-note=\"01 Sources/S8 FactSet consensus estimates for Hershey\">S8 FactSet consensus estimates for Hershey</a></li>\n</ul>",
+   "tier": "R",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S8 FactSet consensus estimates for Hershey",
+    "02 Atomic Notes/Adjusted beta 0.4102",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/Food processing industry beta 0.61": {
+   "title": "Food processing industry beta 0.61",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/Food processing industry beta 0.61.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "beta",
+    "industry"
+   ],
+   "sources": [
+    "01 Sources/S10 Damodaran betas by sector January 2026"
+   ],
+   "linksTo": [
+    "01 Sources/S10 Damodaran betas by sector January 2026",
+    "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+    "02 Atomic Notes/Food processing industry tax rate 10.37 percent",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check"
+   ],
+   "html": "<p>Damodaran's average beta for the US Food Processing industry was 0.61 in January 2026.</p>\n<p>The industry beta behind the Hamada cross-check on Hershey's beta.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Find the Food Processing row, beta column, in S10.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20debt%20to%20equity%2043.73%20percent\" data-note=\"02 Atomic Notes/Food processing industry debt to equity 43.73 percent\">Food processing industry debt to equity 43.73 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20tax%20rate%2010.37%20percent\" data-note=\"02 Atomic Notes/Food processing industry tax rate 10.37 percent\">Food processing industry tax rate 10.37 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hamada%20beta%200.35%20cross-check\" data-note=\"02 Atomic Notes/Hamada beta 0.35 cross-check\">Hamada beta 0.35 cross-check</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S10%20Damodaran%20betas%20by%20sector%20January%202026\" data-note=\"01 Sources/S10 Damodaran betas by sector January 2026\">S10 Damodaran betas by sector January 2026</a></li>\n</ul>",
+   "tier": "R",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S10 Damodaran betas by sector January 2026",
+    "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+    "02 Atomic Notes/Food processing industry tax rate 10.37 percent",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/Food processing industry debt to equity 43.73 percent": {
+   "title": "Food processing industry debt to equity 43.73 percent",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/Food processing industry debt to equity 43.73 percent.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "industry"
+   ],
+   "sources": [
+    "01 Sources/S10 Damodaran betas by sector January 2026"
+   ],
+   "linksTo": [
+    "01 Sources/S10 Damodaran betas by sector January 2026",
+    "02 Atomic Notes/Food processing industry beta 0.61",
+    "02 Atomic Notes/Food processing industry tax rate 10.37 percent",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check",
+    "02 Atomic Notes/Hershey debt to equity 14.37 percent"
+   ],
+   "html": "<p>Damodaran's average debt-to-equity ratio for the US Food Processing industry was 43.73 percent in January 2026.</p>\n<p>Used to unlever the industry beta in the Hamada cross-check. Hershey's own ratio is much lower, at 14.37 percent.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Find the Food Processing row, D/E ratio column, in S10.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20beta%200.61\" data-note=\"02 Atomic Notes/Food processing industry beta 0.61\">Food processing industry beta 0.61</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20tax%20rate%2010.37%20percent\" data-note=\"02 Atomic Notes/Food processing industry tax rate 10.37 percent\">Food processing industry tax rate 10.37 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hamada%20beta%200.35%20cross-check\" data-note=\"02 Atomic Notes/Hamada beta 0.35 cross-check\">Hamada beta 0.35 cross-check</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hershey%20debt%20to%20equity%2014.37%20percent\" data-note=\"02 Atomic Notes/Hershey debt to equity 14.37 percent\">Hershey debt to equity 14.37 percent</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S10%20Damodaran%20betas%20by%20sector%20January%202026\" data-note=\"01 Sources/S10 Damodaran betas by sector January 2026\">S10 Damodaran betas by sector January 2026</a></li>\n</ul>",
+   "tier": "R",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S10 Damodaran betas by sector January 2026",
+    "02 Atomic Notes/Food processing industry beta 0.61",
+    "02 Atomic Notes/Food processing industry tax rate 10.37 percent",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check",
+    "02 Atomic Notes/Hershey debt to equity 14.37 percent",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/Food processing industry tax rate 10.37 percent": {
+   "title": "Food processing industry tax rate 10.37 percent",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/Food processing industry tax rate 10.37 percent.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "industry",
+    "tax"
+   ],
+   "sources": [
+    "01 Sources/S10 Damodaran betas by sector January 2026"
+   ],
+   "linksTo": [
+    "01 Sources/S10 Damodaran betas by sector January 2026",
+    "02 Atomic Notes/Food processing industry beta 0.61",
+    "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check"
+   ],
+   "html": "<p>Damodaran's average effective tax rate for the US Food Processing industry was 10.37 percent in January 2026.</p>\n<p>Used to unlever the industry beta in the Hamada cross-check.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Find the Food Processing row, effective tax rate column, in S10.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20beta%200.61\" data-note=\"02 Atomic Notes/Food processing industry beta 0.61\">Food processing industry beta 0.61</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20debt%20to%20equity%2043.73%20percent\" data-note=\"02 Atomic Notes/Food processing industry debt to equity 43.73 percent\">Food processing industry debt to equity 43.73 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hamada%20beta%200.35%20cross-check\" data-note=\"02 Atomic Notes/Hamada beta 0.35 cross-check\">Hamada beta 0.35 cross-check</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S10%20Damodaran%20betas%20by%20sector%20January%202026\" data-note=\"01 Sources/S10 Damodaran betas by sector January 2026\">S10 Damodaran betas by sector January 2026</a></li>\n</ul>",
+   "tier": "R",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S10 Damodaran betas by sector January 2026",
+    "02 Atomic Notes/Food processing industry beta 0.61",
+    "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months": {
+   "title": "HSY raw regression beta 0.1153 over 60 months",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "beta"
+   ],
+   "sources": [
+    "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL"
+   ],
+   "linksTo": [
+    "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL",
+    "02 Atomic Notes/Adjusted beta 0.4102",
+    "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006"
+   ],
+   "html": "<p>Hershey's raw beta from a regression of 60 monthly excess returns (September 2021 to August 2026) on those of the S&amp;P 500 (SPY), with BIL as the risk-free return, is 0.1153.</p>\n<p>The starting point for the adjusted beta of 0.4102 used in the cost of equity. On its own it would put the cost of equity near the risk-free rate.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Formula: slope of an ordinary least squares regression of (HSY monthly return minus BIL monthly return) on (SPY monthly return minus BIL monthly return), 60 months of adjusted prices from S14 (Derived). It is cell G10 on the WACC tab.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Regression%20beta%20standard%20error%200.195%20and%20R-squared%200.006\" data-note=\"02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006\">Regression beta standard error 0.195 and R-squared 0.006</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Adjusted%20beta%200.4102\" data-note=\"02 Atomic Notes/Adjusted beta 0.4102\">Adjusted beta 0.4102</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S14%20Yahoo%20Finance%20monthly%20prices%20for%20HSY%20SPY%20and%20BIL\" data-note=\"01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL\">S14 Yahoo Finance monthly prices for HSY SPY and BIL</a></li>\n</ul>",
+   "tier": "D",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL",
+    "02 Atomic Notes/Adjusted beta 0.4102",
+    "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/Hamada beta 0.35 cross-check": {
+   "title": "Hamada beta 0.35 cross-check",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/Hamada beta 0.35 cross-check.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "beta"
+   ],
+   "sources": [
+    "01 Sources/S10 Damodaran betas by sector January 2026",
+    "01 Sources/S9 Team Q&D workbook for Hershey"
+   ],
+   "linksTo": [
+    "01 Sources/S10 Damodaran betas by sector January 2026",
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/Adjusted beta 0.4102",
+    "02 Atomic Notes/FactSet beta 0.34",
+    "02 Atomic Notes/Food processing industry beta 0.61",
+    "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+    "02 Atomic Notes/Food processing industry tax rate 10.37 percent",
+    "02 Atomic Notes/Hershey debt to equity 14.37 percent",
+    "02 Atomic Notes/WACC tax rate 22.96 percent"
+   ],
+   "html": "<p>The WACC tab's Hamada cross-check gives Hershey a beta of 0.35, from the Food Processing average beta of 0.61 unlevered at the industry's capital structure and relevered at Hershey's.</p>\n<p>One of the two cross-checks on the adjusted beta of 0.4102. If the corrected figure (below) is right, Hamada gives the highest of the three betas, and the memo's sentence that the adjusted beta is the highest would need to change. The WACC itself does not change, because Hamada is a cross-check only.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Formula as intended: unlevered beta = 0.61 / (1 + (1 - 0.1037) x 0.4373); relevered beta = unlevered x (1 + (1 - 0.2296) x 0.1437) (Derived). Formula issue found 2026-10-05: cell C24 on the WACC tab reads =C21/(1+(1-C23*C22)), with a misplaced bracket. The intended =C21/(1+(1-C23)*C22) gives an unlevered beta of 0.438 (not 0.312) and a relevered beta of 0.49 (not 0.35). The team fixes the cell by hand in Excel, then updates this note and the memo.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20beta%200.61\" data-note=\"02 Atomic Notes/Food processing industry beta 0.61\">Food processing industry beta 0.61</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20debt%20to%20equity%2043.73%20percent\" data-note=\"02 Atomic Notes/Food processing industry debt to equity 43.73 percent\">Food processing industry debt to equity 43.73 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20tax%20rate%2010.37%20percent\" data-note=\"02 Atomic Notes/Food processing industry tax rate 10.37 percent\">Food processing industry tax rate 10.37 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hershey%20debt%20to%20equity%2014.37%20percent\" data-note=\"02 Atomic Notes/Hershey debt to equity 14.37 percent\">Hershey debt to equity 14.37 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%20tax%20rate%2022.96%20percent\" data-note=\"02 Atomic Notes/WACC tax rate 22.96 percent\">WACC tax rate 22.96 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Adjusted%20beta%200.4102\" data-note=\"02 Atomic Notes/Adjusted beta 0.4102\">Adjusted beta 0.4102</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FactSet%20beta%200.34\" data-note=\"02 Atomic Notes/FactSet beta 0.34\">FactSet beta 0.34</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S10%20Damodaran%20betas%20by%20sector%20January%202026\" data-note=\"01 Sources/S10 Damodaran betas by sector January 2026\">S10 Damodaran betas by sector January 2026</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S9%20Team%20Q&amp;amp;D%20workbook%20for%20Hershey\" data-note=\"01 Sources/S9 Team Q&amp;amp;D workbook for Hershey\">S9 Team Q&amp;D workbook for Hershey</a></li>\n</ul>",
+   "tier": "D",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S10 Damodaran betas by sector January 2026",
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/Adjusted beta 0.4102",
+    "02 Atomic Notes/FactSet beta 0.34",
+    "02 Atomic Notes/Food processing industry beta 0.61",
+    "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+    "02 Atomic Notes/Food processing industry tax rate 10.37 percent",
+    "02 Atomic Notes/Hershey debt to equity 14.37 percent",
+    "02 Atomic Notes/WACC tax rate 22.96 percent",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/Hershey debt to equity 14.37 percent": {
+   "title": "Hershey debt to equity 14.37 percent",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/Hershey debt to equity 14.37 percent.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "capital-structure"
+   ],
+   "sources": [
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "01 Sources/S9 Team Q&D workbook for Hershey"
+   ],
+   "linksTo": [
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/Debt valued at book value 4,681 million dollars",
+    "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check"
+   ],
+   "html": "<p>Hershey's debt-to-equity ratio at market value of equity is 14.37 percent: 4,681 million dollars of long-term debt on 32,582.6 million dollars of equity.</p>\n<p>Used to relever the industry beta in the Hamada cross-check. It is far below the Food Processing average of 43.73 percent, which is one reason Hershey's beta sits low.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Formula: book value of long-term debt / market value of equity = 4,681 / 32,582.6 = 14.37 percent (Derived). It is cell C27 on the WACC tab.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Debt%20valued%20at%20book%20value%204,681%20million%20dollars\" data-note=\"02 Atomic Notes/Debt valued at book value 4,681 million dollars\">Debt valued at book value 4,681 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20debt%20to%20equity%2043.73%20percent\" data-note=\"02 Atomic Notes/Food processing industry debt to equity 43.73 percent\">Food processing industry debt to equity 43.73 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hamada%20beta%200.35%20cross-check\" data-note=\"02 Atomic Notes/Hamada beta 0.35 cross-check\">Hamada beta 0.35 cross-check</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S9%20Team%20Q&amp;amp;D%20workbook%20for%20Hershey\" data-note=\"01 Sources/S9 Team Q&amp;amp;D workbook for Hershey\">S9 Team Q&amp;D workbook for Hershey</a></li>\n</ul>",
+   "tier": "D",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/Debt valued at book value 4,681 million dollars",
+    "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons": {
+   "title": "Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "cost-of-debt",
+    "debt"
+   ],
+   "sources": [
+    "01 Sources/S1 Hershey Form 10-K FY2025"
+   ],
+   "linksTo": [
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/Pre-tax cost of debt 5.83 percent"
+   ],
+   "html": "<p>Hershey's notes due 2028 to 2035, sold in February 2025, carry coupons of 4.55 to 5.10 percent.</p>\n<p>What Hershey actually pays on recent debt, used as a check on the 5.83 percent synthetic pre-tax cost of debt.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Find the notes issued in February 2025 in the debt note of S1 and confirm the coupon range and maturities.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Pre-tax%20cost%20of%20debt%205.83%20percent\" data-note=\"02 Atomic Notes/Pre-tax cost of debt 5.83 percent\">Pre-tax cost of debt 5.83 percent</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a></li>\n</ul>",
+   "tier": "R",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/Pre-tax cost of debt 5.83 percent",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales": {
+   "title": "No country risk adjustment for 12.3 percent non-US sales",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "country-risk",
+    "wacc"
+   ],
+   "sources": [
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "01 Sources/S12 Damodaran country risk premiums January 2026"
+   ],
+   "linksTo": [
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "01 Sources/S12 Damodaran country risk premiums January 2026",
+    "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars",
+    "02 Atomic Notes/FY2025 US share of net sales 87.7 percent",
+    "02 Atomic Notes/US country default spread 0.23 percent January 2026",
+    "02 Atomic Notes/US equity risk premium 4.46 percent January 2026"
+   ],
+   "html": "<p>The WACC carries no country risk adjustment for the 12.3 percent of Hershey's fiscal 2025 net sales made outside the United States.</p>\n<p>If that share grew, or were concentrated in high-risk countries, a blended country premium would raise the cost of equity.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Estimate: Chris Lester judged 12.3 percent of sales too small to change the WACC. The 12.3 percent is 100 percent - 87.7 percent.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20US%20share%20of%20net%20sales%2087.7%20percent\" data-note=\"02 Atomic Notes/FY2025 US share of net sales 87.7 percent\">FY2025 US share of net sales 87.7 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20International%20segment%20net%20sales%20941.6%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars\">FY2025 International segment net sales 941.6 million dollars</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20equity%20risk%20premium%204.46%20percent%20January%202026\" data-note=\"02 Atomic Notes/US equity risk premium 4.46 percent January 2026\">US equity risk premium 4.46 percent January 2026</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20country%20default%20spread%200.23%20percent%20January%202026\" data-note=\"02 Atomic Notes/US country default spread 0.23 percent January 2026\">US country default spread 0.23 percent January 2026</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S12%20Damodaran%20country%20risk%20premiums%20January%202026\" data-note=\"01 Sources/S12 Damodaran country risk premiums January 2026\">S12 Damodaran country risk premiums January 2026</a></li>\n</ul>",
+   "tier": "E",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "01 Sources/S12 Damodaran country risk premiums January 2026",
+    "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars",
+    "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars",
+    "02 Atomic Notes/FY2025 US share of net sales 87.7 percent",
+    "02 Atomic Notes/US country default spread 0.23 percent January 2026",
+    "02 Atomic Notes/US equity risk premium 4.46 percent January 2026",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/Pre-tax cost of debt 5.83 percent": {
+   "title": "Pre-tax cost of debt 5.83 percent",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/Pre-tax cost of debt 5.83 percent.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "cost-of-debt",
+    "wacc"
+   ],
+   "sources": [
+    "01 Sources/S9 Team Q&D workbook for Hershey"
+   ],
+   "linksTo": [
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026",
+    "02 Atomic Notes/After-tax cost of debt 4.49 percent",
+    "02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons",
+    "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread"
+   ],
+   "html": "<p>Hershey's pre-tax cost of debt is 5.83 percent.</p>\n<p>The starting point for the after-tax cost of debt in the WACC. It is in line with the 4.55 to 5.10 percent coupons on Hershey's notes sold in February 2025, which supports it.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Formula: risk-free rate + default spread = 5.28% + 0.55% = 5.83 percent (Derived). It is cell D13 on the WACC tab.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/10-year%20Treasury%20yield%205.28%20percent%20on%202%20October%202026\" data-note=\"02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026\">10-year Treasury yield 5.28 percent on 2 October 2026</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Synthetic%20rating%20Aa2%20AA%20with%200.55%20percent%20default%20spread\" data-note=\"02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread\">Synthetic rating Aa2 AA with 0.55 percent default spread</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hershey%20notes%20due%202028%20to%202035%20carry%204.55%20to%205.10%20percent%20coupons\" data-note=\"02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons\">Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/After-tax%20cost%20of%20debt%204.49%20percent\" data-note=\"02 Atomic Notes/After-tax cost of debt 4.49 percent\">After-tax cost of debt 4.49 percent</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S9%20Team%20Q&amp;amp;D%20workbook%20for%20Hershey\" data-note=\"01 Sources/S9 Team Q&amp;amp;D workbook for Hershey\">S9 Team Q&amp;D workbook for Hershey</a></li>\n</ul>",
+   "tier": "D",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026",
+    "02 Atomic Notes/After-tax cost of debt 4.49 percent",
+    "02 Atomic Notes/FY2025 interest coverage 7.58",
+    "02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons",
+    "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
    ]
   },
   "02 Atomic Notes/Q1 2026 adjusted gross margin 40.4 percent": {
@@ -1202,6 +2174,64 @@ window.NOTES = {
     "02 Atomic Notes/Q2 2026 net sales growth 6.6 percent"
    ]
   },
+  "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006": {
+   "title": "Regression beta standard error 0.195 and R-squared 0.006",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "beta"
+   ],
+   "sources": [
+    "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL"
+   ],
+   "linksTo": [
+    "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL",
+    "02 Atomic Notes/Adjusted beta 0.4102",
+    "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months"
+   ],
+   "html": "<p>The 60-month regression that gives Hershey's raw beta of 0.1153 has a standard error of 0.195 and an R-squared of 0.006.</p>\n<p>With a standard error larger than the beta itself, the raw figure cannot be told apart from zero. This is the memo's reason for using the adjusted beta instead.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Formula: regression output of the same ordinary least squares fit as the raw beta (Derived).</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/HSY%20raw%20regression%20beta%200.1153%20over%2060%20months\" data-note=\"02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months\">HSY raw regression beta 0.1153 over 60 months</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Adjusted%20beta%200.4102\" data-note=\"02 Atomic Notes/Adjusted beta 0.4102\">Adjusted beta 0.4102</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S14%20Yahoo%20Finance%20monthly%20prices%20for%20HSY%20SPY%20and%20BIL\" data-note=\"01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL\">S14 Yahoo Finance monthly prices for HSY SPY and BIL</a></li>\n</ul>",
+   "tier": "D",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL",
+    "02 Atomic Notes/Adjusted beta 0.4102",
+    "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread": {
+   "title": "Synthetic rating Aa2 AA with 0.55 percent default spread",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "cost-of-debt"
+   ],
+   "sources": [
+    "01 Sources/S11 Damodaran ratings coverage and default spreads January 2026"
+   ],
+   "linksTo": [
+    "01 Sources/S11 Damodaran ratings coverage and default spreads January 2026",
+    "02 Atomic Notes/FY2025 interest coverage 7.58",
+    "02 Atomic Notes/Pre-tax cost of debt 5.83 percent"
+   ],
+   "html": "<p>In Damodaran's January 2026 table for large non-financial firms, interest coverage between 6.5 and 8.5 maps to a synthetic rating of Aa2/AA and a default spread of 0.55 percent.</p>\n<p>The default spread added to the risk-free rate to get Hershey's pre-tax cost of debt.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Find the row for coverage 6.5 to 8.5 in the large non-financial firms table in S11.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20interest%20coverage%207.58\" data-note=\"02 Atomic Notes/FY2025 interest coverage 7.58\">FY2025 interest coverage 7.58</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Pre-tax%20cost%20of%20debt%205.83%20percent\" data-note=\"02 Atomic Notes/Pre-tax cost of debt 5.83 percent\">Pre-tax cost of debt 5.83 percent</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S11%20Damodaran%20ratings%20coverage%20and%20default%20spreads%20January%202026\" data-note=\"01 Sources/S11 Damodaran ratings coverage and default spreads January 2026\">S11 Damodaran ratings coverage and default spreads January 2026</a></li>\n</ul>",
+   "tier": "R",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S11 Damodaran ratings coverage and default spreads January 2026",
+    "02 Atomic Notes/FY2025 interest coverage 7.58",
+    "02 Atomic Notes/Pre-tax cost of debt 5.83 percent",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
   "02 Atomic Notes/US chocolate spending about 23.5 billion dollars in 2025": {
    "title": "US chocolate spending about 23.5 billion dollars in 2025",
    "type": "atomic",
@@ -1253,6 +2283,132 @@ window.NOTES = {
     "02 Atomic Notes/US chocolate spending about 23.5 billion dollars in 2025"
    ]
   },
+  "02 Atomic Notes/US country default spread 0.23 percent January 2026": {
+   "title": "US country default spread 0.23 percent January 2026",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/US country default spread 0.23 percent January 2026.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "country-risk"
+   ],
+   "sources": [
+    "01 Sources/S12 Damodaran country risk premiums January 2026"
+   ],
+   "linksTo": [
+    "01 Sources/S12 Damodaran country risk premiums January 2026",
+    "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+    "02 Atomic Notes/US equity risk premium 4.46 percent January 2026"
+   ],
+   "html": "<p>Damodaran's country default spread for the United States was 0.23 percent in his January 2026 country risk data.</p>\n<p>It is already inside the 4.46 percent US equity risk premium, which is why the memo adds no country premium for Hershey's US sales.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Find the United States row, country default spread column, in S12.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20equity%20risk%20premium%204.46%20percent%20January%202026\" data-note=\"02 Atomic Notes/US equity risk premium 4.46 percent January 2026\">US equity risk premium 4.46 percent January 2026</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/No%20country%20risk%20adjustment%20for%2012.3%20percent%20non-US%20sales\" data-note=\"02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales\">No country risk adjustment for 12.3 percent non-US sales</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S12%20Damodaran%20country%20risk%20premiums%20January%202026\" data-note=\"01 Sources/S12 Damodaran country risk premiums January 2026\">S12 Damodaran country risk premiums January 2026</a></li>\n</ul>",
+   "tier": "R",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S12 Damodaran country risk premiums January 2026",
+    "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+    "02 Atomic Notes/US equity risk premium 4.46 percent January 2026",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/US equity risk premium 4.46 percent January 2026": {
+   "title": "US equity risk premium 4.46 percent January 2026",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/US equity risk premium 4.46 percent January 2026.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "equity-risk-premium",
+    "wacc"
+   ],
+   "sources": [
+    "01 Sources/S12 Damodaran country risk premiums January 2026"
+   ],
+   "linksTo": [
+    "01 Sources/S12 Damodaran country risk premiums January 2026",
+    "02 Atomic Notes/Cost of equity 7.11 percent",
+    "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+    "02 Atomic Notes/US country default spread 0.23 percent January 2026"
+   ],
+   "html": "<p>Damodaran's total equity risk premium for the United States was 4.46 percent in his January 2026 country risk data.</p>\n<p>The equity risk premium in the cost of equity. It is his implied premium for the S&amp;P 500 and already includes the US country default spread, so no separate country premium is added for US sales.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Find the United States row, total equity risk premium column, in S12.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20country%20default%20spread%200.23%20percent%20January%202026\" data-note=\"02 Atomic Notes/US country default spread 0.23 percent January 2026\">US country default spread 0.23 percent January 2026</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cost%20of%20equity%207.11%20percent\" data-note=\"02 Atomic Notes/Cost of equity 7.11 percent\">Cost of equity 7.11 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/No%20country%20risk%20adjustment%20for%2012.3%20percent%20non-US%20sales\" data-note=\"02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales\">No country risk adjustment for 12.3 percent non-US sales</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S12%20Damodaran%20country%20risk%20premiums%20January%202026\" data-note=\"01 Sources/S12 Damodaran country risk premiums January 2026\">S12 Damodaran country risk premiums January 2026</a></li>\n</ul>",
+   "tier": "R",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S12 Damodaran country risk premiums January 2026",
+    "02 Atomic Notes/Cost of equity 7.11 percent",
+    "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+    "02 Atomic Notes/US country default spread 0.23 percent January 2026",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/WACC 6.78 percent": {
+   "title": "WACC 6.78 percent",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/WACC 6.78 percent.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "wacc"
+   ],
+   "sources": [
+    "01 Sources/S9 Team Q&D workbook for Hershey"
+   ],
+   "linksTo": [
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/After-tax cost of debt 4.49 percent",
+    "02 Atomic Notes/Cost of equity 7.11 percent",
+    "02 Atomic Notes/Debt weight 12.6 percent",
+    "02 Atomic Notes/Equity weight 87.4 percent"
+   ],
+   "html": "<p>Hershey's weighted average cost of capital is 6.78 percent.</p>\n<p>The discount rate for the FCFF valuation in Module 4. A 0.5 point change in WACC moves the value of a slow-growing company like Hershey by a large amount, so each input behind it is worth checking.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Formula: equity weight x cost of equity + debt weight x after-tax cost of debt = 87.4% x 7.11% + 12.6% x 4.49% = 6.78 percent (Derived). It is cell D16 on the WACC tab.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cost%20of%20equity%207.11%20percent\" data-note=\"02 Atomic Notes/Cost of equity 7.11 percent\">Cost of equity 7.11 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/After-tax%20cost%20of%20debt%204.49%20percent\" data-note=\"02 Atomic Notes/After-tax cost of debt 4.49 percent\">After-tax cost of debt 4.49 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Equity%20weight%2087.4%20percent\" data-note=\"02 Atomic Notes/Equity weight 87.4 percent\">Equity weight 87.4 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Debt%20weight%2012.6%20percent\" data-note=\"02 Atomic Notes/Debt weight 12.6 percent\">Debt weight 12.6 percent</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S9%20Team%20Q&amp;amp;D%20workbook%20for%20Hershey\" data-note=\"01 Sources/S9 Team Q&amp;amp;D workbook for Hershey\">S9 Team Q&amp;D workbook for Hershey</a></li>\n</ul>",
+   "tier": "D",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/After-tax cost of debt 4.49 percent",
+    "02 Atomic Notes/Cost of equity 7.11 percent",
+    "02 Atomic Notes/Debt weight 12.6 percent",
+    "02 Atomic Notes/Equity weight 87.4 percent",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
+  "02 Atomic Notes/WACC tax rate 22.96 percent": {
+   "title": "WACC tax rate 22.96 percent",
+   "type": "atomic",
+   "path": "research/02 Atomic Notes/WACC tax rate 22.96 percent.md",
+   "tags": [
+    "hershey",
+    "cost-of-capital",
+    "tax",
+    "wacc"
+   ],
+   "sources": [
+    "01 Sources/S1 Hershey Form 10-K FY2025"
+   ],
+   "linksTo": [
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/After-tax cost of debt 4.49 percent",
+    "02 Atomic Notes/FY2025 effective tax rate 27.3 percent",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check"
+   ],
+   "html": "<p>The tax rate on Hershey's WACC tab is 22.96 percent: fiscal 2025 income taxes of 330.9 million dollars over operating income of 1,441.5 million dollars.</p>\n<p>It sets the tax shield on debt (the after-tax cost of debt) and relevers the Hamada beta. It is lower than the 27.3 percent effective rate on pre-tax income because it divides by operating income, as the sheet's NOPAT row does.</p>\n<p>Check: Filed from the Milestone 3 Cost of Capital Memo. Not yet checked against the source; check it there, then set status to confirmed. Formula: income taxes / operating income = 330.9 / 1,441.5 = 22.96 percent (Derived). It is cell D14 on the WACC tab.</p>\n<h3>Related</h3>\n<ul>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/After-tax%20cost%20of%20debt%204.49%20percent\" data-note=\"02 Atomic Notes/After-tax cost of debt 4.49 percent\">After-tax cost of debt 4.49 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20effective%20tax%20rate%2027.3%20percent\" data-note=\"02 Atomic Notes/FY2025 effective tax rate 27.3 percent\">FY2025 effective tax rate 27.3 percent</a></li>\n<li><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hamada%20beta%200.35%20cross-check\" data-note=\"02 Atomic Notes/Hamada beta 0.35 cross-check\">Hamada beta 0.35 cross-check</a></li>\n<li><a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a></li>\n</ul>",
+   "tier": "D",
+   "status": "needs-verification",
+   "date_created": "2026-10-05",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "02 Atomic Notes/After-tax cost of debt 4.49 percent",
+    "02 Atomic Notes/FY2025 effective tax rate 27.3 percent",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check",
+    "03 Drafts/Milestone 3 - Cost of Capital Memo"
+   ]
+  },
   "03 Drafts/Milestone 1 - Selection Memo": {
    "title": "Project Milestone 1: Company and Industry Selection Memo",
    "type": "draft",
@@ -1279,11 +2435,13 @@ window.NOTES = {
     "02 Atomic Notes/Chocolate industry revenue growth about 2.5 percent a year",
     "02 Atomic Notes/Cocoa down more than 70 percent from late-2024 highs",
     "02 Atomic Notes/FY2023 operating margin 22.9 percent",
+    "02 Atomic Notes/FY2024 effective tax rate 10.2 percent",
     "02 Atomic Notes/FY2024 gross margin 47.3 percent",
     "02 Atomic Notes/FY2024 operating margin 25.9 percent",
     "02 Atomic Notes/FY2025 capex 3.9 percent of net sales",
     "02 Atomic Notes/FY2025 capital expenditures 455 million dollars",
     "02 Atomic Notes/FY2025 depreciation and amortization 504 million dollars",
+    "02 Atomic Notes/FY2025 effective tax rate 27.3 percent",
     "02 Atomic Notes/FY2025 gross margin 33.5 percent",
     "02 Atomic Notes/FY2025 net sales growth 4.4 percent",
     "02 Atomic Notes/FY2025 operating margin 12.3 percent",
@@ -1291,7 +2449,57 @@ window.NOTES = {
     "02 Atomic Notes/FY2026 margin improvement guided about 400 basis points",
     "02 Atomic Notes/Q2 2026 confectionery volume down about 10 percent"
    ],
-   "html": "<p>Team: Chris Lester. Date: 2026-10-02. Forecast years: FY2026 to FY2028. Dollars in millions.</p>\n<p>The forecast columns of the Q&amp;D workbook (Detail Data tab) are FactSet consensus estimates (source note <a class=\"wl\" href=\"#note=01%20Sources/S8%20FactSet%20consensus%20estimates%20for%20Hershey\" data-note=\"01 Sources/S8 FactSet consensus estimates for Hershey\">S8 FactSet consensus estimates for Hershey</a>, exported 2026-10-04). This memo states what each driver in that consensus implies and why we accept it, or where we would adjust it, naming the historical figure or benchmark behind our view. The export carries every row the sheet types, income statement through balance sheet and capex, so no forecast cell is ours; the checks we apply to it are stated at the end.</p>\n<h3>1. Revenue growth: consensus 5.2 percent in FY2026, 2.5 in FY2027, 2.6 in FY2028</h3>\n<p>FY2025 net sales were 11,692.6, up 4.4 percent on FY2024 (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20sales%20growth%204.4%20percent\" data-note=\"02 Atomic Notes/FY2025 net sales growth 4.4 percent\">FY2025 net sales growth 4.4 percent</a>, source <a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a>). Management guides FY2026 net sales growth of 4.5 to 5.0 percent (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2026%20guidance%20net%20sales%20growth%204.5%20to%205.0%20percent\" data-note=\"02 Atomic Notes/FY2026 guidance net sales growth 4.5 to 5.0 percent\">FY2026 guidance net sales growth 4.5 to 5.0 percent</a>, source <a class=\"wl\" href=\"#note=01%20Sources/S2%20Hershey%20Q2%202026%20results%20press%20release\" data-note=\"01 Sources/S2 Hershey Q2 2026 results press release\">S2 Hershey Q2 2026 results press release</a>). The US chocolate category grows about 2.5 percent a year (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Chocolate%20industry%20revenue%20growth%20about%202.5%20percent%20a%20year\" data-note=\"02 Atomic Notes/Chocolate industry revenue growth about 2.5 percent a year\">Chocolate industry revenue growth about 2.5 percent a year</a>) and confectionery volume fell about 10 percent in Q2 2026 (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q2%202026%20confectionery%20volume%20down%20about%2010%20percent\" data-note=\"02 Atomic Notes/Q2 2026 confectionery volume down about 10 percent\">Q2 2026 confectionery volume down about 10 percent</a>), so growth is price-led. FY2026 consensus sits at the top of guidance and FY2027 and FY2028 fade to the category rate; we accept it. Any year above 5 percent is the one we would question, and FY2026 is just above it (5.2 percent), so we note that the year leans on price.</p>\n<h3>2. EBIT margin: 20.7 percent in FY2026, 22.5 in FY2027, 23.1 in FY2028</h3>\n<p>FY2025 operating margin was 12.3 percent, down from 25.9 percent in FY2024 and 22.9 percent in FY2023, because cocoa costs peaked (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20operating%20margin%2012.3%20percent\" data-note=\"02 Atomic Notes/FY2025 operating margin 12.3 percent\">FY2025 operating margin 12.3 percent</a>, <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20operating%20margin%2025.9%20percent\" data-note=\"02 Atomic Notes/FY2024 operating margin 25.9 percent\">FY2024 operating margin 25.9 percent</a>, <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2023%20operating%20margin%2022.9%20percent\" data-note=\"02 Atomic Notes/FY2023 operating margin 22.9 percent\">FY2023 operating margin 22.9 percent</a>). Management guides about 400 basis points of improvement in FY2026 as lower cocoa flows through (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2026%20margin%20improvement%20guided%20about%20400%20basis%20points\" data-note=\"02 Atomic Notes/FY2026 margin improvement guided about 400 basis points\">FY2026 margin improvement guided about 400 basis points</a>, source <a class=\"wl\" href=\"#note=01%20Sources/S3%20Hershey%20Q2%202026%20earnings%20call%20transcript\" data-note=\"01 Sources/S3 Hershey Q2 2026 earnings call transcript\">S3 Hershey Q2 2026 earnings call transcript</a>), and cocoa is down more than 70 percent from its peak (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cocoa%20down%20more%20than%2070%20percent%20from%20late-2024%20highs\" data-note=\"02 Atomic Notes/Cocoa down more than 70 percent from late-2024 highs\">Cocoa down more than 70 percent from late-2024 highs</a>). The sheet computes EBIT as consensus EBITDA less its own D&amp;A formula, so the margin recovers to 20.7 percent in FY2026, more than the guided 400 basis points, and to 23.1 percent by FY2028, still below the pre-2025 level; we accept it and would challenge any path back to 25 percent.</p>\n<h3>3. Reinvestment: consensus capex 3.6 to 4.0 percent of revenue; consensus working capital 7.0 to 10.4 percent of revenue</h3>\n<p>FY2025 capital expenditures were 454.6, or 3.9 percent of net sales (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20capex%203.9%20percent%20of%20net%20sales\" data-note=\"02 Atomic Notes/FY2025 capex 3.9 percent of net sales\">FY2025 capex 3.9 percent of net sales</a>, <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20capital%20expenditures%20455%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 capital expenditures 455 million dollars\">FY2025 capital expenditures 455 million dollars</a>), down from 605.9 in FY2024 as the ERP and capacity program wound down. We accept consensus capex near 4 percent of revenue (FY2026 guidance is 425 to 475). Consensus also carries current assets and liabilities, so the change in net working capital is consensus too; net working capital was 577.0 at FY2025, 4.9 percent of net sales, and consensus runs higher, 7.0 percent in FY2026 rising to 10.4 percent, because it builds cash inside current assets; we accept it and note that it makes the change in NWC a drag on FCFF. D&amp;A follows the sheet's formula, the FY2025 ratio of D&amp;A to capex applied to each year's capex (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20depreciation%20and%20amortization%20504%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 depreciation and amortization 504 million dollars\">FY2025 depreciation and amortization 504 million dollars</a>).</p>\n<h3>Checks we apply to the consensus</h3>\n<ul>\n<li>Tax rate: consensus tax expense over consensus pre-tax income is 25.9 to 25.1 percent, near FY2025's effective rate of 27.3 percent (330.9 of taxes on 1,214.2 of pre-tax income; FY2024's 10.2 percent was depressed by a one-time item). Source <a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a>.</li>\n<li>Gross margin: consensus is 41.1 to 44.2 percent, between FY2025's 33.5 percent and FY2024's 47.3 percent (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20gross%20margin%2033.5%20percent\" data-note=\"02 Atomic Notes/FY2025 gross margin 33.5 percent\">FY2025 gross margin 33.5 percent</a>, <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20gross%20margin%2047.3%20percent\" data-note=\"02 Atomic Notes/FY2024 gross margin 47.3 percent\">FY2024 gross margin 47.3 percent</a>).</li>\n<li>Net income: we type the GAAP row; FactSet's headline Net Income row is non-GAAP and runs higher.</li>\n<li>Interest expense and D&amp;A: the sheet computes them (interest from long-term debt and the cost of debt on the WACC tab, Module 3).</li>\n</ul>\n<h3>Facts we still need</h3>\n<ul>\n<li>None for the drivers. FY2024 and FY2025 diluted shares (203.5 and 203.4 million) were typed from the 10-K's earnings per share note and checked on the verification form.</li>\n</ul>",
+   "html": "<p>Team: Chris Lester. Date: 2026-10-02. Forecast years: FY2026 to FY2028. Dollars in millions.</p>\n<p>The forecast columns of the Q&amp;D workbook (Detail Data tab) are FactSet consensus estimates (source note <a class=\"wl\" href=\"#note=01%20Sources/S8%20FactSet%20consensus%20estimates%20for%20Hershey\" data-note=\"01 Sources/S8 FactSet consensus estimates for Hershey\">S8 FactSet consensus estimates for Hershey</a>, exported 2026-10-04). This memo states what each driver in that consensus implies and why we accept it, or where we would adjust it, naming the historical figure or benchmark behind our view. The export carries every row the sheet types, income statement through balance sheet and capex, so no forecast cell is ours; the checks we apply to it are stated at the end.</p>\n<h3>1. Revenue growth: consensus 5.2 percent in FY2026, 2.5 in FY2027, 2.6 in FY2028</h3>\n<p>FY2025 net sales were 11,692.6, up 4.4 percent on FY2024 (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20sales%20growth%204.4%20percent\" data-note=\"02 Atomic Notes/FY2025 net sales growth 4.4 percent\">FY2025 net sales growth 4.4 percent</a>, source <a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a>). Management guides FY2026 net sales growth of 4.5 to 5.0 percent (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2026%20guidance%20net%20sales%20growth%204.5%20to%205.0%20percent\" data-note=\"02 Atomic Notes/FY2026 guidance net sales growth 4.5 to 5.0 percent\">FY2026 guidance net sales growth 4.5 to 5.0 percent</a>, source <a class=\"wl\" href=\"#note=01%20Sources/S2%20Hershey%20Q2%202026%20results%20press%20release\" data-note=\"01 Sources/S2 Hershey Q2 2026 results press release\">S2 Hershey Q2 2026 results press release</a>). The US chocolate category grows about 2.5 percent a year (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Chocolate%20industry%20revenue%20growth%20about%202.5%20percent%20a%20year\" data-note=\"02 Atomic Notes/Chocolate industry revenue growth about 2.5 percent a year\">Chocolate industry revenue growth about 2.5 percent a year</a>) and confectionery volume fell about 10 percent in Q2 2026 (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Q2%202026%20confectionery%20volume%20down%20about%2010%20percent\" data-note=\"02 Atomic Notes/Q2 2026 confectionery volume down about 10 percent\">Q2 2026 confectionery volume down about 10 percent</a>), so growth is price-led. FY2026 consensus sits at the top of guidance and FY2027 and FY2028 fade to the category rate; we accept it. Any year above 5 percent is the one we would question, and FY2026 is just above it (5.2 percent), so we note that the year leans on price.</p>\n<h3>2. EBIT margin: 20.7 percent in FY2026, 22.5 in FY2027, 23.1 in FY2028</h3>\n<p>FY2025 operating margin was 12.3 percent, down from 25.9 percent in FY2024 and 22.9 percent in FY2023, because cocoa costs peaked (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20operating%20margin%2012.3%20percent\" data-note=\"02 Atomic Notes/FY2025 operating margin 12.3 percent\">FY2025 operating margin 12.3 percent</a>, <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20operating%20margin%2025.9%20percent\" data-note=\"02 Atomic Notes/FY2024 operating margin 25.9 percent\">FY2024 operating margin 25.9 percent</a>, <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2023%20operating%20margin%2022.9%20percent\" data-note=\"02 Atomic Notes/FY2023 operating margin 22.9 percent\">FY2023 operating margin 22.9 percent</a>). Management guides about 400 basis points of improvement in FY2026 as lower cocoa flows through (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2026%20margin%20improvement%20guided%20about%20400%20basis%20points\" data-note=\"02 Atomic Notes/FY2026 margin improvement guided about 400 basis points\">FY2026 margin improvement guided about 400 basis points</a>, source <a class=\"wl\" href=\"#note=01%20Sources/S3%20Hershey%20Q2%202026%20earnings%20call%20transcript\" data-note=\"01 Sources/S3 Hershey Q2 2026 earnings call transcript\">S3 Hershey Q2 2026 earnings call transcript</a>), and cocoa is down more than 70 percent from its peak (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cocoa%20down%20more%20than%2070%20percent%20from%20late-2024%20highs\" data-note=\"02 Atomic Notes/Cocoa down more than 70 percent from late-2024 highs\">Cocoa down more than 70 percent from late-2024 highs</a>). The sheet computes EBIT as consensus EBITDA less its own D&amp;A formula, so the margin recovers to 20.7 percent in FY2026, more than the guided 400 basis points, and to 23.1 percent by FY2028, still below the pre-2025 level; we accept it and would challenge any path back to 25 percent.</p>\n<h3>3. Reinvestment: consensus capex 3.6 to 4.0 percent of revenue; consensus working capital 7.0 to 10.4 percent of revenue</h3>\n<p>FY2025 capital expenditures were 454.6, or 3.9 percent of net sales (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20capex%203.9%20percent%20of%20net%20sales\" data-note=\"02 Atomic Notes/FY2025 capex 3.9 percent of net sales\">FY2025 capex 3.9 percent of net sales</a>, <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20capital%20expenditures%20455%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 capital expenditures 455 million dollars\">FY2025 capital expenditures 455 million dollars</a>), down from 605.9 in FY2024 as the ERP and capacity program wound down. We accept consensus capex near 4 percent of revenue (FY2026 guidance is 425 to 475). Consensus also carries current assets and liabilities, so the change in net working capital is consensus too; net working capital was 577.0 at FY2025, 4.9 percent of net sales, and consensus runs higher, 7.0 percent in FY2026 rising to 10.4 percent, because it builds cash inside current assets; we accept it and note that it makes the change in NWC a drag on FCFF. D&amp;A follows the sheet's formula, the FY2025 ratio of D&amp;A to capex applied to each year's capex (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20depreciation%20and%20amortization%20504%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 depreciation and amortization 504 million dollars\">FY2025 depreciation and amortization 504 million dollars</a>).</p>\n<h3>Checks we apply to the consensus</h3>\n<ul>\n<li>Tax rate: consensus tax expense over consensus pre-tax income is 25.9 to 25.1 percent, near FY2025's effective rate of <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20effective%20tax%20rate%2027.3%20percent\" data-note=\"02 Atomic Notes/FY2025 effective tax rate 27.3 percent\">27.3 percent</a> (330.9 of taxes on 1,214.2 of pre-tax income; FY2024's <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20effective%20tax%20rate%2010.2%20percent\" data-note=\"02 Atomic Notes/FY2024 effective tax rate 10.2 percent\">10.2 percent</a> was depressed by a one-time item). Source <a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a>.</li>\n<li>Gross margin: consensus is 41.1 to 44.2 percent, between FY2025's 33.5 percent and FY2024's 47.3 percent (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20gross%20margin%2033.5%20percent\" data-note=\"02 Atomic Notes/FY2025 gross margin 33.5 percent\">FY2025 gross margin 33.5 percent</a>, <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2024%20gross%20margin%2047.3%20percent\" data-note=\"02 Atomic Notes/FY2024 gross margin 47.3 percent\">FY2024 gross margin 47.3 percent</a>).</li>\n<li>Net income: we type the GAAP row; FactSet's headline Net Income row is non-GAAP and runs higher.</li>\n<li>Interest expense and D&amp;A: the sheet computes them (interest from long-term debt and the cost of debt on the WACC tab, Module 3).</li>\n</ul>\n<h3>Facts we still need</h3>\n<ul>\n<li>A source for FY2026 capex guidance of 425 to 475 (section 3). The memo cites none, so it has no atomic note yet; it is probably in the Q2 2026 press release (<a class=\"wl\" href=\"#note=01%20Sources/S2%20Hershey%20Q2%202026%20results%20press%20release\" data-note=\"01 Sources/S2 Hershey Q2 2026 results press release\">S2 Hershey Q2 2026 results press release</a>) or call (<a class=\"wl\" href=\"#note=01%20Sources/S3%20Hershey%20Q2%202026%20earnings%20call%20transcript\" data-note=\"01 Sources/S3 Hershey Q2 2026 earnings call transcript\">S3 Hershey Q2 2026 earnings call transcript</a>), but check before citing.</li>\n<li>Otherwise none for the drivers. FY2024 and FY2025 diluted shares (203.5 and 203.4 million) were typed from the 10-K's earnings per share note and checked on the verification form.</li>\n</ul>",
+   "linkedFrom": [
+    "00 Project Home",
+    "01 Sources/S9 Team Q&D workbook for Hershey"
+   ]
+  },
+  "03 Drafts/Milestone 3 - Cost of Capital Memo": {
+   "title": "Project Milestone 3: Cost of Capital Memo",
+   "type": "draft",
+   "path": "research/03 Drafts/Milestone 3 - Cost of Capital Memo.md",
+   "tags": [],
+   "sources": [],
+   "linksTo": [
+    "01 Sources/S1 Hershey Form 10-K FY2025",
+    "01 Sources/S10 Damodaran betas by sector January 2026",
+    "01 Sources/S11 Damodaran ratings coverage and default spreads January 2026",
+    "01 Sources/S12 Damodaran country risk premiums January 2026",
+    "01 Sources/S13 US Treasury daily par yield curve 2026",
+    "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL",
+    "01 Sources/S8 FactSet consensus estimates for Hershey",
+    "01 Sources/S9 Team Q&D workbook for Hershey",
+    "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026",
+    "02 Atomic Notes/Adjusted beta 0.4102",
+    "02 Atomic Notes/After-tax cost of debt 4.49 percent",
+    "02 Atomic Notes/Cost of equity 7.11 percent",
+    "02 Atomic Notes/Debt valued at book value 4,681 million dollars",
+    "02 Atomic Notes/Debt weight 12.6 percent",
+    "02 Atomic Notes/Equity weight 87.4 percent",
+    "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars",
+    "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars",
+    "02 Atomic Notes/FY2025 US share of net sales 87.7 percent",
+    "02 Atomic Notes/FY2025 interest coverage 7.58",
+    "02 Atomic Notes/FY2025 net sales 11.69 billion dollars",
+    "02 Atomic Notes/FactSet beta 0.34",
+    "02 Atomic Notes/Food processing industry beta 0.61",
+    "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+    "02 Atomic Notes/Food processing industry tax rate 10.37 percent",
+    "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months",
+    "02 Atomic Notes/Hamada beta 0.35 cross-check",
+    "02 Atomic Notes/Hershey debt to equity 14.37 percent",
+    "02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons",
+    "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+    "02 Atomic Notes/Pre-tax cost of debt 5.83 percent",
+    "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006",
+    "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread",
+    "02 Atomic Notes/US country default spread 0.23 percent January 2026",
+    "02 Atomic Notes/US equity risk premium 4.46 percent January 2026",
+    "02 Atomic Notes/WACC 6.78 percent",
+    "02 Atomic Notes/WACC tax rate 22.96 percent"
+   ],
+   "html": "<blockquote>Markdown copy of <code>Milestone 3 - Cost of Capital Memo.docx</code>, saved 2026-10-05 so it opens in Obsidian. Each number links to its atomic note; the .docx is the text we submit. Filing note: the Hamada beta of 0.35 comes from a WACC tab cell (C24) with a misplaced bracket; see <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hamada%20beta%200.35%20cross-check\" data-note=\"02 Atomic Notes/Hamada beta 0.35 cross-check\">its note</a>.</blockquote>\n<p><strong>Company:</strong> The Hershey Company (NYSE: HSY). <strong>Team:</strong> Chris Lester. <strong>Date:</strong> 2026-10-05.</p>\n<p><strong>Conclusion:</strong> Hershey's weighted average cost of capital is <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%206.78%20percent\" data-note=\"02 Atomic Notes/WACC 6.78 percent\">6.78 percent</a>: a <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cost%20of%20equity%207.11%20percent\" data-note=\"02 Atomic Notes/Cost of equity 7.11 percent\">7.11 percent</a> cost of equity on <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Equity%20weight%2087.4%20percent\" data-note=\"02 Atomic Notes/Equity weight 87.4 percent\">87.4 percent</a> of the capital and a <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/After-tax%20cost%20of%20debt%204.49%20percent\" data-note=\"02 Atomic Notes/After-tax cost of debt 4.49 percent\">4.49 percent</a> after-tax cost of debt on <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Debt%20weight%2012.6%20percent\" data-note=\"02 Atomic Notes/Debt weight 12.6 percent\">12.6 percent</a>. No size, private-firm, or country risk adjustment applies. The inputs are on the WACC calculation tab of our Q&amp;D workbook (<a class=\"wl\" href=\"#note=01%20Sources/S9%20Team%20Q&amp;amp;D%20workbook%20for%20Hershey\" data-note=\"01 Sources/S9 Team Q&amp;amp;D workbook for Hershey\">S9</a>), and each one below is tagged Reported (R), Derived (D), or Estimate (E).</p>\n<h3>1. Cost of equity: 7.11 percent</h3>\n<p>Cost of equity = risk-free rate + beta x equity risk premium = <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/10-year%20Treasury%20yield%205.28%20percent%20on%202%20October%202026\" data-note=\"02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026\">5.28%</a> + <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Adjusted%20beta%200.4102\" data-note=\"02 Atomic Notes/Adjusted beta 0.4102\">0.4102</a> x <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20equity%20risk%20premium%204.46%20percent%20January%202026\" data-note=\"02 Atomic Notes/US equity risk premium 4.46 percent January 2026\">4.46%</a> = <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cost%20of%20equity%207.11%20percent\" data-note=\"02 Atomic Notes/Cost of equity 7.11 percent\">7.11%</a>.</p>\n<p><strong>Risk-free rate, <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/10-year%20Treasury%20yield%205.28%20percent%20on%202%20October%202026\" data-note=\"02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026\">5.28 percent</a> (R).</strong> The 10-year US Treasury par yield on October 2, 2026 (<a class=\"wl\" href=\"#note=01%20Sources/S13%20US%20Treasury%20daily%20par%20yield%20curve%202026\" data-note=\"01 Sources/S13 US Treasury daily par yield curve 2026\">S13</a>). Our cash flows are in US dollars, so a US Treasury rate is the default-free rate that matches them.</p>\n<p><strong>Equity risk premium, <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20equity%20risk%20premium%204.46%20percent%20January%202026\" data-note=\"02 Atomic Notes/US equity risk premium 4.46 percent January 2026\">4.46 percent</a> (R).</strong> Damodaran's total equity risk premium for the United States, January 2026 (<a class=\"wl\" href=\"#note=01%20Sources/S12%20Damodaran%20country%20risk%20premiums%20January%202026\" data-note=\"01 Sources/S12 Damodaran country risk premiums January 2026\">S12</a>). It is his implied premium for the S&amp;P 500 and already includes the US country default spread of <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20country%20default%20spread%200.23%20percent%20January%202026\" data-note=\"02 Atomic Notes/US country default spread 0.23 percent January 2026\">0.23 percent</a>.</p>\n<p><strong>Beta, <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Adjusted%20beta%200.4102\" data-note=\"02 Atomic Notes/Adjusted beta 0.4102\">0.4102</a> (E).</strong> We ran a regression of Hershey's monthly excess returns on the S&amp;P 500's (SPY), with BIL as the risk-free return, over the 60 months from September 2021 to August 2026 (<a class=\"wl\" href=\"#note=01%20Sources/S14%20Yahoo%20Finance%20monthly%20prices%20for%20HSY%20SPY%20and%20BIL\" data-note=\"01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL\">S14</a>). The raw beta is <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/HSY%20raw%20regression%20beta%200.1153%20over%2060%20months\" data-note=\"02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months\">0.1153</a> (D). Its standard error is <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Regression%20beta%20standard%20error%200.195%20and%20R-squared%200.006\" data-note=\"02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006\">0.195</a> and the R-squared is <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Regression%20beta%20standard%20error%200.195%20and%20R-squared%200.006\" data-note=\"02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006\">0.006</a>, so the raw figure cannot be told apart from zero. We therefore use the adjusted beta, (2/3) x 0.1153 + (1/3) x 1 = 0.4102, which pulls a noisy estimate toward the market average of 1. This is our judgment (Chris Lester). A defensive consumer staple should have a low beta, but not one near zero.</p>\n<p><strong>Cross-checks on the WACC tab.</strong> Hamada's method gives <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hamada%20beta%200.35%20cross-check\" data-note=\"02 Atomic Notes/Hamada beta 0.35 cross-check\">0.35</a> (D): Damodaran's food processing average beta of <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20beta%200.61\" data-note=\"02 Atomic Notes/Food processing industry beta 0.61\">0.61</a>, at a <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20debt%20to%20equity%2043.73%20percent\" data-note=\"02 Atomic Notes/Food processing industry debt to equity 43.73 percent\">43.73 percent</a> debt-to-equity ratio and a <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Food%20processing%20industry%20tax%20rate%2010.37%20percent\" data-note=\"02 Atomic Notes/Food processing industry tax rate 10.37 percent\">10.37 percent</a> tax rate (<a class=\"wl\" href=\"#note=01%20Sources/S10%20Damodaran%20betas%20by%20sector%20January%202026\" data-note=\"01 Sources/S10 Damodaran betas by sector January 2026\">S10</a>), unlevered and then relevered at Hershey's debt-to-equity of <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hershey%20debt%20to%20equity%2014.37%20percent\" data-note=\"02 Atomic Notes/Hershey debt to equity 14.37 percent\">14.37 percent</a> and our <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%20tax%20rate%2022.96%20percent\" data-note=\"02 Atomic Notes/WACC tax rate 22.96 percent\">22.96 percent</a> tax rate. FactSet's beta is <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FactSet%20beta%200.34\" data-note=\"02 Atomic Notes/FactSet beta 0.34\">0.34</a> (R) (<a class=\"wl\" href=\"#note=01%20Sources/S8%20FactSet%20consensus%20estimates%20for%20Hershey\" data-note=\"01 Sources/S8 FactSet consensus estimates for Hershey\">S8</a>). All three methods put Hershey far below the market's beta of 1, as a defensive consumer staple should be. We use the adjusted regression beta, the highest of the three, which keeps the cost of equity conservative.</p>\n<h3>2. Cost of debt: 5.83 percent before tax, 4.49 percent after tax</h3>\n<p><strong>Interest coverage, <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20interest%20coverage%207.58\" data-note=\"02 Atomic Notes/FY2025 interest coverage 7.58\">7.58</a> (D).</strong> FY2025 operating income of 1,441.5 divided by net interest expense of 190.2 (<a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1</a>, pages 27 and 53).</p>\n<p><strong>Synthetic rating and spread, <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Synthetic%20rating%20Aa2%20AA%20with%200.55%20percent%20default%20spread\" data-note=\"02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread\">Aa2/AA and 0.55 percent</a> (R).</strong> For large non-financial firms, Damodaran's table maps coverage between 6.5 and 8.5 to Aa2/AA with a 0.55 percent default spread (January 2026) (<a class=\"wl\" href=\"#note=01%20Sources/S11%20Damodaran%20ratings%20coverage%20and%20default%20spreads%20January%202026\" data-note=\"01 Sources/S11 Damodaran ratings coverage and default spreads January 2026\">S11</a>).</p>\n<p><strong>Pre-tax cost of debt, <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Pre-tax%20cost%20of%20debt%205.83%20percent\" data-note=\"02 Atomic Notes/Pre-tax cost of debt 5.83 percent\">5.83 percent</a> (D).</strong> 5.28% + 0.55%. Hershey's notes due 2028 to 2035, sold in February 2025, carry coupons of <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hershey%20notes%20due%202028%20to%202035%20carry%204.55%20to%205.10%20percent%20coupons\" data-note=\"02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons\">4.55 to 5.10 percent</a>, so the estimate is in line with what the company actually pays (<a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1</a>).</p>\n<p><strong>Tax rate, <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%20tax%20rate%2022.96%20percent\" data-note=\"02 Atomic Notes/WACC tax rate 22.96 percent\">22.96 percent</a> (D).</strong> FY2025 income taxes of 330.9 divided by operating income of 1,441.5 (<a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1</a>). <strong>After-tax cost of debt: 5.83% x (1 - 0.2296) = <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/After-tax%20cost%20of%20debt%204.49%20percent\" data-note=\"02 Atomic Notes/After-tax cost of debt 4.49 percent\">4.49 percent</a> (D).</strong></p>\n<h3>3. WACC: 6.78 percent</h3>\n<table><thead><tr><th></th><th>Value</th><th>Weight</th><th>Tier</th><th>Note</th></tr></thead><tbody><tr><td>Market value of equity</td><td>32,582.6 (203.4 million diluted shares x 160.19 dollars, close on October 2, 2026)</td><td>87.4%</td><td>D</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Equity%20weight%2087.4%20percent\" data-note=\"02 Atomic Notes/Equity weight 87.4 percent\">Equity weight 87.4 percent</a></td></tr><tr><td>Debt</td><td>4,681 (long-term debt, December 31, 2025)</td><td>12.6%</td><td>R</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Debt%20weight%2012.6%20percent\" data-note=\"02 Atomic Notes/Debt weight 12.6 percent\">Debt weight 12.6 percent</a></td></tr><tr><td>Total capital</td><td>37,263.6</td><td>100%</td><td>D</td><td>Workbook, WACC calculation tab (S9)</td></tr></tbody></table>\n<p>WACC = 87.4% x 7.11% + 12.6% x 4.49% = <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%206.78%20percent\" data-note=\"02 Atomic Notes/WACC 6.78 percent\">6.78 percent</a> (D). Dollars are in millions (<a class=\"wl\" href=\"#note=01%20Sources/S9%20Team%20Q&amp;amp;D%20workbook%20for%20Hershey\" data-note=\"01 Sources/S9 Team Q&amp;amp;D workbook for Hershey\">S9</a>, <a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1</a>).</p>\n<p><strong>Book value for debt (<a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Debt%20valued%20at%20book%20value%204,681%20million%20dollars\" data-note=\"02 Atomic Notes/Debt valued at book value 4,681 million dollars\">E</a>).</strong> We use the book value of long-term debt as the estimate of its market value. Hershey's long-term debt is fixed-rate notes, so book value is a reasonable stand-in (Chris Lester).</p>\n<h3>4. Risk adjustments: none</h3>\n<ul>\n<li><strong>Size.</strong> At a 32.6 billion dollar market capitalization, Hershey is a large-cap company. A small-cap premium does not apply.</li>\n<li><strong>Private firm.</strong> Hershey trades on the NYSE, so no illiquidity or marketability discount applies.</li>\n<li><strong>Country.</strong> United States net sales were <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20US%20net%20sales%2010.25%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 US net sales 10.25 billion dollars\">10,251.6</a> of <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20net%20sales%2011.69%20billion%20dollars\" data-note=\"02 Atomic Notes/FY2025 net sales 11.69 billion dollars\">11,692.6</a> in FY2025, or <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20US%20share%20of%20net%20sales%2087.7%20percent\" data-note=\"02 Atomic Notes/FY2025 US share of net sales 87.7 percent\">87.7 percent</a> (<a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1</a>, page 93). The International segment was <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20International%20segment%20net%20sales%20941.6%20million%20dollars\" data-note=\"02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars\">941.6, or 8.1 percent</a> (<a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1</a>, page 29). The US equity risk premium we use already contains the <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20country%20default%20spread%200.23%20percent%20January%202026\" data-note=\"02 Atomic Notes/US country default spread 0.23 percent January 2026\">US country spread</a> (<a class=\"wl\" href=\"#note=01%20Sources/S12%20Damodaran%20country%20risk%20premiums%20January%202026\" data-note=\"01 Sources/S12 Damodaran country risk premiums January 2026\">S12</a>). Only the remaining <a class=\"wl\" href=\"#note=02%20Atomic%20Notes/No%20country%20risk%20adjustment%20for%2012.3%20percent%20non-US%20sales\" data-note=\"02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales\">12.3 percent</a> of sales could carry a higher country premium, and we judge that too small to change the WACC (E, Chris Lester), so we do not adjust. We take the same position, a single US premium, in this module's discussion of blended country risk.</li>\n</ul>\n<h3>5. How we verified each input</h3>\n<p>We asked Claude to find each input on the WACC tab in its primary source and show us where it appears. The table lists what it found.</p>\n<table><thead><tr><th>Input</th><th>Check</th><th>Result</th></tr></thead><tbody><tr><td>Regression beta 0.1153</td><td>Reran the 60-month regression with the same method (yfinance, statsmodels)</td><td>Matches for September 2021 to August 2026</td></tr><tr><td>Equity risk premium 4.46%</td><td>Damodaran country premium table, US row (S12)</td><td>Matches</td></tr><tr><td>Industry beta, D/E, tax rate</td><td>Damodaran betas by sector, Food Processing row (S10)</td><td>0.61, 43.73%, 10.37% match</td></tr><tr><td>Default spread 0.55%</td><td>Damodaran ratings table, coverage 6.5 to 8.5 (S11)</td><td>Matches</td></tr><tr><td>Risk-free rate 5.28%</td><td>Treasury daily par yield curve, October 2, 2026 (S13)</td><td>Matches the 10-year yield</td></tr><tr><td>Interest coverage 7.58</td><td>FY2025 operating income and net interest expense in the 10-K (S1)</td><td>Matches</td></tr></tbody></table>\n<h3>Inputs for the Knowledge Bank</h3>\n<table><thead><tr><th>Input</th><th>Value</th><th>Tier</th><th>Source</th><th>Note</th></tr></thead><tbody><tr><td>Risk-free rate (10-year Treasury, 2026-10-02)</td><td>5.28%</td><td>R</td><td>S13</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/10-year%20Treasury%20yield%205.28%20percent%20on%202%20October%202026\" data-note=\"02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026\">10-year Treasury yield 5.28 percent on 2 October 2026</a></td></tr><tr><td>Equity risk premium (US, January 2026)</td><td>4.46%</td><td>R</td><td>S12</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/US%20equity%20risk%20premium%204.46%20percent%20January%202026\" data-note=\"02 Atomic Notes/US equity risk premium 4.46 percent January 2026\">US equity risk premium 4.46 percent January 2026</a></td></tr><tr><td>Raw regression beta (60 months)</td><td>0.1153</td><td>D</td><td>S14</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/HSY%20raw%20regression%20beta%200.1153%20over%2060%20months\" data-note=\"02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months\">HSY raw regression beta 0.1153 over 60 months</a></td></tr><tr><td>Adjusted beta</td><td>0.4102</td><td>E (Chris Lester)</td><td>S14</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Adjusted%20beta%200.4102\" data-note=\"02 Atomic Notes/Adjusted beta 0.4102\">Adjusted beta 0.4102</a></td></tr><tr><td>Hamada beta, cross-check</td><td>0.35</td><td>D</td><td>S10</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Hamada%20beta%200.35%20cross-check\" data-note=\"02 Atomic Notes/Hamada beta 0.35 cross-check\">Hamada beta 0.35 cross-check</a></td></tr><tr><td>FactSet beta, cross-check</td><td>0.34</td><td>R</td><td>S8</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FactSet%20beta%200.34\" data-note=\"02 Atomic Notes/FactSet beta 0.34\">FactSet beta 0.34</a></td></tr><tr><td>Cost of equity</td><td>7.11%</td><td>D</td><td>S9</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Cost%20of%20equity%207.11%20percent\" data-note=\"02 Atomic Notes/Cost of equity 7.11 percent\">Cost of equity 7.11 percent</a></td></tr><tr><td>Interest coverage, FY2025</td><td>7.58</td><td>D</td><td>S1</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20interest%20coverage%207.58\" data-note=\"02 Atomic Notes/FY2025 interest coverage 7.58\">FY2025 interest coverage 7.58</a></td></tr><tr><td>Synthetic rating and default spread</td><td>Aa2/AA, 0.55%</td><td>R</td><td>S11</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Synthetic%20rating%20Aa2%20AA%20with%200.55%20percent%20default%20spread\" data-note=\"02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread\">Synthetic rating Aa2 AA with 0.55 percent default spread</a></td></tr><tr><td>Pre-tax cost of debt</td><td>5.83%</td><td>D</td><td>S9</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Pre-tax%20cost%20of%20debt%205.83%20percent\" data-note=\"02 Atomic Notes/Pre-tax cost of debt 5.83 percent\">Pre-tax cost of debt 5.83 percent</a></td></tr><tr><td>Tax rate</td><td>22.96%</td><td>D</td><td>S1</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%20tax%20rate%2022.96%20percent\" data-note=\"02 Atomic Notes/WACC tax rate 22.96 percent\">WACC tax rate 22.96 percent</a></td></tr><tr><td>After-tax cost of debt</td><td>4.49%</td><td>D</td><td>S9</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/After-tax%20cost%20of%20debt%204.49%20percent\" data-note=\"02 Atomic Notes/After-tax cost of debt 4.49 percent\">After-tax cost of debt 4.49 percent</a></td></tr><tr><td>Equity weight</td><td>87.4%</td><td>D</td><td>S9</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Equity%20weight%2087.4%20percent\" data-note=\"02 Atomic Notes/Equity weight 87.4 percent\">Equity weight 87.4 percent</a></td></tr><tr><td>Debt weight</td><td>12.6%</td><td>D</td><td>S1, S9</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/Debt%20weight%2012.6%20percent\" data-note=\"02 Atomic Notes/Debt weight 12.6 percent\">Debt weight 12.6 percent</a></td></tr><tr><td>WACC</td><td>6.78%</td><td>D</td><td>S9</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/WACC%206.78%20percent\" data-note=\"02 Atomic Notes/WACC 6.78 percent\">WACC 6.78 percent</a></td></tr><tr><td>US share of net sales, FY2025</td><td>87.7%</td><td>D</td><td>S1</td><td><a class=\"wl\" href=\"#note=02%20Atomic%20Notes/FY2025%20US%20share%20of%20net%20sales%2087.7%20percent\" data-note=\"02 Atomic Notes/FY2025 US share of net sales 87.7 percent\">FY2025 US share of net sales 87.7 percent</a></td></tr></tbody></table>\n<h3>Sources</h3>\n<table><thead><tr><th>id</th><th>Source</th><th>Publisher</th><th>Date</th><th>Link</th><th>Note</th></tr></thead><tbody><tr><td>S1</td><td>The Hershey Company Form 10-K for fiscal 2025, accession 0001628280-26-008586</td><td>SEC EDGAR</td><td>2026-02-17</td><td><a href=\"https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/hsy-20251231.htm\" target=\"_blank\" rel=\"noopener\">https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/hsy-20251231.htm</a></td><td><a class=\"wl\" href=\"#note=01%20Sources/S1%20Hershey%20Form%2010-K%20FY2025\" data-note=\"01 Sources/S1 Hershey Form 10-K FY2025\">S1 Hershey Form 10-K FY2025</a></td></tr><tr><td>S8</td><td>FactSet consensus estimates and beta for Hershey</td><td>FactSet</td><td>2026-10-04</td><td>FactSet terminal (licensed; not linked)</td><td><a class=\"wl\" href=\"#note=01%20Sources/S8%20FactSet%20consensus%20estimates%20for%20Hershey\" data-note=\"01 Sources/S8 FactSet consensus estimates for Hershey\">S8 FactSet consensus estimates for Hershey</a></td></tr><tr><td>S9</td><td>Team Q&amp;D workbook for Hershey, WACC calculation tab</td><td>FIN 5370 HSY team</td><td>2026-10-05</td><td>workbook/QD-HSY.xlsx</td><td><a class=\"wl\" href=\"#note=01%20Sources/S9%20Team%20Q&amp;amp;D%20workbook%20for%20Hershey\" data-note=\"01 Sources/S9 Team Q&amp;amp;D workbook for Hershey\">S9 Team Q&amp;D workbook for Hershey</a></td></tr><tr><td>S10</td><td>Betas by Sector (US)</td><td>Aswath Damodaran, NYU Stern</td><td>January 2026</td><td><a href=\"https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/Betas.html\" target=\"_blank\" rel=\"noopener\">https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/Betas.html</a></td><td><a class=\"wl\" href=\"#note=01%20Sources/S10%20Damodaran%20betas%20by%20sector%20January%202026\" data-note=\"01 Sources/S10 Damodaran betas by sector January 2026\">S10 Damodaran betas by sector January 2026</a></td></tr><tr><td>S11</td><td>Ratings, Interest Coverage Ratios and Default Spread</td><td>Aswath Damodaran, NYU Stern</td><td>January 2026</td><td><a href=\"https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ratings.html\" target=\"_blank\" rel=\"noopener\">https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ratings.html</a></td><td><a class=\"wl\" href=\"#note=01%20Sources/S11%20Damodaran%20ratings%20coverage%20and%20default%20spreads%20January%202026\" data-note=\"01 Sources/S11 Damodaran ratings coverage and default spreads January 2026\">S11 Damodaran ratings coverage and default spreads January 2026</a></td></tr><tr><td>S12</td><td>Country Default Spreads and Risk Premiums</td><td>Aswath Damodaran, NYU Stern</td><td>2026-01-05</td><td><a href=\"https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ctryprem.html\" target=\"_blank\" rel=\"noopener\">https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ctryprem.html</a></td><td><a class=\"wl\" href=\"#note=01%20Sources/S12%20Damodaran%20country%20risk%20premiums%20January%202026\" data-note=\"01 Sources/S12 Damodaran country risk premiums January 2026\">S12 Damodaran country risk premiums January 2026</a></td></tr><tr><td>S13</td><td>Daily Treasury Par Yield Curve Rates, 2026</td><td>US Department of the Treasury</td><td>2026-10-02</td><td><a href=\"https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&amp;field_tdr_date_value=2026\" target=\"_blank\" rel=\"noopener\">https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&amp;field_tdr_date_value=2026</a></td><td><a class=\"wl\" href=\"#note=01%20Sources/S13%20US%20Treasury%20daily%20par%20yield%20curve%202026\" data-note=\"01 Sources/S13 US Treasury daily par yield curve 2026\">S13 US Treasury daily par yield curve 2026</a></td></tr><tr><td>S14</td><td>Monthly adjusted prices for HSY, SPY, and BIL, September 2021 to August 2026, pulled with yfinance</td><td>Yahoo Finance</td><td>accessed 2026-10-05</td><td><a href=\"https://finance.yahoo.com/quote/HSY/history\" target=\"_blank\" rel=\"noopener\">https://finance.yahoo.com/quote/HSY/history</a></td><td><a class=\"wl\" href=\"#note=01%20Sources/S14%20Yahoo%20Finance%20monthly%20prices%20for%20HSY%20SPY%20and%20BIL\" data-note=\"01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL\">S14 Yahoo Finance monthly prices for HSY SPY and BIL</a></td></tr></tbody></table>\n<h3>Numbers we still need</h3>\n<ul>\n<li>The closing share price of 160.19 dollars on October 2, 2026. With 203.4 million diluted shares it gives the 32,582.6 market value of equity. The workbook holds the market value, but no source note records the price. Add a source (for example Yahoo Finance's HSY history for October 2, 2026) and an atomic note.</li>\n</ul>",
    "linkedFrom": [
     "00 Project Home",
     "01 Sources/S9 Team Q&D workbook for Hershey"
@@ -1381,6 +2589,26 @@ window.NOTES = {
   },
   {
    "from": "00 Project Home",
+   "to": "01 Sources/S10 Damodaran betas by sector January 2026"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "01 Sources/S11 Damodaran ratings coverage and default spreads January 2026"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "01 Sources/S12 Damodaran country risk premiums January 2026"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "01 Sources/S13 US Treasury daily par yield curve 2026"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL"
+  },
+  {
+   "from": "00 Project Home",
    "to": "01 Sources/S2 Hershey Q2 2026 results press release"
   },
   {
@@ -1413,6 +2641,18 @@ window.NOTES = {
   },
   {
    "from": "00 Project Home",
+   "to": "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/Adjusted beta 0.4102"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/After-tax cost of debt 4.49 percent"
+  },
+  {
+   "from": "00 Project Home",
    "to": "02 Atomic Notes/Chocolate industry revenue growth about 2.5 percent a year"
   },
   {
@@ -1429,11 +2669,31 @@ window.NOTES = {
   },
   {
    "from": "00 Project Home",
+   "to": "02 Atomic Notes/Cost of equity 7.11 percent"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/Debt valued at book value 4,681 million dollars"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/Debt weight 12.6 percent"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/Equity weight 87.4 percent"
+  },
+  {
+   "from": "00 Project Home",
    "to": "02 Atomic Notes/FY2023 net sales growth 7.2 percent"
   },
   {
    "from": "00 Project Home",
    "to": "02 Atomic Notes/FY2023 operating margin 22.9 percent"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/FY2024 effective tax rate 10.2 percent"
   },
   {
    "from": "00 Project Home",
@@ -1453,6 +2713,18 @@ window.NOTES = {
   },
   {
    "from": "00 Project Home",
+   "to": "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/FY2025 US share of net sales 87.7 percent"
+  },
+  {
+   "from": "00 Project Home",
    "to": "02 Atomic Notes/FY2025 capex 3.9 percent of net sales"
   },
   {
@@ -1469,7 +2741,15 @@ window.NOTES = {
   },
   {
    "from": "00 Project Home",
+   "to": "02 Atomic Notes/FY2025 effective tax rate 27.3 percent"
+  },
+  {
+   "from": "00 Project Home",
    "to": "02 Atomic Notes/FY2025 gross margin 33.5 percent"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/FY2025 interest coverage 7.58"
   },
   {
    "from": "00 Project Home",
@@ -1505,6 +2785,46 @@ window.NOTES = {
   },
   {
    "from": "00 Project Home",
+   "to": "02 Atomic Notes/FactSet beta 0.34"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/Food processing industry beta 0.61"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/Food processing industry debt to equity 43.73 percent"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/Food processing industry tax rate 10.37 percent"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/Hamada beta 0.35 cross-check"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/Hershey debt to equity 14.37 percent"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/Pre-tax cost of debt 5.83 percent"
+  },
+  {
+   "from": "00 Project Home",
    "to": "02 Atomic Notes/Q1 2026 adjusted gross margin 40.4 percent"
   },
   {
@@ -1529,11 +2849,35 @@ window.NOTES = {
   },
   {
    "from": "00 Project Home",
+   "to": "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread"
+  },
+  {
+   "from": "00 Project Home",
    "to": "02 Atomic Notes/US chocolate spending about 23.5 billion dollars in 2025"
   },
   {
    "from": "00 Project Home",
    "to": "02 Atomic Notes/US chocolate spending up 39 percent since 2020"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/US country default spread 0.23 percent January 2026"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/US equity risk premium 4.46 percent January 2026"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/WACC 6.78 percent"
+  },
+  {
+   "from": "00 Project Home",
+   "to": "02 Atomic Notes/WACC tax rate 22.96 percent"
   },
   {
    "from": "00 Project Home",
@@ -1545,7 +2889,19 @@ window.NOTES = {
   },
   {
    "from": "00 Project Home",
+   "to": "03 Drafts/Milestone 3 - Cost of Capital Memo"
+  },
+  {
+   "from": "00 Project Home",
    "to": "03 Drafts/Module 2 - Data pull"
+  },
+  {
+   "from": "01 Sources/S1 Hershey Form 10-K FY2025",
+   "to": "02 Atomic Notes/Debt valued at book value 4,681 million dollars"
+  },
+  {
+   "from": "01 Sources/S1 Hershey Form 10-K FY2025",
+   "to": "02 Atomic Notes/Debt weight 12.6 percent"
   },
   {
    "from": "01 Sources/S1 Hershey Form 10-K FY2025",
@@ -1554,6 +2910,10 @@ window.NOTES = {
   {
    "from": "01 Sources/S1 Hershey Form 10-K FY2025",
    "to": "02 Atomic Notes/FY2023 operating margin 22.9 percent"
+  },
+  {
+   "from": "01 Sources/S1 Hershey Form 10-K FY2025",
+   "to": "02 Atomic Notes/FY2024 effective tax rate 10.2 percent"
   },
   {
    "from": "01 Sources/S1 Hershey Form 10-K FY2025",
@@ -1573,6 +2933,18 @@ window.NOTES = {
   },
   {
    "from": "01 Sources/S1 Hershey Form 10-K FY2025",
+   "to": "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars"
+  },
+  {
+   "from": "01 Sources/S1 Hershey Form 10-K FY2025",
+   "to": "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars"
+  },
+  {
+   "from": "01 Sources/S1 Hershey Form 10-K FY2025",
+   "to": "02 Atomic Notes/FY2025 US share of net sales 87.7 percent"
+  },
+  {
+   "from": "01 Sources/S1 Hershey Form 10-K FY2025",
    "to": "02 Atomic Notes/FY2025 capex 3.9 percent of net sales"
   },
   {
@@ -1589,7 +2961,15 @@ window.NOTES = {
   },
   {
    "from": "01 Sources/S1 Hershey Form 10-K FY2025",
+   "to": "02 Atomic Notes/FY2025 effective tax rate 27.3 percent"
+  },
+  {
+   "from": "01 Sources/S1 Hershey Form 10-K FY2025",
    "to": "02 Atomic Notes/FY2025 gross margin 33.5 percent"
+  },
+  {
+   "from": "01 Sources/S1 Hershey Form 10-K FY2025",
+   "to": "02 Atomic Notes/FY2025 interest coverage 7.58"
   },
   {
    "from": "01 Sources/S1 Hershey Form 10-K FY2025",
@@ -1610,6 +2990,70 @@ window.NOTES = {
   {
    "from": "01 Sources/S1 Hershey Form 10-K FY2025",
    "to": "02 Atomic Notes/FY2025 operating margin 12.3 percent"
+  },
+  {
+   "from": "01 Sources/S1 Hershey Form 10-K FY2025",
+   "to": "02 Atomic Notes/Hershey debt to equity 14.37 percent"
+  },
+  {
+   "from": "01 Sources/S1 Hershey Form 10-K FY2025",
+   "to": "02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons"
+  },
+  {
+   "from": "01 Sources/S1 Hershey Form 10-K FY2025",
+   "to": "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales"
+  },
+  {
+   "from": "01 Sources/S1 Hershey Form 10-K FY2025",
+   "to": "02 Atomic Notes/WACC tax rate 22.96 percent"
+  },
+  {
+   "from": "01 Sources/S10 Damodaran betas by sector January 2026",
+   "to": "02 Atomic Notes/Food processing industry beta 0.61"
+  },
+  {
+   "from": "01 Sources/S10 Damodaran betas by sector January 2026",
+   "to": "02 Atomic Notes/Food processing industry debt to equity 43.73 percent"
+  },
+  {
+   "from": "01 Sources/S10 Damodaran betas by sector January 2026",
+   "to": "02 Atomic Notes/Food processing industry tax rate 10.37 percent"
+  },
+  {
+   "from": "01 Sources/S10 Damodaran betas by sector January 2026",
+   "to": "02 Atomic Notes/Hamada beta 0.35 cross-check"
+  },
+  {
+   "from": "01 Sources/S11 Damodaran ratings coverage and default spreads January 2026",
+   "to": "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread"
+  },
+  {
+   "from": "01 Sources/S12 Damodaran country risk premiums January 2026",
+   "to": "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales"
+  },
+  {
+   "from": "01 Sources/S12 Damodaran country risk premiums January 2026",
+   "to": "02 Atomic Notes/US country default spread 0.23 percent January 2026"
+  },
+  {
+   "from": "01 Sources/S12 Damodaran country risk premiums January 2026",
+   "to": "02 Atomic Notes/US equity risk premium 4.46 percent January 2026"
+  },
+  {
+   "from": "01 Sources/S13 US Treasury daily par yield curve 2026",
+   "to": "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026"
+  },
+  {
+   "from": "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL",
+   "to": "02 Atomic Notes/Adjusted beta 0.4102"
+  },
+  {
+   "from": "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL",
+   "to": "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months"
+  },
+  {
+   "from": "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL",
+   "to": "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006"
   },
   {
    "from": "01 Sources/S2 Hershey Q2 2026 results press release",
@@ -1709,6 +3153,10 @@ window.NOTES = {
   },
   {
    "from": "01 Sources/S8 FactSet consensus estimates for Hershey",
+   "to": "02 Atomic Notes/FactSet beta 0.34"
+  },
+  {
+   "from": "01 Sources/S8 FactSet consensus estimates for Hershey",
    "to": "03 Drafts/Module 2 - Data pull"
   },
   {
@@ -1721,7 +3169,43 @@ window.NOTES = {
   },
   {
    "from": "01 Sources/S9 Team Q&D workbook for Hershey",
+   "to": "02 Atomic Notes/After-tax cost of debt 4.49 percent"
+  },
+  {
+   "from": "01 Sources/S9 Team Q&D workbook for Hershey",
+   "to": "02 Atomic Notes/Cost of equity 7.11 percent"
+  },
+  {
+   "from": "01 Sources/S9 Team Q&D workbook for Hershey",
+   "to": "02 Atomic Notes/Debt weight 12.6 percent"
+  },
+  {
+   "from": "01 Sources/S9 Team Q&D workbook for Hershey",
+   "to": "02 Atomic Notes/Equity weight 87.4 percent"
+  },
+  {
+   "from": "01 Sources/S9 Team Q&D workbook for Hershey",
+   "to": "02 Atomic Notes/Hamada beta 0.35 cross-check"
+  },
+  {
+   "from": "01 Sources/S9 Team Q&D workbook for Hershey",
+   "to": "02 Atomic Notes/Hershey debt to equity 14.37 percent"
+  },
+  {
+   "from": "01 Sources/S9 Team Q&D workbook for Hershey",
+   "to": "02 Atomic Notes/Pre-tax cost of debt 5.83 percent"
+  },
+  {
+   "from": "01 Sources/S9 Team Q&D workbook for Hershey",
+   "to": "02 Atomic Notes/WACC 6.78 percent"
+  },
+  {
+   "from": "01 Sources/S9 Team Q&D workbook for Hershey",
    "to": "03 Drafts/Milestone 2 - Driver Justifications"
+  },
+  {
+   "from": "01 Sources/S9 Team Q&D workbook for Hershey",
+   "to": "03 Drafts/Milestone 3 - Cost of Capital Memo"
   },
   {
    "from": "01 Sources/S9 Team Q&D workbook for Hershey",
@@ -1730,6 +3214,62 @@ window.NOTES = {
   {
    "from": "01 Sources/S9 Team Q&D workbook for Hershey",
    "to": "03 Drafts/Module 2 - Data verification"
+  },
+  {
+   "from": "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026",
+   "to": "01 Sources/S13 US Treasury daily par yield curve 2026"
+  },
+  {
+   "from": "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026",
+   "to": "02 Atomic Notes/Cost of equity 7.11 percent"
+  },
+  {
+   "from": "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026",
+   "to": "02 Atomic Notes/Pre-tax cost of debt 5.83 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Adjusted beta 0.4102",
+   "to": "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL"
+  },
+  {
+   "from": "02 Atomic Notes/Adjusted beta 0.4102",
+   "to": "02 Atomic Notes/Cost of equity 7.11 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Adjusted beta 0.4102",
+   "to": "02 Atomic Notes/FactSet beta 0.34"
+  },
+  {
+   "from": "02 Atomic Notes/Adjusted beta 0.4102",
+   "to": "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months"
+  },
+  {
+   "from": "02 Atomic Notes/Adjusted beta 0.4102",
+   "to": "02 Atomic Notes/Hamada beta 0.35 cross-check"
+  },
+  {
+   "from": "02 Atomic Notes/Adjusted beta 0.4102",
+   "to": "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006"
+  },
+  {
+   "from": "02 Atomic Notes/After-tax cost of debt 4.49 percent",
+   "to": "01 Sources/S9 Team Q&D workbook for Hershey"
+  },
+  {
+   "from": "02 Atomic Notes/After-tax cost of debt 4.49 percent",
+   "to": "02 Atomic Notes/Debt weight 12.6 percent"
+  },
+  {
+   "from": "02 Atomic Notes/After-tax cost of debt 4.49 percent",
+   "to": "02 Atomic Notes/Pre-tax cost of debt 5.83 percent"
+  },
+  {
+   "from": "02 Atomic Notes/After-tax cost of debt 4.49 percent",
+   "to": "02 Atomic Notes/WACC 6.78 percent"
+  },
+  {
+   "from": "02 Atomic Notes/After-tax cost of debt 4.49 percent",
+   "to": "02 Atomic Notes/WACC tax rate 22.96 percent"
   },
   {
    "from": "02 Atomic Notes/Chocolate industry revenue growth about 2.5 percent a year",
@@ -1772,6 +3312,82 @@ window.NOTES = {
    "to": "02 Atomic Notes/Cocoa down more than 70 percent from late-2024 highs"
   },
   {
+   "from": "02 Atomic Notes/Cost of equity 7.11 percent",
+   "to": "01 Sources/S9 Team Q&D workbook for Hershey"
+  },
+  {
+   "from": "02 Atomic Notes/Cost of equity 7.11 percent",
+   "to": "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026"
+  },
+  {
+   "from": "02 Atomic Notes/Cost of equity 7.11 percent",
+   "to": "02 Atomic Notes/Adjusted beta 0.4102"
+  },
+  {
+   "from": "02 Atomic Notes/Cost of equity 7.11 percent",
+   "to": "02 Atomic Notes/Equity weight 87.4 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Cost of equity 7.11 percent",
+   "to": "02 Atomic Notes/US equity risk premium 4.46 percent January 2026"
+  },
+  {
+   "from": "02 Atomic Notes/Cost of equity 7.11 percent",
+   "to": "02 Atomic Notes/WACC 6.78 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Debt valued at book value 4,681 million dollars",
+   "to": "01 Sources/S1 Hershey Form 10-K FY2025"
+  },
+  {
+   "from": "02 Atomic Notes/Debt valued at book value 4,681 million dollars",
+   "to": "02 Atomic Notes/Debt weight 12.6 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Debt valued at book value 4,681 million dollars",
+   "to": "02 Atomic Notes/Hershey debt to equity 14.37 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Debt weight 12.6 percent",
+   "to": "01 Sources/S1 Hershey Form 10-K FY2025"
+  },
+  {
+   "from": "02 Atomic Notes/Debt weight 12.6 percent",
+   "to": "01 Sources/S9 Team Q&D workbook for Hershey"
+  },
+  {
+   "from": "02 Atomic Notes/Debt weight 12.6 percent",
+   "to": "02 Atomic Notes/After-tax cost of debt 4.49 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Debt weight 12.6 percent",
+   "to": "02 Atomic Notes/Debt valued at book value 4,681 million dollars"
+  },
+  {
+   "from": "02 Atomic Notes/Debt weight 12.6 percent",
+   "to": "02 Atomic Notes/Equity weight 87.4 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Debt weight 12.6 percent",
+   "to": "02 Atomic Notes/WACC 6.78 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Equity weight 87.4 percent",
+   "to": "01 Sources/S9 Team Q&D workbook for Hershey"
+  },
+  {
+   "from": "02 Atomic Notes/Equity weight 87.4 percent",
+   "to": "02 Atomic Notes/Cost of equity 7.11 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Equity weight 87.4 percent",
+   "to": "02 Atomic Notes/Debt weight 12.6 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Equity weight 87.4 percent",
+   "to": "02 Atomic Notes/WACC 6.78 percent"
+  },
+  {
    "from": "02 Atomic Notes/FY2023 net sales growth 7.2 percent",
    "to": "01 Sources/S1 Hershey Form 10-K FY2025"
   },
@@ -1794,6 +3410,14 @@ window.NOTES = {
   {
    "from": "02 Atomic Notes/FY2023 operating margin 22.9 percent",
    "to": "02 Atomic Notes/FY2025 operating margin 12.3 percent"
+  },
+  {
+   "from": "02 Atomic Notes/FY2024 effective tax rate 10.2 percent",
+   "to": "01 Sources/S1 Hershey Form 10-K FY2025"
+  },
+  {
+   "from": "02 Atomic Notes/FY2024 effective tax rate 10.2 percent",
+   "to": "02 Atomic Notes/FY2025 effective tax rate 27.3 percent"
   },
   {
    "from": "02 Atomic Notes/FY2024 gross margin 47.3 percent",
@@ -1836,6 +3460,54 @@ window.NOTES = {
    "to": "02 Atomic Notes/FY2025 operating margin 12.3 percent"
   },
   {
+   "from": "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars",
+   "to": "01 Sources/S1 Hershey Form 10-K FY2025"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars",
+   "to": "02 Atomic Notes/FY2025 US share of net sales 87.7 percent"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars",
+   "to": "02 Atomic Notes/FY2025 net sales 11.69 billion dollars"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars",
+   "to": "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars",
+   "to": "01 Sources/S1 Hershey Form 10-K FY2025"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars",
+   "to": "02 Atomic Notes/FY2025 US share of net sales 87.7 percent"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars",
+   "to": "02 Atomic Notes/FY2025 net sales 11.69 billion dollars"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars",
+   "to": "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 US share of net sales 87.7 percent",
+   "to": "01 Sources/S1 Hershey Form 10-K FY2025"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 US share of net sales 87.7 percent",
+   "to": "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 US share of net sales 87.7 percent",
+   "to": "02 Atomic Notes/FY2025 net sales 11.69 billion dollars"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 US share of net sales 87.7 percent",
+   "to": "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales"
+  },
+  {
    "from": "02 Atomic Notes/FY2025 capex 3.9 percent of net sales",
    "to": "01 Sources/S1 Hershey Form 10-K FY2025"
   },
@@ -1876,6 +3548,18 @@ window.NOTES = {
    "to": "02 Atomic Notes/FY2025 operating cash flow 2.28 billion dollars"
   },
   {
+   "from": "02 Atomic Notes/FY2025 effective tax rate 27.3 percent",
+   "to": "01 Sources/S1 Hershey Form 10-K FY2025"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 effective tax rate 27.3 percent",
+   "to": "02 Atomic Notes/FY2024 effective tax rate 10.2 percent"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 effective tax rate 27.3 percent",
+   "to": "02 Atomic Notes/WACC tax rate 22.96 percent"
+  },
+  {
    "from": "02 Atomic Notes/FY2025 gross margin 33.5 percent",
    "to": "01 Sources/S1 Hershey Form 10-K FY2025"
   },
@@ -1886,6 +3570,22 @@ window.NOTES = {
   {
    "from": "02 Atomic Notes/FY2025 gross margin 33.5 percent",
    "to": "02 Atomic Notes/Q1 2026 adjusted gross margin 40.4 percent"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 interest coverage 7.58",
+   "to": "01 Sources/S1 Hershey Form 10-K FY2025"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 interest coverage 7.58",
+   "to": "02 Atomic Notes/FY2025 operating margin 12.3 percent"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 interest coverage 7.58",
+   "to": "02 Atomic Notes/Pre-tax cost of debt 5.83 percent"
+  },
+  {
+   "from": "02 Atomic Notes/FY2025 interest coverage 7.58",
+   "to": "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread"
   },
   {
    "from": "02 Atomic Notes/FY2025 net income 883 million dollars",
@@ -1980,6 +3680,190 @@ window.NOTES = {
    "to": "02 Atomic Notes/Q1 2026 adjusted gross margin 40.4 percent"
   },
   {
+   "from": "02 Atomic Notes/FactSet beta 0.34",
+   "to": "01 Sources/S8 FactSet consensus estimates for Hershey"
+  },
+  {
+   "from": "02 Atomic Notes/FactSet beta 0.34",
+   "to": "02 Atomic Notes/Adjusted beta 0.4102"
+  },
+  {
+   "from": "02 Atomic Notes/FactSet beta 0.34",
+   "to": "02 Atomic Notes/Hamada beta 0.35 cross-check"
+  },
+  {
+   "from": "02 Atomic Notes/Food processing industry beta 0.61",
+   "to": "01 Sources/S10 Damodaran betas by sector January 2026"
+  },
+  {
+   "from": "02 Atomic Notes/Food processing industry beta 0.61",
+   "to": "02 Atomic Notes/Food processing industry debt to equity 43.73 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Food processing industry beta 0.61",
+   "to": "02 Atomic Notes/Food processing industry tax rate 10.37 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Food processing industry beta 0.61",
+   "to": "02 Atomic Notes/Hamada beta 0.35 cross-check"
+  },
+  {
+   "from": "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+   "to": "01 Sources/S10 Damodaran betas by sector January 2026"
+  },
+  {
+   "from": "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+   "to": "02 Atomic Notes/Food processing industry beta 0.61"
+  },
+  {
+   "from": "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+   "to": "02 Atomic Notes/Food processing industry tax rate 10.37 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+   "to": "02 Atomic Notes/Hamada beta 0.35 cross-check"
+  },
+  {
+   "from": "02 Atomic Notes/Food processing industry debt to equity 43.73 percent",
+   "to": "02 Atomic Notes/Hershey debt to equity 14.37 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Food processing industry tax rate 10.37 percent",
+   "to": "01 Sources/S10 Damodaran betas by sector January 2026"
+  },
+  {
+   "from": "02 Atomic Notes/Food processing industry tax rate 10.37 percent",
+   "to": "02 Atomic Notes/Food processing industry beta 0.61"
+  },
+  {
+   "from": "02 Atomic Notes/Food processing industry tax rate 10.37 percent",
+   "to": "02 Atomic Notes/Food processing industry debt to equity 43.73 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Food processing industry tax rate 10.37 percent",
+   "to": "02 Atomic Notes/Hamada beta 0.35 cross-check"
+  },
+  {
+   "from": "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months",
+   "to": "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL"
+  },
+  {
+   "from": "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months",
+   "to": "02 Atomic Notes/Adjusted beta 0.4102"
+  },
+  {
+   "from": "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months",
+   "to": "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006"
+  },
+  {
+   "from": "02 Atomic Notes/Hamada beta 0.35 cross-check",
+   "to": "01 Sources/S10 Damodaran betas by sector January 2026"
+  },
+  {
+   "from": "02 Atomic Notes/Hamada beta 0.35 cross-check",
+   "to": "01 Sources/S9 Team Q&D workbook for Hershey"
+  },
+  {
+   "from": "02 Atomic Notes/Hamada beta 0.35 cross-check",
+   "to": "02 Atomic Notes/Adjusted beta 0.4102"
+  },
+  {
+   "from": "02 Atomic Notes/Hamada beta 0.35 cross-check",
+   "to": "02 Atomic Notes/FactSet beta 0.34"
+  },
+  {
+   "from": "02 Atomic Notes/Hamada beta 0.35 cross-check",
+   "to": "02 Atomic Notes/Food processing industry beta 0.61"
+  },
+  {
+   "from": "02 Atomic Notes/Hamada beta 0.35 cross-check",
+   "to": "02 Atomic Notes/Food processing industry debt to equity 43.73 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Hamada beta 0.35 cross-check",
+   "to": "02 Atomic Notes/Food processing industry tax rate 10.37 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Hamada beta 0.35 cross-check",
+   "to": "02 Atomic Notes/Hershey debt to equity 14.37 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Hamada beta 0.35 cross-check",
+   "to": "02 Atomic Notes/WACC tax rate 22.96 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Hershey debt to equity 14.37 percent",
+   "to": "01 Sources/S1 Hershey Form 10-K FY2025"
+  },
+  {
+   "from": "02 Atomic Notes/Hershey debt to equity 14.37 percent",
+   "to": "01 Sources/S9 Team Q&D workbook for Hershey"
+  },
+  {
+   "from": "02 Atomic Notes/Hershey debt to equity 14.37 percent",
+   "to": "02 Atomic Notes/Debt valued at book value 4,681 million dollars"
+  },
+  {
+   "from": "02 Atomic Notes/Hershey debt to equity 14.37 percent",
+   "to": "02 Atomic Notes/Food processing industry debt to equity 43.73 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Hershey debt to equity 14.37 percent",
+   "to": "02 Atomic Notes/Hamada beta 0.35 cross-check"
+  },
+  {
+   "from": "02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons",
+   "to": "01 Sources/S1 Hershey Form 10-K FY2025"
+  },
+  {
+   "from": "02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons",
+   "to": "02 Atomic Notes/Pre-tax cost of debt 5.83 percent"
+  },
+  {
+   "from": "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+   "to": "01 Sources/S1 Hershey Form 10-K FY2025"
+  },
+  {
+   "from": "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+   "to": "01 Sources/S12 Damodaran country risk premiums January 2026"
+  },
+  {
+   "from": "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+   "to": "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars"
+  },
+  {
+   "from": "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+   "to": "02 Atomic Notes/FY2025 US share of net sales 87.7 percent"
+  },
+  {
+   "from": "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+   "to": "02 Atomic Notes/US country default spread 0.23 percent January 2026"
+  },
+  {
+   "from": "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales",
+   "to": "02 Atomic Notes/US equity risk premium 4.46 percent January 2026"
+  },
+  {
+   "from": "02 Atomic Notes/Pre-tax cost of debt 5.83 percent",
+   "to": "01 Sources/S9 Team Q&D workbook for Hershey"
+  },
+  {
+   "from": "02 Atomic Notes/Pre-tax cost of debt 5.83 percent",
+   "to": "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026"
+  },
+  {
+   "from": "02 Atomic Notes/Pre-tax cost of debt 5.83 percent",
+   "to": "02 Atomic Notes/After-tax cost of debt 4.49 percent"
+  },
+  {
+   "from": "02 Atomic Notes/Pre-tax cost of debt 5.83 percent",
+   "to": "02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons"
+  },
+  {
+   "from": "02 Atomic Notes/Pre-tax cost of debt 5.83 percent",
+   "to": "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread"
+  },
+  {
    "from": "02 Atomic Notes/Q1 2026 adjusted gross margin 40.4 percent",
    "to": "01 Sources/S5 FoodNavigator Hershey profit surge article"
   },
@@ -2060,6 +3944,30 @@ window.NOTES = {
    "to": "02 Atomic Notes/Q2 2026 confectionery volume down about 10 percent"
   },
   {
+   "from": "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006",
+   "to": "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL"
+  },
+  {
+   "from": "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006",
+   "to": "02 Atomic Notes/Adjusted beta 0.4102"
+  },
+  {
+   "from": "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006",
+   "to": "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months"
+  },
+  {
+   "from": "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread",
+   "to": "01 Sources/S11 Damodaran ratings coverage and default spreads January 2026"
+  },
+  {
+   "from": "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread",
+   "to": "02 Atomic Notes/FY2025 interest coverage 7.58"
+  },
+  {
+   "from": "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread",
+   "to": "02 Atomic Notes/Pre-tax cost of debt 5.83 percent"
+  },
+  {
    "from": "02 Atomic Notes/US chocolate spending about 23.5 billion dollars in 2025",
    "to": "01 Sources/S7 Madison and Wall chocolate industry 2026 update"
   },
@@ -2074,6 +3982,70 @@ window.NOTES = {
   {
    "from": "02 Atomic Notes/US chocolate spending up 39 percent since 2020",
    "to": "02 Atomic Notes/Chocolate industry revenue growth about 2.5 percent a year"
+  },
+  {
+   "from": "02 Atomic Notes/US country default spread 0.23 percent January 2026",
+   "to": "01 Sources/S12 Damodaran country risk premiums January 2026"
+  },
+  {
+   "from": "02 Atomic Notes/US country default spread 0.23 percent January 2026",
+   "to": "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales"
+  },
+  {
+   "from": "02 Atomic Notes/US country default spread 0.23 percent January 2026",
+   "to": "02 Atomic Notes/US equity risk premium 4.46 percent January 2026"
+  },
+  {
+   "from": "02 Atomic Notes/US equity risk premium 4.46 percent January 2026",
+   "to": "01 Sources/S12 Damodaran country risk premiums January 2026"
+  },
+  {
+   "from": "02 Atomic Notes/US equity risk premium 4.46 percent January 2026",
+   "to": "02 Atomic Notes/Cost of equity 7.11 percent"
+  },
+  {
+   "from": "02 Atomic Notes/US equity risk premium 4.46 percent January 2026",
+   "to": "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales"
+  },
+  {
+   "from": "02 Atomic Notes/US equity risk premium 4.46 percent January 2026",
+   "to": "02 Atomic Notes/US country default spread 0.23 percent January 2026"
+  },
+  {
+   "from": "02 Atomic Notes/WACC 6.78 percent",
+   "to": "01 Sources/S9 Team Q&D workbook for Hershey"
+  },
+  {
+   "from": "02 Atomic Notes/WACC 6.78 percent",
+   "to": "02 Atomic Notes/After-tax cost of debt 4.49 percent"
+  },
+  {
+   "from": "02 Atomic Notes/WACC 6.78 percent",
+   "to": "02 Atomic Notes/Cost of equity 7.11 percent"
+  },
+  {
+   "from": "02 Atomic Notes/WACC 6.78 percent",
+   "to": "02 Atomic Notes/Debt weight 12.6 percent"
+  },
+  {
+   "from": "02 Atomic Notes/WACC 6.78 percent",
+   "to": "02 Atomic Notes/Equity weight 87.4 percent"
+  },
+  {
+   "from": "02 Atomic Notes/WACC tax rate 22.96 percent",
+   "to": "01 Sources/S1 Hershey Form 10-K FY2025"
+  },
+  {
+   "from": "02 Atomic Notes/WACC tax rate 22.96 percent",
+   "to": "02 Atomic Notes/After-tax cost of debt 4.49 percent"
+  },
+  {
+   "from": "02 Atomic Notes/WACC tax rate 22.96 percent",
+   "to": "02 Atomic Notes/FY2025 effective tax rate 27.3 percent"
+  },
+  {
+   "from": "02 Atomic Notes/WACC tax rate 22.96 percent",
+   "to": "02 Atomic Notes/Hamada beta 0.35 cross-check"
   },
   {
    "from": "03 Drafts/Milestone 2 - Driver Justifications",
@@ -2105,6 +4077,10 @@ window.NOTES = {
   },
   {
    "from": "03 Drafts/Milestone 2 - Driver Justifications",
+   "to": "02 Atomic Notes/FY2024 effective tax rate 10.2 percent"
+  },
+  {
+   "from": "03 Drafts/Milestone 2 - Driver Justifications",
    "to": "02 Atomic Notes/FY2024 gross margin 47.3 percent"
   },
   {
@@ -2122,6 +4098,10 @@ window.NOTES = {
   {
    "from": "03 Drafts/Milestone 2 - Driver Justifications",
    "to": "02 Atomic Notes/FY2025 depreciation and amortization 504 million dollars"
+  },
+  {
+   "from": "03 Drafts/Milestone 2 - Driver Justifications",
+   "to": "02 Atomic Notes/FY2025 effective tax rate 27.3 percent"
   },
   {
    "from": "03 Drafts/Milestone 2 - Driver Justifications",
@@ -2146,6 +4126,150 @@ window.NOTES = {
   {
    "from": "03 Drafts/Milestone 2 - Driver Justifications",
    "to": "02 Atomic Notes/Q2 2026 confectionery volume down about 10 percent"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "01 Sources/S1 Hershey Form 10-K FY2025"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "01 Sources/S10 Damodaran betas by sector January 2026"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "01 Sources/S11 Damodaran ratings coverage and default spreads January 2026"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "01 Sources/S12 Damodaran country risk premiums January 2026"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "01 Sources/S13 US Treasury daily par yield curve 2026"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "01 Sources/S8 FactSet consensus estimates for Hershey"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "01 Sources/S9 Team Q&D workbook for Hershey"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/Adjusted beta 0.4102"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/After-tax cost of debt 4.49 percent"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/Cost of equity 7.11 percent"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/Debt valued at book value 4,681 million dollars"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/Debt weight 12.6 percent"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/Equity weight 87.4 percent"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/FY2025 US net sales 10.25 billion dollars"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/FY2025 US share of net sales 87.7 percent"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/FY2025 interest coverage 7.58"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/FY2025 net sales 11.69 billion dollars"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/FactSet beta 0.34"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/Food processing industry beta 0.61"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/Food processing industry debt to equity 43.73 percent"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/Food processing industry tax rate 10.37 percent"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/Hamada beta 0.35 cross-check"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/Hershey debt to equity 14.37 percent"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/Pre-tax cost of debt 5.83 percent"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/US country default spread 0.23 percent January 2026"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/US equity risk premium 4.46 percent January 2026"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/WACC 6.78 percent"
+  },
+  {
+   "from": "03 Drafts/Milestone 3 - Cost of Capital Memo",
+   "to": "02 Atomic Notes/WACC tax rate 22.96 percent"
   },
   {
    "from": "03 Drafts/Module 2 - Data pull",

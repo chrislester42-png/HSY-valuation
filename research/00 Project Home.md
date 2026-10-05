@@ -1,7 +1,7 @@
 ---
 type: moc
 project: "The Hershey Company (HSY)"
-date-updated: 2026-10-04
+date-updated: 2026-10-05
 ---
 
 # The Hershey Company (HSY) valuation project
@@ -24,6 +24,7 @@ Every number on the site points at an atomic note here. Every atomic note points
 
 - [[03 Drafts/Milestone 1 - Selection Memo]]
 - [[03 Drafts/Milestone 2 - Driver Justifications]]
+- [[03 Drafts/Milestone 3 - Cost of Capital Memo]]
 - [[03 Drafts/Module 2 - Data pull]]
 
 ## The thesis (current view)
@@ -59,6 +60,8 @@ Every number on the site points at an atomic note here. Every atomic note points
 - [[02 Atomic Notes/FY2025 capex 3.9 percent of net sales]]
 - [[02 Atomic Notes/FY2025 depreciation and amortization 504 million dollars]]
 - [[02 Atomic Notes/FY2025 dividends paid 1.09 billion dollars]]
+- [[02 Atomic Notes/FY2025 effective tax rate 27.3 percent]]
+- [[02 Atomic Notes/FY2024 effective tax rate 10.2 percent]]
 
 ### 2026 so far and guidance
 - [[02 Atomic Notes/Q1 2026 adjusted gross margin 40.4 percent]]
@@ -80,15 +83,54 @@ Every number on the site points at an atomic note here. Every atomic note points
 - [[02 Atomic Notes/Chocolate industry revenue growth about 2.5 percent a year]]
 
 ## Cost of capital inputs
--
+
+### WACC
+- [[02 Atomic Notes/WACC 6.78 percent]]
+- [[02 Atomic Notes/Equity weight 87.4 percent]]
+- [[02 Atomic Notes/Debt weight 12.6 percent]]
+- [[02 Atomic Notes/Debt valued at book value 4,681 million dollars]]
+- [[02 Atomic Notes/Hershey debt to equity 14.37 percent]]
+
+### Cost of equity
+- [[02 Atomic Notes/Cost of equity 7.11 percent]]
+- [[02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026]]
+- [[02 Atomic Notes/US equity risk premium 4.46 percent January 2026]]
+- [[02 Atomic Notes/Adjusted beta 0.4102]]
+- [[02 Atomic Notes/HSY raw regression beta 0.1153 over 60 months]]
+- [[02 Atomic Notes/Regression beta standard error 0.195 and R-squared 0.006]]
+
+### Beta cross-checks
+- [[02 Atomic Notes/Hamada beta 0.35 cross-check]]
+- [[02 Atomic Notes/FactSet beta 0.34]]
+- [[02 Atomic Notes/Food processing industry beta 0.61]]
+- [[02 Atomic Notes/Food processing industry debt to equity 43.73 percent]]
+- [[02 Atomic Notes/Food processing industry tax rate 10.37 percent]]
+
+### Cost of debt
+- [[02 Atomic Notes/Pre-tax cost of debt 5.83 percent]]
+- [[02 Atomic Notes/After-tax cost of debt 4.49 percent]]
+- [[02 Atomic Notes/WACC tax rate 22.96 percent]]
+- [[02 Atomic Notes/FY2025 interest coverage 7.58]]
+- [[02 Atomic Notes/Synthetic rating Aa2 AA with 0.55 percent default spread]]
+- [[02 Atomic Notes/Hershey notes due 2028 to 2035 carry 4.55 to 5.10 percent coupons]]
+
+### Country risk
+- [[02 Atomic Notes/US country default spread 0.23 percent January 2026]]
+- [[02 Atomic Notes/FY2025 US net sales 10.25 billion dollars]]
+- [[02 Atomic Notes/FY2025 US share of net sales 87.7 percent]]
+- [[02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars]]
+- [[02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales]]
 
 ## Open questions
 - Management's stated FY2027 operating margin target, with the exact quote and date from the Q2 call.
 - Diluted share count at the latest quarter end, from the Q2 2026 Form 10-Q.
 - Net debt at June 30, 2026, from the Q2 2026 Form 10-Q, for the valuation bridge in Module 4.
-- A source showing Damodaran's industry datasets include a food-processing group.
+- A source showing Damodaran's industry datasets include a food-processing group. (S10 now lists a Food Processing row; confirm it, then remove this line.)
 - A source showing North America Confectionery is Hershey's single dominant segment.
-- Exact publication dates for S4 (month only), S6 and S7 (year only).
+- Exact publication dates for S4 (month only), S6 and S7 (year only), S10 and S11 (month only).
+- A source for FY2026 capex guidance of 425 to 475 (Milestone 2 memo, section 3).
+- A source for the 160.19 dollar HSY close on October 2, 2026, behind the market value of equity (Milestone 3 memo).
+- Fix the Hamada formula in WACC tab cell C24 (misplaced bracket), then update the Hamada note and the memo.
 
 ## Sources
 - [[01 Sources/S1 Hershey Form 10-K FY2025]]
@@ -100,3 +142,8 @@ Every number on the site points at an atomic note here. Every atomic note points
 - [[01 Sources/S7 Madison and Wall chocolate industry 2026 update]]
 - [[01 Sources/S8 FactSet consensus estimates for Hershey]]
 - [[01 Sources/S9 Team Q&D workbook for Hershey]]
+- [[01 Sources/S10 Damodaran betas by sector January 2026]]
+- [[01 Sources/S11 Damodaran ratings coverage and default spreads January 2026]]
+- [[01 Sources/S12 Damodaran country risk premiums January 2026]]
+- [[01 Sources/S13 US Treasury daily par yield curve 2026]]
+- [[01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL]]

@@ -4,11 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Valuation site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="deck">
   <header class="topbar">
-    <a class="brand" href="#top" data-bind="ticker">TICKER</a>
+    <a class="brand" href="#top"><span class="name" data-bind="companyName">Company</span><span class="tick" data-bind="ticker">TICKER</span></a>
     <nav class="nav" aria-label="Sections">
       <a href="#thesis">Thesis</a>
       <a href="#financials">Financials</a>
@@ -22,20 +25,29 @@
       <a href="glossary.html">Glossary</a>
       <a href="sources.html">Sources</a>
     </nav>
+    <span class="bar-price" data-bind="barPrice"></span>
   </header>
 
   <main id="top">
-    <section class="hero" id="hero">
-      <p class="eyebrow">FIN 5370 · Equity valuation</p>
-      <h1 data-bind="companyName">Company name</h1>
-      <p class="hero-meta">
-        <span data-bind="exchangeTicker">EXCHANGE: TICKER</span>
-        <span class="dot"></span>
-        <span data-bind="priceLine">Price and date</span>
-      </p>
-      <p class="hero-thesis" data-bind="oneLineThesis">One-line thesis appears here after Module 1.</p>
-      <p class="hero-team">By <span data-bind="team">Teammate one and Teammate two</span></p>
-      <p class="hero-call" data-bind="callBadge" hidden></p>
+    <section class="cover" id="hero">
+      <div class="cover-text">
+        <p class="cover-label">FIN 5370 equity research</p>
+        <h1 data-bind="companyName">Company name</h1>
+        <p class="cover-thesis" data-bind="oneLineThesis">One-line thesis appears here after Module 1.</p>
+        <p class="cover-team">By <span data-bind="team">Teammate one and Teammate two</span></p>
+      </div>
+      <aside class="card cover-card" aria-label="Snapshot">
+        <dl class="kv">
+          <div><dt>Exchange and ticker</dt><dd data-bind="exchangeTicker">EXCHANGE: TICKER</dd></div>
+          <div><dt>Price</dt><dd><span data-bind="priceValue">Price to come</span><small data-bind="priceDate"></small></dd></div>
+          <div><dt>Life-cycle stage</dt><dd data-bind="stage">Coming in Module 1</dd></div>
+          <div><dt>The call</dt><dd data-bind="callBadge">Coming in Module 5</dd></div>
+        </dl>
+        <div class="mini">
+          <div class="mini-head"><span>Revenue, $ millions</span><span class="key"><i class="k-a"></i>Actual<i class="k-f"></i>Forecast</span></div>
+          <div class="mini-chart" id="cover-chart" role="img" aria-label="Revenue by year"></div>
+        </div>
+      </aside>
     </section>
 
     <section class="section" id="thesis" data-module="1"><div class="section-inner"></div></section>

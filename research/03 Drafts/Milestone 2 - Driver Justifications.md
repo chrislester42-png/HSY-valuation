@@ -18,11 +18,12 @@ FY2025 capital expenditures were 454.6, or 3.9 percent of net sales ([[02 Atomic
 
 ## Checks we apply to the consensus
 
-- Tax rate: consensus tax expense over consensus pre-tax income is 25.9 to 25.1 percent, near FY2025's effective rate of 27.3 percent (330.9 of taxes on 1,214.2 of pre-tax income; FY2024's 10.2 percent was depressed by a one-time item). Source [[01 Sources/S1 Hershey Form 10-K FY2025]].
+- Tax rate: consensus tax expense over consensus pre-tax income is 25.9 to 25.1 percent, near FY2025's effective rate of [[02 Atomic Notes/FY2025 effective tax rate 27.3 percent|27.3 percent]] (330.9 of taxes on 1,214.2 of pre-tax income; FY2024's [[02 Atomic Notes/FY2024 effective tax rate 10.2 percent|10.2 percent]] was depressed by a one-time item). Source [[01 Sources/S1 Hershey Form 10-K FY2025]].
 - Gross margin: consensus is 41.1 to 44.2 percent, between FY2025's 33.5 percent and FY2024's 47.3 percent ([[02 Atomic Notes/FY2025 gross margin 33.5 percent]], [[02 Atomic Notes/FY2024 gross margin 47.3 percent]]).
 - Net income: we type the GAAP row; FactSet's headline Net Income row is non-GAAP and runs higher.
 - Interest expense and D&A: the sheet computes them (interest from long-term debt and the cost of debt on the WACC tab, Module 3).
 
 ## Facts we still need
 
-- None for the drivers. FY2024 and FY2025 diluted shares (203.5 and 203.4 million) were typed from the 10-K's earnings per share note and checked on the verification form.
+- A source for FY2026 capex guidance of 425 to 475 (section 3). The memo cites none, so it has no atomic note yet; it is probably in the Q2 2026 press release ([[01 Sources/S2 Hershey Q2 2026 results press release]]) or call ([[01 Sources/S3 Hershey Q2 2026 earnings call transcript]]), but check before citing.
+- Otherwise none for the drivers. FY2024 and FY2025 diluted shares (203.5 and 203.4 million) were typed from the 10-K's earnings per share note and checked on the verification form.
