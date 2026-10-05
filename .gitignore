@@ -11,6 +11,3 @@ fill.json
 research/01 Sources/_files/*.xlsx
 research/01 Sources/_files/*.xls
 research/01 Sources/_files/*.csv
-
-# Scratch copy of the blank workbook used to record video 2a
-workbook/2a-demo/
