@@ -12,7 +12,7 @@
 
   /* ---- node-type palette (tuned for the light warm-gray stage) ---------- */
   const TYPE_META = {
-    atomic:   { color: "#0f8a4d", label: "Atomic note" },
+    atomic:   { color: "#0b7340", label: "Atomic note" },
     source:   { color: "#2563eb", label: "Source" },
     question: { color: "#d97706", label: "Open question" },
     draft:    { color: "#7c3aed", label: "Draft" },
@@ -57,7 +57,7 @@
   linkPairs.forEach(([a, b]) => { deg[a]++; deg[b]++; });
   const counts = {};
   ids.forEach((id) => { const ty = notes[id].type; counts[ty] = (counts[ty] || 0) + 1; });
-  $("kb-sub").textContent = ids.length + " notes · " + linkPairs.length + " links · the research vault";
+  $("kb-sub").textContent = ids.length + " notes, " + linkPairs.length + " links";
 
   const N = ids.length;
   const order = ids.slice().sort((a, b) => deg[b] - deg[a] || notes[a].title.localeCompare(notes[b].title));
@@ -158,7 +158,7 @@
       const related = focus && (s.id === focus || t.id === focus);
       const inTheme = !themeSet || (themeSet.has(s.id) && themeSet.has(t.id));
       if (focus && !related) c.strokeStyle = "rgba(10,10,10,0.03)";
-      else if (related) c.strokeStyle = "rgba(15,138,77,0.45)";
+      else if (related) c.strokeStyle = "rgba(11,115,64,0.45)";
       else if (!inTheme) c.strokeStyle = "rgba(10,10,10,0.03)";
       else c.strokeStyle = "rgba(10,10,10,0.10)";
       c.beginPath(); c.moveTo(s.x, s.y); c.lineTo(t.x, t.y); c.stroke();
