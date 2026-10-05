@@ -17,6 +17,7 @@ This folder is your team's project for FIN 5370. It holds your research, your wo
 | `research/` | Your Obsidian vault: Project Home, one note per source, one note per fact, your memos in 03 Drafts, questions, templates. Claude writes the notes; Obsidian is how you read them. Becomes the Knowledge Bank page in Module 3 |
 | `workbook/` | Your team's Q&D workbook (.xlsx). The site's numbers come from here |
 | `scripts/workbook_to_data.py` | Reads the workbook and writes `site/data/financials.js` |
+| `scripts/build_vault.py` | Reads the `research/` vault and writes `site/data/notes.js`, which the Knowledge Bank page reads (Module 3) |
 | `site/` | The published site. Netlify serves this folder as-is |
 | `AI Log.md` | Every time Claude helps, one row. Feeds your Module 7 memo |
 | `CLAUDE.md` | The rules Claude follows in this folder. Read it once |

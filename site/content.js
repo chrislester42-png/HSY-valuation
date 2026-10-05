@@ -83,7 +83,7 @@ window.CONTENT = {
   vault: {                  // rendered on vault.html, its own page, like the Bloom site's Knowledge Bank
     status: "coming", module: 3, title: "Knowledge Bank",
     headline: "", lede: "",
-    inputs: [],             // cost of capital inputs: { input: "Beta", value: "0.35", tier: "D", formula: "", source: "S4", note: "" }
+    inputs: [],             // cost of capital inputs: { input: "Beta", value: "0.41", tier: "E", how: "who decided, or the formula for D", source: "S4", note: "02 Atomic Notes/..." }
     soWhat: ""
     // Module 3 also bakes research/ into data/notes.js and adds the note explorer below the inputs table
   },
