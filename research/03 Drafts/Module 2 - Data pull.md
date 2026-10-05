@@ -146,3 +146,23 @@ Made in Excel in the team's copy. Dr. Payne's blank is unchanged; she has been a
 Left as the template has them: NOPAT is EBIT less the income tax line (a tax rate of taxes over EBIT), which matches the DCF tab; forecast interest and interest coverage read the cost of debt on the WACC tab, empty until Module 3.
 
 After the corrections: 2025A FCFF 412.7 and FCFE 1,784.8; 2026F FCFF 1,712.1 and FCFE 1,724.6; forward P/E 19.0x; EV/EBITDA 11.8x.
+
+## Workbook replaced with Dr. Payne's filled copy, 2026-10-05
+
+`workbook/QD-HSY.xlsx` is now Dr. Payne's own filled Hershey workbook ("Q&D worksheet HSY video 2.xlsx", received 2026-10-05), used as she sent it. The team's earlier copy is in the repo history at tag `m2-done`. Everything above this section describes that earlier copy.
+
+What is the same: every FY2024 and FY2025 actual on Detail Data, apart from long-term debt typed as 3,190 and 4,681 (the filing shows 3,190.2 and 4,681.2); forecast revenue, cost of sales, net income, income taxes, EBITDA, cash, assets, current assets and liabilities, and capex; forecast EPS and EV/EBITDA formulas.
+
+What differs:
+
+| Cells | Earlier copy | Dr. Payne's copy |
+|---|---|---|
+| FrontPage C3, C4 (price, date) | 159.46 on 2026-10-04 | 160.19 on 2026-10-05 |
+| Detail Data E34:G34 (forecast long-term debt) | 4,693.7 / 4,627.0 / 4,560.3 | 4,354 / 3,968 / 3,472 |
+| Detail Data E35:G35 (forecast equity) | 4,780.2 / 5,081.8 / 5,441.8 | 4,780 / 5,092 / 5,461 |
+| Detail Data D42:G42 (FCFE) | FCFF less after-tax interest plus net borrowing | FCFF plus after-tax interest plus net borrowing |
+| FrontPage text boxes, analyst name, peers | filled | blank |
+| DCF 1-Pager, WACC calculation | earlier template | her newer template; a Key Defns tab is added |
+
+After the swap: 2025A FCFF 412.7 and FCFE 2,022.6; 2026F FCFF 1,712.1 and FCFE 1,385.1 (net borrowing is 4,354 less 4,681, and forecast interest is 0 until Module 3). The Financials section's year-one check still matches the sheet on both lines.
+

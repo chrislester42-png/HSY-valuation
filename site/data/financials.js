@@ -5,11 +5,11 @@ window.FINANCIALS = {
   "units": "millions of dollars; shares in millions (or as entered on the sheet)",
   "scaleApplied": 1.0,
   "company": {
-    "name": "The Hershey Company (HSY)",
+    "name": "Hershey Company",
     "ticker": "HSY",
     "exchange": "NYSE",
-    "price": 159.46,
-    "priceDate": "2026-10-04"
+    "price": 160.19,
+    "priceDate": "2026-10-05"
   },
   "periods": [
     {
@@ -28,7 +28,7 @@ window.FINANCIALS = {
       "totalAssets": 12946.9,
       "currentAssets": 3759.5,
       "currentLiabilities": 3929.5,
-      "longTermDebt": 3190.2,
+      "longTermDebt": 3190.0,
       "equity": 4714.7,
       "da": 455.3,
       "changeInNwc": null,
@@ -52,13 +52,13 @@ window.FINANCIALS = {
       "totalAssets": 13741.3,
       "currentAssets": 3588.9,
       "currentLiabilities": 3011.9,
-      "longTermDebt": 4681.2,
+      "longTermDebt": 4681.0,
       "equity": 4636.8,
       "da": 503.7,
       "changeInNwc": 747.0,
       "capex": 454.6,
       "fcff": 412.7,
-      "fcfe": 1784.752327
+      "fcfe": 2022.647673
     },
     {
       "label": "2026F",
@@ -76,13 +76,13 @@ window.FINANCIALS = {
       "totalAssets": 13983.3,
       "currentAssets": 4123.0,
       "currentLiabilities": 3261.5,
-      "longTermDebt": 4693.7,
-      "equity": 4780.2,
+      "longTermDebt": 4354.0,
+      "equity": 4780.0,
       "da": 488.409503,
       "changeInNwc": 284.5,
       "capex": 440.8,
       "fcff": 1712.1,
-      "fcfe": 1724.6
+      "fcfe": 1385.1
     },
     {
       "label": "2027F",
@@ -100,13 +100,13 @@ window.FINANCIALS = {
       "totalAssets": 14093.3,
       "currentAssets": 4242.0,
       "currentLiabilities": 3192.5,
-      "longTermDebt": 4627.0,
-      "equity": 5081.8,
+      "longTermDebt": 3968.0,
+      "equity": 5092.0,
       "da": 558.324747,
       "changeInNwc": 188.0,
       "capex": 503.9,
       "fcff": 2012.1,
-      "fcfe": 1945.4
+      "fcfe": 1626.1
     },
     {
       "label": "2028F",
@@ -124,13 +124,13 @@ window.FINANCIALS = {
       "totalAssets": 14406.0,
       "currentAssets": 4541.0,
       "currentLiabilities": 3195.5,
-      "longTermDebt": 4560.3,
-      "equity": 5441.8,
+      "longTermDebt": 3472.0,
+      "equity": 5461.0,
       "da": 568.961615,
       "changeInNwc": 296.0,
       "capex": 513.5,
       "fcff": 2036.9,
-      "fcfe": 1970.2
+      "fcfe": 1540.9
     }
   ],
   "drivers": {
@@ -148,16 +148,16 @@ window.FINANCIALS = {
     "wacc": 0.0,
     "longTermGrowth": null,
     "exitMultiple": null,
-    "midyear": false,
-    "valuationDate": "2026-10-04",
+    "midyear": null,
+    "valuationDate": "2026-10-05",
     "fiscalYearEnd": "2025-12-31",
-    "netDebt": 3.7553,
-    "sharesOut": 207.15437400000002,
+    "netDebt": 0.0,
+    "sharesOut": 0.207154374,
     "workbookResult": {
       "evPerpetuity": 0.0,
       "evExitMultiple": 0.0,
-      "perSharePerpetuity": -0.018128,
-      "perShareExitMultiple": -0.018128
+      "perSharePerpetuity": 0.0,
+      "perShareExitMultiple": 0.0
     }
   },
   "missingRows": [
