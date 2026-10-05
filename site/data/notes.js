@@ -349,7 +349,11 @@ window.NOTES = {
    "title": "Chocolate industry revenue growth about 2.5 percent a year",
    "type": "atomic",
    "path": "research/02 Atomic Notes/Chocolate industry revenue growth about 2.5 percent a year.md",
-   "tags": [],
+   "tags": [
+    "hershey",
+    "industry",
+    "growth"
+   ],
    "sources": [
     "01 Sources/S7 Madison and Wall chocolate industry 2026 update"
    ],
@@ -372,7 +376,12 @@ window.NOTES = {
    "title": "Cocoa below 3,000 dollars per ton in February 2026",
    "type": "atomic",
    "path": "research/02 Atomic Notes/Cocoa below 3,000 dollars per ton in February 2026.md",
-   "tags": [],
+   "tags": [
+    "hershey",
+    "cocoa",
+    "commodity",
+    "2026"
+   ],
    "sources": [
     "01 Sources/S6 JP Morgan cocoa prices research"
    ],

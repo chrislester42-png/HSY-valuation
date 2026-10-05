@@ -85,7 +85,15 @@ def fm_tags(fm):
     m = re.search(r"^tags:\s*\[(.*?)\]", fm, re.MULTILINE)
     if m:
         return [t.strip().strip('"').strip("'") for t in m.group(1).split(",") if t.strip()]
-    return []
+    tags = []
+    m = re.search(r"^tags:[ \t]*$", fm, re.MULTILINE)
+    if m:  # one tag per line: "  - cocoa"
+        for line in fm[m.end():].splitlines()[1:]:
+            item = re.match(r"^\s*-\s+(.+)$", line)
+            if not item:
+                break
+            tags.append(item.group(1).strip().strip('"').strip("'"))
+    return tags
 
 
 def main():
