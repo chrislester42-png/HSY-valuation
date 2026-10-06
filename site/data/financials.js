@@ -157,8 +157,8 @@ window.FINANCIALS = {
     "scaleApplied": "/1",
     "wacc": 0.067807,
     "longTermGrowth": 0.03,
-    "exitMultiple": 13.5,
-    "midyear": false,
+    "exitMultiple": 13.02,
+    "midyear": null,
     "valuationDate": "2026-10-05",
     "fiscalYearEnd": "2025-12-31",
     "stubFraction": 0.238889,
@@ -217,12 +217,12 @@ window.FINANCIALS = {
     },
     "exitMultipleMethod": {
       "terminalEbitda": 3554.2,
-      "terminalValue": 47981.7,
-      "pvTerminalValue": 41421.046732,
+      "terminalValue": 46275.684,
+      "pvTerminalValue": 39948.298403,
       "pvStage1": 3792.331621,
-      "enterpriseValue": 45213.378352,
-      "tvShareOfEv": 0.916124,
-      "impliedGrowth": 0.026645
+      "enterpriseValue": 43740.630024,
+      "tvShareOfEv": 0.9133,
+      "impliedGrowth": 0.025188
     },
     "debt": 4681.0,
     "cash": 925.9,
@@ -230,11 +230,11 @@ window.FINANCIALS = {
     "sharesOut": 207.154374,
     "workbookResult": {
       "evPerpetuity": 49036.950043,
-      "evExitMultiple": 45213.378352,
+      "evExitMultiple": 43740.630024,
       "equityPerpetuity": 45281.850043,
-      "equityExitMultiple": 41458.278352,
+      "equityExitMultiple": 39985.530024,
       "perSharePerpetuity": 218.589881,
-      "perShareExitMultiple": 200.132286
+      "perShareExitMultiple": 193.022861
     },
     "sensitivity": {
       "perShareByGrowthAndWacc": {
