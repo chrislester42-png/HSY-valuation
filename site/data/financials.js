@@ -58,7 +58,7 @@ window.FINANCIALS = {
       "changeInNwc": 747.0,
       "capex": 454.6,
       "fcff": 412.7,
-      "fcfe": 2022.647673
+      "fcfe": 2022.6476734971
     },
     {
       "label": "2026F",
@@ -67,7 +67,7 @@ window.FINANCIALS = {
       "revenue": 12296.5,
       "dilutedShares": 203.4,
       "costOfSales": 7240.4,
-      "ebit": 2546.690497,
+      "ebit": 2546.6904971403,
       "netIncome": 1710.5,
       "interestExpense": 253.8382,
       "incomeTaxes": 597.7,
@@ -78,7 +78,7 @@ window.FINANCIALS = {
       "currentLiabilities": 3261.5,
       "longTermDebt": 4354.0,
       "equity": 4780.0,
-      "da": 488.409503,
+      "da": 488.4095028597,
       "changeInNwc": 284.5,
       "capex": 440.8,
       "fcff": 1712.1,
@@ -91,7 +91,7 @@ window.FINANCIALS = {
       "revenue": 12603.5,
       "dilutedShares": 203.4,
       "costOfSales": 7074.5,
-      "ebit": 2835.475253,
+      "ebit": 2835.4752529696,
       "netIncome": 1988.8,
       "interestExpense": 231.3344,
       "incomeTaxes": 689.8,
@@ -102,7 +102,7 @@ window.FINANCIALS = {
       "currentLiabilities": 3192.5,
       "longTermDebt": 3968.0,
       "equity": 5092.0,
-      "da": 558.324747,
+      "da": 558.3247470304,
       "changeInNwc": 188.0,
       "capex": 503.9,
       "fcff": 2012.1,
@@ -115,7 +115,7 @@ window.FINANCIALS = {
       "revenue": 12931.9,
       "dilutedShares": 203.4,
       "costOfSales": 7220.6,
-      "ebit": 2985.238385,
+      "ebit": 2985.2383853938,
       "netIncome": 2108.4,
       "interestExpense": 202.4176,
       "incomeTaxes": 707.8,
@@ -126,7 +126,7 @@ window.FINANCIALS = {
       "currentLiabilities": 3195.5,
       "longTermDebt": 3472.0,
       "equity": 5461.0,
-      "da": 568.961615,
+      "da": 568.9616146062,
       "changeInNwc": 296.0,
       "capex": 513.5,
       "fcff": 2036.9,
@@ -147,21 +147,21 @@ window.FINANCIALS = {
     "marketRiskPremium": 0.0446,
     "riskFree": 0.0528,
     "beta": 0.4102,
-    "costOfEquity": 0.071095,
+    "costOfEquity": 0.07109492,
     "costOfDebt": 0.0583,
-    "taxRate": 0.229553,
-    "wacc": 0.067807
+    "taxRate": 0.2295525494,
+    "wacc": 0.0678065021
   },
   "dcf": {
     "units": "millions of dollars; shares in millions; per-share values in dollars",
     "scaleApplied": "/1",
-    "wacc": 0.067807,
+    "wacc": 0.0678065021,
     "longTermGrowth": 0.03,
     "exitMultiple": 13.02,
     "midyear": null,
     "valuationDate": "2026-10-05",
     "fiscalYearEnd": "2025-12-31",
-    "stubFraction": 0.238889,
+    "stubFraction": 0.2388888889,
     "years": [
       {
         "label": "2026F",
@@ -212,8 +212,8 @@ window.FINANCIALS = {
       "pvTerminalValue": 45244.618422,
       "pvStage1": 3792.331621,
       "enterpriseValue": 49036.950043,
-      "tvShareOfEv": 0.922664,
-      "impliedExitMultiple": 14.746183
+      "tvShareOfEv": 0.922663795,
+      "impliedExitMultiple": 14.7461833269
     },
     "exitMultipleMethod": {
       "terminalEbitda": 3554.2,
@@ -221,8 +221,8 @@ window.FINANCIALS = {
       "pvTerminalValue": 39948.298403,
       "pvStage1": 3792.331621,
       "enterpriseValue": 43740.630024,
-      "tvShareOfEv": 0.9133,
-      "impliedGrowth": 0.025188
+      "tvShareOfEv": 0.9132995657,
+      "impliedGrowth": 0.0251876938
     },
     "debt": 4681.0,
     "cash": 925.9,
@@ -233,8 +233,8 @@ window.FINANCIALS = {
       "evExitMultiple": 43740.630024,
       "equityPerpetuity": 45281.850043,
       "equityExitMultiple": 39985.530024,
-      "perSharePerpetuity": 218.589881,
-      "perShareExitMultiple": 193.022861
+      "perSharePerpetuity": 218.5898813932,
+      "perShareExitMultiple": 193.0228614154
     },
     "sensitivity": {
       "perShareByGrowthAndWacc": {
@@ -254,39 +254,39 @@ window.FINANCIALS = {
         ],
         "values": [
           [
-            162.913226,
-            181.887976,
-            205.606413,
-            236.101547,
-            276.761725
+            162.9132262982,
+            181.8879760811,
+            205.6064133098,
+            236.1015468894,
+            276.7617249957
           ],
           [
-            183.04549,
-            206.902207,
+            183.0454901752,
+            206.9022067236,
             237.575128,
-            278.472356,
-            335.728476
+            278.4723563686,
+            335.7284760846
           ],
           [
-            208.211696,
-            239.064285,
-            280.201071,
-            337.792572,
-            424.179822
+            208.2116958412,
+            239.0642853116,
+            280.201071272,
+            337.7925716166,
+            424.1798221335
           ],
           [
-            240.569258,
-            281.948148,
-            339.878593,
-            426.774261,
-            571.600374
+            240.5692581581,
+            281.9481475761,
+            339.8785927612,
+            426.7742605388,
+            571.6003735016
           ],
           [
-            283.713869,
-            341.986878,
-            429.396392,
-            575.078915,
-            866.443962
+            283.7138687653,
+            341.9868780436,
+            429.3963919611,
+            575.0789151568,
+            866.4439615483
           ]
         ]
       },
@@ -307,39 +307,39 @@ window.FINANCIALS = {
         ],
         "values": [
           [
-            177.040597,
-            184.412268,
-            191.783938,
-            199.155608,
-            206.527278
+            177.0405974319,
+            184.4122676079,
+            191.783937784,
+            199.15560796,
+            206.527278136
           ],
           [
-            179.042988,
-            186.492446,
-            193.941903,
-            201.391361,
-            208.840819
+            179.0429877272,
+            186.4924455491,
+            193.941903371,
+            201.3913611929,
+            208.8408190148
           ],
           [
-            181.075826,
-            188.604265,
-            196.132703,
-            203.661141,
-            211.189579
+            181.0758264725,
+            188.604264652,
+            196.1327028315,
+            203.6611410111,
+            211.1895791906
           ],
           [
-            183.139725,
-            190.74836,
-            198.356995,
-            205.965631,
-            213.574266
+            183.1397248668,
+            190.7483601596,
+            198.3569954525,
+            205.9656307454,
+            213.5742660382
           ],
           [
-            185.235309,
-            192.925383,
-            200.615457,
-            208.305531,
-            215.995605
+            185.2353093684,
+            192.9253831761,
+            200.6154569837,
+            208.3055307913,
+            215.995604599
           ]
         ]
       }

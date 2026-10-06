@@ -123,7 +123,7 @@ def num(v):
     if isinstance(v, bool):
         return None
     if isinstance(v, (int, float)):
-        return round(float(v), 6)
+        return round(float(v), 10)  # keep rates exact enough that the page matches the sheet to the cent
     return None
 
 
