@@ -153,19 +153,196 @@ window.FINANCIALS = {
     "wacc": 0.067807
   },
   "dcf": {
+    "units": "millions of dollars; shares in millions; per-share values in dollars",
+    "scaleApplied": "/1",
     "wacc": 0.067807,
-    "longTermGrowth": null,
-    "exitMultiple": null,
-    "midyear": null,
+    "longTermGrowth": 0.03,
+    "exitMultiple": 13.5,
+    "midyear": false,
     "valuationDate": "2026-10-05",
     "fiscalYearEnd": "2025-12-31",
-    "netDebt": 0.0,
-    "sharesOut": 0.207154374,
+    "stubFraction": 0.238889,
+    "years": [
+      {
+        "label": "2026F",
+        "revenue": 12296.5,
+        "ebitda": 3035.1,
+        "ebit": 2546.690497,
+        "taxRate": 0.285,
+        "nopat": 1820.883705,
+        "da": 488.409503,
+        "changeInNwc": -284.5,
+        "capex": -440.8,
+        "date": "2026-12-31",
+        "ufcf": 378.398378,
+        "pv": 372.527114
+      },
+      {
+        "label": "2027F",
+        "revenue": 12603.5,
+        "ebitda": 3393.8,
+        "ebit": 2835.475253,
+        "taxRate": 0.28,
+        "nopat": 2041.542182,
+        "da": 558.324747,
+        "changeInNwc": -188.0,
+        "capex": -503.9,
+        "date": "2027-12-31",
+        "ufcf": 1907.966929,
+        "pv": 1759.085319
+      },
+      {
+        "label": "2028F",
+        "revenue": 12931.9,
+        "ebitda": 3554.2,
+        "ebit": 2985.238385,
+        "taxRate": 0.275,
+        "nopat": 2164.297829,
+        "da": 568.961615,
+        "changeInNwc": -296.0,
+        "capex": -513.5,
+        "date": "2028-12-31",
+        "ufcf": 1923.759444,
+        "pv": 1660.719187
+      }
+    ],
+    "perpetuity": {
+      "fcfNextYear": 1981.472227,
+      "terminalValue": 52410.88478,
+      "pvTerminalValue": 45244.618422,
+      "pvStage1": 3792.331621,
+      "enterpriseValue": 49036.950043,
+      "tvShareOfEv": 0.922664,
+      "impliedExitMultiple": 14.746183
+    },
+    "exitMultipleMethod": {
+      "terminalEbitda": 3554.2,
+      "terminalValue": 47981.7,
+      "pvTerminalValue": 41421.046732,
+      "pvStage1": 3792.331621,
+      "enterpriseValue": 45213.378352,
+      "tvShareOfEv": 0.916124,
+      "impliedGrowth": 0.026645
+    },
+    "debt": 4681.0,
+    "cash": 925.9,
+    "netDebt": 3755.1,
+    "sharesOut": 207.154374,
     "workbookResult": {
-      "evPerpetuity": 0.0,
-      "evExitMultiple": 0.0,
-      "perSharePerpetuity": 0.0,
-      "perShareExitMultiple": 0.0
+      "evPerpetuity": 49036.950043,
+      "evExitMultiple": 45213.378352,
+      "equityPerpetuity": 45281.850043,
+      "equityExitMultiple": 41458.278352,
+      "perSharePerpetuity": 218.589881,
+      "perShareExitMultiple": 200.132286
+    },
+    "sensitivity": {
+      "perShareByGrowthAndWacc": {
+        "columns": [
+          0.02,
+          0.025,
+          0.03,
+          0.035,
+          0.04
+        ],
+        "rows": [
+          0.07,
+          0.065,
+          0.06,
+          0.055,
+          0.05
+        ],
+        "values": [
+          [
+            162.913226,
+            181.887976,
+            205.606413,
+            236.101547,
+            276.761725
+          ],
+          [
+            183.04549,
+            206.902207,
+            237.575128,
+            278.472356,
+            335.728476
+          ],
+          [
+            208.211696,
+            239.064285,
+            280.201071,
+            337.792572,
+            424.179822
+          ],
+          [
+            240.569258,
+            281.948148,
+            339.878593,
+            426.774261,
+            571.600374
+          ],
+          [
+            283.713869,
+            341.986878,
+            429.396392,
+            575.078915,
+            866.443962
+          ]
+        ]
+      },
+      "perShareByMultipleAndWacc": {
+        "columns": [
+          12.0,
+          12.5,
+          13.0,
+          13.5,
+          14.0
+        ],
+        "rows": [
+          0.07,
+          0.065,
+          0.06,
+          0.055,
+          0.05
+        ],
+        "values": [
+          [
+            177.040597,
+            184.412268,
+            191.783938,
+            199.155608,
+            206.527278
+          ],
+          [
+            179.042988,
+            186.492446,
+            193.941903,
+            201.391361,
+            208.840819
+          ],
+          [
+            181.075826,
+            188.604265,
+            196.132703,
+            203.661141,
+            211.189579
+          ],
+          [
+            183.139725,
+            190.74836,
+            198.356995,
+            205.965631,
+            213.574266
+          ],
+          [
+            185.235309,
+            192.925383,
+            200.615457,
+            208.305531,
+            215.995605
+          ]
+        ]
+      }
     }
   },
   "missingRows": [

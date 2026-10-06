@@ -15,8 +15,10 @@ What it reads
 - "WACC calculation" tab, if present: market risk premium, risk-free rate, beta,
   cost of debt, cost of equity, WACC.
 - "DCF 1-Pager" tab, if present: discount rate, long-term growth, exit multiple,
-  midyear flag, valuation date, net debt, diluted shares, and the sheet's own
-  per-share results (so the site can prove it matches the workbook).
+  midyear flag, valuation date, the stub fraction, the forecast years it discounts
+  (cash flow lines, discount dates, present values), both terminal values, the bridge
+  to equity value per share, and its two sensitivity tables, all as the sheet
+  calculated them (so the site can prove it matches the workbook).
 
 It reads the values Excel last calculated, so save the workbook from Excel
 before running. If a cell shows None here, Excel has not calculated it yet.
@@ -125,6 +127,138 @@ def num(v):
     return None
 
 
+
+def read_dcf(d, periods) -> dict:
+    """The DCF 1-Pager: inputs, the forecast it discounts, both terminal values, the bridge to
+    equity value per share, and the two sensitivity tables, all as the sheet calculated them."""
+    def val(r, c):
+        return d.cell(r, c).value if r else None
+
+    def find(pattern, cols=(2,), rows=None, nth=0):
+        """Row and column of the nth cell in the given columns whose text matches pattern."""
+        hits = []
+        for r in (rows or range(1, d.max_row + 1)):
+            for c in cols:
+                v = d.cell(r, c).value
+                if isinstance(v, str) and re.search(pattern, v.strip(), re.IGNORECASE):
+                    hits.append((r, c))
+        return hits[nth] if len(hits) > nth else (None, None)
+
+    # Units: the sheet's header may say thousands while the numbers are in millions, so compare
+    # the DCF tab's last actual revenue with Detail Data's and scale only if they differ by ~1000.
+    rr, _ = find(r"^Revenue$")
+    hr, _ = find(r"^Fiscal year ended")
+    dscale = 1.0
+    if rr and hr:
+        for c in range(3, 12):
+            lab, v = val(hr, c), num(val(rr, c))
+            match = next((p for p in periods if p["label"] == lab), None)
+            if v and match and match.get("revenue"):
+                dscale = 1000.0 if v / match["revenue"] > 100 else 1.0
+                break
+    money = lambda v: None if num(v) is None else round(num(v) / dscale, 6)
+
+    # inputs
+    wr, wc = find(r"^Discount rate", cols=range(2, 12), rows=range(1, 15))
+    mr, mc = find(r"^Midyear", cols=range(2, 12), rows=range(1, 15))
+    vd_r, _ = find(r"^Valuation date")
+    fy_r, _ = find(r"^Most recent fiscal year end")
+    st_r, _ = find(r"^Portion of year 1")
+    g_r, _ = find(r"^Long term growth rate$")
+    mul_r, mul_c = find(r"^EBITDA multiple$", cols=range(3, 9))
+    date = lambda v: v.isoformat()[:10] if isinstance(v, (dt.date, dt.datetime)) else None
+
+    # the forecast it discounts: forecast columns of the FCFF block
+    rows = {k: find(p)[0] for k, p in {
+        "revenue": r"^Revenue$", "ebitda": r"^EBITDA$", "ebit": r"^EBIT$", "taxRate": r"^Tax rate$",
+        "nopat": r"^NOPAT", "da": r"^Depreciation", "changeInNwc": r"^Changes in net working capital",
+        "capex": r"^Capital expenditures", "date": r"^Date for discounting",
+        "ufcf": r"^Unlevered free cash flows \(UFCF\) stub", "pv": r"^Present value of (of )?unlevered"}.items()}
+    years = []
+    if hr:
+        for c in range(3, 12):
+            lab = val(hr, c)
+            if not (isinstance(lab, str) and lab.strip().upper().endswith("F")):
+                continue
+            y = {"label": lab.strip()}
+            for k, r in rows.items():
+                v = val(r, c)
+                y[k] = date(v) if k == "date" else (num(v) if k == "taxRate" else money(v))
+            years.append(y)
+
+    # terminal value, both ways: growth in perpetuity in column C, exit multiple beside its labels
+    def block(pattern, col):
+        r, _ = find(pattern, cols=(2,) if col == 3 else range(3, 9))
+        return r
+    perp = {k: money(val(block(p, 3), 3)) for k, p in {
+        "fcfNextYear": r"FCF x \(1\+g\)", "terminalValue": r"^Terminal value in", "pvTerminalValue": r"^Present value of terminal value",
+        "pvStage1": r"^Present value of stage 1", "enterpriseValue": r"^Total enterprise value"}.items()}
+    perp["tvShareOfEv"] = num(val(block(r"^Terminal value as % of TEV", 3), 3))
+    perp["impliedExitMultiple"] = num(val(block(r"^Implied TV exit EBITDA multiple", 3), 3))
+    ec = (mul_c + 4) if mul_c else 9  # the exit-multiple column sits four to the right of its labels
+    exitm = {k: money(val(block(p, ec), ec)) for k, p in {
+        "terminalEbitda": r"^Terminal year EBITDA", "terminalValue": r"^Terminal value in", "pvTerminalValue": r"^Present value of terminal value",
+        "pvStage1": r"^Present value of stage 1", "enterpriseValue": r"^Enterprise value"}.items()}
+    exitm["tvShareOfEv"] = num(val(block(r"^Terminal value as % of TEV", ec), ec))
+    exitm["impliedGrowth"] = num(val(block(r"^Implied terminal growth rate", ec), ec))
+
+    # bridge to equity value per share (the first "Valuation" block: perpetuity in C, multiple in D)
+    nd_r, _ = find(r"^Net debt$", nth=1) if find(r"^Net debt$", nth=1)[0] else find(r"^Net debt$")
+    debt_r, _ = find(r"^Debt$")
+    cash_r, _ = find(r"^Cash")
+    ev_r, _ = find(r"^Enterprise value$")
+    eq_r, _ = find(r"^Equity value\s*$")
+    sh_r, _ = find(r"^Shares outstanding$")
+    ps_r, _ = find(r"^Equity value per share$")
+
+    # sensitivity tables: a corner label, the column inputs on the next row, WACC down the left
+    def table(pattern):
+        r, c = find(pattern, cols=range(3, 20), rows=range(100, d.max_row + 1))
+        if not r:
+            return None
+        hdr = r + 1
+        cols = []
+        for cc in range(c, c + 10):
+            v = num(val(hdr, cc))
+            if v is None:
+                break
+            cols.append(cc)
+        out = {"columns": [num(val(hdr, cc)) for cc in cols], "rows": [], "values": []}
+        rr2 = hdr + 1
+        while num(val(rr2, c - 1)) is not None and rr2 < hdr + 12:
+            out["rows"].append(num(val(rr2, c - 1)))
+            out["values"].append([num(val(rr2, cc)) for cc in cols])
+            rr2 += 1
+        return out
+
+    return {
+        "units": "millions of dollars; shares in millions; per-share values in dollars",
+        "scaleApplied": "/" + str(int(dscale)),
+        "wacc": num(val(wr, wc + 2)) if wr else None,
+        "longTermGrowth": num(val(g_r, 3)),
+        "exitMultiple": num(val(mul_r, mul_c + 4)) if mul_r else None,
+        "midyear": bool(num(val(mr, mc + 2))) if mr and num(val(mr, mc + 2)) is not None else None,
+        "valuationDate": date(val(vd_r, 4)),
+        "fiscalYearEnd": date(val(fy_r, 4)),
+        "stubFraction": num(val(st_r, 4)),
+        "years": years,
+        "perpetuity": perp,
+        "exitMultipleMethod": exitm,
+        "debt": money(val(debt_r, 3)),
+        "cash": money(val(cash_r, 3)),
+        "netDebt": money(val(nd_r, 3)),
+        "sharesOut": money(val(sh_r, 3)),
+        "workbookResult": {
+            "evPerpetuity": money(val(ev_r, 3)), "evExitMultiple": money(val(ev_r, 4)),
+            "equityPerpetuity": money(val(eq_r, 3)), "equityExitMultiple": money(val(eq_r, 4)),
+            "perSharePerpetuity": num(val(ps_r, 3)), "perShareExitMultiple": num(val(ps_r, 4)),
+        },
+        "sensitivity": {
+            "perShareByGrowthAndWacc": table(r"^Long term growth rate \(g\)"),
+            "perShareByMultipleAndWacc": table(r"^Exit EBITDA Multiple$"),
+        },
+    }
+
 def main() -> None:
     path = find_workbook(sys.argv[1] if len(sys.argv) > 1 else None)
     import zipfile
@@ -201,60 +335,7 @@ def main() -> None:
 
     dcf = {}
     if "DCF 1-Pager" in wb.sheetnames:
-        d = wb["DCF 1-Pager"]
-        labels = label_rows(d, {
-            "growth": r"^Long term growth rate",
-            "netDebt": r"^Net debt$",
-            "sharesOut": r"^Shares outstanding$",
-            "perShare": r"^Equity value per share",
-            "ev": r"^Enterprise value$",
-        }, col=2, value_col=3)
-        labels.update(label_rows(d, {
-            "fiscalYearEnd": r"^Most recent fiscal year end",
-            "valuationDate": r"^Valuation date",
-        }, col=2))
-        def cell(r, c):
-            return d.cell(r, c).value if r else None
-        wacc_lab = None
-        for r in range(1, 15):
-            for c in range(1, 12):
-                v = d.cell(r, c).value
-                if isinstance(v, str) and v.startswith("Discount rate"):
-                    wacc_lab = (r, c)
-        mult = None
-        for r in range(1, d.max_row + 1):
-            v = d.cell(r, 5).value
-            if isinstance(v, str) and v.strip() == "EBITDA multiple":
-                mult = num(d.cell(r, 9).value)
-                break
-        midyear = None
-        for r in range(1, 15):
-            v = d.cell(r, 6).value
-            if isinstance(v, str) and v.startswith("Midyear"):
-                midyear = num(d.cell(r, 8).value)
-        vd = cell(labels.get("valuationDate"), 4)
-        fy = cell(labels.get("fiscalYearEnd"), 4)
-        # the 1-Pager states its own units in row 3 ("$ and shares in thousands"); export in millions like Detail Data
-        unit_note = " ".join(str(d.cell(r, 2).value) for r in range(1, 5) if isinstance(d.cell(r, 2).value, str)).lower()
-        dscale = 1000.0 if "thousand" in unit_note else 1.0
-        def money(v):
-            return None if num(v) is None else num(v) / dscale
-        dcf = {
-            "wacc": num(d.cell(wacc_lab[0], wacc_lab[1] + 2).value) if wacc_lab else None,
-            "longTermGrowth": num(cell(labels.get("growth"), 3)),
-            "exitMultiple": mult,
-            "midyear": bool(midyear) if midyear is not None else None,
-            "valuationDate": vd.isoformat()[:10] if isinstance(vd, (dt.date, dt.datetime)) else None,
-            "fiscalYearEnd": fy.isoformat()[:10] if isinstance(fy, (dt.date, dt.datetime)) else None,
-            "netDebt": money(cell(labels.get("netDebt"), 3)),
-            "sharesOut": money(cell(labels.get("sharesOut"), 3)),
-            "workbookResult": {
-                "evPerpetuity": money(cell(labels.get("ev"), 3)),
-                "evExitMultiple": money(cell(labels.get("ev"), 4)),
-                "perSharePerpetuity": num(cell(labels.get("perShare"), 3)),
-                "perShareExitMultiple": num(cell(labels.get("perShare"), 4)),
-            },
-        }
+        dcf = read_dcf(wb["DCF 1-Pager"], periods_out)
 
     out = {
         "generatedFrom": path.name,
@@ -281,7 +362,11 @@ def main() -> None:
     if wacc:
         print(f"  WACC tab (used from Module 3): {wacc}")
     if dcf:
-        print(f"  DCF tab (used from Module 4): wacc={dcf['wacc']} g={dcf['longTermGrowth']} multiple={dcf['exitMultiple']} per share={dcf['workbookResult']}")
+        r = dcf["workbookResult"]
+        print(f"  DCF tab (used from Module 4): scale {dcf['scaleApplied']}, WACC {dcf['wacc']}, g {dcf['longTermGrowth']}, exit multiple {dcf['exitMultiple']}, "
+              f"{len(dcf['years'])} forecast years, per share {r['perSharePerpetuity']} (perpetuity) / {r['perShareExitMultiple']} (exit multiple)")
+        for k, t in dcf["sensitivity"].items():
+            print(f"    sensitivity {k}: " + (f"{len(t['rows'])} x {len(t['columns'])}" if t else "not found"))
 
 
 if __name__ == "__main__":
