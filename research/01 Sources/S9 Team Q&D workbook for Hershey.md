@@ -22,6 +22,7 @@ Dr. Payne's filled Q&D workbook for Hershey, used as she sent it: FY2024 and FY2
 - Forecast columns come from the FactSet consensus export ([[01 Sources/S8 FactSet consensus estimates for Hershey]]); formula rows (EBIT, D&A, NOPAT, change in NWC, FCFF, FCFE, interest) are the sheet's own, as Dr. Payne's copy has them; the Data pull note lists what differs from the team's earlier copy.
 - Driver choices behind the forecast are argued in [[03 Drafts/Milestone 2 - Driver Justifications]].
 - The WACC calculation tab (Module 3) gives a WACC of 6.78 percent; its inputs are argued and tagged in [[03 Drafts/Milestone 3 - Cost of Capital Memo]]. Forecast interest expense now reads the cost of debt from it (253.8 in FY2026), so the sheet's FCFE changed. The DCF 1-Pager is Module 4.
+- The DCF 1-Pager tab (Module 4) values Hershey at 218.59 dollars a share by growth in perpetuity and 193.02 by exit multiple, at the 6.78 percent WACC, 3.0 percent growth, and 13.02x; its inputs and results are filed from [[03 Drafts/Milestone 4 - DCF Valuation Memo]].
 
 ## Direct quotes
 > None. The file is a spreadsheet.
@@ -36,3 +37,19 @@ Dr. Payne's filled Q&D workbook for Hershey, used as she sent it: FY2024 and FY2
 - [[02 Atomic Notes/Equity weight 87.4 percent]]
 - [[02 Atomic Notes/Debt weight 12.6 percent]]
 - [[02 Atomic Notes/WACC 6.78 percent]]
+- [[02 Atomic Notes/Perpetual growth rate 3.0 percent]]
+- [[02 Atomic Notes/Exit multiple 13.02x 2028 EBITDA]]
+- [[02 Atomic Notes/Valuation date 5 October 2026 with 23.9 percent stub]]
+- [[02 Atomic Notes/Terminal value by growth in perpetuity 52,410.9 million dollars]]
+- [[02 Atomic Notes/Terminal value by exit multiple 46,275.7 million dollars]]
+- [[02 Atomic Notes/Terminal value 92.3 and 91.3 percent of enterprise value]]
+- [[02 Atomic Notes/Implied exit multiple 14.7x at 3.0 percent growth]]
+- [[02 Atomic Notes/Implied growth 2.5 percent at 13.02x exit multiple]]
+- [[02 Atomic Notes/Present value of 2026 to 2028 cash flows 3,792.3 million dollars]]
+- [[02 Atomic Notes/Net debt 3,755.1 million dollars]]
+- [[02 Atomic Notes/Diluted shares 207.2 million]]
+- [[02 Atomic Notes/Equity value per share 218.59 dollars by growth in perpetuity]]
+- [[02 Atomic Notes/Equity value per share 193.02 dollars by exit multiple]]
+- [[02 Atomic Notes/Perpetuity and exit multiple values differ by 25.57 dollars a share]]
+- [[02 Atomic Notes/HSY share price 160.19 dollars on 5 October 2026]]
+- [[02 Atomic Notes/DCF values 36.5 and 20.5 percent above share price]]

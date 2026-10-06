@@ -25,6 +25,8 @@ Every number on the site points at an atomic note here. Every atomic note points
 - [[03 Drafts/Milestone 1 - Selection Memo]]
 - [[03 Drafts/Milestone 2 - Driver Justifications]]
 - [[03 Drafts/Milestone 3 - Cost of Capital Memo]]
+- [[03 Drafts/Milestone 4 - DCF Valuation Memo]]
+- [[03 Drafts/Module 4 - Bull base bear]]
 - [[03 Drafts/Module 2 - Data pull]]
 
 ## The thesis (current view)
@@ -121,6 +123,30 @@ Every number on the site points at an atomic note here. Every atomic note points
 - [[02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars]]
 - [[02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales]]
 
+## DCF valuation (Module 4)
+
+### Assumptions
+- [[02 Atomic Notes/Perpetual growth rate 3.0 percent]]
+- [[02 Atomic Notes/Exit multiple 13.02x 2028 EBITDA]]
+- [[02 Atomic Notes/Valuation date 5 October 2026 with 23.9 percent stub]]
+
+### Terminal value
+- [[02 Atomic Notes/Terminal value by growth in perpetuity 52,410.9 million dollars]]
+- [[02 Atomic Notes/Terminal value by exit multiple 46,275.7 million dollars]]
+- [[02 Atomic Notes/Terminal value 92.3 and 91.3 percent of enterprise value]]
+- [[02 Atomic Notes/Implied exit multiple 14.7x at 3.0 percent growth]]
+- [[02 Atomic Notes/Implied growth 2.5 percent at 13.02x exit multiple]]
+
+### Bridge and result
+- [[02 Atomic Notes/Present value of 2026 to 2028 cash flows 3,792.3 million dollars]]
+- [[02 Atomic Notes/Net debt 3,755.1 million dollars]]
+- [[02 Atomic Notes/Diluted shares 207.2 million]]
+- [[02 Atomic Notes/Equity value per share 218.59 dollars by growth in perpetuity]]
+- [[02 Atomic Notes/Equity value per share 193.02 dollars by exit multiple]]
+- [[02 Atomic Notes/Perpetuity and exit multiple values differ by 25.57 dollars a share]]
+- [[02 Atomic Notes/HSY share price 160.19 dollars on 5 October 2026]]
+- [[02 Atomic Notes/DCF values 36.5 and 20.5 percent above share price]]
+
 ## Open questions
 - Management's stated FY2027 operating margin target, with the exact quote and date from the Q2 call.
 - Diluted share count at the latest quarter end, from the Q2 2026 Form 10-Q.
@@ -129,7 +155,8 @@ Every number on the site points at an atomic note here. Every atomic note points
 - A source showing North America Confectionery is Hershey's single dominant segment.
 - Exact publication dates for S4 (month only), S6 and S7 (year only), S10 and S11 (month only).
 - A source for FY2026 capex guidance of 425 to 475 (Milestone 2 memo, section 3).
-- A source for the 160.19 dollar HSY close on October 2, 2026, behind the market value of equity (Milestone 3 memo).
+- A source for the 160.19 dollar HSY close on October 2, 2026, behind the market value of equity (Milestone 3 memo). The workbook and the Milestone 4 memo date the same price October 5, 2026; find which day it is.
+- Diluted shares: the DCF tab uses 207.2 million, labelled from a Q1 2020 10-Q; the Milestone 3 memo used 203.4 million. Check against the latest 10-Q.
 - Fix the Hamada formula in WACC tab cell C24 (misplaced bracket), then update the Hamada note and the memo.
 
 ## Sources

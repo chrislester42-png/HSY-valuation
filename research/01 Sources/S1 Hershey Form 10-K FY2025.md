@@ -53,3 +53,4 @@ Hershey's annual report for fiscal 2025 filed with the SEC (accession 0001628280
 - [[02 Atomic Notes/FY2025 US share of net sales 87.7 percent]]
 - [[02 Atomic Notes/FY2025 International segment net sales 941.6 million dollars]]
 - [[02 Atomic Notes/No country risk adjustment for 12.3 percent non-US sales]]
+- [[02 Atomic Notes/Net debt 3,755.1 million dollars]]

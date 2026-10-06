@@ -96,9 +96,48 @@ window.CONTENT = {
   },
 
   valuation: {
-    status: "coming", module: 4, title: "Valuation",
-    headline: "", lede: "", blocks: [], soWhat: "",
-    mostSensitiveTo: ""     // one sentence naming the assumption that moves value most
+    status: "live", module: 4, title: "Valuation",
+    headline: "DCF puts Hershey at $193 to $219",
+    lede: "Our two-stage DCF discounts the consensus forecast at our 6.78% WACC. Both terminal methods value Hershey above its $160.19 price, and about nine-tenths of the value sits beyond 2028, so the sliders test those assumptions.",
+    facts: [
+      { value: "$218.59", label: "Per share, growth in perpetuity", source: "S9", tier: "D", note: "02 Atomic Notes/Equity value per share 218.59 dollars by growth in perpetuity" },
+      { value: "$193.02", label: "Per share, exit multiple", source: "S9", tier: "D", note: "02 Atomic Notes/Equity value per share 193.02 dollars by exit multiple" },
+      { value: "92.3%", label: "Terminal value share of EV, growth method", source: "S9", tier: "D", note: "02 Atomic Notes/Terminal value 92.3 and 91.3 percent of enterprise value" }
+    ],
+    blocks: [],
+    soWhat: "Value rests on the spread between WACC and growth. Module 5's peer multiples will tell us which end of $193 to $219 the market supports.",
+    mostSensitiveTo: "The spread between WACC and perpetual growth moves value most: half a point of growth is the whole $25.57 gap between our two methods.",
+    numbersWeStillNeed: [
+      "Diluted share count from the latest 10-Q: the DCF tab's 207.2 million is labelled from a Q1 2020 10-Q, and Milestone 3 used 203.4 million.",
+      "A market data source for the $160.19 share price, and which day's close it is (October 2 or October 5, 2026)."
+    ],
+    // Bull, base, and bear (Module 4). Base is the workbook. Bull and bear shift revenue growth and the EBITDA
+    // margin in every forecast year (points added to the workbook's own path) and set the WACC and perpetual growth.
+    // Exit multiple, D&A, capex, and the change in NWC stay at the workbook's. Rates only is the base forecast at the
+    // WACC and growth on the workbook's growth-by-WACC table nearest the bear case's (worked out by valuation.js).
+    // Tier E: proposed by Claude for the team from our memo and the Knowledge Bank; the team accepts or changes them.
+    // Full table, inputs, and reasons: research/03 Drafts/Module 4 - Bull base bear.md
+    scenarioNote: "03 Drafts/Module 4 - Bull base bear",
+    scenarios: [
+      { name: "Bull", revenueGrowthShift: 0.010, ebitdaMarginShift: 0.015, wacc: 0.0651, growth: 0.035,
+        reasons: {
+          revenueGrowth: { text: "Q2 2026 net sales grew 6.6%, above the forecast's 5.2% for FY2026.", note: "02 Atomic Notes/Q2 2026 net sales growth 6.6 percent" },
+          ebitdaMargin: { text: "Cocoa is down over 70% from its peak; FY2028 operating margin still ends below FY2024's 25.9%.", note: "02 Atomic Notes/Cocoa down more than 70 percent from late-2024 highs" },
+          wacc: { text: "FactSet's beta of 0.34 in place of our adjusted 0.41.", note: "02 Atomic Notes/FactSet beta 0.34" },
+          growth: { text: "Net sales grew about 4% a year in FY2023 to FY2025; 3.5% stays below the 5.28% risk-free rate.", note: "02 Atomic Notes/FY2023 net sales growth 7.2 percent" }
+        } },
+      { name: "Base", base: true,
+        reasons: { all: { text: "The workbook: consensus forecast, 6.78% WACC, 3.0% growth, 13.02x exit.", note: "02 Atomic Notes/WACC 6.78 percent" } } },
+      { name: "Bear", revenueGrowthShift: -0.015, ebitdaMarginShift: -0.030, wacc: 0.0756, growth: 0.025,
+        reasons: {
+          revenueGrowth: { text: "Q2 2026 volume fell about 10% as prices rose about 14%; if pricing fades, growth slows.", note: "02 Atomic Notes/Q2 2026 confectionery volume down about 10 percent" },
+          ebitdaMargin: { text: "Management guided about 400 basis points of 2026 margin gain; the forecast assumes about twice that.", note: "02 Atomic Notes/FY2026 margin improvement guided about 400 basis points" },
+          wacc: { text: "Damodaran's food processing beta of 0.61 in place of our adjusted 0.41.", note: "02 Atomic Notes/Food processing industry beta 0.61" },
+          growth: { text: "Chocolate industry growth of about 2.5% a year, the rate our 13.02x exit implies.", note: "02 Atomic Notes/Chocolate industry revenue growth about 2.5 percent a year" }
+        } },
+      { name: "Rates only", ratesFrom: "Bear",
+        reasons: { all: { text: "The base forecast at the growth-by-WACC table's rates nearest the bear case's.", note: "03 Drafts/Module 4 - Bull base bear" } } }
+    ]
   },
 
   theCall: {
