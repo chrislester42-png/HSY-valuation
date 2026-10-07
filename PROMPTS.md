@@ -34,7 +34,7 @@ Redesign the site for presenting. Read skills/site-design/DESIGN.md, then the se
 ## Check the design pass (after the redesign, and again in Module 8)
 Check the redesign against skills/site-design/DESIGN.md. Run its checks and the items in the taste skill's Section 14 that apply to a plain page, and list each with its result. For the fit check, list every live section and what it holds, and tell me which ones to look at full screen at 1280 by 720; I will check those myself. For the model check, run forecastModel at the default drivers in node and show each forecast year's FCFF beside the workbook's. Fix anything that fails, styling and layout only, and tell me what you fixed.
 
-## Trim for presenting (Module 7, after the Process section is live)
+## Trim for presenting (end of Module 5, and again in Module 7 after the Process section is live)
 Trim the site for presenting. Read the "Say less" part of skills/site-design/DESIGN.md. For each live section on the main page, list its visible prose word count and every element over its budget, then go ahead without waiting: trim each section to the budgets: shorten the headline, lede, fact labels, block text, and soWhat in site/content.js; take every sentence off a card that explains how to read a chart, a table, or a slider, and put it in that element's hover tooltip or a small "?" pop-out, or drop it if the presenter would say it; cut captions to units and sources; cut check lines to a dot and a few words, with the full comparison in the hover tooltip; move reasons and explanations (scenario reasons, the premium driver, the reconciliation) into tooltips or pop-outs. Change no number; no Fact's value, tier, source, or note; no section id or nav label; no chart, table, slider, or heatmap. The long text stays in the memos and the Knowledge Bank. Then show each section's word count before and after, and tell me which sections to look at full screen at 1280 by 720; I will check them myself.
 
 ## Final polish (Module 8)
@@ -134,3 +134,6 @@ Build The Call section. Read skills/site-design/DESIGN.md first: like every sect
 
 ### Check The Call section
 Check The Call section against the workbook and the memo. Show side by side with the workbook's: each company's multiples and the peer summary row (the Relative Valuation tab), and each multiple's implied value per share (the DCF 1-Pager's Relative Valuation block). Run each bull, base, and bear case through window.valuation in node and show its per-share values beside the table in research/03 Drafts/Module 4 - Bull base bear.md, then the weighted values at the memo's weights beside the memo's. Read the slider code and tell me whether the weights always add to 100 percent and whether anything on the page can change the cover's call badge. If anything differs by more than a cent, tell me which step differs and why.
+
+### Trim for presenting
+Then run **Trim for presenting** (top of this file) on every live section, so Thesis, Financials, and Valuation match The Call before the presentation. You will run it again in Module 7.

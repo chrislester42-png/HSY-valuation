@@ -71,7 +71,7 @@ Use these parts of `skills/design-taste/SKILL.md`: Section 0 (state the design r
 
 ## Never changes
 
-Any number; any section id; any nav label or link; any Fact (value, label, source, tier, note); the content of `content.js` and `data/*.js`; the Knowledge Bank's graph and chips. The redesign changes how things look and where they sit, not what they say. The one exception is the "Trim for presenting" prompt (Module 7), which may shorten words, including Fact labels, to the "Say less" budgets; it never changes a number or a Fact's value, tier, source, or note.
+Any number; any section id; any nav label or link; any Fact (value, label, source, tier, note); the content of `content.js` and `data/*.js`; the Knowledge Bank's graph and chips. The redesign changes how things look and where they sit, not what they say. The one exception is the "Trim for presenting" prompt (end of Module 5, again in Module 7), which may shorten words, including Fact labels, to the "Say less" budgets; it never changes a number or a Fact's value, tier, source, or note.
 
 ## The check
 
