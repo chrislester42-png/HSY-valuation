@@ -345,6 +345,87 @@ window.FINANCIALS = {
       }
     }
   },
+  "relative": {
+    "multiples": [
+      "EV/EBITDA",
+      "P/E",
+      "EV/Sales"
+    ],
+    "target": {
+      "name": "Hershey",
+      "values": {
+        "EV/EBITDA": 13.8,
+        "P/E": 23.4,
+        "EV/Sales": 3.05
+      }
+    },
+    "peers": [
+      {
+        "name": "Mondelez",
+        "values": {
+          "EV/EBITDA": 12.22,
+          "P/E": 21.34,
+          "EV/Sales": 2.36
+        }
+      },
+      {
+        "name": "Lindt",
+        "values": {
+          "EV/EBITDA": 19.08,
+          "P/E": 23.79,
+          "EV/Sales": 4.16
+        }
+      },
+      {
+        "name": "Tootsie Roll",
+        "values": {
+          "EV/EBITDA": 25.31,
+          "P/E": 29.87,
+          "EV/Sales": 3.74
+        }
+      }
+    ],
+    "peerSummary": {
+      "label": "Average",
+      "values": {
+        "EV/EBITDA": 18.87,
+        "P/E": 25.0,
+        "EV/Sales": 3.42
+      }
+    },
+    "impliedPerShare": [
+      {
+        "label": "P/E ratio",
+        "peerMultiple": 25.0,
+        "appliedTo": {
+          "line": "NOPAT (aka EBIAT)",
+          "year": "2028F",
+          "value": 2164.2978294105
+        },
+        "perShare": 261.1938367049
+      },
+      {
+        "label": "EV/EBITDA",
+        "peerMultiple": 18.87,
+        "appliedTo": {
+          "line": "EBITDA",
+          "year": "2028F",
+          "value": 3554.2
+        },
+        "perShare": 323.7573636751
+      },
+      {
+        "label": "EV/Sales",
+        "peerMultiple": 3.42,
+        "appliedTo": {
+          "line": "Revenue",
+          "year": "2028F",
+          "value": 12931.9
+        },
+        "perShare": 213.4982580672
+      }
+    ]
+  },
   "missingRows": [
     "cfo",
     "fcf"

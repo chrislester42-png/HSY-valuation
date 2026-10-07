@@ -19,6 +19,11 @@ What it reads
   (cash flow lines, discount dates, present values), both terminal values, the bridge
   to equity value per share, and its two sensitivity tables, all as the sheet
   calculated them (so the site can prove it matches the workbook).
+- "Relative Valuation" tab, if filled (Module 5): each company's multiples (the
+  team's company first, then its peers) and the peer summary row (Average or
+  Median, as the sheet labels it); and, if the DCF 1-Pager has its Relative
+  Valuation block, each multiple's implied value per share, with the forecast line
+  and year it is applied to.
 
 It reads the values Excel last calculated, so save the workbook from Excel
 before running. If a cell shows None here, Excel has not calculated it yet.
@@ -35,6 +40,7 @@ from pathlib import Path
 
 try:
     import openpyxl
+    from openpyxl.utils import column_index_from_string
 except ImportError:  # pragma: no cover
     sys.exit("openpyxl is missing. Run: pip install openpyxl")
 
@@ -259,6 +265,100 @@ def read_dcf(d, periods) -> dict:
         },
     }
 
+def read_relative(wb, wbf, company_name):
+    """The Relative Valuation tab (each company's multiples and the peer summary row) and the
+    DCF 1-Pager's Relative Valuation block (each peer multiple applied to the team's company),
+    as the sheet calculated them. wbf is the same workbook loaded with formulas, used only to
+    name the forecast line and year each multiple is applied to."""
+    out = {}
+    if "Relative Valuation" in wb.sheetnames:
+        rv = wb["Relative Valuation"]
+        hdr = None
+        for r in range(1, min(rv.max_row, 30) + 1):
+            for c in range(1, min(rv.max_column, 12) + 1):
+                v = rv.cell(r, c).value
+                if isinstance(v, str) and re.match(r"^(Company|Name|Ticker)$", v.strip(), re.IGNORECASE):
+                    hdr = (r, c)
+                    break
+            if hdr:
+                break
+        if hdr:
+            r0, c0 = hdr
+            cols = []
+            for c in range(c0 + 1, c0 + 12):
+                v = rv.cell(r0, c).value
+                if not (isinstance(v, str) and v.strip()):
+                    break
+                cols.append((c, v.strip()))
+            companies, summary = [], None
+            for r in range(r0 + 1, r0 + 40):
+                name = rv.cell(r, c0).value
+                if not (isinstance(name, str) and name.strip()):
+                    if companies:
+                        break
+                    continue
+                values = {lab: num(rv.cell(r, c).value) for c, lab in cols}
+                if re.match(r"^(average|mean|median)", name.strip(), re.IGNORECASE):
+                    summary = {"label": name.strip(), "values": values}
+                else:
+                    companies.append({"name": name.strip(), "values": values})
+            if companies:
+                key = (company_name or "").lower()
+                ti = next((i for i, co in enumerate(companies)
+                           if key and (co["name"].lower() in key or key.split()[-1:] == co["name"].lower().split()[-1:])), 0)
+                out = {"multiples": [lab for _, lab in cols], "target": companies[ti],
+                       "peers": [co for i, co in enumerate(companies) if i != ti], "peerSummary": summary}
+
+    # the DCF tab's block: label, peer multiple, the company's line it multiplies, ..., value estimate
+    if "DCF 1-Pager" in wb.sheetnames:
+        d, df = wb["DCF 1-Pager"], wbf["DCF 1-Pager"]
+        title = None
+        for r in range(1, 20):
+            for c in range(10, min(d.max_column, 40) + 1):
+                v = d.cell(r, c).value
+                if isinstance(v, str) and v.strip().lower() == "relative valuation":
+                    title = (r, c)
+                    break
+            if title:
+                break
+        if title:
+            tr, tc = title
+            hr = vc = None
+            for r in range(tr, tr + 4):
+                for c in range(tc, tc + 10):
+                    v = d.cell(r, c).value
+                    if isinstance(v, str) and re.match(r"^value estimate", v.strip(), re.IGNORECASE):
+                        hr, vc = r, c
+            # the DCF tab's own year header and line labels, to name what each multiple is applied to
+            fy = next((r for r in range(1, 40) if isinstance(d.cell(r, 2).value, str)
+                       and d.cell(r, 2).value.strip().lower().startswith("fiscal year ended")), None)
+            implied = []
+            for r in range((hr or tr) + 1, (hr or tr) + 10):
+                lab = d.cell(r, tc).value
+                if not (isinstance(lab, str) and lab.strip()):
+                    if implied:
+                        break
+                    continue
+                line = year = None
+                f = df.cell(r, tc + 2).value
+                m = re.match(r"^=\$?([A-Z]{1,2})\$?(\d+)$", f.strip()) if isinstance(f, str) else None
+                if m:
+                    col = column_index_from_string(m.group(1))
+                    line = d.cell(int(m.group(2)), 2).value
+                    year = d.cell(fy, col).value if fy else None
+                implied.append({
+                    "label": lab.strip(),
+                    "peerMultiple": num(d.cell(r, tc + 1).value),
+                    "appliedTo": {"line": line.strip() if isinstance(line, str) else None,
+                                  "year": year.strip() if isinstance(year, str) else None,
+                                  "value": num(d.cell(r, tc + 2).value)},
+                    "perShare": num(d.cell(r, vc).value) if vc else None,
+                })
+            if any(x["perShare"] is not None for x in implied):  # skipped until the block is filled
+                out["impliedPerShare"] = implied
+    return out
+
+
 def main() -> None:
     path = find_workbook(sys.argv[1] if len(sys.argv) > 1 else None)
     import zipfile
@@ -337,6 +437,8 @@ def main() -> None:
     if "DCF 1-Pager" in wb.sheetnames:
         dcf = read_dcf(wb["DCF 1-Pager"], periods_out)
 
+    relative = read_relative(wb, openpyxl.load_workbook(path), company.get("name"))
+
     out = {
         "generatedFrom": path.name,
         "generatedOn": dt.date.today().isoformat(),
@@ -347,6 +449,7 @@ def main() -> None:
         "drivers": drivers,
         "wacc": wacc,
         "dcf": dcf,
+        "relative": relative,
         "missingRows": missing,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -367,6 +470,14 @@ def main() -> None:
               f"{len(dcf['years'])} forecast years, per share {r['perSharePerpetuity']} (perpetuity) / {r['perShareExitMultiple']} (exit multiple)")
         for k, t in dcf["sensitivity"].items():
             print(f"    sensitivity {k}: " + (f"{len(t['rows'])} x {len(t['columns'])}" if t else "not found"))
+    if relative.get("target"):
+        summ = relative.get("peerSummary") or {}
+        print(f"  Relative Valuation tab (used from Module 5): {relative['target']['name']} and {len(relative['peers'])} peers "
+              f"({', '.join(p['name'] for p in relative['peers'])}); multiples {', '.join(relative['multiples'])}; "
+              f"summary row: {summ.get('label', 'none')}")
+    for x in relative.get("impliedPerShare", []):
+        a = x["appliedTo"]
+        print(f"    {x['label']}: {x['peerMultiple']} x {a['line']} {a['year']} {a['value']} -> {x['perShare']} per share")
 
 
 if __name__ == "__main__":

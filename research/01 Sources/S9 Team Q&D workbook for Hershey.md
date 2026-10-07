@@ -23,6 +23,7 @@ Dr. Payne's filled Q&D workbook for Hershey, used as she sent it: FY2024 and FY2
 - Driver choices behind the forecast are argued in [[03 Drafts/Milestone 2 - Driver Justifications]].
 - The WACC calculation tab (Module 3) gives a WACC of 6.78 percent; its inputs are argued and tagged in [[03 Drafts/Milestone 3 - Cost of Capital Memo]]. Forecast interest expense now reads the cost of debt from it (253.8 in FY2026), so the sheet's FCFE changed. The DCF 1-Pager is Module 4.
 - The DCF 1-Pager tab (Module 4) values Hershey at 218.59 dollars a share by growth in perpetuity and 193.02 by exit multiple, at the 6.78 percent WACC, 3.0 percent growth, and 13.02x; its inputs and results are filed from [[03 Drafts/Milestone 4 - DCF Valuation Memo]].
+- Since 2026-10-07 the workbook is Dr. Payne's final copy ("Q&D worksheet HSY Module 5"), kept for every remaining module: the same Detail Data, WACC, and DCF valuation, plus the Relative Valuation tab (Hershey, Mondelez, Lindt, and Tootsie Roll on EV/EBITDA, P/E, and EV/Sales, with the peer average) and the DCF 1-Pager's Relative Valuation block (each peer average multiple applied to Hershey's FY2028 forecast). The FrontPage Capital Allocation and #REF! cells carry the team's fixes, as in the Module 4 copy.
 
 ## Direct quotes
 > None. The file is a spreadsheet.
