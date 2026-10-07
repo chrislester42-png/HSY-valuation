@@ -146,6 +146,7 @@ window.CONTENT = {
     call: "",               // "Buy", "Hold", or "Sell", from the memo
     buyBelow: null, avoidAbove: null,   // dollars per share, from the memo
     weights: {},            // the memo's weight for each bull, base, and bear case, by name, e.g. { Bull: 0.25, Base: 0.5, Bear: 0.25 }; the cases are the valuation object's scenarios
+    memoWeighted: { perpetuity: null, exitMultiple: null },  // the memo's weighted value per share both ways, for the check line
     peerScreen: { by: "", date: "", kept: [], dropped: [] },  // the AI-proposed comparable set: { name, why }
     premiumDriver: "",      // one sentence: why we trade at a premium or discount to the peers
     reconciliation: ""      // forty words or fewer on the DCF versus the multiples
