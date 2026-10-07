@@ -12,11 +12,29 @@ Dials (taste skill, Section 1): DESIGN_VARIANCE 5, MOTION_INTENSITY 3, VISUAL_DE
 
 Each section on the main page is one screen, like a slide. A presenter must never scroll inside a section to show all of it.
 
-- Every live section is exactly the viewport height minus the top bar (`height: calc(100svh - var(--bar-h))`, with a `100vh` fallback), checked at 1440 x 900 and at 1280 x 720 (a projector). If it does not fit, cut size, never content: smaller type with `clamp()` tied to `vh`, tighter gaps, a pop-out for secondary text.
+- Every live section is exactly the viewport height minus the top bar (`height: calc(100svh - var(--bar-h))`, with a `100vh` fallback), checked at 1440 x 900 and at 1280 x 720 (a projector). If it does not fit, cut words, never the type size: move secondary text into a pop-out or a hover tooltip (see "Say less" below).
 - Inside a section: a head (headline, lede, the facts), a body (the section's main content), and a foot (the so-what, and "numbers we still need" as a small pop-out that opens upward and never grows the section).
 - Sections not built yet collapse to a thin band (title and "Coming in Module N"), not a blank screen.
 - On slide-size screens, the arrow keys, Page Up, Page Down, and the space bar move to the previous or next live section, ignored while typing in a field or moving a slider. Scroll snap is `proximity`, on screens at least 900 wide and 600 tall.
 - Below 900 pixels wide (or 600 tall), sections grow to fit their content and stack to one column. Nothing scrolls sideways at 390 pixels.
+
+## Say less: a slide, not a page
+
+A team presents the whole site in about thirty minutes, so each section is a slide a presenter can talk over in three or four minutes. The reference is the Bloom Energy site: a short headline, two lines of lede, a row of big numbers with tiny captions, then one or two cards. Nothing on the slide explains how to read it; the presenter does that. The long version of every sentence stays in the memo and the Knowledge Bank, which the page links to; the page shows the short version.
+
+| Element | Budget on the slide |
+|---|---|
+| Headline | 8 words or fewer, a claim |
+| Lede | 25 words or fewer, two lines at 1280 pixels |
+| Facts (stat row) | at most 4; the value, its tier chip, a label of 5 words or fewer, the source chip |
+| Text blocks (Thesis) | at most 4, each a title and 20 words or fewer |
+| Card title | one line, names the thing ("Sensitivity", "The weights"), no sentence |
+| Caption under a chart or table | one line of 10 words or fewer: units and sources only ("$ millions. S1, S8, S9") |
+| Check line | a dot and 6 words or fewer ("Matches the workbook"); the full comparison in its hover tooltip |
+| So-what (the foot) | one line, 20 words or fewer |
+| Anything else (reasons, how a chart is computed, what a slider does, notes on method) | not on the slide: a hover tooltip, a small "?" pop-out, or the Knowledge Bank note |
+
+Visible prose on a section, not counting numbers, table cells, axis labels, and buttons, stays near 80 words. Type never shrinks to make room: body text at least 14 pixels and secondary text at least 12 at 1280 by 720.
 
 ## Tokens
 
@@ -63,3 +81,4 @@ Any number; any section id; any nav label or link; any Fact (value, label, sourc
 4. Text has at least 4.5 to 1 contrast against its background.
 5. Zero em-dashes in `site/`.
 6. `git diff` shows no change to a number, a section id, a nav label, a Fact, `content.js`, or `data/`.
+7. Say less: each live section is within the budgets above; list each section's visible prose word count.

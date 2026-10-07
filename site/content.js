@@ -149,7 +149,7 @@ window.CONTENT = {
     memoWeighted: { perpetuity: null, exitMultiple: null },  // the memo's weighted value per share both ways, for the check line
     peerScreen: { by: "", date: "", kept: [], dropped: [] },  // the AI-proposed comparable set: { name, why }
     premiumDriver: "",      // one sentence: why we trade at a premium or discount to the peers
-    reconciliation: ""      // forty words or fewer on the DCF versus the multiples
+    reconciliation: { short: "", full: "" }  // the DCF versus the multiples: one line of 15 words or fewer, and the memo's full text
   },
 
   risks: {
