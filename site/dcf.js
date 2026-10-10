@@ -92,5 +92,25 @@
     const acts = ((F && F.periods) || []).filter((p) => p.actual && p.revenue != null);
     return acts.length ? acts[acts.length - 1].revenue : null;
   };
+  // The inputs window.valuation takes for one case of the bull, base, and bear table (the scenarios in the valuation
+  // object of content.js). The Valuation section and The Call both call this, so each case computes the same way on both.
+  // - a base case runs at the workbook's inputs;
+  // - a ratesFrom case takes the WACC and growth on the workbook's growth-by-WACC table nearest the named case's
+  //   (scenarios: the full list, defaulting to content.js's), and says which cell it used;
+  // - any other case shifts revenue growth and the EBITDA margin and sets the WACC and perpetual growth.
+  valuation.scenarioInputs = (sc, F, scenarios) => {
+    const dcf = F.dcf;
+    if (sc.base) return {};
+    if (sc.ratesFrom) {
+      const C = typeof window !== "undefined" && window.CONTENT;
+      const list = scenarios || (C && C.valuation && C.valuation.scenarios) || [];
+      const from = list.find((x) => x.name === sc.ratesFrom) || {}, t = dcf.sensitivity.perShareByGrowthAndWacc;
+      const nearest = (arr, x) => arr.reduce((best, a, i) => (Math.abs(a - x) < Math.abs(arr[best] - x) ? i : best), 0);
+      const ri = nearest(t.rows, from.wacc), ci = nearest(t.columns, from.growth);
+      return { wacc: t.rows[ri], growth: t.columns[ci], cell: { row: ri + 1, col: ci + 1 } };
+    }
+    return { wacc: sc.wacc, growth: sc.growth, revenueGrowthShift: sc.revenueGrowthShift || 0,
+      ebitdaMarginShift: sc.ebitdaMarginShift || 0, baseRevenue: valuation.baseRevenue(F) };
+  };
   window.valuation = valuation;
 })();

@@ -8,12 +8,12 @@ Base is the workbook. Bull and bear change four things: revenue growth in every 
 
 ## The table
 
-| Scenario | Revenue growth shift | Revenue growth FY2026, FY2027, FY2028 | EBITDA margin shift | EBITDA margin FY2026, FY2027, FY2028 | WACC | Perpetual growth | Exit multiple | Per share, growth in perpetuity | Per share, exit multiple | Versus $160.19 (perpetuity, multiple) |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Bull | +1.0 pt | 6.2%, 3.5%, 3.6% | +1.5 pt | 26.2%, 28.4%, 29.0% | 6.51% | 3.5% | 13.02x | $311.15 | $212.70 | +94.2%, +32.8% |
-| Base | none (base) | 5.2%, 2.5%, 2.6% | none (base) | 24.7%, 26.9%, 27.5% | 6.78% | 3.0% | 13.02x | $218.59 | $193.02 | +36.5%, +20.5% |
-| Bear | -1.5 pt | 3.7%, 1.0%, 1.1% | -3.0 pt | 21.7%, 23.9%, 24.5% | 7.56% | 2.5% | 13.02x | $124.84 | $158.38 | -22.1%, -1.1% |
-| Rates only | none (base) | 5.2%, 2.5%, 2.6% | none (base) | 24.7%, 26.9%, 27.5% | 7.00% | 2.5% | 13.02x | $181.89 | $192.08 | +13.5%, +19.9% |
+| Scenario   | Revenue growth shift | Revenue growth FY2026, FY2027, FY2028 | EBITDA margin shift | EBITDA margin FY2026, FY2027, FY2028 | WACC  | Perpetual growth | Exit multiple | Per share, growth in perpetuity | Per share, exit multiple | Versus $160.19 (perpetuity, multiple) |
+| ---------- | -------------------- | ------------------------------------- | ------------------- | ------------------------------------ | ----- | ---------------- | ------------- | ------------------------------- | ------------------------ | ------------------------------------- |
+| Bull       | +1.0 pt              | 6.2%, 3.5%, 3.6%                      | +1.5 pt             | 26.2%, 28.4%, 29.0%                  | 6.51% | 3.5%             | 13.02x        | $311.15                         | $212.70                  | +94.2%, +32.8%                        |
+| Base       | none (base)          | 5.2%, 2.5%, 2.6%                      | none (base)         | 24.7%, 26.9%, 27.5%                  | 6.78% | 3.0%             | 13.02x        | $218.59                         | $193.02                  | +36.5%, +20.5%                        |
+| Bear       | -1.5 pt              | 3.7%, 1.0%, 1.1%                      | -3.0 pt             | 21.7%, 23.9%, 24.5%                  | 7.56% | 2.5%             | 13.02x        | $124.84                         | $158.38                  | -22.1%, -1.1%                         |
+| Rates only | none (base)          | 5.2%, 2.5%, 2.6%                      | none (base)         | 24.7%, 26.9%, 27.5%                  | 7.00% | 2.5%             | 13.02x        | $181.89                         | $192.08                  | +13.5%, +19.9%                        |
 
 Held at the workbook's values in every row: the exit multiple (13.02x), D&A, capex, and the change in net working capital (in dollars, as the DCF tab holds them), each year's tax rate on EBIT, the valuation date and stub, net debt, and diluted shares.
 

@@ -1,7 +1,7 @@
 ---
 type: moc
 project: "The Hershey Company (HSY)"
-date-updated: 2026-10-05
+date-updated: 2026-10-09
 ---
 
 # The Hershey Company (HSY) valuation project
@@ -26,6 +26,7 @@ Every number on the site points at an atomic note here. Every atomic note points
 - [[03 Drafts/Milestone 2 - Driver Justifications]]
 - [[03 Drafts/Milestone 3 - Cost of Capital Memo]]
 - [[03 Drafts/Milestone 4 - DCF Valuation Memo]]
+- [[03 Drafts/Milestone 5 - Relative Valuation and Reconciliation Memo]]
 - [[03 Drafts/Module 4 - Bull base bear]]
 - [[03 Drafts/Module 2 - Data pull]]
 
@@ -147,6 +148,30 @@ Every number on the site points at an atomic note here. Every atomic note points
 - [[02 Atomic Notes/HSY share price 160.19 dollars on 5 October 2026]]
 - [[02 Atomic Notes/DCF values 36.5 and 20.5 percent above share price]]
 
+## Relative valuation and the call (Module 5)
+
+### Peer multiples
+- [[02 Atomic Notes/Hershey multiples 13.8x EBITDA, 23.4x earnings, 3.05x sales]]
+- [[02 Atomic Notes/Mondelez multiples 12.22x EBITDA, 21.34x earnings, 2.36x sales]]
+- [[02 Atomic Notes/Lindt multiples 19.08x EBITDA, 23.79x earnings, 4.16x sales]]
+- [[02 Atomic Notes/Tootsie Roll multiples 25.31x EBITDA, 29.87x earnings, 3.74x sales]]
+- [[02 Atomic Notes/Peer average multiples 18.87x EBITDA, 25.0x earnings, 3.42x sales]]
+- [[02 Atomic Notes/Peer screen kept 3 of 8 AI-proposed comparables]]
+
+### Premiums, discounts, and implied values
+- [[02 Atomic Notes/Hershey discount to peer average 26.9, 6.4, and 10.8 percent]]
+- [[02 Atomic Notes/Hershey premium to Mondelez 12.9, 9.7, and 29.2 percent]]
+- [[02 Atomic Notes/Peer multiples imply 213.50 to 323.76 dollars a share]]
+- [[02 Atomic Notes/Peer multiple values 33.3 to 102.1 percent above share price]]
+
+### Weights and the call
+- [[02 Atomic Notes/Scenario weights 25, 50, and 25 percent]]
+- [[02 Atomic Notes/Bull case values 311.15 and 212.70 dollars a share]]
+- [[02 Atomic Notes/Bear case values 124.84 and 158.38 dollars a share]]
+- [[02 Atomic Notes/Probability-weighted value 218.29 and 189.28 dollars a share]]
+- [[02 Atomic Notes/Weighted values 36.3 and 18.2 percent above share price]]
+- [[02 Atomic Notes/Call is Buy below 189 and avoid above 218 dollars]]
+
 ## Open questions
 - Management's stated FY2027 operating margin target, with the exact quote and date from the Q2 call.
 - Diluted share count at the latest quarter end, from the Q2 2026 Form 10-Q.
@@ -158,6 +183,9 @@ Every number on the site points at an atomic note here. Every atomic note points
 - A source for the 160.19 dollar HSY close on October 2, 2026, behind the market value of equity (Milestone 3 memo). The workbook and the Milestone 4 memo date the same price October 5, 2026; find which day it is.
 - Diluted shares: the DCF tab uses 207.2 million, labelled from a Q1 2020 10-Q; the Milestone 3 memo used 203.4 million. Check against the latest 10-Q.
 - Fix the Hamada formula in WACC tab cell C24 (misplaced bracket), then update the Hamada note and the memo.
+- Relative Valuation block on the DCF 1-Pager: X6 and X7 (EV/EBITDA, EV/Sales) divide enterprise value by shares without subtracting net debt (column V gives 305.63 and 195.37 dollars a share), and the P/E row (X5) is applied to NOPAT, not net income (254.45 dollars a share on FY2028 net income). Ask Dr. Payne whether her copy intends this; if the figures change, update the implied values notes and the Milestone 5 memo.
+- Hershey's EV/EBITDA is 13.8x on the Relative Valuation tab and 11.7x on the FrontPage (L19). Find which date and EBITDA each uses.
+- The Module 4 hand checks (bear by growth in perpetuity, bull by exit multiple) are still blank in the Bull base bear draft; the Milestone 5 memo says they were done.
 
 ## Sources
 - [[01 Sources/S1 Hershey Form 10-K FY2025]]

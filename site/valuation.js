@@ -125,17 +125,7 @@
 
     // ---------- bull, base, and bear: each scenario's inputs, run through window.valuation ----------
     const baseRevenue = window.valuation.baseRevenue(F);
-    const scenInputs = (sc) => {
-      if (sc.base) return {};
-      if (sc.ratesFrom) {
-        // the WACC and growth on the workbook's growth-by-WACC table nearest the named scenario's
-        const from = SCEN.find((x) => x.name === sc.ratesFrom) || {}, t = dcf.sensitivity.perShareByGrowthAndWacc;
-        const ri = nearest(t.rows, from.wacc), ci = nearest(t.columns, from.growth);
-        return { wacc: t.rows[ri], growth: t.columns[ci], cell: { row: ri + 1, col: ci + 1 } };
-      }
-      return { wacc: sc.wacc, growth: sc.growth, revenueGrowthShift: sc.revenueGrowthShift || 0,
-        ebitdaMarginShift: sc.ebitdaMarginShift || 0, baseRevenue };
-    };
+    const scenInputs = (sc) => window.valuation.scenarioInputs(sc, F, SCEN);
     const scenRuns = SCEN ? SCEN.map((sc) => { const inp = scenInputs(sc); return { sc, inp, r: window.valuation(dcf, inp) }; }) : [];
     let picked = SCEN ? (SCEN.find((x) => x.name === "Bear") || SCEN[0]).name : null;
 

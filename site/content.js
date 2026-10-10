@@ -12,8 +12,8 @@ window.CONTENT = {
     priceDate: null,        // "YYYY-MM-DD"
     oneLineThesis: "A mature cash machine whose margins should recover as cocoa falls.",
     team: ["Chris Lester"],   // add the teammate's name here
-    updated: "2026-09-28",  // "YYYY-MM-DD", refreshed at each wrap-up
-    callBadge: ""           // filled in Module 5, e.g. "Buy below $150, avoid above $190"
+    updated: "2026-10-09",  // "YYYY-MM-DD", refreshed at each wrap-up
+    callBadge: "Buy below $189, avoid above $218"   // the call, from the Milestone 5 memo
   },
 
   thesis: {
@@ -141,15 +141,50 @@ window.CONTENT = {
   },
 
   theCall: {
-    status: "coming", module: 5, title: "The Call",
-    headline: "", lede: "", facts: [], soWhat: "", numbersWeStillNeed: [],
-    call: "",               // "Buy", "Hold", or "Sell", from the memo
-    buyBelow: null, avoidAbove: null,   // dollars per share, from the memo
-    weights: {},            // the memo's weight for each bull, base, and bear case, by name, e.g. { Bull: 0.25, Base: 0.5, Bear: 0.25 }; the cases are the valuation object's scenarios
-    memoWeighted: { perpetuity: null, exitMultiple: null },  // the memo's weighted value per share both ways, for the check line
-    peerScreen: { by: "", date: "", kept: [], dropped: [] },  // the AI-proposed comparable set: { name, why }
-    premiumDriver: "",      // one sentence: why we trade at a premium or discount to the peers
-    reconciliation: { short: "", full: "" }  // the DCF versus the multiples: one line of 15 words or fewer, and the memo's full text
+    status: "live", module: 5, title: "The Call",
+    headline: "Every method values Hershey above its price",
+    lede: "Weighting our bull, base, and bear cases 25, 50, and 25 gives $189 to $218 a share. Peer multiples agree on direction, not distance.",
+    facts: [
+      { value: "$218.29", label: "Weighted value per share", source: "S9", tier: "D", note: "02 Atomic Notes/Probability-weighted value 218.29 and 189.28 dollars a share" },
+      { value: "Buy", label: "Below $189, avoid above $218", source: "S9", tier: "E", note: "02 Atomic Notes/Call is Buy below 189 and avoid above 218 dollars" },
+      { value: "26.9%", label: "EV/EBITDA discount to peers", source: "S9", tier: "D", note: "02 Atomic Notes/Hershey discount to peer average 26.9, 6.4, and 10.8 percent" }
+    ],
+    soWhat: "The cross-check agrees on direction; the call rests on the DCF and its terminal assumptions.",
+    numbersWeStillNeed: [
+      "Whether the peer values per share should net out debt (EV/EBITDA, EV/Sales) and use net income (P/E): the workbook does neither. See the implied values note.",
+      "A market data source for the $160.19 share price, and which day's close it is (October 2 or October 5, 2026)."
+    ],
+    // From the Milestone 5 memo (research/03 Drafts/Milestone 5 - Relative Valuation and Reconciliation Memo).
+    call: "Buy",
+    buyBelow: 189, avoidAbove: 218,
+    weights: { Bull: 0.25, Base: 0.5, Bear: 0.25 },
+    memoWeighted: { perpetuity: 218.29, exitMultiple: 189.28 },
+    peerScreen: {
+      by: "Proposed by Claude (Claude Code), kept or dropped by Chris Lester",
+      date: "2026-10-07",
+      note: "02 Atomic Notes/Peer screen kept 3 of 8 AI-proposed comparables",
+      kept: [
+        { name: "Mondelez", why: "Chocolate and biscuits under global brands; listed in the US." },
+        { name: "Lindt and Sprüngli", why: "Chocolate is its whole business; branded and priced at a premium, as Hershey's core brands are." },
+        { name: "Tootsie Roll", why: "US confectionery, sold through the same retail channels as Hershey's." }
+      ],
+      dropped: [
+        { name: "Nestlé", why: "Confectionery is a small part of a far larger food and beverage business, so its multiples price coffee, nutrition, and pet food." },
+        { name: "Mars", why: "Private: no share price, so no market multiples." },
+        { name: "Ferrero", why: "Private: no share price, so no market multiples." },
+        { name: "General Mills", why: "Cereal, meals, and pet food; little confectionery." },
+        { name: "J.M. Smucker", why: "Coffee, pet food, and spreads lead its sales; sweet baked goods are a minority." }
+      ]
+    },
+    premiumDriver: "Lindt and Tootsie Roll pull the average up, and the market is pricing cocoa risk: operating margin fell from 25.9% in FY2024 to 12.3% in FY2025.",
+    reconciliation: {
+      short: "We trust the DCF; peer averages price growth our forecast does not assume.",
+      note: "03 Drafts/Milestone 5 - Relative Valuation and Reconciliation Memo",
+      full: "All five methods put Hershey above its price. They disagree on how far, and the gap has two sources.\n\n" +
+        "Which multiple. Our DCF's exit multiple is 13.02x EBITDA, close to Hershey's own 13.8x and Mondelez's 12.22x. The peer average is 18.87x. Applying 18.87x instead of 13.02x to the same FY2028 EBITDA of 3,554.2 is most of the difference between $193.02 and $323.76. The peer average prices the growth and quality of Lindt and Tootsie Roll; our 3.0 percent perpetual growth does not assume them.\n\n" +
+        "Which year. The workbook applies each peer multiple to FY2028 forecast figures, after the margin recovery. The DCF discounts those same years back to October 5, 2026.\n\n" +
+        "Which we trust. The DCF. It states its growth and risk assumptions, and our Module 4 sensitivity tables show what each one is worth. The multiples are a cross-check, and the cross-check agrees on direction: Hershey is worth more than its price. EV/Sales, the multiple least affected by Hershey's cocoa-hit margins, gives $213.50, between our two DCF values."
+    }
   },
 
   risks: {

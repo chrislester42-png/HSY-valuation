@@ -315,3 +315,63 @@ dl.glossary dd { margin: 4px 0 0; color: var(--ink-2); }
 .val-reasons { margin-top: clamp(4px, 1vh, 10px); font-size: clamp(10.5px, 1.55vh, 12.5px); }
 .scen-btn { font-size: 11.5px; line-height: 1.25; padding: 1px 8px; }
 .val-scen th, .val-scen td { padding-top: clamp(1px, 0.4vh, 5px); padding-bottom: clamp(1px, 0.4vh, 5px); }
+
+/* The Call */
+.call-body { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr) minmax(0, 1fr); gap: clamp(12px, 1.4vw, 22px); }
+.call-card { container-type: inline-size; position: relative; }
+#the-call .s-head h2 { max-width: none; }
+.call-pop-wrap { position: relative; flex: none; display: flex; }
+.call-pop-wrap .why { font-size: 11.5px; padding: 5px 10px; }
+.call-pop { width: min(440px, 84vw, calc(100cqw - 8px)); max-height: min(400px, 56vh); }
+.call-pop.down { top: calc(100% + 8px); bottom: auto; right: 0; }
+.call-pop.up { bottom: calc(100% + 8px); right: 0; }
+.call-pop ul { margin-bottom: 10px; }
+.call-pop h4 + ul { margin-top: 0; }
+.call-pop p + p { margin-top: 8px; }
+.call-pop p b { color: var(--ink); }
+.call-pop li b { color: var(--ink); font-weight: 600; }
+.call-by { font-family: var(--mono); font-size: 11px; color: var(--fg-mute); }
+.call-table-wrap { flex: 1; min-height: 0; display: flex; align-items: flex-start; overflow-x: auto; padding-top: clamp(2px, 1vh, 10px); }
+.call-peer-table th, .call-peer-table td { padding-top: clamp(4px, 1.35vh, 12px); padding-bottom: clamp(4px, 1.35vh, 12px); }
+.call-peer-table td { font-family: var(--mono); font-size: clamp(11.5px, 1.75vh, 13px); }
+.call-peer-table tr.co th, .call-peer-table tr.co td { color: var(--ink); font-weight: 600; }
+.call-peer-table tr.sum th, .call-peer-table tr.sum td { border-top: 1px solid var(--line-strong); color: var(--ink); font-weight: 600; }
+.call-peer-table tr.diff th, .call-peer-table tr.diff td { color: var(--accent); font-weight: 600; cursor: help; }
+.call-range { min-height: 190px; }
+.c-band { fill: var(--accent-soft); }
+.c-grid { stroke: var(--line); stroke-width: 1; }
+.c-price { stroke: var(--ink); stroke-width: 1.5; stroke-dasharray: 3 3; }
+.c-row { fill: transparent; }
+.c-row:hover { fill: var(--line); fill-opacity: 0.5; }
+.c-bar-dcf { fill: var(--ink); }
+.c-bar-mult { fill: var(--fg-mute); fill-opacity: 0.5; }
+.c-bar-wtd { fill: var(--accent); }
+.t-bar { font-family: var(--sans); font-size: 12px; fill: var(--ink-2); }
+.t-bar.wtd, .t-val.wtd { fill: var(--accent); font-weight: 600; }
+.t-band { font-family: var(--mono); font-size: 10.5px; fill: var(--accent); }
+.t-price { font-family: var(--mono); font-size: 10.5px; fill: var(--ink); }
+.call-rec { display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  margin-top: clamp(6px, 1.2vh, 10px); padding-top: clamp(6px, 1.2vh, 10px); border-top: 1px solid var(--line); }
+.call-rec p { font-size: 13px; line-height: 1.35; color: var(--ink-2); }
+.call-w-grid { display: grid; grid-template-columns: 3.4rem minmax(4rem, 1fr) minmax(4rem, 1fr) 2.6rem minmax(56px, 1.2fr); column-gap: 10px; align-items: center; }
+.call-w-grid > :nth-child(2), .call-w-grid > :nth-child(3), .call-w-grid > :nth-child(4) { text-align: right; }
+.call-w-row { padding: clamp(4px, 1.1vh, 9px) 0; border-top: 1px solid var(--line); }
+.call-w-row label { font-size: 13px; font-weight: 600; }
+.call-w-row .ps { font-family: var(--mono); font-size: 12.5px; color: var(--ink); }
+.call-w-row output { font-family: var(--mono); font-size: 12.5px; font-weight: 500; color: var(--accent); }
+.call-w-row input[type="range"] { width: 100%; margin: 0; accent-color: var(--accent); cursor: pointer; }
+.call-weighted { flex: 1; min-height: 0; display: flex; align-items: center; }
+.call-hero { width: 100%; grid-template-columns: repeat(2, minmax(0, 1fr)); border-bottom: 0; border-top: 1px solid var(--line-strong);
+  padding-top: clamp(8px, 1.6vh, 14px); padding-bottom: 0; }
+.call-hero .val-big { font-size: clamp(1.4rem, min(2.3vw, 5vh), 2.3rem); }
+@container (max-width: 300px) {
+  .call-w-grid { grid-template-columns: 3.2rem minmax(0, 1fr) minmax(0, 1fr) 2.6rem; }
+  .call-w-row input[type="range"] { grid-column: 1 / -1; margin-top: 4px; }
+  .call-w-grid.drv-cols span:last-child { display: none; }
+}
+@media (max-width: 899px), (max-height: 599px) {
+  .call-body { grid-template-columns: minmax(0, 1fr); }
+  .call-range { height: 300px; flex: none; }
+  .call-table-wrap, .call-weighted { flex: none; }
+  .call-weighted { margin: 14px 0; }
+}
