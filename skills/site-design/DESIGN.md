@@ -34,7 +34,7 @@ A team presents the whole site in about thirty minutes, so each section is a sli
 | So-what (the foot) | one line, 20 words or fewer |
 | Anything else (reasons, how a chart is computed, what a slider does, notes on method) | not on the slide: a hover tooltip, a small "?" pop-out, or the Knowledge Bank note |
 
-Visible prose on a section, not counting numbers, table cells, axis labels, and buttons, stays near 80 words. Type never shrinks to make room: body text at least 14 pixels and secondary text at least 12 at 1280 by 720.
+Visible prose on a section, not counting numbers, table cells, axis labels, and buttons, stays near 80 words; the two list sections, Risks and Catalysts, near 150. Type never shrinks to make room: body text at least 14 pixels and secondary text at least 12 at 1280 by 720.
 
 ## Tokens
 
@@ -62,6 +62,8 @@ Every text colour, the accent included, passes 4.5 to 1 against `--bg`, `--bg-de
   - **Driver card:** the six sliders as compact rows (label, a "why" pop-out, the workbook's value in mono, the current value in the accent, the slider), a Reset button, and the check line with a dot (accent when year-one FCFF matches the workbook, `--derived` when the sliders moved it). The "why" pop-out holds that driver's justification and its source link from `financials.driverJustifications`. The old driver cards and the long tables go.
   - **The model:** `window.forecastModel(F, drivers)` keeps its name and return shape. Each forecast year starts from that year's drivers as the workbook implies them (revenue growth, EBIT margin, taxes over EBIT, D&A, capex, and NWC as shares of revenue); the sliders hold year one's values and move every year by the same amount. At the defaults every forecast year's FCFF equals the workbook's. FCFF = EBIT x (1 - t) + D&A - capex - change in NWC; FCFE = FCFF - interest x (1 - t) + net borrowing.
 - **Knowledge Bank** (`vault.html`): keeps its graph, chips, legend, and reading pane. `vault.html` loads `styles.css` before `vault.css`, and `vault.css` drops its own colour and font variables so it reads the shared tokens; if the new palette leaves any Knowledge Bank text below 4.5 to 1, fix it in `vault.css` with the shared tokens.
+- **Risks** (Module 6): head with headline and lede only, no stat row (the cards carry the figures). Body: up to four cards in a two-by-two grid. Each card: the risk as a claim (ten words or fewer) with a small red dot; two points, each one figure with its date as a Fact chip; "Our take" in a tinted box (fifteen words or fewer); and, where the Module 4 bear case prices the risk, a small tag naming the bear input it moves.
+- **Catalysts** (Module 6): head as above. Body: a table of dated events, soonest first, at most six rows (when in mono, the event, what we watch, a direction chip: up in the accent, down in `--estimate`, either in `--fg-mute`, and the source chip); under it, three tripwire tiles: the condition and its threshold large, the action under it, and the threshold beside our own number in the tile's hover tooltip.
 - **Tearsheet, Glossary, Sources:** the same top bar, fonts, and tokens; a centred reading column.
 - **Fonts:** one Google Fonts link in the head of every page (index, vault, tearsheet, glossary, sources) for the chosen pairing.
 
