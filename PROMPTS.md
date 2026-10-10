@@ -157,3 +157,21 @@ Build the Risks and Catalysts sections. Read skills/site-design/DESIGN.md first:
 
 ### Check the Risks and Catalysts sections
 Check the Risks and Catalysts sections. For every figure and date on both, show the note it opens and its source's URL, and confirm from the report that the figure and date match the source; list any that do not, and any event date that has already passed. For each tripwire, show its threshold beside our own forecast or valuation number and say whether it would fire today. Count each section's visible prose words against the brief's budgets. If anything is wrong, tell me what and why; fix nothing until I say. Then remind me to open each new note in Obsidian, check its figure against the source page, and set it to confirmed.
+
+## Module 7: from the AI Use Evaluation Memo to the Process section
+
+Your Milestone 6 AI Use Evaluation Memo is in research/03 Drafts, and AI Log.md has rows for Modules 1 to 6. The Process section publishes the memo; its counts come from the log.
+
+### Module 7 kickoff
+We are in Module 7 of FIN 5370. This module's milestone is Project Milestone 6: AI Use Evaluation Memo, published as the Process section. Our memo is at research/03 Drafts/[MEMO FILE]. Run python3 scripts/ai_log_to_data.py and tell me what it found: the rows for each module, how many helped, misled, or did not help, and any module with no row or any row it could not read. Then read the memo and CLAUDE.md and tell me, for each of Modules 1 to 6, the task the memo catalogs, its verdict, and its failure mode if any; the memo's recommendations; and anywhere the memo and the log disagree. Do not build anything yet.
+
+Then run **File the memo into the vault** (top of this file) on the memo.
+
+### Build the Process section
+Build the Process section. Read skills/site-design/DESIGN.md first: like every section, it fits one screen and keeps to the "Say less" budgets. Create site/process.js that registers window.sections.process(body, s, F), and add two script tags to site/index.html: data/ailog.js after data/financials.js, and process.js in the marked slot before app.js. Three cards side by side, each with a one-word or two-word title: 1) By module: one row for each of Modules 1 to 6, from the memo: the module number, the task in eight words or fewer, a verdict chip (held up, mixed, or misled), the failure mode as a small chip where there was one, and that module's number of AI Log rows from window.AILOG; the row's hover tooltip says how it was verified, and clicking the row opens a pop-out listing that module's AI Log rows, each its task and its verdict. 2) Failure modes: up to four, each its name as a chip and one example of twelve words or fewer, with the module it came from. 3) What we will change: the memo's recommendations, fifteen words or fewer each, numbered, each tagged with the finding it follows from. Every count comes from window.AILOG, never typed. Then update only the process object in site/content.js, within the brief's budgets: status live; a headline and a lede from the memo; up to three facts, each with tier and note; the memo's most surprising finding as the one-line soWhat; and modules, failures, and recommendations from the memo. Plain JavaScript, no libraries; use the styles already in styles.css, and put any new ones at the end of site/styles.css under a /* Process */ comment. Touch no other section. Then run python3 scripts/build_vault.py, open site/index.html#process in my browser, count the section's visible prose words for me, and remind me to check it full screen at 1280 by 720.
+
+### Check the Process section
+Check the Process section against the memo and the AI Log. For each of Modules 1 to 6, show the page's task, verdict, and failure mode beside the memo's, and the page's row count beside the log's. Confirm that every module has a row, that every recommendation names a finding the memo states, and that every fact opens its note. Count the section's visible prose words against the brief's budgets. If anything is wrong, tell me what and why; fix nothing until I say.
+
+### Trim for presenting, again
+Run **Trim for presenting** (top of this file) on every live section, so the whole site, Risks, Catalysts, and Process included, reads like slides before the final presentation.

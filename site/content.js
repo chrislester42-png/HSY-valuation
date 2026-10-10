@@ -290,9 +290,10 @@ window.CONTENT = {
 
   process: {
     status: "coming", module: 7, title: "Process",
-    headline: "", lede: "",
-    catalog: [],            // rows from AI Log.md
-    helped: [], misled: [],
-    recommendations: []
+    headline: "", lede: "", facts: [], soWhat: "", numbersWeStillNeed: [],
+    modules: [],            // six, Modules 1 to 6, from the memo: { module: 1, task: "eight words or fewer", verdict: "held" | "mixed" | "misled",
+                            //   failure: "the failure mode, if any", verified: "one line, shown on hover", note: "" }; row counts come from data/ailog.js
+    failures: [],           // up to four: { mode: "", example: "twelve words or fewer", module: 1, note: "" }
+    recommendations: []     // two to four: { text: "fifteen words or fewer", from: "the finding it follows from" }
   }
 };
