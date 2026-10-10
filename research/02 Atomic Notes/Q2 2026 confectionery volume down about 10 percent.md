@@ -6,6 +6,7 @@ status: needs-verification
 tier: R
 date-created: 2026-09-28
 sources:
+  - "[[01 Sources/S2 Hershey Q2 2026 results press release]]"
   - "[[01 Sources/S3 Hershey Q2 2026 earnings call transcript]]"
   - "[[01 Sources/S4 TIKR Hershey Q2 2026 margin article]]"
 ---
@@ -18,7 +19,10 @@ Demand is the second risk to the thesis. If volumes keep falling as prices stay 
 
 Check: Copied from the Milestone 1 memo. Not yet checked against the source; check it there, then set status to confirmed. The memo says about; record the exact figure when checking.
 
+Module 6: the Q2 2026 press release (S2, PR Newswire copy) gives the North America Confectionery figure as: "Volume declined approximately 10 points reflecting price elasticity"
+
 ## Related
 - [[02 Atomic Notes/Q2 2026 price increase about 14 percent]]
 - [[01 Sources/S3 Hershey Q2 2026 earnings call transcript]]
 - [[01 Sources/S4 TIKR Hershey Q2 2026 margin article]]
+- [[01 Sources/S2 Hershey Q2 2026 results press release]]

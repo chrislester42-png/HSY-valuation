@@ -29,6 +29,8 @@ Every number on the site points at an atomic note here. Every atomic note points
 - [[03 Drafts/Milestone 5 - Relative Valuation and Reconciliation Memo]]
 - [[03 Drafts/Module 4 - Bull base bear]]
 - [[03 Drafts/Module 2 - Data pull]]
+- [[03 Drafts/Module 6 - Research brief]]
+- [[03 Drafts/Module 6 - Research report]]
 
 ## The thesis (current view)
 
@@ -172,6 +174,59 @@ Every number on the site points at an atomic note here. Every atomic note points
 - [[02 Atomic Notes/Weighted values 36.3 and 18.2 percent above share price]]
 - [[02 Atomic Notes/Call is Buy below 189 and avoid above 218 dollars]]
 
+## Risks and catalysts (Module 6)
+
+### Cocoa and the margin recovery
+- [[02 Atomic Notes/London cocoa about 2,100 pounds a ton in early March 2026]]
+- [[02 Atomic Notes/London cocoa about 3,800 pounds a ton in late June 2026]]
+- [[02 Atomic Notes/London cocoa above 4,800 pounds a ton by 1 September 2026]]
+- [[02 Atomic Notes/ICCO daily cocoa price 5,718.24 dollars a ton on 8 October 2026]]
+- [[02 Atomic Notes/Management sees visibility into 2027 cocoa deflation, July 2026]]
+- [[02 Atomic Notes/Q2 2026 adjusted gross margin 41.6 percent]]
+- [[02 Atomic Notes/Q2 2026 adjusted operating margin 20.2 percent]]
+- [[02 Atomic Notes/Ivory Coast 2026-27 main crop farmgate price 1,200 CFA francs a kg]]
+- [[02 Atomic Notes/Ivory Coast earlier set a record farmgate price of 2,800 CFA francs a kg]]
+- [[02 Atomic Notes/Ivory Coast cut mid-crop farmgate price to 1,200 CFA francs in March 2026]]
+- [[02 Atomic Notes/Ivory Coast 2026-27 main crop harvest runs to 28 February 2027]]
+
+### Volume and shoppers
+- [[02 Atomic Notes/Q2 2026 net price realization about 12 points]]
+- [[02 Atomic Notes/Q2 2026 total volume down about 8 points]]
+- [[02 Atomic Notes/FY2026 net sales growth outlook 4 to 5 percent in February 2026]]
+- [[02 Atomic Notes/Management says elasticities on track or slightly better, July 2026]]
+- [[02 Atomic Notes/Management says low-income households feel more pressure, July 2026]]
+- [[02 Atomic Notes/Hershey began shipping Halloween 2026 by 30 July 2026]]
+
+### SNAP candy limits
+- [[02 Atomic Notes/23 states have approved SNAP food restriction waivers, 4 vacated]]
+- [[02 Atomic Notes/SNAP candy limits took effect in seven states in 2026]]
+- [[02 Atomic Notes/SNAP candy limits start in Montana, North Dakota, and South Carolina on 1 November 2026]]
+- [[02 Atomic Notes/SNAP candy limits start in Kansas and Missouri on 15 February 2027]]
+- [[02 Atomic Notes/Nebraska SNAP candy limit starts 1 March 2027]]
+- [[02 Atomic Notes/Management says SNAP effect in line with plan, July 2026]]
+
+### Tariffs
+- [[02 Atomic Notes/Supreme Court struck down IEEPA tariffs in February 2026]]
+- [[02 Atomic Notes/More than 2,000 IEEPA tariff refund lawsuits filed by March 2026]]
+- [[02 Atomic Notes/Section 122 tariffs of 10 rising to 15 percent for up to 150 days]]
+- [[02 Atomic Notes/Section 301 investigations of 15 countries and the EU announced 11 March 2026]]
+- [[02 Atomic Notes/FY2026 outlook excludes potential tariff rebates]]
+- [[02 Atomic Notes/FY2025 gross margin decline reflected tariff expenses]]
+
+### Rates
+- [[02 Atomic Notes/10-year Treasury yield 5.28 percent on 7 October 2026]]
+- [[02 Atomic Notes/FY2026 interest expense guided 200 to 210 million dollars]]
+
+### Earnings dates and expected events
+- [[02 Atomic Notes/Q3 2024 results released 7 November 2024]]
+- [[02 Atomic Notes/Q3 2025 results released 30 October 2025]]
+- [[02 Atomic Notes/Q4 2025 results released 5 February 2026]]
+- [[02 Atomic Notes/Q2 2026 results released 30 July 2026]]
+- [[02 Atomic Notes/Q3 2026 results expected late October 2026]]
+- [[02 Atomic Notes/Q4 2026 results and FY2027 outlook expected early February 2027]]
+- [[02 Atomic Notes/Ivory Coast mid-crop farmgate price expected March 2027]]
+- [[02 Atomic Notes/Q2 2027 results expected late July 2027]]
+
 ## Open questions
 - Management's stated FY2027 operating margin target, with the exact quote and date from the Q2 call.
 - Diluted share count at the latest quarter end, from the Q2 2026 Form 10-Q.
@@ -186,6 +241,14 @@ Every number on the site points at an atomic note here. Every atomic note points
 - Relative Valuation block on the DCF 1-Pager: X6 and X7 (EV/EBITDA, EV/Sales) divide enterprise value by shares without subtracting net debt (column V gives 305.63 and 195.37 dollars a share), and the P/E row (X5) is applied to NOPAT, not net income (254.45 dollars a share on FY2028 net income). Ask Dr. Payne whether her copy intends this; if the figures change, update the implied values notes and the Milestone 5 memo.
 - Hershey's EV/EBITDA is 13.8x on the Relative Valuation tab and 11.7x on the FrontPage (L19). Find which date and EBITDA each uses.
 - The Module 4 hand checks (bear by growth in perpetuity, bull by exit multiple) are still blank in the Bull base bear draft; the Milestone 5 memo says they were done.
+- Module 6: the latest 10-K and 10-Q risk factors and MD&A were not read in the research run (litigation, recalls, ingredient rules, supply chain, leadership).
+- Module 6: how much of Hershey's cocoa need is hedged, and for how long.
+- Module 6: whether cocoa is exempt from current US tariffs, and from which; Hershey's dollar cost of tariffs in 2025 and 2026.
+- Module 6: whether the Section 122 tariffs expired or were replaced, and where IEEPA refunds stand now (latest source is March 17, 2026).
+- Module 6: ICCO crop, grindings, and surplus forecasts for 2025/26 and 2026/27.
+- Module 6: the Q1 2026 results date (evidence for when Q1 2027 results come out), and the Q3 2026 date once Hershey announces it.
+- Module 6: the cocoa note "down more than 70 percent from late-2024 highs" looks out of date (London cocoa above 4,800 pounds a ton by September 1, 2026); it backs our bull margin reason. Recheck it, and find cocoa's late-2024 peak price.
+- Module 6: GLP-1 weight-loss drugs and snack demand; no source found.
 
 ## Sources
 - [[01 Sources/S1 Hershey Form 10-K FY2025]]
@@ -202,3 +265,12 @@ Every number on the site points at an atomic note here. Every atomic note points
 - [[01 Sources/S12 Damodaran country risk premiums January 2026]]
 - [[01 Sources/S13 US Treasury daily par yield curve 2026]]
 - [[01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL]]
+- [[01 Sources/S15 Hershey Q4 2025 results press release]]
+- [[01 Sources/S16 Hershey Q3 2025 webcast announcement]]
+- [[01 Sources/S17 Hershey Q3 2025 earnings call event page]]
+- [[01 Sources/S18 Hershey Q3 2024 webcast announcement]]
+- [[01 Sources/S19 Reuters Ivory Coast cocoa farmgate price 2026-27 main crop]]
+- [[01 Sources/S20 FRED 10-year Treasury constant maturity DGS10]]
+- [[01 Sources/S21 USDA SNAP food restriction waivers]]
+- [[01 Sources/S22 SCOTUSblog remaining questions after the tariffs ruling]]
+- [[01 Sources/S23 ICCO daily cocoa prices]]

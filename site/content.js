@@ -188,17 +188,104 @@ window.CONTENT = {
   },
 
   risks: {
-    status: "coming", module: 6, title: "Risks",
-    headline: "", lede: "", facts: [], soWhat: "", numbersWeStillNeed: [],
-    risks: []               // up to four: { risk: "ten words or fewer", points: [{ text: "", fact: { value, label, source, tier, note } }],
-                            //   take: "fifteen words or fewer", bear: "the Module 4 bear input it moves, if any" }
+    status: "live", module: 6, title: "Risks",
+    headline: "Cocoa and volume could break the call",
+    lede: "Cocoa and volume threaten the margin recovery and growth our DCF needs. SNAP limits and rates matter less today.",
+    facts: [],
+    soWhat: "None changes the call yet; Q3 margins will show whether cocoa does.",
+    numbersWeStillNeed: [
+      "How much of Hershey's cocoa need is hedged, and for how long (the research run found no figure).",
+      "Where tariffs stand now: IEEPA refunds and the Section 122 tariffs. The latest source is from March 17, 2026, so tariffs are not one of the four cards.",
+      "The risk factors in the latest 10-K and 10-Q, which the research run did not read.",
+      "Cocoa's late-2024 peak price; the vault's 'down more than 70 percent' note looks out of date."
+    ],
+    // bear: the key of the Module 4 Bear scenario input this risk moves (valuation.scenarios, Bear); risks.js reads its value from there.
+    risks: [
+      { risk: "Cocoa is rising again, delaying the margin recovery",
+        points: [
+          { text: "London cocoa, a ton", date: "1 Sep 2026",
+            fact: { value: ">£4,800", label: "London cocoa, a ton", source: "S19", tier: "R", note: "02 Atomic Notes/London cocoa above 4,800 pounds a ton by 1 September 2026" } },
+          { text: "ICCO daily price, a ton", date: "8 Oct 2026",
+            fact: { value: "$5,718", label: "ICCO daily price, a ton", source: "S23", tier: "R", note: "02 Atomic Notes/ICCO daily cocoa price 5,718.24 dollars a ton on 8 October 2026" } }
+        ],
+        take: "Not yet: management still expects cocoa deflation in 2027.",
+        takeNote: "02 Atomic Notes/Management sees visibility into 2027 cocoa deflation, July 2026",
+        bear: "ebitdaMargin" },
+      { risk: "Volume keeps falling while prices stay high",
+        points: [
+          { text: "Confectionery volume", date: "Q2 2026",
+            fact: { value: "-10 pts", label: "Confectionery volume", source: "S2", tier: "R", note: "02 Atomic Notes/Q2 2026 confectionery volume down about 10 percent" } },
+          { text: "Confectionery price", date: "Q2 2026",
+            fact: { value: "+14 pts", label: "Confectionery price", source: "S2", tier: "R", note: "02 Atomic Notes/Q2 2026 price increase about 14 percent" } }
+        ],
+        take: "Not yet: guidance rose in July; Q3 volume must improve.",
+        takeNote: "02 Atomic Notes/FY2026 guidance net sales growth 4.5 to 5.0 percent",
+        bear: "revenueGrowth" },
+      { risk: "More states stop SNAP paying for candy",
+        points: [
+          { text: "States with candy limits", date: "Jan to Jul 2026",
+            fact: { value: "7", label: "States with candy limits", source: "S21", tier: "D", note: "02 Atomic Notes/SNAP candy limits took effect in seven states in 2026" } },
+          { text: "More states start", date: "1 Nov 2026",
+            fact: { value: "3", label: "More states start", source: "S21", tier: "R", note: "02 Atomic Notes/SNAP candy limits start in Montana, North Dakota, and South Carolina on 1 November 2026" } }
+        ],
+        take: "Small: management says it is in plan.",
+        takeNote: "02 Atomic Notes/Management says SNAP effect in line with plan, July 2026",
+        bear: "revenueGrowth" },
+      { risk: "Higher rates would shrink the terminal value",
+        points: [
+          { text: "10-year Treasury yield", date: "7 Oct 2026",
+            fact: { value: "5.28%", label: "10-year Treasury yield", source: "S20", tier: "R", note: "02 Atomic Notes/10-year Treasury yield 5.28 percent on 7 October 2026" } },
+          { text: "Terminal value, share of EV", date: "5 Oct 2026",
+            fact: { value: "92.3%", label: "Terminal value, share of EV", source: "S9", tier: "D", note: "02 Atomic Notes/Terminal value 92.3 and 91.3 percent of enterprise value" } }
+        ],
+        take: "No change today: the yield equals our assumption.",
+        takeNote: "02 Atomic Notes/10-year Treasury yield 5.28 percent on 2 October 2026",
+        bear: "wacc" }
+    ]
   },
 
   catalysts: {
-    status: "coming", module: 6, title: "Catalysts",
-    headline: "", lede: "", facts: [], soWhat: "", numbersWeStillNeed: [],
-    catalysts: [],          // up to six, soonest first: { when: "YYYY-MM-DD", "Q4 2026", or "Late Oct 2026", expected: true if not yet announced, event: "", watch: "", direction: "up" | "down" | "either", source: "", note: "" }
-    tripwires: []           // three: { condition: "", threshold: "", ours: where our own number lives, read by risks.js from site data, never typed, action: "", note: "" }
+    status: "live", module: 6, title: "Catalysts",
+    headline: "The big test comes in February",
+    lede: "Results in October and February test the margin recovery; SNAP and cocoa dates move volume and costs.",
+    facts: [
+      { value: "41.6%", label: "Adj. gross margin, Q2 2026", source: "S2", tier: "R", note: "02 Atomic Notes/Q2 2026 adjusted gross margin 41.6 percent" },
+      { value: "1,200 CFA", label: "Ivory Coast farmgate, a kg", source: "S19", tier: "R", note: "02 Atomic Notes/Ivory Coast 2026-27 main crop farmgate price 1,200 CFA francs a kg" }
+    ],
+    soWhat: "Until a tripwire fires, the call stands: Buy below $189.",
+    numbersWeStillNeed: [
+      "The Q3 2026 results date: not announced on any page the research opened, so it shows as expected.",
+      "The Q1 2026 results date, the evidence for when Q1 2027 results come out; without it, Q1 2027 is not in the table.",
+      "A date for any IEEPA tariff refund to Hershey; none is set."
+    ],
+    catalysts: [
+      { when: "Late Oct 2026", expected: true, event: "Q3 2026 results", watch: "Gross margin, volume, Halloween",
+        direction: "either", source: "S16", note: "02 Atomic Notes/Q3 2026 results expected late October 2026" },
+      { when: "2026-11-01", event: "SNAP candy limits in 3 more states", watch: "SNAP remarks on the Q4 call",
+        direction: "down", source: "S21", note: "02 Atomic Notes/SNAP candy limits start in Montana, North Dakota, and South Carolina on 1 November 2026" },
+      { when: "Early Feb 2027", expected: true, event: "Q4 results and FY2027 guidance", watch: "Sales growth and margin guidance",
+        direction: "either", source: "S15", note: "02 Atomic Notes/Q4 2026 results and FY2027 outlook expected early February 2027" },
+      { when: "2027-02-15", event: "SNAP candy limits in Kansas and Missouri", watch: "Volume in the Q1 results",
+        direction: "down", source: "S21", note: "02 Atomic Notes/SNAP candy limits start in Kansas and Missouri on 15 February 2027" },
+      { when: "Mar 2027", expected: true, event: "Ivory Coast mid-crop price", watch: "Main-crop size, new farmgate price",
+        direction: "either", source: "S19", note: "02 Atomic Notes/Ivory Coast mid-crop farmgate price expected March 2027" },
+      { when: "Late Jul 2027", expected: true, event: "Q2 2027 results", watch: "Cheaper cocoa in gross margin",
+        direction: "either", source: "S2", note: "02 Atomic Notes/Q2 2027 results expected late July 2027" }
+    ],
+    // ours: our own number, read by risks.js from site/data/financials.js (line: a period field, or ebitMargin, ebitdaMargin, revenueGrowth).
+    tripwires: [
+      { condition: "Q3 adjusted operating margin below", threshold: "20.2%", action: "Move to Hold; rerun at bear margins.",
+        ours: { label: "Our FY2026 EBIT margin", from: "financials", year: 2026, line: "ebitMargin" },
+        published: "Q3 2026 results", source: "S2", note: "02 Atomic Notes/Q2 2026 adjusted operating margin 20.2 percent" },
+      { condition: "FY2027 sales growth guidance below", threshold: "2.5%", action: "Move to Hold; rerun at bear growth.",
+        ours: { label: "Our FY2027 revenue growth", from: "financials", year: 2027, line: "revenueGrowth" },
+        published: "Q4 2026 results", source: "S9" },
+      { condition: "ICCO daily cocoa price above", threshold: "$6,500 a ton", action: "Cut 2027 margin toward the bear case.",
+        ours: { label: "Our FY2027 EBITDA margin", from: "financials", year: 2027, line: "ebitdaMargin" },
+        published: "ICCO, daily",
+        latest: { value: "$5,718", date: "8 Oct 2026", note: "02 Atomic Notes/ICCO daily cocoa price 5,718.24 dollars a ton on 8 October 2026" },
+        source: "S19", note: "02 Atomic Notes/London cocoa above 4,800 pounds a ton by 1 September 2026" }
+    ]
   },
 
   process: {
