@@ -206,7 +206,7 @@ p { margin: 0; }
 .check-dot { flex: none; width: 8px; height: 8px; margin-top: 5px; border-radius: 999px; background: var(--accent); }
 .check-dot.moved { background: var(--derived); }
 
-/* ---------- reading pages: Glossary, Sources ---------- */
+/* ---------- reading pages: Tearsheet, Glossary, Sources ---------- */
 .page { max-width: 72ch; margin: 0 auto; padding: clamp(40px, 9vh, 96px) var(--gutter); min-height: calc(var(--slide-h) - 80px); }
 .page .section-label { font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--fg-mute); margin-bottom: 16px; }
 .page h1 { font-size: clamp(2rem, 4.4vw, 3rem); letter-spacing: -0.035em; margin-bottom: 18px; }
