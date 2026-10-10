@@ -65,8 +65,8 @@ Every text colour, the accent included, passes 4.5 to 1 against `--bg`, `--bg-de
 - **Risks** (Module 6): head with headline and lede only, no stat row (the cards carry the figures). Body: up to four cards in a two-by-two grid. Each card: the risk as a claim (ten words or fewer) with a small red dot; two points, each one figure with its date as a Fact chip; "Our take" in a tinted box (fifteen words or fewer); and, where the Module 4 bear case prices the risk, a small tag naming the bear input it moves.
 - **Catalysts** (Module 6): head as above. Body: a table of dated events, soonest first, at most six rows (when in mono, the event, what we watch, a direction chip: up in the accent, down in `--estimate`, either in `--fg-mute`, and the source chip); under it, three tripwire tiles: the condition and its threshold large, the action under it, and the threshold beside our own number in the tile's hover tooltip.
 - **Process** (Module 7): head as above, with the memo's most surprising finding as the so-what. Body: three cards. By module: one row per module, 1 to 6 (the module number in mono, the task, a verdict chip: held up in the accent, mixed in `--derived`, misled in `--estimate`, the failure mode as a small chip, and the module's AI Log row count from `data/ailog.js`); hovering a row shows how it was verified, and clicking it opens a pop-out of that module's log rows. Failure modes: up to four chips, each with one example. What we will change: two to four numbered recommendations, each tagged with the finding it follows from.
-- **Tearsheet, Glossary, Sources:** the same top bar, fonts, and tokens; a centred reading column.
-- **Fonts:** one Google Fonts link in the head of every page (index, vault, tearsheet, glossary, sources) for the chosen pairing.
+- **Glossary, Sources** (Module 7): the same top bar, fonts, and tokens; a centred reading column. Glossary: terms alphabetically, each a term, a definition of twenty-five words or fewer, and a link to the section that uses it. Sources: one row per source note, ordered by id, each row's id its anchor (so every "Source S9" link lands on it), with title, publisher, date, the link or file, and how many notes cite it.
+- **Fonts:** one Google Fonts link in the head of every page (index, vault, glossary, sources) for the chosen pairing.
 
 ## The taste skill, applied
 
@@ -74,7 +74,7 @@ Use these parts of `skills/design-taste/SKILL.md`: Section 0 (state the design r
 
 ## Never changes
 
-Any number; any section id; any nav label or link; any Fact (value, label, source, tier, note); the content of `content.js` and `data/*.js`; the Knowledge Bank's graph and chips. The redesign changes how things look and where they sit, not what they say. The one exception is the "Trim for presenting" prompt (end of Module 5, again in Module 7), which may shorten words, including Fact labels, to the "Say less" budgets; it never changes a number or a Fact's value, tier, source, or note.
+Any number; any section id; any nav label or link; any Fact (value, label, source, tier, note); the content of `content.js` and `data/*.js`; the Knowledge Bank's graph and chips. The redesign changes how things look and where they sit, not what they say. The one exception is the "Trim for presenting" prompt (end of Module 5, again in Module 7's final clean-up), which may shorten words, including Fact labels, to the "Say less" budgets; it never changes a number or a Fact's value, tier, source, or note.
 
 ## The check
 
