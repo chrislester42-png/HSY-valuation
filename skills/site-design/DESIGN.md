@@ -34,7 +34,7 @@ A team presents the whole site in about thirty minutes, so each section is a sli
 | So-what (the foot) | one line, 20 words or fewer |
 | Anything else (reasons, how a chart is computed, what a slider does, notes on method) | not on the slide: a hover tooltip, a small "?" pop-out, or the Knowledge Bank note |
 
-Visible prose on a section, not counting numbers, table cells, axis labels, and buttons, stays near 80 words; the two list sections, Risks and Catalysts, near 150. Type never shrinks to make room: body text at least 14 pixels and secondary text at least 12 at 1280 by 720.
+Visible prose on a section stays near 80 words; the three list sections, Risks, Catalysts, and Process, near 150. Count the words a visitor sees without hovering or clicking, leaving out numbers, table cells, chips, axis labels, buttons, and source links. Type never shrinks to make room: body text at least 14 pixels and secondary text at least 12 at 1280 by 720.
 
 ## Tokens
 
