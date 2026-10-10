@@ -19,7 +19,7 @@ window.CONTENT = {
   thesis: {
     status: "live", module: 1, title: "Thesis",
     headline: "A mature franchise at its margin trough",
-    lede: "Hershey is a mature company: growth is low and price-led, reinvestment is modest, and cash returns are large. Its 2025 margin collapse came from cocoa, not the business, so we value it with a DCF built around margin recovery.",
+    lede: "Hershey is mature: low, price-led growth, modest reinvestment, large cash returns. Its 2025 margin collapse came from cocoa, so our DCF centers on margin recovery.",
     stage: "Mature",
     facts: [
       { value: "4.4%", label: "Net sales growth, FY2025", source: "S1", tier: "R", note: "02 Atomic Notes/FY2025 net sales growth 4.4 percent" },
@@ -27,12 +27,12 @@ window.CONTENT = {
       { value: "$2.28B", label: "Operating cash flow, FY2025", source: "S1", tier: "R", note: "02 Atomic Notes/FY2025 operating cash flow 2.28 billion dollars" }
     ],
     blocks: [
-      { title: "Life-cycle stage", text: "Mature. Net sales grew 4.4% in FY2025, and 2026 growth is price-led: Q2 confectionery volumes fell about 10% as prices rose about 14%. Capex of $455M ran below D&A of $504M." },
-      { title: "What it means for valuation", text: "Stable cash flows and a temporary margin dip make a DCF the anchor. The key input is the operating margin path from 12.3% back toward pre-shock levels. EV to EBITDA on forward estimates is the cross-check." },
-      { title: "Why this company", text: "Hershey files full reports with the SEC and holds quarterly earnings calls with published transcripts. Its cash flows are stable enough to anchor a DCF, and the cocoa shock gives the forecast one real question." },
-      { title: "Recent developments", text: "Q2 2026 net sales rose 6.6% to $2.79B, and full-year guidance was raised to 4.5% to 5.0% sales growth. Cocoa has fallen more than 70% from late-2024 highs, but hedges delay the benefit." }
+      { title: "Life-cycle stage", text: "Mature. Sales grew 4.4% in FY2025; 2026 growth is price-led, with Q2 volume down about 10% and prices up about 14%." },
+      { title: "What it means for valuation", text: "Stable cash flows make a DCF the anchor; the key input is the margin path back from 12.3%." },
+      { title: "Why this company", text: "Full SEC filings and published call transcripts, cash flows stable enough for a DCF, and one real forecast question: cocoa." },
+      { title: "Recent developments", text: "Q2 sales rose 6.6% to $2.79B; guidance rose to 4.5% to 5.0% growth. Cocoa is down over 70%, but hedges delay the benefit." }
     ],
-    soWhat: "The value question is how far and how fast margins recover, so our sensitivity work centers on margin.",
+    soWhat: "The value question is how far and how fast margins recover.",
     numbersWeStillNeed: [
       "Management's stated FY2027 operating margin target, with the exact quote and date from the Q2 call.",
       "Diluted share count at the latest quarter end, from the Q2 2026 Form 10-Q.",
@@ -45,14 +45,14 @@ window.CONTENT = {
   financials: {
     status: "live", module: 2, title: "Financials",
     headline: "Margins rebuild as cocoa costs fall",
-    lede: "History comes from Hershey's 10-K filings; the forecast is FactSet consensus run through our workbook. Move the six drivers to see free cash flow respond. At the workbook's settings, year-one FCFF matches the sheet.",
+    lede: "History is from Hershey's 10-K filings; the forecast is FactSet consensus run through our workbook.",
     facts: [
       { value: "$11.69B", label: "Net sales, FY2025", source: "S1", tier: "R", note: "02 Atomic Notes/FY2025 net sales 11.69 billion dollars" },
       { value: "33.5%", label: "Gross margin, FY2025", source: "S1", tier: "R", note: "02 Atomic Notes/FY2025 gross margin 33.5 percent" },
-      { value: "3.9%", label: "Capex as share of net sales, FY2025", source: "S1", tier: "D", note: "02 Atomic Notes/FY2025 capex 3.9 percent of net sales" }
+      { value: "3.9%", label: "Capex to net sales, FY2025", source: "S1", tier: "D", note: "02 Atomic Notes/FY2025 capex 3.9 percent of net sales" }
     ],
     blocks: [],
-    soWhat: "Free cash flow rests on how far the EBIT margin recovers, so that is the slider to test first. Working capital is the second lever, because consensus builds cash into it.",
+    soWhat: "Free cash flow rests on how far the EBIT margin recovers; working capital is the second lever.",
     // Forecast figures for each driver are computed from data/financials.js by financials.js, never typed here.
     // { driver, key (slider key), assumption, because, source, note (atomic note, optional) }
     driverJustifications: [
@@ -98,14 +98,14 @@ window.CONTENT = {
   valuation: {
     status: "live", module: 4, title: "Valuation",
     headline: "DCF puts Hershey at $193 to $219",
-    lede: "Our two-stage DCF discounts the consensus forecast at our 6.78% WACC. Both terminal methods value Hershey above its $160.19 price, and about nine-tenths of the value sits beyond 2028, so the sliders test those assumptions.",
+    lede: "Our DCF discounts the consensus forecast at a 6.78% WACC. Both terminal methods value Hershey above its $160.19 price.",
     facts: [
       { value: "$218.59", label: "Per share, growth in perpetuity", source: "S9", tier: "D", note: "02 Atomic Notes/Equity value per share 218.59 dollars by growth in perpetuity" },
       { value: "$193.02", label: "Per share, exit multiple", source: "S9", tier: "D", note: "02 Atomic Notes/Equity value per share 193.02 dollars by exit multiple" },
-      { value: "92.3%", label: "Terminal value share of EV, growth method", source: "S9", tier: "D", note: "02 Atomic Notes/Terminal value 92.3 and 91.3 percent of enterprise value" }
+      { value: "92.3%", label: "TV share of EV, growth", source: "S9", tier: "D", note: "02 Atomic Notes/Terminal value 92.3 and 91.3 percent of enterprise value" }
     ],
     blocks: [],
-    soWhat: "Value rests on the spread between WACC and growth. Module 5's peer multiples will tell us which end of $193 to $219 the market supports.",
+    soWhat: "Value rests on the spread between WACC and perpetual growth.",
     mostSensitiveTo: "The spread between WACC and perpetual growth moves value most: half a point of growth is the whole $25.57 gap between our two methods.",
     numbersWeStillNeed: [
       "Diluted share count from the latest 10-Q: the DCF tab's 207.2 million is labelled from a Q1 2020 10-Q, and Milestone 3 used 203.4 million.",
@@ -289,21 +289,81 @@ window.CONTENT = {
   },
 
   tearsheet: {
-    status: "coming", module: 7, title: "Tearsheet"
+    status: "live", module: 7, title: "Tearsheet"
                             // every figure on the Tearsheet is read from the other objects here and from site/data; nothing is typed for it
   },
 
   glossary: {
-    status: "coming", module: 7, title: "Glossary",
-    terms: []               // fifteen to twenty-five: { term: "", definition: "twenty-five words or fewer", section: "the section id where it is used, e.g. valuation" }
+    status: "live", module: 7, title: "Glossary",
+    // { term, section: the id of the section that uses it, definition: twenty-five words or fewer }; glossary.js sorts them
+    terms: [
+      { term: "Bear case", section: "the-call", definition: "Our pessimistic scenario: slower sales growth, thinner margins, a higher discount rate, and lower long-run growth than the base case." },
+      { term: "Bull case", section: "the-call", definition: "Our optimistic scenario: faster sales growth, wider margins, a lower discount rate, and higher long-run growth than the base case." },
+      { term: "Capex", section: "financials", definition: "Capital expenditures: cash spent on plants, equipment, and systems that last several years. It is subtracted when we compute free cash flow." },
+      { term: "Catalyst", section: "catalysts", definition: "A dated event, such as an earnings release, that could change what the market thinks the company is worth." },
+      { term: "Consensus estimate", section: "financials", definition: "The average forecast of the analysts who cover a company, here as compiled by FactSet. Our forecast years start from it." },
+      { term: "DCF", section: "valuation", definition: "Discounted cash flow: a company's value today is its expected future free cash flows, each discounted back at the cost of capital." },
+      { term: "EBIT margin", section: "financials", definition: "Earnings before interest and taxes divided by revenue: how much of each sales dollar is left as operating profit." },
+      { term: "Enterprise value (EV)", section: "valuation", definition: "The value of the whole business to lenders and shareholders together. Subtract net debt to get the value of the shares." },
+      { term: "EV/EBITDA", section: "the-call", definition: "Enterprise value divided by earnings before interest, taxes, depreciation, and amortization. A common multiple for comparing companies with different debt levels." },
+      { term: "Exit multiple", section: "valuation", definition: "A terminal value method: the final forecast year's EBITDA times a multiple, as if the business were sold at that price." },
+      { term: "Failure mode", section: "process", definition: "A repeatable way an AI tool went wrong in our project, such as citing a real source for a figure it does not contain." },
+      { term: "Farmgate price", section: "catalysts", definition: "The fixed price paid to cocoa farmers, set each season by Ivory Coast's government. It signals future cocoa supply and costs." },
+      { term: "FCFE", section: "financials", definition: "Free cash flow to equity: cash left for shareholders after operating costs, taxes, reinvestment, interest, and net borrowing." },
+      { term: "FCFF", section: "financials", definition: "Free cash flow to the firm: cash the business generates after taxes and reinvestment, before any payments to lenders or shareholders." },
+      { term: "Growth in perpetuity", section: "valuation", definition: "A terminal value method: the cash flow after the forecast grows at a constant rate forever, discounted at WACC minus that rate." },
+      { term: "Life-cycle stage", section: "thesis", definition: "Where a company sits between startup and decline. A mature company grows slowly, reinvests modestly, and returns much of its cash." },
+      { term: "Net working capital", section: "financials", definition: "Current assets minus current liabilities. When it grows, cash is tied up in the business, which lowers free cash flow." },
+      { term: "P/E ratio", section: "the-call", definition: "Price to earnings: share price divided by earnings per share. It shows what investors pay for each dollar of profit." },
+      { term: "Peer multiples", section: "the-call", definition: "Valuation ratios of comparable listed companies, applied to our company's figures to cross-check the DCF value." },
+      { term: "Probability-weighted value", section: "the-call", definition: "The bull, base, and bear values averaged with weights for how likely we think each is. Our call rests on it." },
+      { term: "SNAP", section: "risks", definition: "The US Supplemental Nutrition Assistance Program, which helps low-income households buy food. Some states now bar using it for candy." },
+      { term: "Terminal value", section: "valuation", definition: "The value of all cash flows after the last forecast year, summed into one figure. It is most of a mature company's value." },
+      { term: "Tripwire", section: "catalysts", definition: "A published number with a threshold we set in advance. If it crosses the threshold, we change or recheck our call." },
+      { term: "WACC", section: "valuation", definition: "Weighted average cost of capital: the blended return lenders and shareholders require. It is the discount rate for free cash flow to the firm." }
+    ]
   },
 
   process: {
-    status: "coming", module: 7, title: "Process",
-    headline: "", lede: "", facts: [], soWhat: "", numbersWeStillNeed: [],
-    modules: [],            // six, Modules 1 to 6, from the memo: { module: 1, task: "eight words or fewer", verdict: "held" | "mixed" | "misled",
-                            //   failure: "the failure mode, if any", verified: "one line, shown on hover", note: "" }; row counts come from data/ailog.js
-    failures: [],           // up to four: { mode: "", example: "twelve words or fewer", module: 1, note: "" }
-    recommendations: []     // two to four: { text: "fifteen words or fewer", from: "the finding it follows from" }
+    status: "live", module: 7, title: "Process",
+    headline: "AI held up where we could check it",
+    lede: "Claude was exact against filings and the workbook. It was weakest where its work only looked checked.",
+    facts: [
+      { value: "38 of 38", label: "Actuals match the 10-K", source: "S1", tier: "D", note: "02 Atomic Notes/38 of 38 actual-year figures match the FY2025 10-K" },
+      { value: "50 of 50", label: "Sensitivity cells within a cent", source: "S9", tier: "D", note: "02 Atomic Notes/50 of 50 sensitivity cells match the DCF tab within a cent" },
+      { value: "7 of 31", label: "Facts not on cited page", source: "S24", tier: "D", note: "02 Atomic Notes/22 of 31 Module 1 facts confirmed, 7 cite a page without the figure" }
+    ],
+    soWhat: "Biggest surprise: real sources, plausible figures, wrong links. Nothing was invented, so nothing looked wrong.",
+    numbersWeStillNeed: [
+      "A source for the Module 4 unit error (the converter divided DCF figures by a thousand); it has no AI Log row and no note, so the page names it but shows no figure."
+    ],
+    logNote: "02 Atomic Notes/AI Log 45 tasks, 43 helped, 1 misled, 1 did not help",   // the AI Log's note; the counts themselves come from data/ailog.js
+    // Six rows, Modules 1 to 6, from the Milestone 6 memo. verdict: "held" | "mixed" | "misled". Row counts come from data/ailog.js.
+    modules: [
+      { module: 1, task: "Filed the Module 1 memo, built Thesis", verdict: "mixed", failure: "Mismatched citation",
+        verified: "A second pass opened each cited page: 22 held, 7 did not.", note: "02 Atomic Notes/22 of 31 Module 1 facts confirmed, 7 cite a page without the figure" },
+      { module: 2, task: "Pulled actual years from SEC filings", verdict: "held", failure: "Silent calculation error",
+        verified: "Compared line by line with the FY2025 10-K: 38 of 38 match.", note: "02 Atomic Notes/38 of 38 actual-year figures match the FY2025 10-K" },
+      { module: 3, task: "Tagged every WACC input by tier", verdict: "held", failure: "",
+        verified: "We read the WACC tab directly to confirm each of the five.", note: "02 Atomic Notes/Module 3 check found 5 WACC inputs the memo did not tag" },
+      { module: 4, task: "Built the DCF engine and its tables", verdict: "held", failure: "Silent unit error",
+        verified: "All 50 sensitivity cells match the DCF tab within a cent.", note: "02 Atomic Notes/50 of 50 sensitivity cells match the DCF tab within a cent" },
+      { module: 5, task: "Proposed peer companies for the screen", verdict: "mixed", failure: "Comparability blind spot",
+        verified: "We kept 3 of 8; our reasons are in the Milestone 5 memo.", note: "02 Atomic Notes/Peer screen kept 3 of 8 AI-proposed comparables" },
+      { module: 6, task: "Ran one research brief on risks", verdict: "mixed", failure: "Incomplete retrieval",
+        verified: "Every figure quoted from a page that opened; 39 notes await a check.", note: "02 Atomic Notes/Research run added 9 sources and 39 notes" }
+    ],
+    failures: [
+      { mode: "Mismatched citation", example: "Seven Module 1 notes cite a page that lacks the figure.", module: 1, note: "02 Atomic Notes/22 of 31 Module 1 facts confirmed, 7 cite a page without the figure" },
+      { mode: "Silent calculation error", example: "Tax rate came out 37.5%, not 27.3%; nothing flagged it.", module: 2, note: "02 Atomic Notes/Converter tax rate 37.5 percent before the fix, 27.3 after" },
+      { mode: "Comparability blind spot", example: "Proposed Mars and Ferrero, which are private and have no multiples.", module: 5, note: "02 Atomic Notes/Peer screen kept 3 of 8 AI-proposed comparables" },
+      { mode: "Incomplete retrieval", example: "The page reader cut quotes to about 125 characters.", module: 6, note: "02 Atomic Notes/Page reader returned quotes of about 125 characters" }
+    ],
+    recommendations: [
+      { text: "No figure on the site until a person confirms its note.", from: "Mismatched citation" },
+      { text: "Check every number the AI computes against one it did not.", from: "Silent calculation error" },
+      { text: "Give the AI the screen before asking for candidates.", from: "Comparability blind spot" },
+      { text: "Commit files by name, and log every AI session the same day.", from: "Overreach" }
+    ]
   }
 };

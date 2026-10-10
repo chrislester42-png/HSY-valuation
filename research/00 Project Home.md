@@ -27,6 +27,7 @@ Every number on the site points at an atomic note here. Every atomic note points
 - [[03 Drafts/Milestone 3 - Cost of Capital Memo]]
 - [[03 Drafts/Milestone 4 - DCF Valuation Memo]]
 - [[03 Drafts/Milestone 5 - Relative Valuation and Reconciliation Memo]]
+- [[03 Drafts/Milestone 6 - AI Use Evaluation Memo]]
 - [[03 Drafts/Module 4 - Bull base bear]]
 - [[03 Drafts/Module 2 - Data pull]]
 - [[03 Drafts/Module 6 - Research brief]]
@@ -227,6 +228,24 @@ Every number on the site points at an atomic note here. Every atomic note points
 - [[02 Atomic Notes/Ivory Coast mid-crop farmgate price expected March 2027]]
 - [[02 Atomic Notes/Q2 2027 results expected late July 2027]]
 
+## AI use evaluation (Module 7)
+
+### The log and the finding
+- [[02 Atomic Notes/AI Log 45 tasks, 43 helped, 1 misled, 1 did not help]]
+- [[02 Atomic Notes/Most surprising AI finding, real source, plausible figure, wrong link]]
+
+### By module
+- [[02 Atomic Notes/Module 1 filing made 7 source notes and 31 atomic notes]]
+- [[02 Atomic Notes/22 of 31 Module 1 facts confirmed, 7 cite a page without the figure]]
+- [[02 Atomic Notes/SEC pull filled 32 actual-year workbook cells]]
+- [[02 Atomic Notes/38 of 38 actual-year figures match the FY2025 10-K]]
+- [[02 Atomic Notes/Converter tax rate 37.5 percent before the fix, 27.3 after]]
+- [[02 Atomic Notes/Module 3 check found 5 WACC inputs the memo did not tag]]
+- [[02 Atomic Notes/50 of 50 sensitivity cells match the DCF tab within a cent]]
+- [[02 Atomic Notes/Research run used 10 of 10 searches and 13 of 15 pages]]
+- [[02 Atomic Notes/Research run added 9 sources and 39 notes]]
+- [[02 Atomic Notes/Page reader returned quotes of about 125 characters]]
+
 ## Open questions
 - Management's stated FY2027 operating margin target, with the exact quote and date from the Q2 call.
 - Diluted share count at the latest quarter end, from the Q2 2026 Form 10-Q.
@@ -249,6 +268,7 @@ Every number on the site points at an atomic note here. Every atomic note points
 - Module 6: the Q1 2026 results date (evidence for when Q1 2027 results come out), and the Q3 2026 date once Hershey announces it.
 - Module 6: the cocoa note "down more than 70 percent from late-2024 highs" looks out of date (London cocoa above 4,800 pounds a ton by September 1, 2026); it backs our bull margin reason. Recheck it, and find cocoa's late-2024 peak price.
 - Module 6: GLP-1 weight-loss drugs and snack demand; no source found.
+- Module 7: a source for the Module 4 unit error the Milestone 6 memo describes (the converter divided every DCF figure by a thousand); it has no AI Log row.
 
 ## Sources
 - [[01 Sources/S1 Hershey Form 10-K FY2025]]
@@ -274,3 +294,6 @@ Every number on the site points at an atomic note here. Every atomic note points
 - [[01 Sources/S21 USDA SNAP food restriction waivers]]
 - [[01 Sources/S22 SCOTUSblog remaining questions after the tariffs ruling]]
 - [[01 Sources/S23 ICCO daily cocoa prices]]
+- [[01 Sources/S24 Team AI Log]]
+- [[01 Sources/S25 Team Milestone 5 Relative Valuation and Reconciliation Memo]]
+- [[01 Sources/S26 Team Module 6 research report]]

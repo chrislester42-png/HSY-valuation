@@ -53,13 +53,27 @@
       update();
     });
     const sens = el("p", { class: "val-line val-sens" }, [text(s.mostSensitiveTo || "")]);
+    // Trimmed for presenting: what moves value and the terminal value lines open from a small pop-out.
+    function morePop() {
+      const id = "val-more-pop";
+      const box = el("div", { class: "pop val-more-pop", id, hidden: "" }, [sens, tvLine]);
+      const btn = el("button", { type: "button", class: "why", "data-pop": "", "aria-expanded": "false", "aria-controls": id }, [text("What moves value")]);
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const open = btn.getAttribute("aria-expanded") === "true";
+        window.ui.closePops(btn);
+        btn.setAttribute("aria-expanded", String(!open));
+        box.hidden = open;
+      });
+      return el("div", { class: "val-more" }, [btn, box]);
+    }
     const tvLine = el("p", { class: "val-line", "aria-live": "polite" }, []);
     const dot = el("span", { class: "check-dot" }, []);
     const checkText = el("span", null, []);
     const assumpCard = el("div", { class: "card fin-card val-card" }, [
       el("div", { class: "fin-card-top" }, [el("div", { class: "fin-card-title" }, [text("Terminal assumptions")]), reset]),
       el("div", { class: "drv-cols drv-grid val-grid" }, [el("span", null, []), el("span", null, [text("Workbook")]), el("span", null, [text("Now")]), el("span", null, [])])
-    ].concat(rows, [sens, tvLine]));
+    ].concat(rows, [morePop()]));
 
     // ---------- value card: per share both ways beside the price, and the bridge ----------
     const heroVal = {}, heroUp = {};
@@ -187,8 +201,9 @@
           title: "WACC " + pct(w, 2) + ", " + v[5].toLowerCase() + " " + v[4](c) + ": " + usd(g.values[i][j]) }, [text(m2(g.values[i][j]))])))));
       heatWrap.replaceChildren(el("div", { class: "val-axis" }, [text(v[5] + " across, WACC down")]),
         el("table", { class: "val-heat", "aria-label": "Equity value per share by WACC and " + v[5].toLowerCase() }, [el("thead", null, [head]), el("tbody", null, rowsEl)]));
-      heatNote.replaceChildren(text("Darker is higher; outlined is nearest the sliders. Recomputed over the workbook's rows and columns: largest gap from the DCF tab " + usd(worst) + ". Valued " + window.fmt.date(dcf.valuationDate) + "; " + first + " counts " + pct(dcf.stubFraction) + " of its cash flow. Workbook DCF 1-Pager ("),
-        el("a", { href: "sources.html#S9" }, [text("S9")]), text(")."));
+      // Trimmed for presenting: units and source on the card; how to read the heatmap is in the hover tooltip.
+      heatNote.title = "Darker is higher; outlined is nearest the sliders. Recomputed over the workbook's rows and columns: largest gap from the DCF tab " + usd(worst) + ". Valued " + window.fmt.date(dcf.valuationDate) + "; " + first + " counts " + pct(dcf.stubFraction) + " of its cash flow. Workbook DCF 1-Pager (S9).";
+      heatNote.replaceChildren(text("$ per share. Workbook DCF 1-Pager, "), el("a", { href: "sources.html#S9" }, [text("S9")]));
     }
 
     function update() {
@@ -211,7 +226,9 @@
     const gp = Math.abs(base.perpetuity.perShare - wb.perSharePerpetuity), gx = Math.abs(base.exitMultiple.perShare - wb.perShareExitMultiple);
     const match = gp < 0.005 && gx < 0.005;
     dot.classList.toggle("moved", !match);
-    checkText.textContent = "Workbook inputs: site " + usd(base.perpetuity.perShare) + " and " + usd(base.exitMultiple.perShare) +
+    // Trimmed for presenting: a few words on the card, the full comparison in the hover tooltip.
+    checkText.textContent = match ? "Matches the DCF tab" : "Differs from the DCF tab";
+    checkText.parentNode.title = "Workbook inputs: site " + usd(base.perpetuity.perShare) + " and " + usd(base.exitMultiple.perShare) +
       ", DCF tab " + usd(wb.perSharePerpetuity) + " and " + usd(wb.perShareExitMultiple) + (match ? ". Match." : ". They differ.");
 
     update();

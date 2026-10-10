@@ -112,10 +112,11 @@
     }));
     const area = el("div", { class: "chart-area" }, []);
     const tip = el("div", { class: "tip", hidden: "" }, []);
-    const legend = el("p", { class: "chart-legend" }, [
-      text("$ millions. Actual years: Forms 10-K via SEC XBRL ("), el("a", { href: "sources.html#S1" }, [text("S1")]),
-      text("). Forecast years: FactSet consensus in our workbook ("), el("a", { href: "sources.html#S8" }, [text("S8")]), text(", "),
-      el("a", { href: "sources.html#S9" }, [text("S9")]), text("), moved by the drivers.")]);
+    // Trimmed for presenting: units and sources on the card; how the years are sourced is in the hover tooltip.
+    const legend = el("p", { class: "chart-legend", title: "Actual years: Forms 10-K via SEC XBRL (S1). Forecast years: FactSet consensus in our workbook (S8, S9), moved by the drivers." }, [
+      text("$ millions. "), el("a", { href: "sources.html#S1" }, [text("S1")]), text(", "),
+      el("a", { href: "sources.html#S8" }, [text("S8")]), text(", "),
+      el("a", { href: "sources.html#S9" }, [text("S9")])]);
     const chartCard = el("div", { class: "card fin-card chart-card" }, [
       el("div", { class: "fin-card-top" }, [title, seg]), area, legend]);
 
@@ -284,7 +285,9 @@
       model = forecastModel(F, drivers);
       const y1 = model.years[0], gap = y1.fcff - y1.workbookFcff, same = Math.abs(gap) < 0.05;
       dot.classList.toggle("moved", !same);
-      checkText.textContent = same
+      // Trimmed for presenting: a few words on the card, the full comparison in the hover tooltip.
+      checkText.textContent = same ? "Matches the workbook" : (gap > 0 ? "+" : "-") + "$" + m1(Math.abs(gap)) + "M from the workbook";
+      checkText.parentNode.title = same
         ? "Year-one FCFF (" + y1.label + ") is $" + m1(y1.fcff) + "M, matching the workbook."
         : "Year-one FCFF (" + y1.label + ") is $" + m1(y1.fcff) + "M, " + (gap > 0 ? "+" : "-") + m1(Math.abs(gap)) + " from the workbook's $" + m1(y1.workbookFcff) + "M.";
       draw();
