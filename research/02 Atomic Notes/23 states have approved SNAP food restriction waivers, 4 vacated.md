@@ -1,8 +1,11 @@
 ---
 type: atomic
-project: "The Hershey Company (HSY)"
-tags: [regulation, snap, 2026]
-status: needs-verification
+project: The Hershey Company (HSY)
+tags:
+  - regulation
+  - snap
+  - 2026
+status: confirmed
 tier: D
 date-created: 2026-10-09
 sources:

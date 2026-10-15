@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3f172ad6a8245696",
+        "id": "165f12947943aff4",
         "type": "tabs",
         "children": [
           {
-            "id": "10743a1d9b7b831a",
+            "id": "92b2a984d2147c6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Atomic Notes/38 of 38 actual-year figures match the FY2025 10-K.md",
+                "file": "02 Atomic Notes/23 states have approved SNAP food restriction waivers, 4 vacated.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "38 of 38 actual-year figures match the FY2025 10-K"
+              "title": "23 states have approved SNAP food restriction waivers, 4 vacated"
             }
           }
         ]
@@ -185,8 +185,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "10743a1d9b7b831a",
+  "active": "92b2a984d2147c6f",
   "lastOpenFiles": [
+    "01 Sources/S21 USDA SNAP food restriction waivers.md",
+    "02 Atomic Notes/23 states have approved SNAP food restriction waivers, 4 vacated.md",
+    "02 Atomic Notes/38 of 38 actual-year figures match the FY2025 10-K.md",
     "01 Sources/S18 Hershey Q3 2024 webcast announcement.md",
     "01 Sources/S14 Yahoo Finance monthly prices for HSY SPY and BIL.md",
     "01 Sources/S8 FactSet consensus estimates for Hershey.md",
@@ -202,7 +205,6 @@
     "02 Atomic Notes/50 of 50 sensitivity cells match the DCF tab within a cent.md",
     "02 Atomic Notes/Module 3 check found 5 WACC inputs the memo did not tag.md",
     "02 Atomic Notes/Converter tax rate 37.5 percent before the fix, 27.3 after.md",
-    "02 Atomic Notes/38 of 38 actual-year figures match the FY2025 10-K.md",
     "02 Atomic Notes/SEC pull filled 32 actual-year workbook cells.md",
     "02 Atomic Notes/22 of 31 Module 1 facts confirmed, 7 cite a page without the figure.md",
     "02 Atomic Notes/Module 1 filing made 7 source notes and 31 atomic notes.md",
@@ -212,8 +214,6 @@
     "01 Sources/S16 Hershey Q3 2025 webcast announcement.md",
     "01 Sources/S15 Hershey Q4 2025 results press release.md",
     "02 Atomic Notes/Debt valued at book value 4,681 million dollars.md",
-    "02 Atomic Notes/Cocoa up about 365 percent from January 2023 to December 2024 peak.md",
-    "02 Atomic Notes/Q2 2027 results expected late July 2027.md",
     "03 Drafts/~$dule 2 - Data verification.docx",
     "03 Drafts/Module 2 - Data verification.docx",
     "01 Sources/_files/download (3).xlsx"
