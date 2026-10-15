@@ -12,18 +12,18 @@ How to use this form. Every figure below was typed into the workbook's actual-ye
 
 Where to look: Income statement for revenue; the earnings per share note for diluted shares
 
-| **Row on Detail Data** | **Cell** | **Year** | **Value in workbook** | **Page in filing** | **Match (Y/N)** | **Filing's figure, if different or blank** |
-|----|----|----|----|----|----|----|
-| Revenue (t) - Current FY | C5 | 2024A | 11,202.3 | 53 | Y |  |
-| Revenue (t) - Current FY | D5 | 2025A | 11,692.6 | 53 | Y |  |
-| Revenue (t-1) - Previous FY | C6 | 2024A | 11,165.0 | 53 | Y |  |
-| Revenue (t-1) - Previous FY | D6 | 2025A | 11,202.3 | 53 | Y |  |
-| FD EPS (t) - Current FY | C7 | 2024A | 10.92 | 53 | Y |  |
-| FD EPS (t) - Current FY | D7 | 2025A | 4.34 | 53 | Y |  |
-| FD EPS (t-1) - Previous FY | C8 | 2024A | 9.06 | 53 | Y |  |
-| FD EPS (t-1) - Previous FY | D8 | 2025A | 10.92 | 53 | Y |  |
-| FD Shares outstanding (M) | C9 | 2024A | 203.5 | 97 | Y |  |
-| FD Shares outstanding (M) | D9 | 2025A | 203.4 | 97 | Y |  |
+| **Row on Detail Data**      | **Cell** | **Year** | **Value in workbook** | **Page in filing** | **Match (Y/N)** | **Filing's figure, if different or blank** |
+| --------------------------- | -------- | -------- | --------------------- | ------------------ | --------------- | ------------------------------------------ |
+| Revenue (t) - Current FY    | C5       | 2024A    | 11,202.3              | 53                 | Y               |                                            |
+| Revenue (t) - Current FY    | D5       | 2025A    | 11,692.6              | 53                 | Y               |                                            |
+| Revenue (t-1) - Previous FY | C6       | 2024A    | 11,165.0              | 53                 | Y               |                                            |
+| Revenue (t-1) - Previous FY | D6       | 2025A    | 11,202.3              | 53                 | Y               |                                            |
+| FD EPS (t) - Current FY     | C7       | 2024A    | 10.92                 | 53                 | Y               |                                            |
+| FD EPS (t) - Current FY     | D7       | 2025A    | 4.34                  | 53                 | Y               |                                            |
+| FD EPS (t-1) - Previous FY  | C8       | 2024A    | 9.06                  | 53                 | Y               |                                            |
+| FD EPS (t-1) - Previous FY  | D8       | 2025A    | 10.92                 | 53                 | Y               |                                            |
+| FD Shares outstanding (M)   | C9       | 2024A    | 203.5                 | 97                 | Y               |                                            |
+| FD Shares outstanding (M)   | D9       | 2025A    | 203.4                 | 97                 | Y               |                                            |
 
 **Income statement (14 figures)**
 
